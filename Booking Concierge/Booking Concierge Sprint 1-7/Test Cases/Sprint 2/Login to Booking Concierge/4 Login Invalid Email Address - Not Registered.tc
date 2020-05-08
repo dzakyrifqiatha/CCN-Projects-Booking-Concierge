@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>4 Login Invalid Email Address - Not Registered</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9f2db8f-8d03-4c47-93c7-f29b0eda6307</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Company Code - found</name>
+   <tag></tag>
+   <elementGuidId>7ed9f725-45d4-48be-94eb-85e840aaf8a3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;ctl00_MainContent_rwdAssignStationProduct_C_rcbCompanyCode_DropDown&quot;]/div[1]/ul/li/table/tbody/tr/td[1]/em</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>em</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;ctl00_MainContent_rwdAssignStationProduct_C_rcbCompanyCode_DropDown&quot;]/div[1]/ul/li/table/tbody/tr/td[1]/em</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SQ</value>
+   </webElementProperties>
+</WebElementEntity>

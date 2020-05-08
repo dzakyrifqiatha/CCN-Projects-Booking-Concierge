@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>4 Create Contract Freight Quotation 34</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>92c35aee-308f-4202-abb7-68c333e83f8f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('Carrier Code', 1)</defaultValue>
+      <description></description>
+      <id>f4677f58-0695-475f-a422-48159fd1d8f5</id>
+      <masked>false</masked>
+      <name>vCarrierCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('Origin', 1)</defaultValue>
+      <description></description>
+      <id>0d861115-3853-4709-aa79-3929afc05ed5</id>
+      <masked>false</masked>
+      <name>vOrigin</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('Destination', 1)</defaultValue>
+      <description></description>
+      <id>d8ad9e59-4848-43b9-a82b-4fc9bb90d2f1</id>
+      <masked>false</masked>
+      <name>vDestination</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('Flight Number (Suffix)', 1)</defaultValue>
+      <description></description>
+      <id>eb24f9de-c186-4248-8bef-8de9f2a7dd7c</id>
+      <masked>false</masked>
+      <name>vFlightNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('Currency', 1)</defaultValue>
+      <description></description>
+      <id>f49f98b5-c60e-4559-beb8-808ba599a5de</id>
+      <masked>false</masked>
+      <name>vCurrency</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('Weight UOM', 1)</defaultValue>
+      <description></description>
+      <id>8ccd1410-c355-42f2-8202-b2ad2a6d783c</id>
+      <masked>false</masked>
+      <name>vWeightUOM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('Cargo Class', 1)</defaultValue>
+      <description></description>
+      <id>76af9e22-6f56-447b-9eb3-a8645bf2cc3d</id>
+      <masked>false</masked>
+      <name>vCargoClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('Rate Class', 1)</defaultValue>
+      <description></description>
+      <id>53650009-9784-4c71-a1df-1fd35194df05</id>
+      <masked>false</masked>
+      <name>vRateClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('ULD Class', 1)</defaultValue>
+      <description></description>
+      <id>0b44c2e6-3ca2-4269-97a5-81ae95840e01</id>
+      <masked>false</masked>
+      <name>vULDClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('% of IATA', 1)</defaultValue>
+      <description></description>
+      <id>1732e742-1f59-40c2-a8b6-d4bcbb9b8654</id>
+      <masked>false</masked>
+      <name>vIATA</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('Cost Amount', 1)</defaultValue>
+      <description></description>
+      <id>464e4213-18d9-41fc-af46-73ca4cd1ddc9</id>
+      <masked>false</masked>
+      <name>vCostAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('Sales Amount', 1)</defaultValue>
+      <description></description>
+      <id>56e193c5-62d2-4010-946f-59158291a478</id>
+      <masked>false</masked>
+      <name>vSalesAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('Weight Break', 1)</defaultValue>
+      <description></description>
+      <id>0f3ba180-0b3d-4936-b65d-df60898f3c21</id>
+      <masked>false</masked>
+      <name>vWeightBreak</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN11.2 - Create NEW AirlineGSA shipments and ignore EXISTING AirlineGSA and Agent shipments when revised FFM has been received</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>21fe6469-a95c-43ca-b10f-db6ef847c51a</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('TestData_20191227').getValue('vMessageFWB', 11)</defaultValue>
+      <description></description>
+      <id>2c904f5a-8be5-4e04-a706-2033f1d43be4</id>
+      <masked>false</masked>
+      <name>vMessageFWB</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('TestData_20191227').getValue('vMessageFFM', 11)</defaultValue>
+      <description></description>
+      <id>354331ac-4d8d-48bf-bd1d-c3bfdc54a1f5</id>
+      <masked>false</masked>
+      <name>vMessageFFM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('TestData_20191227').getValue('vMessageFFMb', 11)</defaultValue>
+      <description></description>
+      <id>38162734-3558-420b-b8aa-dd0d42324ac2</id>
+      <masked>false</masked>
+      <name>vMessageFFMb</name>
+   </variable>
+</TestCaseEntity>

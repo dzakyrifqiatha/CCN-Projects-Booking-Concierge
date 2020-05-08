@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>4 Create Contract Freight Quotation Airline 30</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>358d6b23-8d25-449a-b54e-d97369faeaf6</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30035/3 GSA/4 Freight Contract').getValue('Carrier Code', 7)</defaultValue>
+      <description></description>
+      <id>c8ed6669-caa3-4d92-a843-bafa19e67fa7</id>
+      <masked>false</masked>
+      <name>vCarrierCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/3 GSA/4 Freight Contract').getValue('Origin', 7)</defaultValue>
+      <description></description>
+      <id>70442d49-f9be-4b4f-adc7-f1cbcfe09cd5</id>
+      <masked>false</masked>
+      <name>vOrigin</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/3 GSA/4 Freight Contract').getValue('Destination', 7)</defaultValue>
+      <description></description>
+      <id>58097379-f1ab-4e0d-86dc-4dc8a71c31e5</id>
+      <masked>false</masked>
+      <name>vDestination</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/3 GSA/4 Freight Contract').getValue('Flight Number (Suffix)', 7)</defaultValue>
+      <description></description>
+      <id>1495ef73-f841-4f5e-88c3-5a508f4a966f</id>
+      <masked>false</masked>
+      <name>vFlightNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/3 GSA/4 Freight Contract').getValue('Currency', 7)</defaultValue>
+      <description></description>
+      <id>cff55551-2f64-4e2f-939c-72aa1913a780</id>
+      <masked>false</masked>
+      <name>vCurrency</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/3 GSA/4 Freight Contract').getValue('Weight UOM', 7)</defaultValue>
+      <description></description>
+      <id>2646517f-338c-4933-88f3-4cc7333f7c59</id>
+      <masked>false</masked>
+      <name>vWeightUOM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/3 GSA/4 Freight Contract').getValue('Cargo Class', 7)</defaultValue>
+      <description></description>
+      <id>3634fbdd-2baa-4203-bc0c-9c11468703ed</id>
+      <masked>false</masked>
+      <name>vCargoClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/3 GSA/4 Freight Contract').getValue('Rate Class', 7)</defaultValue>
+      <description></description>
+      <id>cd914200-b7cc-4d7c-b828-149bbf2a0342</id>
+      <masked>false</masked>
+      <name>vRateClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/3 GSA/4 Freight Contract').getValue('ULD Class', 7)</defaultValue>
+      <description></description>
+      <id>662a93e2-c8f4-4372-9be4-975f92d8fc26</id>
+      <masked>false</masked>
+      <name>vULDClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/3 GSA/4 Freight Contract').getValue('% of IATA', 7)</defaultValue>
+      <description></description>
+      <id>23d29f5b-64e4-4a3c-9567-a06e075faa00</id>
+      <masked>false</masked>
+      <name>vIATA</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/3 GSA/4 Freight Contract').getValue('Cost Amount', 7)</defaultValue>
+      <description></description>
+      <id>dee4497a-d5e7-440d-895d-fd2343c6c5df</id>
+      <masked>false</masked>
+      <name>vCostAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/3 GSA/4 Freight Contract').getValue('Sales Amount', 7)</defaultValue>
+      <description></description>
+      <id>08e49125-4c1c-45e8-b6b3-ad6ca47c5268</id>
+      <masked>false</masked>
+      <name>vSalesAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/3 GSA/4 Freight Contract').getValue('Weight Break', 7)</defaultValue>
+      <description></description>
+      <id>bcc8dee1-e750-4c47-ade7-d1e9cbe703a3</id>
+      <masked>false</masked>
+      <name>vWeightBreak</name>
+   </variable>
+</TestCaseEntity>

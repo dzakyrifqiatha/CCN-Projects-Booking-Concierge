@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN23 - Get the CityID of the City when the LINC system returns</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>60727b2f-b84a-4aa7-b7f6-a8c9033673ec</testCaseGuid>
+</TestCaseEntity>

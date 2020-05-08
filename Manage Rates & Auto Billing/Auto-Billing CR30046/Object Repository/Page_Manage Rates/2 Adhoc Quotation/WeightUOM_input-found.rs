@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>WeightUOM_input-found</name>
+   <tag></tag>
+   <elementGuidId>1266b78b-a1f4-4484-b39e-857fe50f42ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;ctl00_ctl00_ContentPlaceHolder_SubPageContent_cbWeightUOM_DropDown&quot;]/div/ul/li[2]/text()[count(. | //*[(text() = 'KGM' or . = 'KGM')]) = count(//*[(text() = 'KGM' or . = 'KGM')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;ctl00_ctl00_ContentPlaceHolder_SubPageContent_cbWeightUOM_DropDown&quot;]/div/ul/li[2]/text()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>KGM</value>
+   </webElementProperties>
+</WebElementEntity>

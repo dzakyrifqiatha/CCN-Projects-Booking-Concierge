@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_ShipperConsignee - found</name>
+   <tag></tag>
+   <elementGuidId>045a07b3-fbaa-4842-bb51-500a18836b67</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;ctl00_ctl00_ContentPlaceHolder_SubPageContent_cboAddressBookCode_DropDown&quot;]/div[2]/ul/li[2]/table/tbody/tr/td[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;ctl00_ctl00_ContentPlaceHolder_SubPageContent_cboAddressBookCode_DropDown&quot;]/div[2]/ul/li[2]/table/tbody/tr/td[1]</value>
+   </webElementProperties>
+</WebElementEntity>

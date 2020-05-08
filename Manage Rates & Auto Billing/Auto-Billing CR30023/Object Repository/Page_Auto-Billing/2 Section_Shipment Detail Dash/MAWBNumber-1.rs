@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>MAWBNumber-1</name>
+   <tag></tag>
+   <elementGuidId>cb8e073a-e1c9-49e0-9edd-9b5af9fb637d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;gridPendingShipments&quot;]/div[2]/table/tbody/tr/td[2]/a[count(. | //*[(text() = '618-63687315' or . = '618-63687315')]) = count(//*[(text() = '618-63687315' or . = '618-63687315')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;gridPendingShipments&quot;]/div[2]/table/tbody/tr/td[2]/a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>618-63687315</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>openShipmentDialog(&quot;db440400-11a2-4bcc-80da-821741778457&quot;,1)</value>
+   </webElementProperties>
+</WebElementEntity>

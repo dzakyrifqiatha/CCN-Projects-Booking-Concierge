@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2 Create Blocked Space Quotation (Fixed) 29</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9d94d5f-8d8d-4d04-b56b-14599635d105</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/2 Blocked Space (Fixed) Quotation').getValue('Customer/Vendor Code', 8)</defaultValue>
+      <description></description>
+      <id>7f6ef454-a0dd-4979-874f-94c47e76037e</id>
+      <masked>false</masked>
+      <name>vCustomerVendorCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/2 Blocked Space (Fixed) Quotation').getValue('Currency', 8)</defaultValue>
+      <description></description>
+      <id>52efd01a-df41-4e6f-8eb3-a56a06cf7df7</id>
+      <masked>false</masked>
+      <name>vCurrency</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/2 Blocked Space (Fixed) Quotation').getValue('Shipper/Consignee', 8)</defaultValue>
+      <description></description>
+      <id>1a7a8eb9-85fe-4ef3-b02a-2555e0a9aebd</id>
+      <masked>false</masked>
+      <name>vShipperConsignee</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/2 Blocked Space (Fixed) Quotation').getValue('Effective Date', 8)</defaultValue>
+      <description></description>
+      <id>6fb39754-3425-40bf-b622-3746433a4e42</id>
+      <masked>false</masked>
+      <name>vEffectiveDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/2 Blocked Space (Fixed) Quotation').getValue('Expiry Date', 8)</defaultValue>
+      <description></description>
+      <id>af5a8586-0c55-4705-8977-9f83539d6432</id>
+      <masked>false</masked>
+      <name>vExpiryDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/2 Blocked Space (Fixed) Quotation').getValue('Contract Number', 8)</defaultValue>
+      <description></description>
+      <id>d956a308-f3d8-432f-9e93-4c49f30dcb4c</id>
+      <masked>false</masked>
+      <name>vContractNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/2 Blocked Space (Fixed) Quotation').getValue('Carrier Code', 8)</defaultValue>
+      <description></description>
+      <id>6df3a6a1-ef29-49bf-b07c-faf415a75a3c</id>
+      <masked>false</masked>
+      <name>vCarrierCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/2 Blocked Space (Fixed) Quotation').getValue('Flight Number', 8)</defaultValue>
+      <description></description>
+      <id>5c39dc73-5803-4634-840a-12f99e9755a7</id>
+      <masked>false</masked>
+      <name>vFilghtNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/2 Blocked Space (Fixed) Quotation').getValue('Currency', 8)</defaultValue>
+      <description></description>
+      <id>cf7d96ca-c824-4a06-b312-1f78344248aa</id>
+      <masked>false</masked>
+      <name>vCurrency2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/2 Blocked Space (Fixed) Quotation').getValue('Origin', 8)</defaultValue>
+      <description></description>
+      <id>eefc72f2-75c3-4788-a221-1e93651f6cba</id>
+      <masked>false</masked>
+      <name>vOrigin</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/2 Blocked Space (Fixed) Quotation').getValue('Destination', 8)</defaultValue>
+      <description></description>
+      <id>05e87ee4-f349-4afc-bfe6-646fd1b57602</id>
+      <masked>false</masked>
+      <name>vDestination</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/2 Blocked Space (Fixed) Quotation').getValue('Weight UOM', 8)</defaultValue>
+      <description></description>
+      <id>ea3fec46-144c-4ab6-a0fd-9ff266a838b7</id>
+      <masked>false</masked>
+      <name>vWeightUOM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/2 Blocked Space (Fixed) Quotation').getValue('Cargo Class', 8)</defaultValue>
+      <description></description>
+      <id>677513fa-f6f8-44a5-a0ce-405ebde04b7f</id>
+      <masked>false</masked>
+      <name>vCargoClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/2 Blocked Space (Fixed) Quotation').getValue('Allocated Weight', 8)</defaultValue>
+      <description></description>
+      <id>d81662f2-8861-4afc-bb33-d082e2e8e9b9</id>
+      <masked>false</masked>
+      <name>vAllocatedWeight</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/2 Blocked Space (Fixed) Quotation').getValue('Rate Per KGM', 8)</defaultValue>
+      <description></description>
+      <id>7310fd21-5bb9-4050-ae5a-6562da865a10</id>
+      <masked>false</masked>
+      <name>vRatePerKGM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/2 Blocked Space (Fixed) Quotation').getValue('ULD Code', 8)</defaultValue>
+      <description></description>
+      <id>8c928aa9-bad5-4ef2-836c-a0738e36b986</id>
+      <masked>false</masked>
+      <name>vULDCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/2 Blocked Space (Fixed) Quotation').getValue('Pivot Weight', 8)</defaultValue>
+      <description></description>
+      <id>fe71d49c-fbcc-4833-8a52-248ea8fb843d</id>
+      <masked>false</masked>
+      <name>vPivotWeight</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/2 Blocked Space (Fixed) Quotation').getValue('Rate Per ULD', 8)</defaultValue>
+      <description></description>
+      <id>2191d7b2-6879-4146-b00e-6e0ae8cd7d8a</id>
+      <masked>false</masked>
+      <name>vRatePerULD</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/2 Blocked Space (Fixed) Quotation').getValue('Quantity', 8)</defaultValue>
+      <description></description>
+      <id>cb605787-da93-4af2-ba49-3af39f550daf</id>
+      <masked>false</masked>
+      <name>vQuantity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/2 Blocked Space (Fixed) Quotation').getValue('Rate Per Excess Weight', 8)</defaultValue>
+      <description></description>
+      <id>19ca4031-6836-420c-a3b7-e9a71378397d</id>
+      <masked>false</masked>
+      <name>vRatePerExcessWeight</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/2 Blocked Space (Fixed) Quotation').getValue('Rate Per Spillover', 8)</defaultValue>
+      <description></description>
+      <id>96477a0a-d859-4d26-a930-03fa166f3ca7</id>
+      <masked>false</masked>
+      <name>vRatePerSpillover</name>
+   </variable>
+</TestCaseEntity>

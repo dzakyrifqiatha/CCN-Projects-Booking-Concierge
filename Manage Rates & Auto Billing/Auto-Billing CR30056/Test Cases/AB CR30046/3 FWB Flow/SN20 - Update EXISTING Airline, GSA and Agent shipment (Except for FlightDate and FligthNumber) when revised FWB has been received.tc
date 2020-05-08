@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN20 - Update EXISTING Airline, GSA and Agent shipment (Except for FlightDate and FligthNumber) when revised FWB has been received</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2fb27b2-afff-4c01-9469-f6a1f03c5183</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('TestData_20200221').getValue('vMessageFWB', 20)</defaultValue>
+      <description></description>
+      <id>071a055a-ccbe-4a89-b6d5-8db46d30c83d</id>
+      <masked>false</masked>
+      <name>vMessageFWB</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('TestData_20200221').getValue('vMessageFSU', 20)</defaultValue>
+      <description></description>
+      <id>35141364-91f1-4884-9bea-8861d806ad02</id>
+      <masked>false</masked>
+      <name>vMessageFSU</name>
+   </variable>
+</TestCaseEntity>

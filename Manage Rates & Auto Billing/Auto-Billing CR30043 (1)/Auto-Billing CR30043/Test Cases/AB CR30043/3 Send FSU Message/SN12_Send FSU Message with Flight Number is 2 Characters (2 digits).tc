@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN12_Send FSU Message with Flight Number is 2 Characters (2 digits)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d24abee9-003a-4d45-8d58-4096d625e762</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN6 - Check Shipment on AB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>41eb5945-cfb7-42ad-a741-b93b93bede82</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('MAWB Number').getValue('MAWB', 6)</defaultValue>
+      <description></description>
+      <id>1a6fe6f7-9af1-43c6-864c-620301452726</id>
+      <masked>false</masked>
+      <name>vMAWB</name>
+   </variable>
+</TestCaseEntity>

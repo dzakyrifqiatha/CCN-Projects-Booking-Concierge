@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>EstGrossWeight_input-found</name>
+   <tag></tag>
+   <elementGuidId>443aa63f-59f8-4a77-a231-b283513c42f7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;ctl00_ctl00_ContentPlaceHolder_SubPageContent_txtEstGrossWt_wrapper&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;ctl00_ctl00_ContentPlaceHolder_SubPageContent_txtEstGrossWt_wrapper&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

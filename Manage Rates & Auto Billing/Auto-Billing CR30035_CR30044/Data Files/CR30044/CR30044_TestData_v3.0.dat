@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>CR30044_TestData_v3.0</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>7ab70c64-0ba9-43f4-abdb-1fa8a1032cfa</dataFileGUID>
+   <dataSourceUrl>C:\Users\Dzaky Rifqiatha\Katalon Studio\Auto-Billing CR30035_CR30044\CR30044_TestData_v3.0.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

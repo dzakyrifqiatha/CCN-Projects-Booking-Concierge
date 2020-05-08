@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN1 - Create only NEW Airline shipment when only FSU has been received</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3229f729-0c87-4b5a-80fb-08f8456f1dd7</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('TestData_20191227').getValue('vMessageFSU', 1)</defaultValue>
+      <description></description>
+      <id>6bf4bd24-0adf-487b-9ec4-e4bd0b5d1946</id>
+      <masked>false</masked>
+      <name>vMessageFSU</name>
+   </variable>
+</TestCaseEntity>

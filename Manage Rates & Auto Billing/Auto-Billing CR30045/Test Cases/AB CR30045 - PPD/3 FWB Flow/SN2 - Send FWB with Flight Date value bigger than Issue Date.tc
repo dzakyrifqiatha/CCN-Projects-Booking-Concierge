@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN2 - Send FWB with Flight Date value bigger than Issue Date</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0916d926-d1a8-4964-8b8b-99ae4fe235bc</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30045 FWB Message').getValue('Message', 2)</defaultValue>
+      <description></description>
+      <id>5ac50c7f-7920-4b75-9dd0-dad7e6ab87df</id>
+      <masked>false</masked>
+      <name>vMessage</name>
+   </variable>
+</TestCaseEntity>

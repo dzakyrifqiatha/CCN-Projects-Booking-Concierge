@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>EffectiveDate_input-found</name>
+   <tag></tag>
+   <elementGuidId>e85154d2-a1a1-4b0b-9b2d-15d7a4e73ee9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;ctl00_ctl00_ContentPlaceHolder_SubPageContent_txtEffectiveDate_dateInput_wrapper&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;ctl00_ctl00_ContentPlaceHolder_SubPageContent_txtEffectiveDate_dateInput_wrapper&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

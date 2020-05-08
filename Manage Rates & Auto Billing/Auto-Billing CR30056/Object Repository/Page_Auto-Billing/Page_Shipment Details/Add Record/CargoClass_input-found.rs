@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CargoClass_input-found</name>
+   <tag></tag>
+   <elementGuidId>fe7b29fe-ae5f-4bdb-bdba-caec48510d11</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;tbl2&quot;]/tbody/tr[2]/td[2]/table/tbody/tr/td[2]/div/span/span[1]/span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;tbl2&quot;]/tbody/tr[2]/td[2]/table/tbody/tr/td[2]/div/span/span[1]/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>3 Create Blocked Space Quotation (Flexi) 21</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9c959000-184b-4c9f-80bc-69e6fa43a511</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/3 Blocked Space (Flexi) Quotation').getValue('Customer/Vendor Code', 15)</defaultValue>
+      <description></description>
+      <id>c9c80df9-e76b-45a3-b412-02a3169162a0</id>
+      <masked>false</masked>
+      <name>vCustomerVendorCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/3 Blocked Space (Flexi) Quotation').getValue('Currency', 15)</defaultValue>
+      <description></description>
+      <id>f1e57b74-5fdf-4992-b633-f916ef1cdf60</id>
+      <masked>false</masked>
+      <name>vCurrency</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/3 Blocked Space (Flexi) Quotation').getValue('Shipper/Consignee', 15)</defaultValue>
+      <description></description>
+      <id>49b09db5-1fe1-457c-a31e-8415b6e18af1</id>
+      <masked>false</masked>
+      <name>vShipperConsignee</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/3 Blocked Space (Flexi) Quotation').getValue('Effective Date', 15)</defaultValue>
+      <description></description>
+      <id>8655050f-6588-473e-b2b3-d2ac54aebd31</id>
+      <masked>false</masked>
+      <name>vEffectiveDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/3 Blocked Space (Flexi) Quotation').getValue('Expiry Date', 15)</defaultValue>
+      <description></description>
+      <id>e78774fd-d98f-40d3-b76e-2987d7be7fce</id>
+      <masked>false</masked>
+      <name>vExpiryDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/3 Blocked Space (Flexi) Quotation').getValue('Contract Number', 15)</defaultValue>
+      <description></description>
+      <id>f7e85349-8714-47d5-aee5-92a0d5891f4b</id>
+      <masked>false</masked>
+      <name>vContractNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/3 Blocked Space (Flexi) Quotation').getValue('Carrier Code', 15)</defaultValue>
+      <description></description>
+      <id>672348a1-7537-432f-b3e9-f3b85a71fda8</id>
+      <masked>false</masked>
+      <name>vCarrierCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/3 Blocked Space (Flexi) Quotation').getValue('Flight Number', 15)</defaultValue>
+      <description></description>
+      <id>0bed7608-538b-4dcd-95cc-4b43681bdb52</id>
+      <masked>false</masked>
+      <name>vFilghtNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/3 Blocked Space (Flexi) Quotation').getValue('Currency', 15)</defaultValue>
+      <description></description>
+      <id>318b614c-6f77-40ac-b77c-e6e1f87ee768</id>
+      <masked>false</masked>
+      <name>vCurrency2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/3 Blocked Space (Flexi) Quotation').getValue('Origin', 15)</defaultValue>
+      <description></description>
+      <id>6d8aa7de-b772-44e1-9e1d-5152dfd7ea3f</id>
+      <masked>false</masked>
+      <name>vOrigin</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/3 Blocked Space (Flexi) Quotation').getValue('Destination', 15)</defaultValue>
+      <description></description>
+      <id>4bfd69fe-a91d-4e51-9e45-0a615f0825bc</id>
+      <masked>false</masked>
+      <name>vDestination</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/3 Blocked Space (Flexi) Quotation').getValue('Weight UOM', 15)</defaultValue>
+      <description></description>
+      <id>902bf403-feee-46d6-a972-ab978545912e</id>
+      <masked>false</masked>
+      <name>vWeightUOM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/3 Blocked Space (Flexi) Quotation').getValue('Cargo Class', 15)</defaultValue>
+      <description></description>
+      <id>2e610d65-d75d-45c0-bdaa-0ca87129e4e6</id>
+      <masked>false</masked>
+      <name>vCargoClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/3 Blocked Space (Flexi) Quotation').getValue('Allocated Weight', 15)</defaultValue>
+      <description></description>
+      <id>26252ef5-62a3-465d-a69c-1cde9186179e</id>
+      <masked>false</masked>
+      <name>vAllocatedWeight</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/3 Blocked Space (Flexi) Quotation').getValue('Rate Per KGM', 15)</defaultValue>
+      <description></description>
+      <id>153d9f22-8d5e-4f45-91be-dec4751d5dab</id>
+      <masked>false</masked>
+      <name>vRatePerKGM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/3 Blocked Space (Flexi) Quotation').getValue('ULD Code', 15)</defaultValue>
+      <description></description>
+      <id>af303b5f-bb89-4bd3-b948-e040067fb7bd</id>
+      <masked>false</masked>
+      <name>vULDCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/3 Blocked Space (Flexi) Quotation').getValue('Pivot Weight', 15)</defaultValue>
+      <description></description>
+      <id>8d94f61a-3fe9-4b03-805f-2359377f95e5</id>
+      <masked>false</masked>
+      <name>vPivotWeight</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/3 Blocked Space (Flexi) Quotation').getValue('Rate Per ULD', 15)</defaultValue>
+      <description></description>
+      <id>e1a063c7-b378-4e3f-bae6-d1ebc6a8570b</id>
+      <masked>false</masked>
+      <name>vRatePerULD</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/3 Blocked Space (Flexi) Quotation').getValue('Quantity', 15)</defaultValue>
+      <description></description>
+      <id>cf83bf4b-1154-42a5-aca0-1c993151c2b8</id>
+      <masked>false</masked>
+      <name>vQuantity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/3 Blocked Space (Flexi) Quotation').getValue('Rate Per Excess Weight', 15)</defaultValue>
+      <description></description>
+      <id>dd8f6d89-c1d2-47a3-8bd6-b08a96e46108</id>
+      <masked>false</masked>
+      <name>vRatePerExcessWeight</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/3 Blocked Space (Flexi) Quotation').getValue('Rate Per Spillover', 15)</defaultValue>
+      <description></description>
+      <id>5ab46eee-5782-410c-a028-630992a6f8a4</id>
+      <masked>false</masked>
+      <name>vRatePerSpillover</name>
+   </variable>
+</TestCaseEntity>

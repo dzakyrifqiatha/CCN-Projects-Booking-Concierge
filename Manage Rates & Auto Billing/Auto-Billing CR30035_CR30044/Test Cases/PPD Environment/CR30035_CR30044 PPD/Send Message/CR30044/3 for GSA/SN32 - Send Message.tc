@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN32 - Send Message</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2d82977-0598-499b-9fba-66cab54cb2e7</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30044/CR30044_TestData_v3.0').getValue('vMessage', 20)</defaultValue>
+      <description></description>
+      <id>70b9ad2d-0001-4ebe-8f34-a5f1312fad77</id>
+      <masked>false</masked>
+      <name>vFWBMessage</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Currency_input-found</name>
+   <tag></tag>
+   <elementGuidId>3eaf19cd-6f03-4fd4-ac65-975973d097e8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;tblCustoms&quot;]/tbody/tr[2]/td[1]/table/tbody/tr/td/span/span[1]/span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;tblCustoms&quot;]/tbody/tr[2]/td[1]/table/tbody/tr/td/span/span[1]/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>

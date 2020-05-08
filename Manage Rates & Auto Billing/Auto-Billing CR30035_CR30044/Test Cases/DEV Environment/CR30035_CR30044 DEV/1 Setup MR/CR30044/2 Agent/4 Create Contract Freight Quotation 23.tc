@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>4 Create Contract Freight Quotation 23</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>11e84fb2-1a17-4839-966b-4a12e1abe086</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/4 Freight Contract').getValue('Carrier Code', 9)</defaultValue>
+      <description></description>
+      <id>2777082a-3ff1-4234-9750-d9ea5da09be4</id>
+      <masked>false</masked>
+      <name>vCarrierCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/4 Freight Contract').getValue('Origin', 9)</defaultValue>
+      <description></description>
+      <id>8aa24da3-7f0d-4a24-8cb1-f449ef972124</id>
+      <masked>false</masked>
+      <name>vOrigin</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/4 Freight Contract').getValue('Destination', 9)</defaultValue>
+      <description></description>
+      <id>4164d8e6-db0d-43c7-aa56-935b8fa91db0</id>
+      <masked>false</masked>
+      <name>vDestination</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/4 Freight Contract').getValue('Flight Number (Suffix)', 9)</defaultValue>
+      <description></description>
+      <id>42b66733-6112-4b02-be50-97a5c530ccc4</id>
+      <masked>false</masked>
+      <name>vFlightNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/4 Freight Contract').getValue('Currency', 9)</defaultValue>
+      <description></description>
+      <id>9cccb725-08e2-48bd-94b2-db25a0b6bcc4</id>
+      <masked>false</masked>
+      <name>vCurrency</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/4 Freight Contract').getValue('Weight UOM', 9)</defaultValue>
+      <description></description>
+      <id>1159b229-a62d-4c06-a424-9dba735a89d5</id>
+      <masked>false</masked>
+      <name>vWeightUOM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/4 Freight Contract').getValue('Cargo Class', 9)</defaultValue>
+      <description></description>
+      <id>fc482b58-e490-415b-9210-2cc8041caf43</id>
+      <masked>false</masked>
+      <name>vCargoClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/4 Freight Contract').getValue('Rate Class', 9)</defaultValue>
+      <description></description>
+      <id>cc80b74d-f4ae-400c-8952-5bdc2023fffc</id>
+      <masked>false</masked>
+      <name>vRateClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/4 Freight Contract').getValue('ULD Class', 9)</defaultValue>
+      <description></description>
+      <id>d7c29a16-d276-408a-a7a7-213f2af8cd78</id>
+      <masked>false</masked>
+      <name>vULDClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/4 Freight Contract').getValue('% of IATA', 9)</defaultValue>
+      <description></description>
+      <id>68dc5ebf-c4c5-49ba-b305-a0bdd1048736</id>
+      <masked>false</masked>
+      <name>vIATA</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/4 Freight Contract').getValue('Cost Amount', 9)</defaultValue>
+      <description></description>
+      <id>fc98c4b2-2af1-4c4b-b097-27bbe5d7e411</id>
+      <masked>false</masked>
+      <name>vCostAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/4 Freight Contract').getValue('Sales Amount', 9)</defaultValue>
+      <description></description>
+      <id>3a247b32-4ac9-480c-8341-51f7eeacb853</id>
+      <masked>false</masked>
+      <name>vSalesAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/4 Freight Contract').getValue('Weight Break', 9)</defaultValue>
+      <description></description>
+      <id>eb18e5df-7dbf-41f2-994f-461524045af4</id>
+      <masked>false</masked>
+      <name>vWeightBreak</name>
+   </variable>
+</TestCaseEntity>

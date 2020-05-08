@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN8 - Send Message</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9365e8f9-7490-41b3-8051-6907f3883abb</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30035/CR30035_TestData_v1.0').getValue('vFWBMessage', 8)</defaultValue>
+      <description></description>
+      <id>084eac8f-701a-4b1e-a194-7c202bb35a1c</id>
+      <masked>false</masked>
+      <name>vFWBMessage</name>
+   </variable>
+</TestCaseEntity>

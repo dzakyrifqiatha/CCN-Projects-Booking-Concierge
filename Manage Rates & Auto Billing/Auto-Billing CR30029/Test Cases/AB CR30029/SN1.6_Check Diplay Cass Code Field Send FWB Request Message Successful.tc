@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN1.6_Check Diplay Cass Code Field Send FWB Request Message Successful</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e56c7ab0-4b40-44cc-ad9b-224925daf32b</testCaseGuid>
+</TestCaseEntity>

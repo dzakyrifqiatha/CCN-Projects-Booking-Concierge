@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN25 - Send Message</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7eabcd9e-de78-459d-b713-322918167edd</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30035/CR30035_TestData_v1.0').getValue('vFWBMessage', 15)</defaultValue>
+      <description></description>
+      <id>7d1b9b6d-6da1-47a3-8662-1e3fd7814649</id>
+      <masked>false</masked>
+      <name>vFWBMessage</name>
+   </variable>
+</TestCaseEntity>

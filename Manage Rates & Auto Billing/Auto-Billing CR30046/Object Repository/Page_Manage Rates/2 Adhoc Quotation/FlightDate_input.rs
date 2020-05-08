@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FlightDate_input</name>
+   <tag></tag>
+   <elementGuidId>7e15878e-9c38-4118-9220-4d0ecab392b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;ctl00_ctl00_ContentPlaceHolder_SubPageContent_txtFlightDate_dateInput&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;ctl00_ctl00_ContentPlaceHolder_SubPageContent_txtFlightDate_dateInput&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

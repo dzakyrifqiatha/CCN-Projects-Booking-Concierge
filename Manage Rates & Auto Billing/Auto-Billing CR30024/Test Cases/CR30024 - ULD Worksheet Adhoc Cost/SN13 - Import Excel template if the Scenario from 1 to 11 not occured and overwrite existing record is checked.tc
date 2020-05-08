@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN13 - Import Excel template if the Scenario from 1 to 11 not occured and overwrite existing record is checked</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3a62233-f2b2-4f93-a87b-7b71fdc6d12a</testCaseGuid>
+</TestCaseEntity>

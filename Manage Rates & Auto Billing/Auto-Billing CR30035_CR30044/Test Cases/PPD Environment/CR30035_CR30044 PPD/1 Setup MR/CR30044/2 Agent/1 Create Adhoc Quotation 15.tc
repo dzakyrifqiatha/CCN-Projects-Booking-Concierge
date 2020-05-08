@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1 Create Adhoc Quotation 15</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>40fbaf57-c4ce-4006-aab4-d18707c3d731</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Customer/Vendor Code', 9)</defaultValue>
+      <description></description>
+      <id>50703dcf-e681-4635-8594-2ac509797a2e</id>
+      <masked>false</masked>
+      <name>vCustomerVendorCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Contract Number', 9)</defaultValue>
+      <description></description>
+      <id>694be545-ccae-4a28-8ce3-75588331ea20</id>
+      <masked>false</masked>
+      <name>vContractNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Origin', 9)</defaultValue>
+      <description></description>
+      <id>6d2fe061-1de4-4a20-af13-193ab28cfdac</id>
+      <masked>false</masked>
+      <name>vOrigin</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Destination', 9)</defaultValue>
+      <description></description>
+      <id>8db5da79-c893-416b-97ac-121fc24a9228</id>
+      <masked>false</masked>
+      <name>vDestination</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Carrier Code', 9)</defaultValue>
+      <description></description>
+      <id>b5d41a5b-278e-48e4-a174-8ec648ab66e8</id>
+      <masked>false</masked>
+      <name>vCarrierCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('AWB No Prefix', 9)</defaultValue>
+      <description></description>
+      <id>5a330f23-6cec-4bc4-8d16-9d100d401ebe</id>
+      <masked>false</masked>
+      <name>vAWB_Prefix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('AWB No Suffix', 9)</defaultValue>
+      <description></description>
+      <id>795a5b80-12aa-4b07-88db-c2ee45421760</id>
+      <masked>false</masked>
+      <name>vAWB_Suffix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Flight Date', 9)</defaultValue>
+      <description></description>
+      <id>c7668102-8dbb-4ba1-9b78-3d0ca97f9625</id>
+      <masked>false</masked>
+      <name>vFlightDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Flight Number (Subfix)', 9)</defaultValue>
+      <description></description>
+      <id>9f98aec8-4943-4b1b-9349-dfc9015cfeba</id>
+      <masked>false</masked>
+      <name>vFlightNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Weight UOM', 9)</defaultValue>
+      <description></description>
+      <id>d932e80f-f24c-4565-bee4-18b9bf3b8d74</id>
+      <masked>false</masked>
+      <name>vWeightUOM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Currency', 9)</defaultValue>
+      <description></description>
+      <id>b03d87a1-6372-4827-a250-afdee083f04f</id>
+      <masked>false</masked>
+      <name>vCurrency</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Estimated Chargeable Weight', 9)</defaultValue>
+      <description></description>
+      <id>cf900267-be0c-4c74-b602-ae4f9b0e6c4b</id>
+      <masked>false</masked>
+      <name>vChargeWeight</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Cargo Class', 9)</defaultValue>
+      <description></description>
+      <id>107fd1a0-5cd3-45bc-b97d-62ac6e0ed4bc</id>
+      <masked>false</masked>
+      <name>vCargoClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Effective Date', 9)</defaultValue>
+      <description></description>
+      <id>18e21e2d-6ce8-41a4-a681-d36042b0db99</id>
+      <masked>false</masked>
+      <name>vEffectiveDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Expiry Date', 9)</defaultValue>
+      <description></description>
+      <id>0fb58ae6-0ee5-4d51-bc1e-3265e8697427</id>
+      <masked>false</masked>
+      <name>vExpiryDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Status', 9)</defaultValue>
+      <description></description>
+      <id>f2c34c22-ad96-4750-8013-8446a1bac152</id>
+      <masked>false</masked>
+      <name>vStatus</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Cargo Description', 9)</defaultValue>
+      <description></description>
+      <id>24ffa43a-e7b3-4ff6-bceb-955f5746e2cf</id>
+      <masked>false</masked>
+      <name>vCargoDesc</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Charge Code', 9)</defaultValue>
+      <description></description>
+      <id>68c65a22-4f16-4618-a985-5f9982598159</id>
+      <masked>false</masked>
+      <name>vChargeCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Rate Type', 9)</defaultValue>
+      <description></description>
+      <id>1755399e-26f2-4703-bd29-a834de922ba2</id>
+      <masked>false</masked>
+      <name>vRateType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Currency', 9)</defaultValue>
+      <description></description>
+      <id>be07da90-9e81-4f76-81df-e405621fee67</id>
+      <masked>false</masked>
+      <name>vCurrencyDetails</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Quantity', 9)</defaultValue>
+      <description></description>
+      <id>4b2b7300-1989-4d1c-b350-1ae175079860</id>
+      <masked>false</masked>
+      <name>vQuantity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Cost Rate', 9)</defaultValue>
+      <description></description>
+      <id>e9df33a0-2810-40f5-b9ec-079fe34e9ffa</id>
+      <masked>false</masked>
+      <name>vCostRate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Sales Rate', 9)</defaultValue>
+      <description></description>
+      <id>03e323a2-3219-4c7a-b798-0ffad4e39af6</id>
+      <masked>false</masked>
+      <name>vSalesRate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Cost Amount', 9)</defaultValue>
+      <description></description>
+      <id>4fbf22aa-1ce9-49a6-a393-6207a353e898</id>
+      <masked>false</masked>
+      <name>vCostAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Other UOM', 9)</defaultValue>
+      <description></description>
+      <id>cf2f4881-5f5d-402f-a0a9-394b0b4f9205</id>
+      <masked>false</masked>
+      <name>vOtherUOM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Sales Tax', 9)</defaultValue>
+      <description></description>
+      <id>a53337f7-9c73-4164-a408-c4f35694bd4d</id>
+      <masked>false</masked>
+      <name>vSalesTax</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Cost Tax', 9)</defaultValue>
+      <description></description>
+      <id>c7003992-72ff-4712-b8f3-19c5c08a050f</id>
+      <masked>false</masked>
+      <name>vCostTax</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/2 Agent/1 Adhoc Cost').getValue('Remarks', 9)</defaultValue>
+      <description></description>
+      <id>f7d92cc3-b54c-40c0-ac9c-5bdf754d8d3c</id>
+      <masked>false</masked>
+      <name>vRemarks</name>
+   </variable>
+</TestCaseEntity>

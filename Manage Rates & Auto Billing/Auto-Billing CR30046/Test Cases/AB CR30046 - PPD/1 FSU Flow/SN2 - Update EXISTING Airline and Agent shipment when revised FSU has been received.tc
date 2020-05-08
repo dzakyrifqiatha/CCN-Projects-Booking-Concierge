@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN2 - Update EXISTING Airline and Agent shipment when revised FSU has been received</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>309b3f41-5126-4bce-bdfd-242674295e17</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('TestData_20191227').getValue('vMessageFSU', 2)</defaultValue>
+      <description></description>
+      <id>3faa5869-88e6-488b-82f5-b1f1565dd4a5</id>
+      <masked>false</masked>
+      <name>vMessageFSU</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('TestData_20191227').getValue('vMessageFWB', 2)</defaultValue>
+      <description></description>
+      <id>9822bd05-c02e-4649-a07a-5070377af120</id>
+      <masked>false</masked>
+      <name>vMessageFWB</name>
+   </variable>
+</TestCaseEntity>

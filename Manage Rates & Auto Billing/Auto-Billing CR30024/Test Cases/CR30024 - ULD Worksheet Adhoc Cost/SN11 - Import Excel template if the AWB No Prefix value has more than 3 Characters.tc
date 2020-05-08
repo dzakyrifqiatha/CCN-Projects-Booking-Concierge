@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN11 - Import Excel template if the AWB No Prefix value has more than 3 Characters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd8d40ba-203e-4cc3-afca-1d0a12faff31</testCaseGuid>
+</TestCaseEntity>

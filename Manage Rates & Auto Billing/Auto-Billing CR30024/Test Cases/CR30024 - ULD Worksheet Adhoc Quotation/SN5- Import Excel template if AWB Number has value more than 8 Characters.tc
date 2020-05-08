@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN5- Import Excel template if AWB Number has value more than 8 Characters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a511e865-60ce-4b80-8ce9-4ee91d0789a9</testCaseGuid>
+</TestCaseEntity>

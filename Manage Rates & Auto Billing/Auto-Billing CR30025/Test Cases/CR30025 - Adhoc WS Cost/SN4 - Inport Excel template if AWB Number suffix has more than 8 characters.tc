@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN4 - Inport Excel template if AWB Number suffix has more than 8 characters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>733fe084-7754-4924-b4ac-d3da1c365262</testCaseGuid>
+</TestCaseEntity>

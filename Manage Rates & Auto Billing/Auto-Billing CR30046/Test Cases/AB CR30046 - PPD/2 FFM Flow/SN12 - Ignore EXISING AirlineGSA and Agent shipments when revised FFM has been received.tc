@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN12 - Ignore EXISING AirlineGSA and Agent shipments when revised FFM has been received</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>16ef0c96-10bd-4c1c-bb3f-6c017228cac1</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('TestData_20191227').getValue('vMessageFFM', 12)</defaultValue>
+      <description></description>
+      <id>c2911079-8870-4910-bfd7-4d1ae89e24e6</id>
+      <masked>false</masked>
+      <name>vMessageFFM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('TestData_20191227').getValue('vMessageFFMb', 12)</defaultValue>
+      <description></description>
+      <id>90cea88e-a251-4c74-b280-434ae49e3bc9</id>
+      <masked>false</masked>
+      <name>vMessageFFMb</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('TestData_20191227').getValue('vMessageFWB', 12)</defaultValue>
+      <description></description>
+      <id>5811aa44-274b-48ef-a445-580af51412ec</id>
+      <masked>false</masked>
+      <name>vMessageFWB</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('TestData_20191227').getValue('vMessageFWBb', 12)</defaultValue>
+      <description></description>
+      <id>b81fd9a3-5a4d-4214-8268-80d8fca4827f</id>
+      <masked>false</masked>
+      <name>vMessageFWBb</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN8 - Import Excel template if the scenario 1 to 8 not occured and overwrite existing record is unchecked</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad4b4097-0851-4718-99fb-d481953d3ed8</testCaseGuid>
+</TestCaseEntity>

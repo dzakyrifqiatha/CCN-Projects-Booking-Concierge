@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Open New Tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c622284-1de7-48a8-a5d3-b3ec826c29ba</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>578ec2a2-1dc8-4aab-8d3d-38bd2cccc1b4</id>
+      <masked>false</masked>
+      <name>path</name>
+   </variable>
+</TestCaseEntity>

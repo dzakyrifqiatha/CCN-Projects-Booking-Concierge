@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN5 - Send FWB with Flight Date value smaller than Issue Date</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>91002271-300b-4459-ae9b-1a60aa5ebf96</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30045 FWB Message').getValue('Message', 5)</defaultValue>
+      <description></description>
+      <id>7bf92e0e-1049-4c36-be12-96aaca994e65</id>
+      <masked>false</masked>
+      <name>vMessage</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN6 - Create NEW Airline and GSA shipments when only FSU has been received</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90b42e4d-bf8e-4b1f-bdb2-34f1edc9000f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('TestData_20200221').getValue('vMessageFSU', 6)</defaultValue>
+      <description></description>
+      <id>526bc94c-d6bd-45e5-af39-316d20833035</id>
+      <masked>false</masked>
+      <name>vMessageFSU</name>
+   </variable>
+</TestCaseEntity>

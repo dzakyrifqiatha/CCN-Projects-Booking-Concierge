@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN15 - COULDNT CREATE any record Airline and GSA shipment when FWB has been received</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>10e8ea01-0059-4eb7-99ac-ea51755283cf</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('TestData_20200221').getValue('vMessageFWB', 15)</defaultValue>
+      <description></description>
+      <id>0969f4f7-41f3-4927-96a9-c355b5163dae</id>
+      <masked>false</masked>
+      <name>vMessageFWB</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN0c - Input invalid file into MR</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>81a9a468-6b68-41c7-8c35-56e83a7edc70</testCaseGuid>
+</TestCaseEntity>

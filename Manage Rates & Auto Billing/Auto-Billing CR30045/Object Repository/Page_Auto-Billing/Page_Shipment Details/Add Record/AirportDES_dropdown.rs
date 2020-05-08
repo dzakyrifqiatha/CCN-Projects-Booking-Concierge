@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AirportDES_dropdown</name>
+   <tag></tag>
+   <elementGuidId>c04c85ee-7a90-4026-8dcd-6c621e59a8c2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;tblCarrier2&quot;]/tbody/tr[2]/td[1]/span/span[1]/span[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;tblCarrier2&quot;]/tbody/tr[2]/td[1]/span/span[1]/span[2]/span</value>
+   </webElementProperties>
+</WebElementEntity>

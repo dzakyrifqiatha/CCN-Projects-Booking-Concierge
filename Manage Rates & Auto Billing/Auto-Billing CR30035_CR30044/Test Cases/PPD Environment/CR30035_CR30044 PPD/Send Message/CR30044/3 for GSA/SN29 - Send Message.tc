@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN29 - Send Message</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0e3c0909-c6be-4393-bdd3-1d729889d383</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30044/CR30044_TestData_v3.0').getValue('vMessage', 17)</defaultValue>
+      <description></description>
+      <id>41e977e5-10ca-4746-8725-12e8ebcfee3d</id>
+      <masked>false</masked>
+      <name>vFWBMessage</name>
+   </variable>
+</TestCaseEntity>

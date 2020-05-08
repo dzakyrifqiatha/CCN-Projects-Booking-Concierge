@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1 Create Adhoc Quotation 25</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09f401ae-4391-4059-9c83-d242055d167b</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Customer/Vendor Code', 1)</defaultValue>
+      <description></description>
+      <id>3a9db93b-6203-4877-9b50-2654abae262f</id>
+      <masked>false</masked>
+      <name>vCustomerVendorCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Contract Number', 1)</defaultValue>
+      <description></description>
+      <id>4e941535-a2aa-479d-adbe-fd81c1f6d13a</id>
+      <masked>false</masked>
+      <name>vContractNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Origin', 1)</defaultValue>
+      <description></description>
+      <id>a77e1766-b256-42e2-ad01-4a4d24c888e5</id>
+      <masked>false</masked>
+      <name>vOrigin</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Destination', 1)</defaultValue>
+      <description></description>
+      <id>a3b7b64e-4880-4503-b1a5-203db8e51d1a</id>
+      <masked>false</masked>
+      <name>vDestination</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Carrier Code', 1)</defaultValue>
+      <description></description>
+      <id>2e57cac7-c8e6-41b2-ac20-88907ea5af78</id>
+      <masked>false</masked>
+      <name>vCarrierCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('AWB No Prefix', 1)</defaultValue>
+      <description></description>
+      <id>3c23b3a1-182d-4b24-9cdc-df9543f11040</id>
+      <masked>false</masked>
+      <name>vAWB_Prefix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('AWB No Suffix', 1)</defaultValue>
+      <description></description>
+      <id>8e315f5a-bebf-4607-bf00-654c60938a13</id>
+      <masked>false</masked>
+      <name>vAWB_Suffix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Flight Date', 1)</defaultValue>
+      <description></description>
+      <id>357b49c5-ef22-4f1a-946e-1dad4709e929</id>
+      <masked>false</masked>
+      <name>vFlightDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Flight Number (Subfix)', 1)</defaultValue>
+      <description></description>
+      <id>333f21e9-a345-48b4-90ca-5699bf61c019</id>
+      <masked>false</masked>
+      <name>vFlightNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Weight UOM', 1)</defaultValue>
+      <description></description>
+      <id>ebd95bba-787c-40a1-b785-b4f947bfd3ac</id>
+      <masked>false</masked>
+      <name>vWeightUOM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Currency', 1)</defaultValue>
+      <description></description>
+      <id>9c7cab51-f1c3-460f-aae3-90e72af70d88</id>
+      <masked>false</masked>
+      <name>vCurrency</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Estimated Chargeable Weight', 1)</defaultValue>
+      <description></description>
+      <id>1baefa12-e600-4c6d-aa58-8ccc8b8975b8</id>
+      <masked>false</masked>
+      <name>vChargeWeight</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Cargo Class', 1)</defaultValue>
+      <description></description>
+      <id>430a4111-66cb-4906-8552-8ee31e1afe34</id>
+      <masked>false</masked>
+      <name>vCargoClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Effective Date', 1)</defaultValue>
+      <description></description>
+      <id>32fe47bd-3db5-40e0-876a-e28288051d77</id>
+      <masked>false</masked>
+      <name>vEffectiveDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Expiry Date', 1)</defaultValue>
+      <description></description>
+      <id>f14b155b-9e60-4829-97e9-ac44fafb09b2</id>
+      <masked>false</masked>
+      <name>vExpiryDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Status', 1)</defaultValue>
+      <description></description>
+      <id>96d15afb-cc4c-4d8b-82b7-8f539a15698a</id>
+      <masked>false</masked>
+      <name>vStatus</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Cargo Description', 1)</defaultValue>
+      <description></description>
+      <id>44c3bacb-9276-42b3-9d9b-3609d7a2f92a</id>
+      <masked>false</masked>
+      <name>vCargoDesc</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Charge Code', 1)</defaultValue>
+      <description></description>
+      <id>4010e286-cd72-4fb7-95a7-234c5cbc1b8b</id>
+      <masked>false</masked>
+      <name>vChargeCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Rate Type', 1)</defaultValue>
+      <description></description>
+      <id>ac7a8a30-0ba8-494e-af54-cf34a1e5aaca</id>
+      <masked>false</masked>
+      <name>vRateType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Currency', 1)</defaultValue>
+      <description></description>
+      <id>60e6e572-4eee-49c5-88d4-874931bc2541</id>
+      <masked>false</masked>
+      <name>vCurrencyDetails</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Quantity', 1)</defaultValue>
+      <description></description>
+      <id>3ed7e3af-bd06-41d4-9bdb-4d88ccd8b9e5</id>
+      <masked>false</masked>
+      <name>vQuantity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Cost Rate', 1)</defaultValue>
+      <description></description>
+      <id>2eeb7b8b-5c2b-4366-ad64-36c727be7fb7</id>
+      <masked>false</masked>
+      <name>vCostRate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Sales Rate', 1)</defaultValue>
+      <description></description>
+      <id>b95b28f4-e05e-418b-a759-74b05a362fdc</id>
+      <masked>false</masked>
+      <name>vSalesRate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Cost Amount', 1)</defaultValue>
+      <description></description>
+      <id>8c6d25ce-3709-4831-bc41-8b3d3f738d78</id>
+      <masked>false</masked>
+      <name>vCostAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Other UOM', 1)</defaultValue>
+      <description></description>
+      <id>3f7108ca-a8ef-4505-a297-5e50d7409b4d</id>
+      <masked>false</masked>
+      <name>vOtherUOM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Sales Tax', 1)</defaultValue>
+      <description></description>
+      <id>ac767a0b-d8d4-440b-ab2a-a7755dee13b7</id>
+      <masked>false</masked>
+      <name>vSalesTax</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Cost Tax', 1)</defaultValue>
+      <description></description>
+      <id>0182f498-9c04-4256-b40d-396ba985e697</id>
+      <masked>false</masked>
+      <name>vCostTax</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/1 Adhoc Quotation').getValue('Remarks', 1)</defaultValue>
+      <description></description>
+      <id>f62f3111-f033-4eb6-b946-348ca005c728</id>
+      <masked>false</masked>
+      <name>vRemarks</name>
+   </variable>
+</TestCaseEntity>

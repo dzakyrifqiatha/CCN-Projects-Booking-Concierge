@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN14_Send FSU Message with Flight Number is 4 Characters (3 digits 1 upper case)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e44aeb4b-572e-47da-b0d3-72e3ee7a3743</testCaseGuid>
+</TestCaseEntity>

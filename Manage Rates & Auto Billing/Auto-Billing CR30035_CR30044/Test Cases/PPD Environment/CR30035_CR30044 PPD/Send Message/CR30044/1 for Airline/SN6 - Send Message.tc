@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN6 - Send Message</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9861795a-db57-4982-8d19-7e71234960ba</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30044/CR30044_TestData_v3.0').getValue('vMessage', 6)</defaultValue>
+      <description></description>
+      <id>8ca3f22b-bdb7-4ea1-9b3c-67df739dbdf8</id>
+      <masked>false</masked>
+      <name>vFWBMessage</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1 Create Adhoc Quotation Airline 3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>14f1e672-8003-4f43-9e4d-2c2fba36f407</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Customer/Vendor Code', 5)</defaultValue>
+      <description></description>
+      <id>1b6ede32-6ae8-4a2a-88f3-7a50083d4b49</id>
+      <masked>false</masked>
+      <name>vCustomerVendorCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Contract Number', 5)</defaultValue>
+      <description></description>
+      <id>d4e9afbb-819f-4098-912f-01015a88bf30</id>
+      <masked>false</masked>
+      <name>vContractNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Origin', 5)</defaultValue>
+      <description></description>
+      <id>0daedbb7-fc51-4cb6-b69a-4259784d9bdd</id>
+      <masked>false</masked>
+      <name>vOrigin</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Destination', 5)</defaultValue>
+      <description></description>
+      <id>87f618a2-49f2-4d5a-af4c-a7f7fc9fad61</id>
+      <masked>false</masked>
+      <name>vDestination</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Carrier Code', 5)</defaultValue>
+      <description></description>
+      <id>667690d8-4fad-4a82-8317-84ab1ae341e7</id>
+      <masked>false</masked>
+      <name>vCarrierCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('AWB No Prefix', 5)</defaultValue>
+      <description></description>
+      <id>226c6967-fc39-4da5-8347-f003fcef0a88</id>
+      <masked>false</masked>
+      <name>vAWB_Prefix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('AWB No Suffix', 5)</defaultValue>
+      <description></description>
+      <id>31c1c33c-2f9a-477c-a832-0d01acc81224</id>
+      <masked>false</masked>
+      <name>vAWB_Suffix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Flight Date', 5)</defaultValue>
+      <description></description>
+      <id>3c6b4d91-bfa1-4eb7-9df3-240c353e982a</id>
+      <masked>false</masked>
+      <name>vFlightDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Flight Number (Subfix)', 5)</defaultValue>
+      <description></description>
+      <id>679ecb76-370d-47e8-9716-c229ba387a6d</id>
+      <masked>false</masked>
+      <name>vFlightNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Weight UOM', 5)</defaultValue>
+      <description></description>
+      <id>e0d14eb5-97fa-47e8-9823-212162d250a0</id>
+      <masked>false</masked>
+      <name>vWeightUOM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Currency', 5)</defaultValue>
+      <description></description>
+      <id>0978d553-6b8d-40e4-93a5-06a86a2859d2</id>
+      <masked>false</masked>
+      <name>vCurrency</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Estimated Gross Weight', 5)</defaultValue>
+      <description></description>
+      <id>85c4a955-4f6a-45c0-ac95-5170a7a2c4d0</id>
+      <masked>false</masked>
+      <name>vGrossWeight</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Estimated Chargeable Weight', 5)</defaultValue>
+      <description></description>
+      <id>328b3df3-dc90-45b6-aeee-8133abd9cce5</id>
+      <masked>false</masked>
+      <name>vChargeWeight</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Cargo Class', 5)</defaultValue>
+      <description></description>
+      <id>ca09c5af-31bf-42d1-824b-21bafef8312c</id>
+      <masked>false</masked>
+      <name>vCargoClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Effective Date', 5)</defaultValue>
+      <description></description>
+      <id>d332fba0-a41b-4855-8f80-b122fa814e81</id>
+      <masked>false</masked>
+      <name>vEffectiveDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Expiry Date', 5)</defaultValue>
+      <description></description>
+      <id>16382a7c-e779-4b31-8471-97dd5b2d1a35</id>
+      <masked>false</masked>
+      <name>vExpiryDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Status', 5)</defaultValue>
+      <description></description>
+      <id>f104b0ae-9df8-4458-a524-d9dd19adf293</id>
+      <masked>false</masked>
+      <name>vStatus</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Cargo Description', 5)</defaultValue>
+      <description></description>
+      <id>fbaa7387-a629-49ee-8049-1a92e5252ea3</id>
+      <masked>false</masked>
+      <name>vCargoDesc</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Charge Code', 5)</defaultValue>
+      <description></description>
+      <id>a1579c2f-fbcd-41de-8f1d-df49312b395b</id>
+      <masked>false</masked>
+      <name>vChargeCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Rate Type', 5)</defaultValue>
+      <description></description>
+      <id>fb6e5cdc-6663-4c0a-9e7e-58776e857ee0</id>
+      <masked>false</masked>
+      <name>vRateType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Currency', 5)</defaultValue>
+      <description></description>
+      <id>9cf7c848-010d-4f83-9f77-0c7b6a2bb7aa</id>
+      <masked>false</masked>
+      <name>vCurrencyDetails</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Quantity', 5)</defaultValue>
+      <description></description>
+      <id>57df3cee-5d2b-4dfa-8289-c2de2e1e6416</id>
+      <masked>false</masked>
+      <name>vQuantity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Cost Rate', 5)</defaultValue>
+      <description></description>
+      <id>dc73a4e7-f931-4c4e-9f42-a460d66a4ba1</id>
+      <masked>false</masked>
+      <name>vCostRate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Sales Rate', 5)</defaultValue>
+      <description></description>
+      <id>6c94599d-622f-443c-a5f3-595978307420</id>
+      <masked>false</masked>
+      <name>vSalesRate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Cost Amount', 5)</defaultValue>
+      <description></description>
+      <id>46fbe9a8-ccd6-43aa-b1f7-8751bd27b55c</id>
+      <masked>false</masked>
+      <name>vCostAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Other UOM', 5)</defaultValue>
+      <description></description>
+      <id>ab079c4b-26a6-4b7d-a40f-1e92839f1661</id>
+      <masked>false</masked>
+      <name>vOtherUOM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Sales Tax', 5)</defaultValue>
+      <description></description>
+      <id>f0a8e547-ad32-4492-9148-a859eda49180</id>
+      <masked>false</masked>
+      <name>vSalesTax</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Cost Tax', 5)</defaultValue>
+      <description></description>
+      <id>1fe53cac-66eb-420d-863b-61e6e244519e</id>
+      <masked>false</masked>
+      <name>vCostTax</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/1 Adhoc Quotation').getValue('Remarks', 5)</defaultValue>
+      <description></description>
+      <id>249402dd-2de1-47a9-81c6-42fc8ff0161e</id>
+      <masked>false</masked>
+      <name>vRemarks</name>
+   </variable>
+</TestCaseEntity>

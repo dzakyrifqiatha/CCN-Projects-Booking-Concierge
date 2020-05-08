@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2 Create Blocked Space Quotation (Fixed) 6</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1a4d0625-712c-46f2-82e8-3005aa674709</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/2 Blocked Space (Fixed) Quotation').getValue('Customer/Vendor Code', 15)</defaultValue>
+      <description></description>
+      <id>37c1f70d-397c-4cad-b0b2-2723aae9b2a8</id>
+      <masked>false</masked>
+      <name>vCustomerVendorCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/2 Blocked Space (Fixed) Quotation').getValue('Currency', 15)</defaultValue>
+      <description></description>
+      <id>747c7672-b350-43c5-a4ec-044e3f141f64</id>
+      <masked>false</masked>
+      <name>vCurrency</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/2 Blocked Space (Fixed) Quotation').getValue('Shipper/Consignee', 15)</defaultValue>
+      <description></description>
+      <id>595d395b-b492-4a23-9d3f-9dfbb5e0f08b</id>
+      <masked>false</masked>
+      <name>vShipperConsignee</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/2 Blocked Space (Fixed) Quotation').getValue('Effective Date', 15)</defaultValue>
+      <description></description>
+      <id>f651083c-b1a2-4af7-9bf3-2173bec85b9b</id>
+      <masked>false</masked>
+      <name>vEffectiveDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/2 Blocked Space (Fixed) Quotation').getValue('Expiry Date', 15)</defaultValue>
+      <description></description>
+      <id>6e9e76ab-ccf8-4170-86a2-d6154e07b166</id>
+      <masked>false</masked>
+      <name>vExpiryDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/2 Blocked Space (Fixed) Quotation').getValue('Contract Number', 15)</defaultValue>
+      <description></description>
+      <id>7f5fec90-0733-4404-b6a3-4f7614874b8c</id>
+      <masked>false</masked>
+      <name>vContractNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/2 Blocked Space (Fixed) Quotation').getValue('Carrier Code', 15)</defaultValue>
+      <description></description>
+      <id>6ad304d6-dc52-41d1-a6f7-77d4f03d8686</id>
+      <masked>false</masked>
+      <name>vCarrierCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/2 Blocked Space (Fixed) Quotation').getValue('Flight Number', 15)</defaultValue>
+      <description></description>
+      <id>9c92af39-080a-4647-8101-881a779707aa</id>
+      <masked>false</masked>
+      <name>vFilghtNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/2 Blocked Space (Fixed) Quotation').getValue('Currency', 15)</defaultValue>
+      <description></description>
+      <id>f79fa24d-6108-4cff-86f1-66f43fcd0cca</id>
+      <masked>false</masked>
+      <name>vCurrency2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/2 Blocked Space (Fixed) Quotation').getValue('Origin', 15)</defaultValue>
+      <description></description>
+      <id>d0fd0cfb-22c1-4986-ac23-5ac6ee1da11a</id>
+      <masked>false</masked>
+      <name>vOrigin</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/2 Blocked Space (Fixed) Quotation').getValue('Destination', 15)</defaultValue>
+      <description></description>
+      <id>e3e8eee2-2bbf-4828-817c-c074674028dd</id>
+      <masked>false</masked>
+      <name>vDestination</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/2 Blocked Space (Fixed) Quotation').getValue('Weight UOM', 15)</defaultValue>
+      <description></description>
+      <id>10b0e724-2d9f-421c-a019-82e00caf07a7</id>
+      <masked>false</masked>
+      <name>vWeightUOM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/2 Blocked Space (Fixed) Quotation').getValue('Cargo Class', 15)</defaultValue>
+      <description></description>
+      <id>df36fa3e-5aeb-4dbc-8c90-7db8e2174203</id>
+      <masked>false</masked>
+      <name>vCargoClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/2 Blocked Space (Fixed) Quotation').getValue('Allocated Weight', 15)</defaultValue>
+      <description></description>
+      <id>2c1c5788-1a43-4400-9177-fb8f6fa74631</id>
+      <masked>false</masked>
+      <name>vAllocatedWeight</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/2 Blocked Space (Fixed) Quotation').getValue('Rate Per KGM', 15)</defaultValue>
+      <description></description>
+      <id>3c52a9f2-4e59-42f1-8b63-41942d4657a5</id>
+      <masked>false</masked>
+      <name>vRatePerKGM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/2 Blocked Space (Fixed) Quotation').getValue('ULD Code', 15)</defaultValue>
+      <description></description>
+      <id>a33a2494-9788-46e7-b908-bcaa22e21b13</id>
+      <masked>false</masked>
+      <name>vULDCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/2 Blocked Space (Fixed) Quotation').getValue('Pivot Weight', 15)</defaultValue>
+      <description></description>
+      <id>9d3b59c9-5900-4560-9529-6716d7345f47</id>
+      <masked>false</masked>
+      <name>vPivotWeight</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/2 Blocked Space (Fixed) Quotation').getValue('Rate Per ULD', 15)</defaultValue>
+      <description></description>
+      <id>dfdc58e8-6128-4415-a876-86a7171289a8</id>
+      <masked>false</masked>
+      <name>vRatePerULD</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/2 Blocked Space (Fixed) Quotation').getValue('Quantity', 15)</defaultValue>
+      <description></description>
+      <id>df71400d-f760-47c0-8220-b7dedbd10fb8</id>
+      <masked>false</masked>
+      <name>vQuantity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/2 Blocked Space (Fixed) Quotation').getValue('Rate Per Excess Weight', 15)</defaultValue>
+      <description></description>
+      <id>e0db8dfd-df67-415f-9a53-668697d3dbad</id>
+      <masked>false</masked>
+      <name>vRatePerExcessWeight</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/1 Airline/2 Blocked Space (Fixed) Quotation').getValue('Rate Per Spillover', 15)</defaultValue>
+      <description></description>
+      <id>121e9f9c-2c2c-498e-ad23-1775a8fbaab6</id>
+      <masked>false</masked>
+      <name>vRatePerSpillover</name>
+   </variable>
+</TestCaseEntity>

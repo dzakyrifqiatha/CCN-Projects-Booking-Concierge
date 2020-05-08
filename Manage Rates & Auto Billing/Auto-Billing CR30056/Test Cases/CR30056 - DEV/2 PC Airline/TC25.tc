@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC25</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>68055ebc-4ff0-4eb8-8848-8af70c7d7035</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('TestData_CR30056_DEV/v1').getValue('vMessage', 25)</defaultValue>
+      <description></description>
+      <id>d8cf4495-1571-4e8a-b1b6-2f03be3912dc</id>
+      <masked>false</masked>
+      <name>vMessage</name>
+   </variable>
+</TestCaseEntity>

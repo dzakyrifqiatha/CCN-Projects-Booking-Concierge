@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC2 - Check Publish When Re-Calculate Billing Discrepancy on Home Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>017d550b-5ea5-4337-a43e-43e9fe41e8a2</testCaseGuid>
+</TestCaseEntity>

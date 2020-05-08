@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN3 - Import Excel template if AWB Number already existed on the System Adhoc Cost table</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a6afc5a-b9c4-4800-9086-45dce7b0ffec</testCaseGuid>
+</TestCaseEntity>

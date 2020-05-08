@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Destination_input-found</name>
+   <tag></tag>
+   <elementGuidId>64dbe401-5ee2-4019-9294-a4e9a14521b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;ctl00_ctl00_ContentPlaceHolder_SubPageContent_cbDestination_DropDown&quot;]/div[2]/ul/li/table/tbody/tr/td[1][count(. | //*[(text() = 'KUL' or . = 'KUL')]) = count(//*[(text() = 'KUL' or . = 'KUL')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;ctl00_ctl00_ContentPlaceHolder_SubPageContent_cbDestination_DropDown&quot;]/div[2]/ul/li/table/tbody/tr/td[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>KUL</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>4 Create Contract Freight Quotation Airline 20</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb4894dd-cff9-4e6b-a08e-a51c30c4aef9</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30035/2 Agent/4 Freight Contract Quotation').getValue('Carrier Code', 9)</defaultValue>
+      <description></description>
+      <id>0ac86271-b73e-4cb5-aaec-1956384d99a3</id>
+      <masked>false</masked>
+      <name>vCarrierCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/2 Agent/4 Freight Contract Quotation').getValue('Origin', 9)</defaultValue>
+      <description></description>
+      <id>bebc1d73-2272-4507-b6a3-7af09e9db1b3</id>
+      <masked>false</masked>
+      <name>vOrigin</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/2 Agent/4 Freight Contract Quotation').getValue('Destination', 9)</defaultValue>
+      <description></description>
+      <id>1ef9840d-9bb5-4aa9-aab1-1f32d7992c05</id>
+      <masked>false</masked>
+      <name>vDestination</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/2 Agent/4 Freight Contract Quotation').getValue('Flight Number (Suffix)', 9)</defaultValue>
+      <description></description>
+      <id>73962e1e-99f1-4cf4-b73b-720d037b1cc2</id>
+      <masked>false</masked>
+      <name>vFlightNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/2 Agent/4 Freight Contract Quotation').getValue('Currency', 9)</defaultValue>
+      <description></description>
+      <id>71d05b33-af08-47b7-a69e-b1a0642efe8b</id>
+      <masked>false</masked>
+      <name>vCurrency</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/2 Agent/4 Freight Contract Quotation').getValue('Weight UOM', 9)</defaultValue>
+      <description></description>
+      <id>5bea53f5-42b9-4f74-bbf4-40ff40e6dbbb</id>
+      <masked>false</masked>
+      <name>vWeightUOM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/2 Agent/4 Freight Contract Quotation').getValue('Cargo Class', 9)</defaultValue>
+      <description></description>
+      <id>43989013-dd07-48c5-a098-3a97448d0996</id>
+      <masked>false</masked>
+      <name>vCargoClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/2 Agent/4 Freight Contract Quotation').getValue('Rate Class', 9)</defaultValue>
+      <description></description>
+      <id>9eec47a8-12c9-40ea-940e-2f1372d98644</id>
+      <masked>false</masked>
+      <name>vRateClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/2 Agent/4 Freight Contract Quotation').getValue('ULD Class', 9)</defaultValue>
+      <description></description>
+      <id>8fc1bbad-f6a1-4cc0-90ef-2c9761d2e5fd</id>
+      <masked>false</masked>
+      <name>vULDClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/2 Agent/4 Freight Contract Quotation').getValue('% of IATA', 9)</defaultValue>
+      <description></description>
+      <id>a1905dbd-a2d5-48f4-a864-c8556d930727</id>
+      <masked>false</masked>
+      <name>vIATA</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/2 Agent/4 Freight Contract Quotation').getValue('Cost Amount', 9)</defaultValue>
+      <description></description>
+      <id>47784ffc-69d5-4b63-9b02-5bb76ce6aa35</id>
+      <masked>false</masked>
+      <name>vCostAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/2 Agent/4 Freight Contract Quotation').getValue('Sales Amount', 9)</defaultValue>
+      <description></description>
+      <id>c25b8bac-0e27-494f-9428-f85e22fb39e9</id>
+      <masked>false</masked>
+      <name>vSalesAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/2 Agent/4 Freight Contract Quotation').getValue('Weight Break', 9)</defaultValue>
+      <description></description>
+      <id>bfcbe0a7-f092-4e7f-bbc6-a0c71f7ab38d</id>
+      <masked>false</masked>
+      <name>vWeightBreak</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1 - Assign Report Settings to Company Station via LINC PortalAdmin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c08bbf8c-a77c-4f81-bc7c-f65956102813</testCaseGuid>
+</TestCaseEntity>

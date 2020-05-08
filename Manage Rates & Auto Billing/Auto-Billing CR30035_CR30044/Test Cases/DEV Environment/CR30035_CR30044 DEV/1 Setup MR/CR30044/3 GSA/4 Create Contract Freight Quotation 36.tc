@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>4 Create Contract Freight Quotation 36</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e03f8e0-0493-48d4-b956-73bf3450dfe6</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('Carrier Code', 13)</defaultValue>
+      <description></description>
+      <id>ff7c3a25-b011-4590-b840-fe1e7a75c5ec</id>
+      <masked>false</masked>
+      <name>vCarrierCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('Origin', 13)</defaultValue>
+      <description></description>
+      <id>ebe424e4-8cf9-47a2-bcf6-66619a926abe</id>
+      <masked>false</masked>
+      <name>vOrigin</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('Destination', 13)</defaultValue>
+      <description></description>
+      <id>90759468-665c-4ac4-a92a-bd39fb80084f</id>
+      <masked>false</masked>
+      <name>vDestination</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('Flight Number (Suffix)', 13)</defaultValue>
+      <description></description>
+      <id>dc750be1-8e71-4c32-bb7d-cc14cbbdd36a</id>
+      <masked>false</masked>
+      <name>vFlightNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('Currency', 13)</defaultValue>
+      <description></description>
+      <id>f160c3ca-7a46-4d16-bf02-a5c924d22464</id>
+      <masked>false</masked>
+      <name>vCurrency</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('Weight UOM', 13)</defaultValue>
+      <description></description>
+      <id>dbfae91b-8a1a-48b0-8a48-4cf98d8f9df8</id>
+      <masked>false</masked>
+      <name>vWeightUOM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('Cargo Class', 13)</defaultValue>
+      <description></description>
+      <id>46a2f758-a31c-4498-b589-5767af94b50e</id>
+      <masked>false</masked>
+      <name>vCargoClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('Rate Class', 13)</defaultValue>
+      <description></description>
+      <id>9fd92d4a-fd34-4457-bf16-c18adda210f2</id>
+      <masked>false</masked>
+      <name>vRateClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('ULD Class', 13)</defaultValue>
+      <description></description>
+      <id>5fd8ab28-bd79-4091-ab1b-8262d6a53f8b</id>
+      <masked>false</masked>
+      <name>vULDClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('% of IATA', 13)</defaultValue>
+      <description></description>
+      <id>16781301-7a5c-4a86-a331-54760b1aa7bc</id>
+      <masked>false</masked>
+      <name>vIATA</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('Cost Amount', 13)</defaultValue>
+      <description></description>
+      <id>35812d96-998a-4ed9-afd4-110194e5e46d</id>
+      <masked>false</masked>
+      <name>vCostAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('Sales Amount', 13)</defaultValue>
+      <description></description>
+      <id>9d1c31cb-a75d-426a-adf2-022c368d8e72</id>
+      <masked>false</masked>
+      <name>vSalesAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30044/3 GSA/4 Freight Contract').getValue('Weight Break', 13)</defaultValue>
+      <description></description>
+      <id>9a7c8bd5-06d7-41c7-9f50-e96b7158f0c0</id>
+      <masked>false</masked>
+      <name>vWeightBreak</name>
+   </variable>
+</TestCaseEntity>

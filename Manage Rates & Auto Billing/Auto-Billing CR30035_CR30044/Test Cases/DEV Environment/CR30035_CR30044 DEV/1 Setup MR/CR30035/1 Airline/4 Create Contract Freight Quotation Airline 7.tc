@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>4 Create Contract Freight Quotation Airline 7</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a133dd7-f099-451f-b65f-a5ccd0d3a887</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/4 Freight Contract Quotation').getValue('Carrier Code', 1)</defaultValue>
+      <description></description>
+      <id>16f38eb5-8464-4b9e-89b4-1ad93a27f727</id>
+      <masked>false</masked>
+      <name>vCarrierCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/4 Freight Contract Quotation').getValue('Origin', 1)</defaultValue>
+      <description></description>
+      <id>39a1d6ac-70b5-4ff9-ad77-9b5221b10b60</id>
+      <masked>false</masked>
+      <name>vOrigin</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/4 Freight Contract Quotation').getValue('Destination', 1)</defaultValue>
+      <description></description>
+      <id>bafd4e3d-32bd-4c49-855f-68dbfce74f30</id>
+      <masked>false</masked>
+      <name>vDestination</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/4 Freight Contract Quotation').getValue('Flight Number (Suffix)', 1)</defaultValue>
+      <description></description>
+      <id>894a420b-8737-4122-b9d2-3f3dc6018fc7</id>
+      <masked>false</masked>
+      <name>vFlightNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/4 Freight Contract Quotation').getValue('Currency', 1)</defaultValue>
+      <description></description>
+      <id>fc6d2a2a-118d-4350-a0af-7e8370798c97</id>
+      <masked>false</masked>
+      <name>vCurrency</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/4 Freight Contract Quotation').getValue('Weight UOM', 1)</defaultValue>
+      <description></description>
+      <id>1dba2c4a-0714-40c3-acb3-e9fb9b792e8b</id>
+      <masked>false</masked>
+      <name>vWeightUOM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/4 Freight Contract Quotation').getValue('Cargo Class', 1)</defaultValue>
+      <description></description>
+      <id>49932390-a3c0-4ab8-ba66-d27694632f5e</id>
+      <masked>false</masked>
+      <name>vCargoClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/4 Freight Contract Quotation').getValue('Rate Class', 1)</defaultValue>
+      <description></description>
+      <id>cf1cab8e-66e7-40f0-a965-1084c4c02758</id>
+      <masked>false</masked>
+      <name>vRateClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/4 Freight Contract Quotation').getValue('ULD Class', 1)</defaultValue>
+      <description></description>
+      <id>ca7ee95b-6ef4-490f-a2c8-3322bc1dca69</id>
+      <masked>false</masked>
+      <name>vULDClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/4 Freight Contract Quotation').getValue('% of IATA', 1)</defaultValue>
+      <description></description>
+      <id>845e9f7b-4a03-4b04-8a25-f153793089b6</id>
+      <masked>false</masked>
+      <name>vIATA</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/4 Freight Contract Quotation').getValue('Cost Amount', 1)</defaultValue>
+      <description></description>
+      <id>13481c48-72cb-442e-aa8a-96b3316956ba</id>
+      <masked>false</masked>
+      <name>vCostAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/4 Freight Contract Quotation').getValue('Sales Amount', 1)</defaultValue>
+      <description></description>
+      <id>ae541efb-d9b4-48fe-9719-56d1123e6e5d</id>
+      <masked>false</masked>
+      <name>vSalesAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/4 Freight Contract Quotation').getValue('Weight Break', 1)</defaultValue>
+      <description></description>
+      <id>d560c457-f980-4d30-82e7-95ef9ca4a10d</id>
+      <masked>false</masked>
+      <name>vWeightBreak</name>
+   </variable>
+</TestCaseEntity>

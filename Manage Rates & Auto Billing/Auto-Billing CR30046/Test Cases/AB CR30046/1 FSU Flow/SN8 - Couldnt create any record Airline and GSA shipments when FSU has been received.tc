@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN8 - Couldnt create any record Airline and GSA shipments when FSU has been received</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>62ef914b-a307-4f21-8db7-8ad8424a029e</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('TestData_20200221').getValue('vMessageFSU', 8)</defaultValue>
+      <description></description>
+      <id>0f03161c-5501-4efc-8518-8358fba4b62a</id>
+      <masked>false</masked>
+      <name>vMessageFSU</name>
+   </variable>
+</TestCaseEntity>

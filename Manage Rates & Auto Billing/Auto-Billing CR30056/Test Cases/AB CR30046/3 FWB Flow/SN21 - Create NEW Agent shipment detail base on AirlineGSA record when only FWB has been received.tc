@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN21 - Create NEW Agent shipment detail base on AirlineGSA record when only FWB has been received</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9680da8-0e68-4f36-bc7f-2da34e9196e6</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('TestData_20200221').getValue('vMessageFWB', 21)</defaultValue>
+      <description></description>
+      <id>cfe6fdc2-dd43-4564-8b81-5d132b12d1b3</id>
+      <masked>false</masked>
+      <name>vMessageFWB</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('TestData_20200221').getValue('vMessageFSU', 21)</defaultValue>
+      <description></description>
+      <id>b4310dc3-c9ef-44f3-931b-74d903023d47</id>
+      <masked>false</masked>
+      <name>vMessageFSU</name>
+   </variable>
+</TestCaseEntity>

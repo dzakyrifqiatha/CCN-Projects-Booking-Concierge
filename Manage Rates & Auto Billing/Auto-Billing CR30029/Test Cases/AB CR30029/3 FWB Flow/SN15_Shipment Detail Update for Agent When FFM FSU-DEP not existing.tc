@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN15_Shipment Detail Update for Agent When FFM FSU-DEP not existing</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bbef9d7c-0f88-4438-accc-84c1f66d6308</testCaseGuid>
+</TestCaseEntity>

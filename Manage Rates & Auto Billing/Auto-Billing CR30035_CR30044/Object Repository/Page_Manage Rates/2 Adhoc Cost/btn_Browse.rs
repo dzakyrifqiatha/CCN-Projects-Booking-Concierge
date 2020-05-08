@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Browse</name>
+   <tag></tag>
+   <elementGuidId>4bda634e-5bf6-4664-b503-b0c9d3702f3c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div/form/div[8]/div[6]/div[2]/div/ul/li/span/input[2][count(. | //*[@class = 'ruButton ruBrowse ruButtonHover']) = count(//*[@class = 'ruButton ruBrowse ruButtonHover'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div/form/div[8]/div[6]/div[2]/div/ul/li/span/input[2]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Browse</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ruButton ruBrowse ruButtonHover</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>html body div.container-fluid form#mainForm.form-horizontal div.row-fluid div.row.paddingTop5 div.col-xs-8.float-left div#ctl00_ctl00_ContentPlaceHolder_SubPageContent_asuUploadFile.RadAsyncUpload.RadUpload.RadUpload_FMS ul#ctl00_ctl00_ContentPlaceHolder_SubPageContent_asuUploadFileListContainer.ruInputs li#ctl00_ctl00_ContentPlaceHolder_SubPageContent_asuUploadFilerow0 span.ruFileWrap.ruStyled input.ruButton.ruBrowse</value>
+   </webElementProperties>
+</WebElementEntity>

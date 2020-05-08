@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN6 - Import Excel template if the CustomerVendor Code, AWB, Carrier Code, Weight Origin has no value</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df15d954-5724-4f2c-8f60-7c2f9c61ab9c</testCaseGuid>
+</TestCaseEntity>

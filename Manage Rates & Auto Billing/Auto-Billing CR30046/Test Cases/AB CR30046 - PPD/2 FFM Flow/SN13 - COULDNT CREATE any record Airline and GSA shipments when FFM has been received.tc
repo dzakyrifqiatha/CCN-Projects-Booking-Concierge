@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN13 - COULDNT CREATE any record Airline and GSA shipments when FFM has been received</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>006e09d2-60bd-468f-8da0-9022a969c10e</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('TestData_20191227').getValue('vMessageFFM', 13)</defaultValue>
+      <description></description>
+      <id>37021085-06ab-4d10-9943-8b6bcb433890</id>
+      <masked>false</masked>
+      <name>vMessageFFM</name>
+   </variable>
+</TestCaseEntity>

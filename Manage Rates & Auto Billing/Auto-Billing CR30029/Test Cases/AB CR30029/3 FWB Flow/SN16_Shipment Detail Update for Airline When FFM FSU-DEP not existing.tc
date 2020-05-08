@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN16_Shipment Detail Update for Airline When FFM FSU-DEP not existing</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>acab6768-291e-40bd-8143-c7385c21afbf</testCaseGuid>
+</TestCaseEntity>

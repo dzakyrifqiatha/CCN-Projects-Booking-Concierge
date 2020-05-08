@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_Manage Rates 2.0</name>
+   <tag></tag>
+   <elementGuidId>be6408b6-95ef-411a-b347-2025ba50d018</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;ctl00_ctl00_Content_Content_rwdAssignStation_C_gvAssignProductToStation_ctl00_ctl14_chkAssigned&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;ctl00_ctl00_Content_Content_rwdAssignStation_C_gvAssignProductToStation_ctl00_ctl14_chkAssigned&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_ctl00_Content_Content_rwdAssignStation_C_gvAssignProductToStation_ctl00_ctl14_chkAssigned</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ctl00$ctl00$Content$Content$rwdAssignStation$C$gvAssignProductToStation$ctl00$ctl14$chkAssigned</value>
+   </webElementProperties>
+</WebElementEntity>

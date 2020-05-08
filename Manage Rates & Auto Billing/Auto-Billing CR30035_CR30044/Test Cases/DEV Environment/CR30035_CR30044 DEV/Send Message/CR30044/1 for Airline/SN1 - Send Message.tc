@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN1 - Send Message</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2a61848a-b0d9-4145-8a81-9405bc9dc49d</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30044/CR30044_TestData_v1.0').getValue('MAWB', 1)</defaultValue>
+      <description></description>
+      <id>dce04cf5-d557-4da2-9781-2937ff81e742</id>
+      <masked>false</masked>
+      <name>vFWBMessage</name>
+   </variable>
+</TestCaseEntity>

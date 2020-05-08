@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Send Message - DEV</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e69149e5-663b-488f-a91f-514c6805df41</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30044/CR30044_TestData_v1.0').getValue('MAWB', 1)</defaultValue>
+      <description></description>
+      <id>34819d17-059b-4f02-a690-efe338b51550</id>
+      <masked>false</masked>
+      <name>vMessage</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN2 - Import Excel template if there are multiples cells in file templatehave the same AWB Number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>57ac1251-099a-4332-9db0-08d1f79363d7</testCaseGuid>
+</TestCaseEntity>

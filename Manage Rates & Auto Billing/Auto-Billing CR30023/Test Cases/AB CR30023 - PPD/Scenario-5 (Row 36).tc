@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Cargo Class from FWB message does not contain Accounting Information</description>
+   <name>Scenario-5 (Row 36)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5dbfc79d-74c5-4f67-a5be-488d83789476</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN7 - Import Excel template if AWB has value more than 3 characters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e16610e5-fb95-4a57-a7c5-5d39d1744892</testCaseGuid>
+</TestCaseEntity>

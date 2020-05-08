@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CargoDesc_input</name>
+   <tag></tag>
+   <elementGuidId>b3ecd0ca-96fd-400c-9dfb-9845a1ba932d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;ContentPlaceHolder_SubPageContent_txtCargoDescription&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;ContentPlaceHolder_SubPageContent_txtCargoDescription&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

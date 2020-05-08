@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1a - Charge of Accounts shows empty table settings after successfully assigned to a company station via LINC PortalAdmin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>abae3f4e-d504-4614-8b61-35ca56cc3857</testCaseGuid>
+</TestCaseEntity>

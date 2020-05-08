@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>5 Create Airline Related Charge Airline 9</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a2f7d94-2c0c-49ff-846c-8e720706fcd2</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/5 Contract Quotation').getValue('Carrier Code', 1)</defaultValue>
+      <description></description>
+      <id>16f171e9-d749-40b4-9429-62ccdefcb108</id>
+      <masked>false</masked>
+      <name>vCarrierCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/5 Contract Quotation').getValue('Charge Code', 1)</defaultValue>
+      <description></description>
+      <id>782638b3-dc54-4b75-a728-4f1c5dd51297</id>
+      <masked>false</masked>
+      <name>vChargeCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/5 Contract Quotation').getValue('Handling Code', 1)</defaultValue>
+      <description></description>
+      <id>a5e17090-dc9b-46ff-af3a-a26596783cdb</id>
+      <masked>false</masked>
+      <name>vHandlingCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/5 Contract Quotation').getValue('Weight UOM', 1)</defaultValue>
+      <description></description>
+      <id>2f27eb29-33f3-492e-9303-c32ed9545215</id>
+      <masked>false</masked>
+      <name>vWeightUOM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/5 Contract Quotation').getValue('Weight Type', 1)</defaultValue>
+      <description></description>
+      <id>eb75b3f6-13e9-46cc-bb42-c5abc39e6d45</id>
+      <masked>false</masked>
+      <name>vWeightType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/5 Contract Quotation').getValue('Cargo Class', 1)</defaultValue>
+      <description></description>
+      <id>a82b87ce-a01c-4fe1-b635-801d5dc31e4e</id>
+      <masked>false</masked>
+      <name>vCargoClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/5 Contract Quotation').getValue('Import/Export', 1)</defaultValue>
+      <description></description>
+      <id>afde17ae-bd2b-486e-bad7-d7d18e8e8d01</id>
+      <masked>false</masked>
+      <name>vImportExport</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/5 Contract Quotation').getValue('Origin/Destination', 1)</defaultValue>
+      <description></description>
+      <id>196ec0db-64c8-4b29-82bf-b2e07112e755</id>
+      <masked>false</masked>
+      <name>vOriginDestination</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/5 Contract Quotation').getValue('Rate Type', 1)</defaultValue>
+      <description></description>
+      <id>0e68dbe7-3d0a-4aa4-88cb-f4b21fd107eb</id>
+      <masked>false</masked>
+      <name>vRateType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/5 Contract Quotation').getValue('Min/Std Amount', 1)</defaultValue>
+      <description></description>
+      <id>36299ff4-9564-4411-8682-b5da480118cb</id>
+      <masked>false</masked>
+      <name>vMinStdAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/5 Contract Quotation').getValue('Min/Std Cost Amount', 1)</defaultValue>
+      <description></description>
+      <id>79af6ed2-11f8-424d-a885-aba1dbdd4038</id>
+      <masked>false</masked>
+      <name>vMinStdCostAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/5 Contract Quotation').getValue('Details', 1)</defaultValue>
+      <description></description>
+      <id>0e6f3b5b-e36c-4fff-b480-4d1f5e83c45e</id>
+      <masked>false</masked>
+      <name>vDetails</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/5 Contract Quotation').getValue('Weight Break', 1)</defaultValue>
+      <description></description>
+      <id>4030963f-182b-49e4-aa3a-51debef76812</id>
+      <masked>false</masked>
+      <name>vWeightBreak</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/5 Contract Quotation').getValue('Amount', 1)</defaultValue>
+      <description></description>
+      <id>71b931c6-0582-4e44-af55-5311fc646d41</id>
+      <masked>false</masked>
+      <name>vAmount</name>
+   </variable>
+</TestCaseEntity>

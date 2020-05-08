@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Send Message - PPD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e83a3d98-e74e-4216-8e1c-2d4e3d169848</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30035/CR30035_TestData_v3.0').getValue('vMessage', 12)</defaultValue>
+      <description></description>
+      <id>13f8862d-5b65-4c0a-934f-7324e2d31c79</id>
+      <masked>false</masked>
+      <name>vMessage</name>
+   </variable>
+</TestCaseEntity>

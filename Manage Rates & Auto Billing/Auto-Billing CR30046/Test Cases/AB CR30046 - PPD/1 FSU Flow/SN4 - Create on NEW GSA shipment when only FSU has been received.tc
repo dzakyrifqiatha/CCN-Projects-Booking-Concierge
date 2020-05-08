@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN4 - Create on NEW GSA shipment when only FSU has been received</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0f53b6e3-d808-4b6a-9647-042abdd706ba</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('TestData_20191227').getValue('vMessageFSU', 4)</defaultValue>
+      <description></description>
+      <id>76359a95-3ce4-4dca-8efa-b77c99c395d0</id>
+      <masked>false</masked>
+      <name>vMessageFSU</name>
+   </variable>
+</TestCaseEntity>

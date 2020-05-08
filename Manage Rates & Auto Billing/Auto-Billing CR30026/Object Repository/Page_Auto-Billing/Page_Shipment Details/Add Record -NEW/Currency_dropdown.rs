@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Currency_dropdown</name>
+   <tag></tag>
+   <elementGuidId>d889d96d-0429-4934-aa0f-03c0c24e4a81</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;tblCustoms&quot;]/tbody/tr[2]/td[1]/table/tbody/tr/td/span/span[1]/span[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;tblCustoms&quot;]/tbody/tr[2]/td[1]/table/tbody/tr/td/span/span[1]/span[2]/span</value>
+   </webElementProperties>
+</WebElementEntity>

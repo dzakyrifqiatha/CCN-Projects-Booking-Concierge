@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN18 - Create NEW Airline, GSA and Agent shipment when only FWB has been received</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb45d104-2241-4308-b813-cd29d2e9154a</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('TestData_20191227').getValue('vMessageFWB', 18)</defaultValue>
+      <description></description>
+      <id>ff53a6e1-7a38-430f-b393-cb6218a15053</id>
+      <masked>false</masked>
+      <name>vMessageFWB</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>6 Create Airline Related Charge Airline 11</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>37cbb1fb-bf2b-4d6a-bbf0-2d192894ba20</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/6 Airline Related Charge').getValue('Carrier Code', 1)</defaultValue>
+      <description></description>
+      <id>45c70943-6ccc-4c69-b8ec-a7074e18e40c</id>
+      <masked>false</masked>
+      <name>vCarrierCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/6 Airline Related Charge').getValue('Charge Code', 1)</defaultValue>
+      <description></description>
+      <id>b53da084-7d88-426c-9bcd-12034460d381</id>
+      <masked>false</masked>
+      <name>vChargeCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/6 Airline Related Charge').getValue('Handling Code', 1)</defaultValue>
+      <description></description>
+      <id>770bbcfb-5b40-483d-bdc1-a5a47b8928c6</id>
+      <masked>false</masked>
+      <name>vHandlingCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/6 Airline Related Charge').getValue('Weight UOM', 1)</defaultValue>
+      <description></description>
+      <id>5c350f9f-270a-4d82-bb86-3bee94569783</id>
+      <masked>false</masked>
+      <name>vWeightUOM</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/6 Airline Related Charge').getValue('Weight Type', 1)</defaultValue>
+      <description></description>
+      <id>35398329-3f59-430f-a786-72eba4319dd0</id>
+      <masked>false</masked>
+      <name>vWeightType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/6 Airline Related Charge').getValue('Cargo Class', 1)</defaultValue>
+      <description></description>
+      <id>dc90556c-95ca-4d41-a90c-a609698ba894</id>
+      <masked>false</masked>
+      <name>vCargoClass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/6 Airline Related Charge').getValue('Import/Export', 1)</defaultValue>
+      <description></description>
+      <id>81a798cc-bcfc-41ca-87ea-dbc997ecf019</id>
+      <masked>false</masked>
+      <name>vImportExport</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/6 Airline Related Charge').getValue('Origin/Destination', 1)</defaultValue>
+      <description></description>
+      <id>e11a2fdd-fd48-4daa-a56e-58bbb8575481</id>
+      <masked>false</masked>
+      <name>vOriginDestination</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/6 Airline Related Charge').getValue('Rate Type', 1)</defaultValue>
+      <description></description>
+      <id>8b2c5653-d96c-4ea5-9885-a961082fcf02</id>
+      <masked>false</masked>
+      <name>vRateType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/6 Airline Related Charge').getValue('Min/Std Amount', 1)</defaultValue>
+      <description></description>
+      <id>4706f885-ca02-48de-89f5-449d5df14014</id>
+      <masked>false</masked>
+      <name>vMinStdAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/6 Airline Related Charge').getValue('Min/Std Cost Amount', 1)</defaultValue>
+      <description></description>
+      <id>76e622a8-23a4-4acf-9506-64fc877270dd</id>
+      <masked>false</masked>
+      <name>vMinStdCostAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/6 Airline Related Charge').getValue('Details', 1)</defaultValue>
+      <description></description>
+      <id>811f8438-7aba-4734-8771-21d59d928082</id>
+      <masked>false</masked>
+      <name>vDetails</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/6 Airline Related Charge').getValue('Weight Break', 1)</defaultValue>
+      <description></description>
+      <id>025a924b-bcaf-4126-bfe7-787a1160ce35</id>
+      <masked>false</masked>
+      <name>vWeightBreak</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CR30035/1 Airline/6 Airline Related Charge').getValue('Amount', 1)</defaultValue>
+      <description></description>
+      <id>3f03d67d-4b67-421b-a56e-a4c84b6e1cef</id>
+      <masked>false</masked>
+      <name>vAmount</name>
+   </variable>
+</TestCaseEntity>

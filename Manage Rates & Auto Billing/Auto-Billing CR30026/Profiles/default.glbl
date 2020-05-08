@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('CR30043_TestData').getValue(1, 1)</initValue>
+      <name>Message1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('CR30043_TestData').getValue(1, 2)</initValue>
+      <name>Message2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('CR30043_TestData').getValue(1, 3)</initValue>
+      <name>Message3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('CR30043_TestData').getValue(1, 4)</initValue>
+      <name>Message4</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('CR30043_TestData').getValue(1, 5)</initValue>
+      <name>Message5</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('CR30043_TestData').getValue(1, 6)</initValue>
+      <name>Message6</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('CR30043_TestData').getValue(1, 7)</initValue>
+      <name>Message7</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('CR30043_TestData').getValue(1, 8)</initValue>
+      <name>Message8</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('CR30043_TestData').getValue(1, 9)</initValue>
+      <name>Message9</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('CR30043_TestData').getValue(1, 10)</initValue>
+      <name>Message10</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('CR30043_TestData').getValue(1, 11)</initValue>
+      <name>Message11</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('CR30043_TestData').getValue(1, 12)</initValue>
+      <name>Message12</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('CR30043_TestData').getValue(1, 13)</initValue>
+      <name>Message13</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('CR30043_TestData').getValue(1, 14)</initValue>
+      <name>Message14</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('CR30043_TestData').getValue(1, 15)</initValue>
+      <name>Message15</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

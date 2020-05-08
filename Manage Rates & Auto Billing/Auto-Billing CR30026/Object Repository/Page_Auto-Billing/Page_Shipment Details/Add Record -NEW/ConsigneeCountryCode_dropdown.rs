@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ConsigneeCountryCode_dropdown</name>
+   <tag></tag>
+   <elementGuidId>26274abc-ea82-4d73-ac12-2a4e5c56107b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;tbl1&quot;]/tbody/tr[10]/td[2]/table/tbody/tr/td[2]/table/tbody/tr/td/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;tbl1&quot;]/tbody/tr[10]/td[2]/table/tbody/tr/td[2]/table/tbody/tr/td/span/span</value>
+   </webElementProperties>
+</WebElementEntity>

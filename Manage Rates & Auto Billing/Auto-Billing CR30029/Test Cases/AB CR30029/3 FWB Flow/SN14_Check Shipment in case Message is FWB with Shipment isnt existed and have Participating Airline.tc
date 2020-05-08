@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SN14_Check Shipment in case Message is FWB with Shipment isnt existed and have Participating Airline</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2e0eafb-b809-4b53-b35b-0354c4081251</testCaseGuid>
+</TestCaseEntity>

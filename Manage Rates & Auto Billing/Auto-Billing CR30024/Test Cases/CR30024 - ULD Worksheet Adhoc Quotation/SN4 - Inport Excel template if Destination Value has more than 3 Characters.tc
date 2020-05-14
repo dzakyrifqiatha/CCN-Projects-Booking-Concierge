@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SN4 - Inport Excel template if Destination Value has more than 3 Characters</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>2543783a-0376-40d4-9fa6-f6f998f699d5</testCaseGuid>
-</TestCaseEntity>

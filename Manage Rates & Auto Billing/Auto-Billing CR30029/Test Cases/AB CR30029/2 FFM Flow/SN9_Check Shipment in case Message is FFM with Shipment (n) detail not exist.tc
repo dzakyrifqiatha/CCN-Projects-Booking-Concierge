@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SN9_Check Shipment in case Message is FFM with Shipment (n) detail not exist</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>5844383d-2dc3-429b-8c83-46a2b74c1afe</testCaseGuid>
-</TestCaseEntity>

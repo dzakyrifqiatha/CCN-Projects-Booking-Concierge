@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SN7_B. Check Shipment in case Message is FFM with Shipment (n) detail exist and FFM not exist - Agent</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>eaa20954-ffc8-4048-9284-7cd546e7f619</testCaseGuid>
-</TestCaseEntity>

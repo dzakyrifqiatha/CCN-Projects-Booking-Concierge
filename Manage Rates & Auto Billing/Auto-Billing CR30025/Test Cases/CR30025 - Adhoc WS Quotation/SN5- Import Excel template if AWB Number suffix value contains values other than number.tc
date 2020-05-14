@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SN5- Import Excel template if AWB Number suffix value contains values other than number</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>b2ee4f6c-db42-4dbb-871e-27e1783aa04f</testCaseGuid>
-</TestCaseEntity>

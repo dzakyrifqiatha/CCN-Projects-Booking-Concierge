@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SN7 - Import Excel template if user has not yet selected a file to upload</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>2fbd738f-ba7b-4d41-85f6-6d3c26fcd3fe</testCaseGuid>
-</TestCaseEntity>

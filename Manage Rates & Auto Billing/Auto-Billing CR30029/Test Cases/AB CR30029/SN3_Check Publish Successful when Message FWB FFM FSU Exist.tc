@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SN3_Check Publish Successful when Message FWB FFM FSU Exist</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>507070f4-4fc3-4f66-aeb7-99aa89056b02</testCaseGuid>
-</TestCaseEntity>

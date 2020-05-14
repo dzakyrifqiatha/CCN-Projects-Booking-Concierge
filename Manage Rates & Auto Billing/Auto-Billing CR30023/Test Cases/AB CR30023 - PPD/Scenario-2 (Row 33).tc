@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Accounting Information line in the FWB does not contain any Cargo Class code or Cargo Class code that is recognized by the application</description>
-   <name>Scenario-2 (Row 33)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>60324968-c3e4-47a5-afda-f72d243aea5d</testCaseGuid>
-</TestCaseEntity>

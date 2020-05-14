@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC5 - Check Publish When Edit and Re-Calculate Shipment Detail on Process -- Shipment Detail Page</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>9f95559f-ab53-40ca-a0a9-be61492ccb27</testCaseGuid>
-</TestCaseEntity>

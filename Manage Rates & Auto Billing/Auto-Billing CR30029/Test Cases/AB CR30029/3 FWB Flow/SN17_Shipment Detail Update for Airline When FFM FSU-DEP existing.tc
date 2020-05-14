@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SN17_Shipment Detail Update for Airline When FFM FSU-DEP existing</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>075b3904-c0be-4497-8597-9d04f30c256b</testCaseGuid>
-</TestCaseEntity>

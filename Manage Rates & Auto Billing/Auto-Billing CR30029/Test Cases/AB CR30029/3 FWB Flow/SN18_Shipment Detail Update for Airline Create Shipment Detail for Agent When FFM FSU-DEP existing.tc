@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SN18_Shipment Detail Update for Airline Create Shipment Detail for Agent When FFM FSU-DEP existing</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>2645476b-9487-4718-b2e4-c76ba819230c</testCaseGuid>
-</TestCaseEntity>

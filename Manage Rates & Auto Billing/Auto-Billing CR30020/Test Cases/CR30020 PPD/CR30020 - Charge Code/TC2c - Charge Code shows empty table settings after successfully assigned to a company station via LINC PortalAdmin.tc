@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC2c - Charge Code shows empty table settings after successfully assigned to a company station via LINC PortalAdmin</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>25db4208-87ca-465d-b3dd-206fb17d43a4</testCaseGuid>
-</TestCaseEntity>

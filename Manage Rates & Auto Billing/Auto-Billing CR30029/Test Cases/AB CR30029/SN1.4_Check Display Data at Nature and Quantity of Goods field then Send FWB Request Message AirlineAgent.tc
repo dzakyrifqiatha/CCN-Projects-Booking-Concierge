@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SN1.4_Check Display Data at Nature and Quantity of Goods field then Send FWB Request Message AirlineAgent</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>17363fb1-2414-42e9-80bc-53b426f81030</testCaseGuid>
-</TestCaseEntity>

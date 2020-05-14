@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SN6_Check Shipment FSU with Shipment Detail is exist and FFM exist</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>9875853a-7cf3-434e-ae6f-d81dd9952538</testCaseGuid>
-</TestCaseEntity>

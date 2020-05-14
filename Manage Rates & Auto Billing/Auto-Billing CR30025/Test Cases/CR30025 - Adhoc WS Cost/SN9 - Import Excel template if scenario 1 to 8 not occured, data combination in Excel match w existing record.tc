@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SN9 - Import Excel template if scenario 1 to 8 not occured, data combination in Excel match w existing record</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>6df2dbe3-d0d0-433b-8028-45b037c2b4ac</testCaseGuid>
-</TestCaseEntity>

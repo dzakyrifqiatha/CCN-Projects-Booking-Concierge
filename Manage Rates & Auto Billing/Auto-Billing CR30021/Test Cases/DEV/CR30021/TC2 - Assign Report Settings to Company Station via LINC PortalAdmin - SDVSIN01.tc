@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC2 - Assign Report Settings to Company Station via LINC PortalAdmin - SDVSIN01</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>8539d83d-309a-4beb-ad14-3cc06cd2042e</testCaseGuid>
-</TestCaseEntity>

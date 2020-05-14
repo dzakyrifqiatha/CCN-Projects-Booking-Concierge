@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SN6 - Import Excel template if the AWB Number Suffix contains values other than number</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c0c5386a-909c-422d-a8df-6af0952dd4da</testCaseGuid>
-</TestCaseEntity>

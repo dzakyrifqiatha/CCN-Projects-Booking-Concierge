@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SN7_Send FWB Message with Flight Number is 2 Character (2 digits)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>5a7e3f20-acac-4843-9f04-f5bf56a51d98</testCaseGuid>
-</TestCaseEntity>

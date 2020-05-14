@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SN10 - Import Excel template if the CustomerCode, AWB Prefix, Airline Prefix, Weight UOM, AWB No Prefix have no value</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>391e1127-c9b3-4a5b-aa3f-cda93b5c8db3</testCaseGuid>
-</TestCaseEntity>

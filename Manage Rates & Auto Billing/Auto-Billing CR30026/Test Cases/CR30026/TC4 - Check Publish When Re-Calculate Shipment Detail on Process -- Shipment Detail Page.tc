@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC4 - Check Publish When Re-Calculate Shipment Detail on Process -- Shipment Detail Page</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>808ac051-1f0f-49a7-a201-121e83da6eca</testCaseGuid>
-</TestCaseEntity>

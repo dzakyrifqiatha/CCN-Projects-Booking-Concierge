@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SN4 - Import file into MR for a non-existing Combination</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>8b388275-e2c6-460f-b040-94ec445fe8d2</testCaseGuid>
-</TestCaseEntity>

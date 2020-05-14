@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SN2_Check Send Message Succesful When AWB Prefix is Valid</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>5643bdb4-36a5-4d15-b90c-33e0612ec015</testCaseGuid>
-</TestCaseEntity>

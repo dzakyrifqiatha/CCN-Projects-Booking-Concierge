@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SN2 - Import Excel template if there are multiples cells in file templatehave the same Flight and AWB Number</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>6f48cf5c-d350-4a3c-b986-21a8f0e0e7ac</testCaseGuid>
-</TestCaseEntity>

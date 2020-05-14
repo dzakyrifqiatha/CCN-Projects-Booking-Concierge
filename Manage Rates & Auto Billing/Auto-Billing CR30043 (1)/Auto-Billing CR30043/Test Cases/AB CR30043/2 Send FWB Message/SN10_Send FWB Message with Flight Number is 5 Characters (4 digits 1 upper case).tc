@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SN10_Send FWB Message with Flight Number is 5 Characters (4 digits 1 upper case)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>653c3048-29fc-4588-acf7-b5d735305420</testCaseGuid>
-</TestCaseEntity>

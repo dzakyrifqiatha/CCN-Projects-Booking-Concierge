@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SN8 - Import Excel template if user selected a file which has extension different from xls or xlsx</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ef27f34c-3290-4483-b938-e5e64eeb5969</testCaseGuid>
-</TestCaseEntity>

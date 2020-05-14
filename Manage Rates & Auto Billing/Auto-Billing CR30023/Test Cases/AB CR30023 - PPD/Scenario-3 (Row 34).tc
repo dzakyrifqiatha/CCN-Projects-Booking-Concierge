@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>FWB contains more than 1 valid Cargo Class code on different Accounting Information line</description>
-   <name>Scenario-3 (Row 34)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>afcfbe35-417d-4d1b-82a2-892b60fc0e52</testCaseGuid>
-</TestCaseEntity>

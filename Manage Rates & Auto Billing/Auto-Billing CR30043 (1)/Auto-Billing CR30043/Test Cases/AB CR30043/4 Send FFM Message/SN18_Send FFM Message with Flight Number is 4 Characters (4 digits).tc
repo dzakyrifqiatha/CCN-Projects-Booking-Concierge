@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SN18_Send FFM Message with Flight Number is 4 Characters (4 digits)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c61f6f4b-4319-4d55-bb5f-0c34f53aec97</testCaseGuid>
-</TestCaseEntity>

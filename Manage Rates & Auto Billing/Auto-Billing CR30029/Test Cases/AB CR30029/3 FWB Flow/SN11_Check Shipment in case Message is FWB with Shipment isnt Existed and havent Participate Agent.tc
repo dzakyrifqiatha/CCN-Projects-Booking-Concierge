@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SN11_Check Shipment in case Message is FWB with Shipment isnt Existed and havent Participate Agent</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>49026005-70f8-4557-9451-9a56955f3530</testCaseGuid>
-</TestCaseEntity>

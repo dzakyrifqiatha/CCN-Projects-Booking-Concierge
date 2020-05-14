@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SN4_Insert New Shipment with Flight Number is 4 Character (3 digits and 1 upper case)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>ccbace15-a68a-43fb-90d0-a42f58ae7bb1</testCaseGuid>
-</TestCaseEntity>

@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='AWB No'])[1]/following::div[7]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/app-dashboard/bookings-table/div/table/thead/tr/th[2]/div/button</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,18 +31,18 @@
       <value>mat-sort-header-container</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> Origin </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;m-3&quot;]/app-dashboard[@class=&quot;ng-star-inserted&quot;]/bookings-table[1]/div[@class=&quot;mat-elevation-z2 mb-4&quot;]/table[@class=&quot;w-100 mat-table&quot;]/thead[1]/tr[@class=&quot;mat-header-row ng-star-inserted&quot;]/th[@class=&quot;mat-header-cell ng-tns-c21-5 cdk-column-origin mat-column-origin ng-star-inserted&quot;]/div[@class=&quot;mat-sort-header-container&quot;]</value>
+      <value>/html/body/app-root/app-home/div/app-dashboard/bookings-table/div/table/thead/tr/th[2]/div/button</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

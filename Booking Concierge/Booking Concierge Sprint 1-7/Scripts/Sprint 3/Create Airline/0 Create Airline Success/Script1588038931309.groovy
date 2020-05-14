@@ -20,9 +20,9 @@ WebUI.click(findTestObject('Page_Booking Concierge Homepage/span_My Airlines'))
 
 WebUI.click(findTestObject('Page_BC My Airlines/span_Create Airline'))
 
-WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Carrier Code'), 'JQ')
+WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Carrier Code'), 'QW')
 
-WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Carrier Prefix'), '113')
+WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Carrier Prefix'), '313')
 
 WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Station'), 'SIN')
 

@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 'Run Login Test Case under the Authentication Login folder first'
-WebUI.setText(findTestObject('Page_Booking Concierge/input_Email Address_email'), 'testingdev1@yahoo.com')
+WebUI.setText(findTestObject('Page_Booking Concierge/input_Email Address_email'), 'testingdev22@yahoo.com')
 
 WebUI.setText(findTestObject('Page_Booking Concierge/input_Password_password'), 'password')
 

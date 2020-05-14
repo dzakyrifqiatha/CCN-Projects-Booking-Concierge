@@ -15,13 +15,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('Page_Booking Concierge Homepage/input_Search'), '123-12345675')
+WebUI.setText(findTestObject('Page_Booking Concierge Homepage/input_Search'), '312-12345675 (copy)')
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_Booking Concierge Homepage/mat-icon_More_vert'))
 
 WebUI.click(findTestObject('Page_Booking Concierge Homepage/button_Delete Record'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_Booking Concierge Homepage/BC Table/button_Yes Delete Record'), FailureHandling.STOP_ON_FAILURE)
 

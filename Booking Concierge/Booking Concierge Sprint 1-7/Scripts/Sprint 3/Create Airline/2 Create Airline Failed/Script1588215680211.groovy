@@ -21,7 +21,7 @@ WebUI.click(findTestObject('Page_BC My Airlines/span_Create Airline'))
 
 WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Carrier Code'), 'SV')
 
-WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Carrier Prefix'), '843')
+WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Carrier Prefix'), '312')
 
 WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Station'), 'SIN')
 

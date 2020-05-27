@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Try creating changes to commit and push to git</description>
-   <name>Kelvin testing</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>798599d6-ac66-402c-a4a4-89a5321ee8c0</testCaseGuid>
-</TestCaseEntity>

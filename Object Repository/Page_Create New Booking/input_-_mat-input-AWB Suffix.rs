@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/div/app-create-booking/booking-details-section/form/div[1]/mat-form-field[2]/div/div[1]/div[3]/input[count(. | //*[@formcontrolname = 'awbSuffix' and @placeholder = '11111111' and @type = 'text']) = count(//*[@formcontrolname = 'awbSuffix' and @placeholder = '11111111' and @type = 'text'])]</value>
+         <value>/html/body/app-root/app-home/main/app-create-booking/booking-details-section/form/div[1]/mat-form-field[2]/div/div[1]/div[3]/input[count(. | //*[@formcontrolname = 'awbSuffix' and @placeholder = '11111111' and @type = 'text']) = count(//*[@formcontrolname = 'awbSuffix' and @placeholder = '11111111' and @type = 'text'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -77,7 +77,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/div/app-create-booking/booking-details-section/form/div[1]/mat-form-field[2]/div/div[1]/div[3]/input</value>
+      <value>/html/body/app-root/app-home/main/app-create-booking/booking-details-section/form/div[1]/mat-form-field[2]/div/div[1]/div[3]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

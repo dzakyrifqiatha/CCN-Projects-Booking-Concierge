@@ -6,11 +6,15 @@
    <elementGuidId>9a878a83-bfa3-42a0-b71b-3882275181c6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/main/app-login/app-reset-password/form/mat-form-field/div/div[1]/div[3]/input[count(. | //*[@placeholder = 'test@test.com']) = count(//*[@placeholder = 'test@test.com'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='mat-input-10']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +45,7 @@
       <value>test@test.com</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -62,11 +66,11 @@
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-input-10&quot;)</value>
+      <value>/html/body/app-root/app-home/main/app-login/app-reset-password/form/mat-form-field/div/div[1]/div[3]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

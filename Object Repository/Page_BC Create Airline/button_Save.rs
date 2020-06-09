@@ -6,11 +6,15 @@
    <elementGuidId>50de6cb4-9feb-4f17-b0d6-a2a089327410</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/main/app-create-airline/form/div[4]/button[1][count(. | //*[@type = 'submit' and (text() = ' Save ' or . = ' Save ')]) = count(//*[@type = 'submit' and (text() = ' Save ' or . = ' Save ')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//button[@type='submit']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,11 +52,11 @@
       <value> Save </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;m-3&quot;]/app-create-airline[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;d-flex flex-wrap mb-5 ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;w-100&quot;]/button[@class=&quot;mr-4 mat-raised-button mat-button-base mat-primary&quot;]</value>
+      <value>/html/body/app-root/app-home/main/app-create-airline/form/div[4]/button[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

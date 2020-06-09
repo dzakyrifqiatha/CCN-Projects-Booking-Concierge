@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/div/app-create-booking/flights-list/table/tbody/tr/td[6]/button[1]/span/mat-icon</value>
+         <value>/html/body/app-root/app-home/main/app-create-booking/flights-list/table/tbody/tr/td[6]/button[1]/span/mat-icon</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/div/app-create-booking/flights-list/table/tbody/tr/td[6]/button[1]/span/mat-icon</value>
+      <value>/html/body/app-root/app-home/main/app-create-booking/flights-list/table/tbody/tr/td[6]/button[1]/span/mat-icon</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

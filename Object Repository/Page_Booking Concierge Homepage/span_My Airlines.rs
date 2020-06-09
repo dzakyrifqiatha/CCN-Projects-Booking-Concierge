@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html[1]/body[1]/app-root[1]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;m-3&quot;]/app-dashboard[@class=&quot;ng-star-inserted&quot;]/dashboard-navigation[1]/div[@class=&quot;d-flex align-items-center&quot;]/button[@class=&quot;ml-auto mr-2 mat-raised-button mat-button-base mat-primary&quot;]/span[@class=&quot;mat-button-wrapper&quot;][count(. | //*[(text() = ' My Airlines ' or . = ' My Airlines ')]) = count(//*[(text() = ' My Airlines ' or . = ' My Airlines ')])]</value>
+         <value>/html/body/app-root/app-home/main/app-dashboard/dashboard-navigation/div/button[1][count(. | //*[(text() = ' My Airlines ' or . = ' My Airlines ')]) = count(//*[(text() = ' My Airlines ' or . = ' My Airlines ')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;m-3&quot;]/app-dashboard[@class=&quot;ng-star-inserted&quot;]/dashboard-navigation[1]/div[@class=&quot;d-flex align-items-center&quot;]/button[@class=&quot;ml-auto mr-2 mat-raised-button mat-button-base mat-primary&quot;]/span[@class=&quot;mat-button-wrapper&quot;]</value>
+      <value>/html/body/app-root/app-home/main/app-dashboard/dashboard-navigation/div/button[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

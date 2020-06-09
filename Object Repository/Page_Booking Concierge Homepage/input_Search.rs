@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/div/app-dashboard/search/form/mat-form-field/div/div[1]/div[3]/div/input[count(. | //*[@placeholder = 'Search AWB No, Origin, Destination, Goods Description, Last Updated By or Airline Recipient' and @type = 'text']) = count(//*[@placeholder = 'Search AWB No, Origin, Destination, Goods Description, Last Updated By or Airline Recipient' and @type = 'text'])]</value>
+         <value>/html/body/app-root/app-home/main/app-dashboard/search/form/mat-form-field/div/div[1]/div[3]/div/input[count(. | //*[@placeholder = 'Search AWB No, Origin, Destination, Goods Description, Last Updated By or Airline Recipient' and @type = 'text']) = count(//*[@placeholder = 'Search AWB No, Origin, Destination, Goods Description, Last Updated By or Airline Recipient' and @type = 'text'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -77,7 +77,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/div/app-dashboard/search/form/mat-form-field/div/div[1]/div[3]/div/input</value>
+      <value>/html/body/app-root/app-home/main/app-dashboard/search/form/mat-form-field/div/div[1]/div[3]/div/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

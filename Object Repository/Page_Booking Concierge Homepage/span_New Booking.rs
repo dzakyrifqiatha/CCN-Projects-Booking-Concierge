@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/div/app-dashboard/dashboard-navigation/div/form/mat-form-field/div/div[1]</value>
+         <value>/html/body/app-root/app-home/main/app-dashboard/dashboard-navigation/div/form/mat-form-field/div/div[1]/div[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,6 +24,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/div/app-dashboard/dashboard-navigation/div/form/mat-form-field/div/div[1]</value>
+      <value>/html/body/app-root/app-home/main/app-dashboard/dashboard-navigation/div/form/mat-form-field/div/div[1]/div[3]</value>
    </webElementProperties>
 </WebElementEntity>

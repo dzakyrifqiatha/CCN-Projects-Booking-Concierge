@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html[1]/body[1]/app-root[1]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;m-3&quot;]/app-create-booking[@class=&quot;ng-star-inserted&quot;]/dimensions-list[1]/div[@class=&quot;dimensions-header-row&quot;]/button[@class=&quot;dimensions-header-button mat-mini-fab mat-button-base mat-primary&quot;][count(. | //*[@type = 'button' and (text() = 'add' or . = 'add')]) = count(//*[@type = 'button' and (text() = 'add' or . = 'add')])]</value>
+         <value>/html/body/app-root/app-home/main/app-create-booking/dimensions-list/div/button/span[count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -45,7 +45,7 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;m-3&quot;]/app-create-booking[@class=&quot;ng-star-inserted&quot;]/dimensions-list[1]/div[@class=&quot;dimensions-header-row&quot;]/button[@class=&quot;dimensions-header-button mat-mini-fab mat-button-base mat-primary&quot;]</value>
+      <value>/html/body/app-root/app-home/main/app-create-booking/dimensions-list/div/button/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

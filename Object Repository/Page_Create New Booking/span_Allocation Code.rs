@@ -6,11 +6,15 @@
    <elementGuidId>45aabfe0-132d-477e-a2fa-60bab33b3848</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/main/app-create-booking/flights-list/table/tbody/tr/td[5]/mat-form-field/div/div[1]/div/mat-select</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//mat-select[@id='mat-select-2']/div/div/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,18 +31,18 @@
       <value>mat-select-placeholder ng-tns-c25-44 ng-star-inserted</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-select-2&quot;)/div[@class=&quot;mat-select-trigger&quot;]/div[@class=&quot;mat-select-value&quot;]/span[@class=&quot;mat-select-placeholder ng-tns-c25-44 ng-star-inserted&quot;]</value>
+      <value>/html/body/app-root/app-home/main/app-create-booking/flights-list/table/tbody/tr/td[5]/mat-form-field/div/div[1]/div/mat-select</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

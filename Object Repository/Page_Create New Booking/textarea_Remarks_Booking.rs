@@ -6,12 +6,12 @@
    <elementGuidId>f238da46-3532-4606-a5b7-d8897a0fba40</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id='mat-input-23']</value>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/main/app-create-booking/remarks/form/div/mat-form-field/div/div[1]/div[3]/textarea[count(. | //*[@placeholder = 'Add remarks here']) = count(//*[@placeholder = 'Add remarks here'])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/app-root/app-home/div/app-create-booking/remarks/form/div/mat-form-field/div/div[1]/div[3]/textarea[count(. | //*[@placeholder = 'Add remarks here']) = count(//*[@placeholder = 'Add remarks here'])]</value>
+         <key>XPATH</key>
+         <value>//textarea[@id='mat-input-23']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -77,7 +77,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/div/app-create-booking/remarks/form/div/mat-form-field/div/div[1]/div[3]/textarea</value>
+      <value>/html/body/app-root/app-home/main/app-create-booking/remarks/form/div/mat-form-field/div/div[1]/div[3]/textarea</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

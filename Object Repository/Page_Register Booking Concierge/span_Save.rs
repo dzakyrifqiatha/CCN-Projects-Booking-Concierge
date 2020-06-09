@@ -6,11 +6,15 @@
    <elementGuidId>996aef85-9ce9-4fbd-a871-29320d41359c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/main/app-registration/form/button[1][count(. | //*[(text() = ' Save ' or . = ' Save ')]) = count(//*[(text() = ' Save ' or . = ' Save ')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/following::span[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,11 +38,11 @@
       <value> Save </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;m-3&quot;]/app-registration[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;registration-form d-flex flex-wrap ml-4 mr-4 mb-5 ng-dirty ng-touched ng-valid&quot;]/button[@class=&quot;mr-4 mat-raised-button mat-button-base mat-primary&quot;]/span[@class=&quot;mat-button-wrapper&quot;]</value>
+      <value>/html/body/app-root/app-home/main/app-registration/form/button[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

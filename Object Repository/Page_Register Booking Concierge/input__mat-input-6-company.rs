@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/div/app-registration/form/div[3]/div[1]/mat-form-field/div/div[1]/div[3]/input[count(. | //*[@placeholder = 'Company']) = count(//*[@placeholder = 'Company'])]</value>
+         <value>/html/body/app-root/app-home/main/app-registration/form/div[3]/div[1]/mat-form-field/div/div[1]/div[3]/input[count(. | //*[@placeholder = 'Company']) = count(//*[@placeholder = 'Company'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/div/app-registration/form/div[3]/div[1]/mat-form-field/div/div[1]/div[3]/input</value>
+      <value>/html/body/app-root/app-home/main/app-registration/form/div[3]/div[1]/mat-form-field/div/div[1]/div[3]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[2]/div/div/div/mat-option</value>
+         <value>/html/body/div[2]/div/div/div/mat-option[1]/span/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[2]/div/div/div/mat-option</value>
+      <value>/html/body/div[2]/div/div/div/mat-option[1]/span/a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

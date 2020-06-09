@@ -6,12 +6,12 @@
    <elementGuidId>74893699-ed7e-45fa-a169-edd5953112f6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='mat-input-14']</value>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/main/app-create-booking/booking-details-section/form/div[2]/mat-form-field[2]/div/div[1]/div[3]/input[count(. | //*[@placeholder = 'AAA' and @type = 'text']) = count(//*[@placeholder = 'AAA' and @type = 'text'])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/app-root/app-home/div/app-create-booking/booking-details-section/form/div[2]/mat-form-field[2]/div/div[1]/div[3]/input[count(. | //*[@placeholder = 'AAA' and @type = 'text']) = count(//*[@placeholder = 'AAA' and @type = 'text'])]</value>
+         <key>XPATH</key>
+         <value>//input[@id='mat-input-14']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -77,7 +77,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/div/app-create-booking/booking-details-section/form/div[2]/mat-form-field[2]/div/div[1]/div[3]/input</value>
+      <value>/html/body/app-root/app-home/main/app-create-booking/booking-details-section/form/div[2]/mat-form-field[2]/div/div[1]/div[3]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

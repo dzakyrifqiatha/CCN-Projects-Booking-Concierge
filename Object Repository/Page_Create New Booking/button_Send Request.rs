@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = ' Send Request ' or . = ' Send Request ')]</value>
+         <value>/html/body/app-root/app-home/main/app-create-booking/div/button[2][count(. | //*[@type = 'button' and (text() = ' Send Request ' or . = ' Send Request ')]) = count(//*[@type = 'button' and (text() = ' Send Request ' or . = ' Send Request ')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -52,11 +52,11 @@
       <value> Send Request </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;m-3&quot;]/app-create-booking[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;button-group&quot;]/button[@class=&quot;booking-button mat-stroked-button mat-button-base mat-primary&quot;]</value>
+      <value>/html/body/app-root/app-home/main/app-create-booking/div/button[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

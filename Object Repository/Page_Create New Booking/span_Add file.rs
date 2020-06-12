@@ -6,11 +6,15 @@
    <elementGuidId>1939b3bc-b8d0-477f-b58d-e18aa15e6d4a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/main/app-create-booking/files/div/label/span[count(. | //*[(text() = ' Add file ' or . = ' Add file ')]) = count(//*[(text() = ' Add file ' or . = ' Add file ')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Files'])[1]/following::span[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,11 +38,11 @@
       <value> Add file </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;m-3&quot;]/app-create-booking[@class=&quot;ng-star-inserted&quot;]/files[1]/div[@class=&quot;upload-file-wrap d-flex align-items-baseline mb-5&quot;]/label[@class=&quot;upload-file-label d-flex align-items-center pr-5&quot;]/span[@class=&quot;upload-file-button text-center&quot;]</value>
+      <value>/html/body/app-root/app-home/main/app-create-booking/files/div/label/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

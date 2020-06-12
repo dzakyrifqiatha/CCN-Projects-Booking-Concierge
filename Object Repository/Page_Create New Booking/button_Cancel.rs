@@ -6,11 +6,15 @@
    <elementGuidId>70d3fd0c-bf86-4ded-94e0-11ed462ef0c5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/main/app-create-booking/div/button[3][count(. | //*[@type = 'button' and (text() = ' Cancel ' or . = ' Cancel ')]) = count(//*[@type = 'button' and (text() = ' Cancel ' or . = ' Cancel ')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[12]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,11 +66,11 @@
       <value> Cancel </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;m-3&quot;]/app-create-booking[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;button-group&quot;]/button[@class=&quot;booking-button mat-stroked-button mat-button-base mat-warn&quot;]</value>
+      <value>/html/body/app-root/app-home/main/app-create-booking/div/button[3]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/div/app-create-booking/div/button[1]/span[count(. | //*[(text() = ' Save ' or . = ' Save ')]) = count(//*[(text() = ' Save ' or . = ' Save ')])]</value>
+         <value>/html/body/app-root/app-home/main/app-create-booking/div/button[1][count(. | //*[(text() = ' Save ' or . = ' Save ')]) = count(//*[(text() = ' Save ' or . = ' Save ')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/div/app-create-booking/div/button[1]/span</value>
+      <value>/html/body/app-root/app-home/main/app-create-booking/div/button[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

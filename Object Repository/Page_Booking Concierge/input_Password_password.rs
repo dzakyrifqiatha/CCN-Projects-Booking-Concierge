@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/div/app-login/div/form/mat-form-field[2]/div/div[1]/div[3]/input[count(. | //*[@name = 'password' and @type = 'password']) = count(//*[@name = 'password' and @type = 'password'])]</value>
+         <value>/html/body/app-root/app-home/main/app-login/div/form/mat-form-field[2]/div/div[1]/div[3]/input[count(. | //*[@name = 'password' and @type = 'password']) = count(//*[@name = 'password' and @type = 'password'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -77,7 +77,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/div/app-login/div/form/mat-form-field[2]/div/div[1]/div[3]/input</value>
+      <value>/html/body/app-root/app-home/main/app-login/div/form/mat-form-field[2]/div/div[1]/div[3]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

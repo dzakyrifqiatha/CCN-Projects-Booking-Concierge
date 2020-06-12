@@ -6,11 +6,15 @@
    <elementGuidId>5ff70f94-6124-4aee-b247-03eccca9ee34</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/main/app-login/div/form/button[count(. | //*[@type = 'submit' and (text() = ' Sign in ' or . = ' Sign in ')]) = count(//*[@type = 'submit' and (text() = ' Sign in ' or . = ' Sign in ')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//button[@type='submit']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,11 +52,11 @@
       <value> Sign in </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;m-3&quot;]/app-login[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;auth-form mt-5 mb-4 p-4 d-flex flex-column ng-dirty ng-touched ng-valid&quot;]/button[@class=&quot;w-25 mat-raised-button mat-button-base mat-primary&quot;]</value>
+      <value>/html/body/app-root/app-home/main/app-login/div/form/button</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

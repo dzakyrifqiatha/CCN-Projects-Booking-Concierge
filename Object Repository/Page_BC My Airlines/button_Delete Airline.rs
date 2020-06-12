@@ -6,11 +6,15 @@
    <elementGuidId>f9fdb951-540b-42eb-8765-bfa1fbdf4a32</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/main/app-airlines-list/table/tbody/tr[1]/td[6]/button[2][count(. | //*[@type = 'button' and (text() = ' Delete ' or . = ' Delete ')]) = count(//*[@type = 'button' and (text() = ' Delete ' or . = ' Delete ')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[4]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,11 +52,11 @@
       <value> Delete </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;m-3&quot;]/app-airlines-list[@class=&quot;ng-star-inserted&quot;]/table[@class=&quot;mat-elevation-z8 table mat-table ng-star-inserted&quot;]/tbody[1]/tr[@class=&quot;mat-row ng-star-inserted&quot;]/td[@class=&quot;mat-cell cdk-column-buttons mat-column-buttons ng-star-inserted&quot;]/button[@class=&quot;airline-btn mat-stroked-button mat-button-base mat-warn&quot;]</value>
+      <value>/html/body/app-root/app-home/main/app-airlines-list/table/tbody/tr[1]/td[6]/button[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

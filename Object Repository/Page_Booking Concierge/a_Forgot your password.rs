@@ -6,11 +6,15 @@
    <elementGuidId>eb5342da-7020-457c-9297-db5b9c189f67</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/main/app-login/div/form/div/a[count(. | //*[(text() = ' Forgot your password? ' or . = ' Forgot your password? ')]) = count(//*[(text() = ' Forgot your password? ' or . = ' Forgot your password? ')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'Forgot your password?')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,11 +38,11 @@
       <value> Forgot your password? </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;m-3&quot;]/app-login[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;auth-form mt-5 mb-4 p-4 d-flex flex-column ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;d-flex mb-4 justify-content-between&quot;]/a[@class=&quot;auth-form-link text-decoration-none&quot;]</value>
+      <value>/html/body/app-root/app-home/main/app-login/div/form/div/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

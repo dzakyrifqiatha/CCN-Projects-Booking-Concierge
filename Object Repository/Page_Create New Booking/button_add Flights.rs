@@ -6,11 +6,15 @@
    <elementGuidId>6c58f584-18b2-4e89-8fb7-cc9342e2575c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/main/app-create-booking/flights-list/div/button/span[count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[3]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,18 +45,18 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>add</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;m-3&quot;]/app-create-booking[@class=&quot;ng-star-inserted&quot;]/flights-list[1]/div[@class=&quot;flights-header-row&quot;]/button[@class=&quot;flights-header-button mat-mini-fab mat-button-base mat-primary&quot;]</value>
+      <value>/html/body/app-root/app-home/main/app-create-booking/flights-list/div/button/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

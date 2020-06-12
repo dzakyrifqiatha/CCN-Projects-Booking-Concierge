@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html[1]/body[1]/app-root[1]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;m-3&quot;]/app-airlines-list[@class=&quot;ng-star-inserted&quot;]/table[@class=&quot;mat-elevation-z8 table mat-table ng-star-inserted&quot;]/tbody[1]/tr[@class=&quot;mat-row ng-star-inserted&quot;]/td[@class=&quot;mat-cell cdk-column-buttons mat-column-buttons ng-star-inserted&quot;]/button[@class=&quot;airline-btn mat-stroked-button mat-button-base mat-primary&quot;][count(. | //*[@type = 'button' and (text() = ' Edit ' or . = ' Edit ')]) = count(//*[@type = 'button' and (text() = ' Edit ' or . = ' Edit ')])]</value>
+         <value>/html/body/app-root/app-home/main/app-airlines-list/table/tbody/tr[1]/td[6]/button[1][count(. | //*[@type = 'button' and (text() = ' Edit ' or . = ' Edit ')]) = count(//*[@type = 'button' and (text() = ' Edit ' or . = ' Edit ')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;m-3&quot;]/app-airlines-list[@class=&quot;ng-star-inserted&quot;]/table[@class=&quot;mat-elevation-z8 table mat-table ng-star-inserted&quot;]/tbody[1]/tr[@class=&quot;mat-row ng-star-inserted&quot;]/td[@class=&quot;mat-cell cdk-column-buttons mat-column-buttons ng-star-inserted&quot;]/button[@class=&quot;airline-btn mat-stroked-button mat-button-base mat-primary&quot;]</value>
+      <value>/html/body/app-root/app-home/main/app-airlines-list/table/tbody/tr[1]/td[6]/button[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

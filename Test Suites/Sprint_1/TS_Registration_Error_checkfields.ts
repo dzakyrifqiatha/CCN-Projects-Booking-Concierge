@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Registration_Error_checkfields</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>9219ee94-c5f7-4e10-844c-84e1dcf19c89</testSuiteGuid>
+   <testCaseLink>
+      <guid>18999e64-1c8c-4ea3-a343-ec514b23cd07</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 1/Registration Process/1 Registration Failed - Check Field</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6dd0b7dc-7c43-4b02-a64f-2f4732b1a6ff</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>2-2</value>
+         </iterationEntity>
+         <testDataId>Data Files/Sprint_1/TD_Registration</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>6dd0b7dc-7c43-4b02-a64f-2f4732b1a6ff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_email_address</value>
+         <variableId>4ecd5421-46dd-4cac-9e4c-9fa7b331f830</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6dd0b7dc-7c43-4b02-a64f-2f4732b1a6ff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_name</value>
+         <variableId>4d4ad7bf-7b6a-49b7-96ff-7106d2353a5e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6dd0b7dc-7c43-4b02-a64f-2f4732b1a6ff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_password</value>
+         <variableId>43312136-0c6a-465d-8a55-44eff337e4aa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6dd0b7dc-7c43-4b02-a64f-2f4732b1a6ff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_confpassword</value>
+         <variableId>d641db56-9aea-4ac0-a5c7-a3a9a57d23cd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6dd0b7dc-7c43-4b02-a64f-2f4732b1a6ff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_company</value>
+         <variableId>9b9e40ae-1108-4d33-aeb9-1375068a54b1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6dd0b7dc-7c43-4b02-a64f-2f4732b1a6ff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>var_contactno</value>
+         <variableId>8f2ed7db-1485-4f24-bd12-3880ff8458e7</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

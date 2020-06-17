@@ -4,5 +4,47 @@
    <name>1 Registration Failed - Check Field</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b1028345-91c7-4f7f-a46f-b8e3a17799ba</testCaseGuid>
+   <testCaseGuid>3db86856-9a9b-4e4e-bbf5-3a671861333e</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Registration/TestData_Registration').getValue(1, 2)</defaultValue>
+      <description></description>
+      <id>886654c1-972f-415c-bfb5-c677030c90df</id>
+      <masked>false</masked>
+      <name>var_email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/TestData_Registration').getValue(2, 2)</defaultValue>
+      <description></description>
+      <id>94ed3081-a56a-4449-86f1-5fdfa820fd7f</id>
+      <masked>false</masked>
+      <name>var_name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/TestData_Registration').getValue(3, 2)</defaultValue>
+      <description></description>
+      <id>cc114985-df77-4a22-b616-7b091c01ba98</id>
+      <masked>false</masked>
+      <name>var_pass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/TestData_Registration').getValue(4, 2)</defaultValue>
+      <description></description>
+      <id>cd2eba8b-4c15-4072-b633-0446f6a0bce4</id>
+      <masked>false</masked>
+      <name>var_confpass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/TestData_Registration').getValue(5, 2)</defaultValue>
+      <description></description>
+      <id>069d6c15-71f7-4026-82b6-2111d8998cd2</id>
+      <masked>false</masked>
+      <name>var_company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/TestData_Registration').getValue(6, 2)</defaultValue>
+      <description></description>
+      <id>6e3eef9e-db7a-4004-9a12-68cd4ea7e579</id>
+      <masked>false</masked>
+      <name>var_contactno</name>
+   </variable>
 </TestCaseEntity>

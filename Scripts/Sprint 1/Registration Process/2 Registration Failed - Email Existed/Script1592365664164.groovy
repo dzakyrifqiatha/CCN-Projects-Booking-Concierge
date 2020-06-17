@@ -17,17 +17,23 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Page_Booking Concierge/a_here'))
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-2-email-address'), 'testingdev22@yahoo.com')
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-2-email-address'), findTestData('Registration/TestData_Registration').getValue(
+        1, 3))
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-3-name'), 'testingdev1')
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-3-name'), findTestData('Registration/TestData_Registration').getValue(
+        2, 3))
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-4-password'), 'password')
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-4-password'), findTestData('Registration/TestData_Registration').getValue(
+        3, 3))
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-5-confirm-password'), 'password')
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-5-confirm-password'), findTestData('Registration/TestData_Registration').getValue(
+        4, 3))
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-6-company'), 'Testing Company DEV 1')
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-6-company'), findTestData('Registration/TestData_Registration').getValue(
+        5, 3))
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-7-contact-no'), '123123456456')
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-7-contact-no'), findTestData('Registration/TestData_Registration').getValue(
+        6, 3))
 
 WebUI.click(findTestObject('Page_Register Booking Concierge/span_Save'))
 

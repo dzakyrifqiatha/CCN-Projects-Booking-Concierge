@@ -17,18 +17,27 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Page_Booking Concierge/a_here'))
 
-'Run Login Test Case under the Authentication Login folder first'
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-2-email-address'), 'testingdev22@yahoo.com')
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-2-email-address'), findTestData('Registration/TestData_Registration').getValue(
+        1, 2))
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-3-name'), 'Testing Acc 2')
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-3-name'), findTestData('Registration/TestData_Registration').getValue(
+        2, 2))
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-4-password'), 'password')
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-4-password'), findTestData('Registration/TestData_Registration').getValue(
+        3, 2))
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-5-confirm-password'), 'password')
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-5-confirm-password'), findTestData('Registration/TestData_Registration').getValue(
+        4, 2))
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-6-company'), 'Testing Company 2')
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-6-company'), findTestData('Registration/TestData_Registration').getValue(
+        5, 2))
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-7-contact-no'), '123123456456')
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-7-contact-no'), findTestData('Registration/TestData_Registration').getValue(
+        6, 2))
 
 WebUI.click(findTestObject('Page_Register Booking Concierge/span_Save'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Page_Register Booking Concierge/span_Cancel'))
 

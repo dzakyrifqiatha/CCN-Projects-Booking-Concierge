@@ -25,40 +25,40 @@
          <testDataId>Data Files/Sprint_1/TD_Registration</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>519fa998-e042-43a1-873a-151a8e48b49f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>var_email_address</value>
-         <variableId>b61beb20-a23f-46df-90fa-382cbf3fefb1</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>234d982d-a407-4fac-9709-bbc6a278bd55</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>519fa998-e042-43a1-873a-151a8e48b49f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>var_name</value>
-         <variableId>55a10b9d-b3c3-4f94-ac08-80de7547e6c9</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>621f85aa-de18-4937-befd-a3d760a89d41</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>519fa998-e042-43a1-873a-151a8e48b49f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>var_password</value>
-         <variableId>04cf222e-4632-40ec-9497-99144546b3eb</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4b67657f-d0a3-4f15-8d77-8dcf7e5c116e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>519fa998-e042-43a1-873a-151a8e48b49f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>var_confpassword</value>
-         <variableId>a39766d9-7f68-42dc-a198-6c12d12c6637</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bce914a4-c8ae-44be-b103-5bea871f57a3</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>519fa998-e042-43a1-873a-151a8e48b49f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>var_company</value>
-         <variableId>41321824-0372-4bb4-a508-ae8643c55b58</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>243a38e5-86f5-4201-a51c-5130da47b856</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>519fa998-e042-43a1-873a-151a8e48b49f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>var_contactno</value>
-         <variableId>dcdeedc2-2002-4caf-8e1e-c2e693c22d60</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2ba8d98d-c20e-44a0-a320-5bffcc2f35d1</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

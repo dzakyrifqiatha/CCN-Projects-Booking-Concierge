@@ -21,9 +21,11 @@ WebUI.setText(findTestObject('Page_Booking Concierge Homepage/input_New Booking'
 
 WebUI.click(findTestObject('Page_Booking Concierge Homepage/mat-option_Top Template'))
 
-WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-AWB Prefix'), '113')
+WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-AWB Prefix'), findTestData('Booking/TestData_Booking').getValue(
+        1, 1))
 
-WebUI.setText(findTestObject('Page_Create New Booking/input_-_mat-input-AWB Suffix'), '1234567')
+WebUI.setText(findTestObject('Page_Create New Booking/input_-_mat-input-AWB Suffix'), findTestData('Booking/TestData_Booking').getValue(
+        2, 1))
 
 not_run: WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Origin'), 'SIN')
 
@@ -33,11 +35,14 @@ not_run: WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-
 
 not_run: WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Pieces'), '100')
 
-WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Weight'), '1234')
+WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Weight'), findTestData('Booking/TestData_Booking').getValue(
+        7, 1))
 
-WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Volume'), '100')
+WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Volume'), findTestData('Booking/TestData_Booking').getValue(
+        8, 1))
 
-WebUI.setText(findTestObject('Page_Create New Booking/input_Special Handling Codes 1'), 'AA1')
+WebUI.setText(findTestObject('Page_Create New Booking/input_Special Handling Codes 1'), findTestData('Booking/TestData_Booking').getValue(
+        9, 1))
 
 not_run: WebUI.setText(findTestObject('Page_Create New Booking/input_Special Handling Codes 2'), '')
 
@@ -49,15 +54,20 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_Create New Booking/button_add Flights'))
 
-WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Flight (Carrierr Code)'), 'JQ')
+WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Flight (Carrierr Code)'), findTestData('Booking/TestData_Flight').getValue(
+        1, 1))
 
-WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Flight Number'), '123')
+WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Flight Number'), findTestData('Booking/TestData_Flight').getValue(
+        2, 1))
 
-WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Flight Date'), '20-May-20')
+WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Flight Date'), findTestData('Booking/TestData_Flight').getValue(
+        3, 1))
 
-WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Board Point'), 'ABC')
+WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Board Point'), findTestData('Booking/TestData_Flight').getValue(
+        4, 1))
 
-WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Off Point'), 'DEF')
+WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Off Point'), findTestData('Booking/TestData_Flight').getValue(
+        5, 1))
 
 not_run: WebUI.selectOptionByLabel(findTestObject('Page_Create New Booking/span_Allocation Code'), ' KK ', false)
 
@@ -67,25 +77,28 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_Create New Booking/button_add Dimensions'))
 
-WebUI.setText(findTestObject('Page_Create New Booking/input_Volume_mat-input-Length'), '111')
+WebUI.setText(findTestObject('Page_Create New Booking/input_Volume_mat-input-Length'), findTestData('Booking/TestData_Booking').getValue(
+        13, 1))
 
-WebUI.setText(findTestObject('Page_Create New Booking/input_Volume_mat-input-Width'), '222')
+WebUI.setText(findTestObject('Page_Create New Booking/input_Volume_mat-input-Width'), findTestData('Booking/TestData_Booking').getValue(
+        14, 1))
 
-WebUI.setText(findTestObject('Page_Create New Booking/input_Volume_mat-input-Height'), '121')
+WebUI.setText(findTestObject('Page_Create New Booking/input_Volume_mat-input-Height'), findTestData('Booking/TestData_Booking').getValue(
+        15, 1))
 
 not_run: WebUI.setText(findTestObject('Page_Create New Booking/input_Volume_mat-input-Unit'), 'CVB')
 
-WebUI.setText(findTestObject('Page_Create New Booking/input_Volume_mat-input-Pieces'), '100')
+WebUI.setText(findTestObject('Page_Create New Booking/input_Volume_mat-input-Pieces'), findTestData('Booking/TestData_Booking').getValue(
+        16, 1))
 
-WebUI.setText(findTestObject('Page_Create New Booking/input_Volume_mat-input-Weight'), '111.2')
-
-WebUI.setText(findTestObject('Page_Create New Booking/input_Volume_mat-input-Volume'), '222.3', FailureHandling.OPTIONAL)
+WebUI.setText(findTestObject('Page_Create New Booking/input_Volume_mat-input-Weight'), findTestData('Booking/TestData_Booking').getValue(
+        17, 1))
 
 WebUI.click(findTestObject('Page_Create New Booking/button_Dimensions-Done'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_Create New Booking/textarea_Remarks_Booking'), 'Test Remarks')
+WebUI.setText(findTestObject('Page_Create New Booking/textarea_Remarks_Booking'), 'Test - Continue create new booking - send from template')
 
 WebUI.click(findTestObject('Page_Create New Booking/button_Send Request'))
 

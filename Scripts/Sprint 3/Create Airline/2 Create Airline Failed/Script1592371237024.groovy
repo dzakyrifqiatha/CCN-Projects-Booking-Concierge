@@ -15,13 +15,28 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('Page_Booking Concierge/input_Email Address_email'), 'testingdev1')
+WebUI.click(findTestObject('Page_Booking Concierge Homepage/span_My Airlines'))
 
-WebUI.setText(findTestObject('Page_Booking Concierge/input_Password_password'), 'qwertyui')
+WebUI.click(findTestObject('Page_BC My Airlines/span_Create Airline'))
 
-WebUI.click(findTestObject('Page_Booking Concierge/button_Sign in'))
+WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Carrier Code'), findTestData('Create Airline/TestData_CreateAirline').getValue(
+        1, 3))
+
+WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Carrier Prefix'), findTestData('Create Airline/TestData_CreateAirline').getValue(
+        2, 3))
+
+WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Station'), findTestData('Create Airline/TestData_CreateAirline').getValue(
+        3, 3))
+
+WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Airline Email'), findTestData('Create Airline/TestData_CreateAirline').getValue(
+        4, 3))
+
+WebUI.focus(findTestObject('Page_BC Create Airline/textarea__mat-input-Remarks'))
+
+WebUI.setText(findTestObject('Page_BC Create Airline/textarea__mat-input-Remarks'), findTestData('Create Airline/TestData_CreateAirline').getValue(
+        5, 3))
 
 WebUI.delay(5)
 
-WebUI.refresh()
+WebUI.click(findTestObject('Page_BC Create Airline/button_Save'))
 

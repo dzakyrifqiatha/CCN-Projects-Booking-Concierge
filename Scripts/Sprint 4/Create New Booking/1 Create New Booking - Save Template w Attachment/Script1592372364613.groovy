@@ -21,15 +21,20 @@ WebUI.click(findTestObject('Page_Booking Concierge Homepage/mat-option_New Booki
 
 WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-AWB Prefix'), '')
 
-WebUI.setText(findTestObject('Page_Create New Booking/input_-_mat-input-AWB Suffix'), '1234567')
+WebUI.setText(findTestObject('Page_Create New Booking/input_-_mat-input-AWB Suffix'), findTestData('Booking/TestData_Booking').getValue(
+        2, 1))
 
-WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Origin'), 'SIN')
+WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Origin'), findTestData('Booking/TestData_Booking').getValue(
+        3, 1))
 
-WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Destination'), 'BKK')
+WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Destination'), findTestData('Booking/TestData_Booking').getValue(
+        4, 1))
 
-WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Good Description'), 'Test')
+WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Good Description'), findTestData('Booking/TestData_Booking').getValue(
+        5, 1))
 
-WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Pieces'), '100')
+WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Pieces'), findTestData('Booking/TestData_Booking').getValue(
+        6, 1))
 
 not_run: WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Weight'), '')
 
@@ -85,7 +90,7 @@ not_run: WebUI.delay(2)
 
 not_run: WebUI.setText(findTestObject('Page_Create New Booking/textarea_Remarks_Booking'), '')
 
-CustomKeywords.'ccnpackage.UnorderedListNumber.uploadFile'(findTestObject('Page_Create New Booking/span_Add file'), 'D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking Concierge\\Sprint 1\\Test Result from Karen\\reset password.doc')
+CustomKeywords.'ccnpackage.UnorderedListNumber.uploadFile'(findTestObject('Page_Create New Booking/span_Add file'), 'C:\\Users\\Abraham Farrendy\\git\\CCN-Projects-Booking-Concierge\\test_attachment.docx')
 
 WebUI.click(findTestObject('Page_Create New Booking/button_Save'))
 

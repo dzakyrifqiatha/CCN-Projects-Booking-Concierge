@@ -15,21 +15,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Page_Booking Concierge Homepage/span_My Airlines'))
+'Run Login Test Case under the Authentication Login folder first'
+WebUI.setText(findTestObject('Page_Booking Concierge/input_Email Address_email'), findTestData('Login/TestData_Login').getValue(
+        1, 1))
 
-WebUI.click(findTestObject('Page_BC My Airlines/span_Create Airline'))
+WebUI.setText(findTestObject('Page_Booking Concierge/input_Password_password'), findTestData('Login/TestData_Login').getValue(
+        2, 1))
 
-WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Carrier Code'), 'SV')
+WebUI.click(findTestObject('Page_Booking Concierge/button_Sign in'))
 
-WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Carrier Prefix'), '312')
-
-WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Station'), 'SIN')
-
-WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Airline Email'), 'testingdev22@yahoo.com')
-
-WebUI.focus(findTestObject('Page_BC Create Airline/textarea__mat-input-Remarks'))
-
-WebUI.setText(findTestObject('Page_BC Create Airline/textarea__mat-input-Remarks'), 'Create Second Airline')
-
-WebUI.click(findTestObject('Page_BC Create Airline/button_Save'))
+WebUI.delay(10)
 

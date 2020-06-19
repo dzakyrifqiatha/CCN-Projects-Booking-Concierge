@@ -15,7 +15,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('www.siacargo.com')
+WebUI.setText(findTestObject('Page_Booking Concierge/input_Email Address_email'), findTestData('Login/TestData_Login').getValue(
+        1, 3))
 
-not_run: WebUI.navigateToUrl('www.siacargo.com')
+WebUI.setText(findTestObject('Page_Booking Concierge/input_Password_password'), '')
+
+WebUI.click(findTestObject('Page_Booking Concierge/button_Sign in'))
+
+WebUI.delay(10)
+
+WebUI.refresh()
 

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>TestData_CreateAirline</name>
+   <name>TestData_Profile</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>925bd41c-7eeb-41ba-a35e-1f807f1d64ac</dataFileGUID>
-   <dataSourceUrl>C:\Users\Abraham Farrendy\git\CCN-Projects-Booking-Concierge\TestData_CreateAirline.xlsx</dataSourceUrl>
+   <dataFileGUID>41093556-e1a8-423f-a8de-5991d6642a28</dataFileGUID>
+   <dataSourceUrl>C:\Users\Abraham Farrendy\git\CCN-Projects-Booking-Concierge\TestData_EditProfile.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

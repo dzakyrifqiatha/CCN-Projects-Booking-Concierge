@@ -96,7 +96,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_Create New Booking/Page_Save Booking/button_Template Booking'))
 
-WebUI.setText(findTestObject('Page_Create New Booking/Page_Save Booking/input_Template Code_mat-input-17'), 'Template001')
+WebUI.setText(findTestObject('Page_Create New Booking/Page_Save Booking/input_Template Code_mat-input-17'), findTestData(
+        'Booking/TestData_Booking').getValue(20, 1))
 
 WebUI.delay(10)
 

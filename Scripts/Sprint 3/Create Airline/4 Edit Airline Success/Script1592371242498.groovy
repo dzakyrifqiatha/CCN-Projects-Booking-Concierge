@@ -21,7 +21,8 @@ WebUI.click(findTestObject('Page_BC My Airlines/button_Edit Airline'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Airline Email'), 'testingdev3@yahoo.com')
+WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Airline Email'), findTestData('Create Airline/TestData_CreateAirline').getValue(
+        4, 3))
 
 WebUI.focus(findTestObject('Page_BC Create Airline/textarea__mat-input-Remarks'))
 

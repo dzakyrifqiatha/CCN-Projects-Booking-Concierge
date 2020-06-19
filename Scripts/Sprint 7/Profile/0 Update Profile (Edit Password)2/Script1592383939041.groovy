@@ -19,11 +19,14 @@ WebUI.click(findTestObject('Page_Edit Profile/mat-icon_Profile'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_Edit Profile/input_Enter Old Password'), 'password')
+WebUI.setText(findTestObject('Page_Edit Profile/input_Enter Old Password'), findTestData('Profile/TestData_Profile').getValue(
+        1, 1))
 
-WebUI.setText(findTestObject('Page_Edit Profile/input_Enter New Password'), 'qwerty')
+WebUI.setText(findTestObject('Page_Edit Profile/input_Enter New Password'), findTestData('Profile/TestData_Profile').getValue(
+        2, 1))
 
-WebUI.setText(findTestObject('Page_Edit Profile/input_Confirm New Password'), 'qwerty')
+WebUI.setText(findTestObject('Page_Edit Profile/input_Confirm New Password'), findTestData('Profile/TestData_Profile').getValue(
+        2, 1))
 
 WebUI.click(findTestObject('Page_Edit Profile/button_Save Edit Profile'))
 

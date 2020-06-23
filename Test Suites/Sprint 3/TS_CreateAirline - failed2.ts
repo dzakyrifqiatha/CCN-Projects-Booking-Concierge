@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_CreateAirline - failed2</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>859fa65d-0ac3-4e5a-a4be-36dbf5cc74a3</testSuiteGuid>
+   <testCaseLink>
+      <guid>fc8cc5fd-454e-427f-a216-20644b0491c8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 3/Create Airline/2 Create Airline Failed</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>26ecd0ec-f7ef-47fa-87bc-e1e3ab2c0881</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>3-3</value>
+         </iterationEntity>
+         <testDataId>Data Files/Create Airline/TestData_CreateAirline</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>26ecd0ec-f7ef-47fa-87bc-e1e3ab2c0881</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vCarrierCode</value>
+         <variableId>8e65e4b2-9d3a-4aec-ab7a-7bbf1447d4b1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>26ecd0ec-f7ef-47fa-87bc-e1e3ab2c0881</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vCarrierCode</value>
+         <variableId>65d78340-cada-49a9-b05d-07bf06197843</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>26ecd0ec-f7ef-47fa-87bc-e1e3ab2c0881</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vCarrierCode</value>
+         <variableId>350e4561-43a8-419c-8c5e-2a96ec74b26e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>26ecd0ec-f7ef-47fa-87bc-e1e3ab2c0881</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vCarrierCode</value>
+         <variableId>a47b7fa9-b1c3-45d3-b34d-f3bfe2fe9ac2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>26ecd0ec-f7ef-47fa-87bc-e1e3ab2c0881</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vCarrierCode</value>
+         <variableId>79c04ff0-8da7-4474-9ec9-cd253d551043</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

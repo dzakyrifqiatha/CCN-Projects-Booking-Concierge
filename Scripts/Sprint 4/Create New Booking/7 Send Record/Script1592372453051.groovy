@@ -19,8 +19,7 @@ WebUI.click(findTestObject('Page_Booking Concierge Homepage/span_New Booking'))
 
 WebUI.click(findTestObject('Page_Booking Concierge Homepage/mat-option_New Booking'))
 
-WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-AWB Prefix'), findTestData('Booking/TestData_Booking').getValue(
-        1, 1))
+WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-AWB Prefix'), var_awbPrefix)
 
 WebUI.setText(findTestObject('Page_Create New Booking/input_-_mat-input-AWB Suffix'), findTestData('Booking/TestData_Booking').getValue(
         2, 1))

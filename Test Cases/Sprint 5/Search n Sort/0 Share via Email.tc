@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>50306f0c-67c2-4a84-8421-c6fa4d3004ff</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>45f41336-e673-42b3-ab9b-20b1a8b758c8</id>
+      <masked>false</masked>
+      <name>var_searchAwbNum</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Login/TestData_Login').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>039e564a-8390-4231-8831-325c8cba6f47</id>
+      <masked>false</masked>
+      <name>var_email</name>
+   </variable>
 </TestCaseEntity>

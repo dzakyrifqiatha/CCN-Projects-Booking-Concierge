@@ -18,23 +18,22 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.click(findTestObject('Page_Booking Concierge/a_here'))
 
 'Run Login Test Case under the Authentication Login folder first'
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-2-email-address'), findTestData('Registration/TestData_Registration').getValue(
-        1, 1))
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-2-email-address'), var_email)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-3-name'), findTestData('Registration/TestData_Registration').getValue(
-        2, 1))
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-3-name'), var_name)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-4-password'), findTestData('Registration/TestData_Registration').getValue(
-        3, 1))
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-4-password'), var_pass)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-5-confirm-password'), findTestData('Registration/TestData_Registration').getValue(
-        4, 1))
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-5-confirm-password'), var_confpass)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-6-company'), findTestData('Registration/TestData_Registration').getValue(
-        5, 1))
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-6-company'), var_company)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-7-contact-no'), findTestData('Registration/TestData_Registration').getValue(
-        6, 1))
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-7-contact-no'), var_contactno)
 
 WebUI.click(findTestObject('Page_Register Booking Concierge/span_Save'))
+
+WebUI.verifyTextPresent('Your Booking Concierge Account has been created. Please check your registered email account for the activation steps.  We recommend checking your spam or junk folder if you do not see the email, and mark Booking Concierge as a safe sender.', 
+    false)
+
+WebUI.takeScreenshot()
 

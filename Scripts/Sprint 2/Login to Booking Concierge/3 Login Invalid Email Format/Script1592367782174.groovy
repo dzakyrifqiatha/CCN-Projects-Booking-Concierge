@@ -15,13 +15,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('Page_Booking Concierge/input_Email Address_email'), findTestData('Login/TestData_Login').getValue(
-        1, 4))
+WebUI.setText(findTestObject('Page_Booking Concierge/input_Email Address_email'), var_username)
 
-WebUI.setText(findTestObject('Page_Booking Concierge/input_Password_password'), findTestData('Login/TestData_Login').getValue(
-        2, 4))
+WebUI.setText(findTestObject('Page_Booking Concierge/input_Password_password'), var_password)
 
 WebUI.click(findTestObject('Page_Booking Concierge/button_Sign in'))
+
+WebUI.verifyTextPresent(' Invalid email format. Use test@test.com. ', false)
+
+WebUI.takeScreenshot()
 
 WebUI.delay(10)
 

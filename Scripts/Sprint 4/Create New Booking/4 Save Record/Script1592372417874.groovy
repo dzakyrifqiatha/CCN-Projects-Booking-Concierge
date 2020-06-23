@@ -57,6 +57,8 @@ WebUI.setText(findTestObject('Page_Create New Booking/input_Special Handling Cod
 
 WebUI.delay(2)
 
+WebUI.focus(findTestObject('Page_Create New Booking/button_add Flights'))
+
 WebUI.click(findTestObject('Page_Create New Booking/button_add Flights'))
 
 WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Flight (Carrierr Code)'), findTestData('Booking/TestData_Flight').getValue(

@@ -19,22 +19,17 @@ WebUI.click(findTestObject('Page_Booking Concierge Homepage/span_New Booking'))
 
 WebUI.click(findTestObject('Page_Booking Concierge Homepage/mat-option_New Booking'))
 
-WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-AWB Prefix'), '')
+WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-AWB Prefix'), vPrefix)
 
-WebUI.setText(findTestObject('Page_Create New Booking/input_-_mat-input-AWB Suffix'), findTestData('Booking/TestData_Booking').getValue(
-        2, 1))
+WebUI.setText(findTestObject('Page_Create New Booking/input_-_mat-input-AWB Suffix'), vSuffix)
 
-WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Origin'), findTestData('Booking/TestData_Booking').getValue(
-        3, 1))
+WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Origin'), vOrigin)
 
-WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Destination'), findTestData('Booking/TestData_Booking').getValue(
-        4, 1))
+WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Destination'), vDestination)
 
-WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Good Description'), findTestData('Booking/TestData_Booking').getValue(
-        5, 1))
+WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Good Description'), vGoodDesc)
 
-WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Pieces'), findTestData('Booking/TestData_Booking').getValue(
-        6, 1))
+WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Pieces'), vPieces)
 
 not_run: WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Weight'), '')
 

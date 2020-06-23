@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>41093556-e1a8-423f-a8de-5991d6642a28</dataFileGUID>
-   <dataSourceUrl>C:\Users\Abraham Farrendy\git\CCN-Projects-Booking-Concierge\TestData_EditProfile.xlsx</dataSourceUrl>
+   <dataSourceUrl>TestData_EditProfile.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Sheet1</sheetName>

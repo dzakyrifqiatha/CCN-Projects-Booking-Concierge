@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>99ac253d-c020-44c5-bf51-f3319b9ecda9</testSuiteGuid>
+   <testCaseLink>
+      <guid>32686b1e-ca68-486f-a531-18adb66fbd40</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Authentication Login/Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a6b565fc-d084-4d75-a76b-ff8960de73ca</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 2/Login to Booking Concierge/0 Login Success</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6a3c7c60-9f43-4ce0-8b56-cf14e38c5272</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Login/TestData_Login</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>6a3c7c60-9f43-4ce0-8b56-cf14e38c5272</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vEmail</value>
+         <variableId>2020a495-7060-4f34-b7e9-4f3017b45cf8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6a3c7c60-9f43-4ce0-8b56-cf14e38c5272</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vPassword</value>
+         <variableId>5b99673a-7f6b-4e9b-ae57-42b8ef9938e6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9acc5d5a-26bb-4cd4-b5c4-1a8a80a91547</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 2/Login to Booking Concierge/1 Login Without Password - Copy</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ec3a9202-abb7-4182-a38b-a9ac26ccdfee</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>2-2</value>
+         </iterationEntity>
+         <testDataId>Data Files/Login/TestData_Login</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ec3a9202-abb7-4182-a38b-a9ac26ccdfee</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vEmail</value>
+         <variableId>d608d1d8-852d-426e-b81c-254f68c5a822</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ec3a9202-abb7-4182-a38b-a9ac26ccdfee</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vPassword</value>
+         <variableId>9e2a7f9c-27c0-41c9-a3c3-c9630104edab</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3d1f895e-e7f2-458e-b323-828ac935d8a9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 2/Login to Booking Concierge/2 Login Invalid Password</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a736840b-949f-4baa-96bd-d9db2d7559a3</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>3-3</value>
+         </iterationEntity>
+         <testDataId>Data Files/Login/TestData_Login</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>a736840b-949f-4baa-96bd-d9db2d7559a3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vEmail</value>
+         <variableId>b846f25d-3d1c-4c7f-ae1c-088a583d5e34</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a736840b-949f-4baa-96bd-d9db2d7559a3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vPassword</value>
+         <variableId>bf5da5d1-5557-468a-9d05-d478d00c3694</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1e4435d6-42f0-42ea-b581-0206de395d80</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 2/Login to Booking Concierge/3 Login Invalid Email Format</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>064b4ecf-e801-4aae-8913-a4b8f23c50d5</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>4-4</value>
+         </iterationEntity>
+         <testDataId>Data Files/Login/TestData_Login</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>064b4ecf-e801-4aae-8913-a4b8f23c50d5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vEmail</value>
+         <variableId>544fd895-a4c7-4505-9a88-bb9e0da31d00</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>064b4ecf-e801-4aae-8913-a4b8f23c50d5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vPassword</value>
+         <variableId>9aef63b0-a89a-4ffb-bc8b-17d36cd5d808</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>77915e6f-02e9-4615-91a6-201bfca1b937</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 2/Login to Booking Concierge/4 Login Invalid Email Address - Not Registered</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e41eb450-b866-4d5b-827f-bdfe0debe40f</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>5-5</value>
+         </iterationEntity>
+         <testDataId>Data Files/Login/TestData_Login</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e41eb450-b866-4d5b-827f-bdfe0debe40f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vEmail</value>
+         <variableId>9384907b-1c25-42a9-8cb2-9554b280289f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e41eb450-b866-4d5b-827f-bdfe0debe40f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vPassword</value>
+         <variableId>0d734bdc-529d-45f3-8c19-3671b47eeb4c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2032c5a6-642c-4b93-a656-e97389d603a1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 2/Login to Booking Concierge/5 Forgot Password</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>96fba9f5-40a0-4241-946e-f2f313300345</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login/TestData_Login</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>96fba9f5-40a0-4241-946e-f2f313300345</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>vEmail</value>
+         <variableId>2cf53f2a-1f1a-489e-96ea-534d7bdb8d37</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -15,7 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('Page_Booking Concierge Homepage/input_Search'), '312-12345675')
+WebUI.setText(findTestObject('Page_Booking Concierge Homepage/input_Search'), findTestData('Booking/TestData_Booking').getValue(
+        2, 1))
 
 WebUI.delay(2)
 
@@ -23,7 +24,8 @@ WebUI.click(findTestObject('Page_Booking Concierge Homepage/mat-icon_More_vert')
 
 WebUI.click(findTestObject('Page_Booking Concierge Homepage/button_Share via Email'))
 
-WebUI.setText(findTestObject('Page_Booking Concierge Homepage/BC Table/input_Email to Share'), 'testingdev22@yahoo.com')
+WebUI.setText(findTestObject('Page_Booking Concierge Homepage/BC Table/input_Email to Share'), findTestData('Login/TestData_Login').getValue(
+        1, 1))
 
 WebUI.delay(2)
 

@@ -5,4 +5,158 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5bf75d8e-432d-4214-ad0c-7f3a54c4b029</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>5f647f83-9c11-47c3-920a-962773feb206</id>
+      <masked>false</masked>
+      <name>var_awbPrefix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>8cda11e7-2fce-45f5-a91a-bc2be6a86ec5</id>
+      <masked>false</masked>
+      <name>var_awbSuffix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>72c6059c-c274-4a91-a7f1-118f996934ec</id>
+      <masked>false</masked>
+      <name>var_origin</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>a428ce84-e55e-4064-bfd9-70c99685889e</id>
+      <masked>false</masked>
+      <name>var_destination</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>34ec1b37-7224-4762-ba5e-22b4a5c990e7</id>
+      <masked>false</masked>
+      <name>var_goodDesc</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(6, 1)</defaultValue>
+      <description></description>
+      <id>16fb760e-806e-44ba-a662-c3f1f05c7382</id>
+      <masked>false</masked>
+      <name>var_pieces</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(7, 1)</defaultValue>
+      <description></description>
+      <id>84f654af-1f2b-4438-9ac5-90dc98dc6f99</id>
+      <masked>false</masked>
+      <name>var_weight</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(8, 1)</defaultValue>
+      <description></description>
+      <id>dabcd886-e3e9-4510-be6e-8399f0a39dbb</id>
+      <masked>false</masked>
+      <name>var_volume</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(9, 1)</defaultValue>
+      <description></description>
+      <id>72e79257-64a5-4e4d-acdc-3a3982447309</id>
+      <masked>false</masked>
+      <name>var_shc1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(10, 1)</defaultValue>
+      <description></description>
+      <id>6de0bd95-7b00-44a5-8315-f9f8baa4733f</id>
+      <masked>false</masked>
+      <name>var_shc2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(11, 1)</defaultValue>
+      <description></description>
+      <id>cbc8c7d1-1edc-451f-a3b6-460e44ec9162</id>
+      <masked>false</masked>
+      <name>var_sch3</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(12, 1)</defaultValue>
+      <description></description>
+      <id>aac26bb6-6f27-4409-bc58-3c16020877ac</id>
+      <masked>false</masked>
+      <name>var_sch4</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Flight').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>e864a105-255e-42c0-900f-65a59e9666f6</id>
+      <masked>false</masked>
+      <name>var_fnPrefix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Flight').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>d5cfc526-7c8a-43de-95e8-9c2082e18878</id>
+      <masked>false</masked>
+      <name>var_fnSuffix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Flight').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>f37f9834-fdf0-4025-bc51-387269c75818</id>
+      <masked>false</masked>
+      <name>var_fDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Flight').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>f6173402-5de5-46d5-b380-95c8a9b98126</id>
+      <masked>false</masked>
+      <name>var_fBoardPoint</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Flight').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>69991ffd-6194-4664-823c-77c834976707</id>
+      <masked>false</masked>
+      <name>var_fOffPoint</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(13, 1)</defaultValue>
+      <description></description>
+      <id>6189ef6b-92f2-4352-8c2e-ad81dc9925c0</id>
+      <masked>false</masked>
+      <name>var_dLength</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(14, 1)</defaultValue>
+      <description></description>
+      <id>78b70aa4-7a22-4665-b74b-505f4e5b0535</id>
+      <masked>false</masked>
+      <name>var_dWidth</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(15, 1)</defaultValue>
+      <description></description>
+      <id>a473685a-d898-4398-9735-7083da31b43f</id>
+      <masked>false</masked>
+      <name>var_dHeight</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(16, 1)</defaultValue>
+      <description></description>
+      <id>745e1ca6-3d02-47b7-904e-8860a2fce152</id>
+      <masked>false</masked>
+      <name>var_dPieces</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(17, 1)</defaultValue>
+      <description></description>
+      <id>a20d80c3-2bf6-4d59-b9b1-7f53f6115c9c</id>
+      <masked>false</masked>
+      <name>var_dWeight</name>
+   </variable>
 </TestCaseEntity>

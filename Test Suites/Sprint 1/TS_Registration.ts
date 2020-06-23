@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_Registration_Success</name>
+   <name>TS_Registration</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,7 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>e82c5331-4254-4ba4-9e18-c1df7544ba0d</testSuiteGuid>
+   <testSuiteGuid>e799087b-9631-42d2-876c-4eb8b2fd7180</testSuiteGuid>
    <testCaseLink>
       <guid>f9df7a61-ba56-4820-9eaf-dc5aea5d3e1e</guid>
       <isReuseDriver>false</isReuseDriver>

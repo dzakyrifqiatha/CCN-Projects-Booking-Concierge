@@ -32,3 +32,8 @@ WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-7
 
 WebUI.click(findTestObject('Page_Register Booking Concierge/span_Save'))
 
+WebUI.verifyTextPresent('Your Booking Concierge Account has been created. Please check your registered email account for the activation steps.  We recommend checking your spam or junk folder if you do not see the email, and mark Booking Concierge as a safe sender.', 
+    false)
+
+WebUI.takeScreenshot()
+

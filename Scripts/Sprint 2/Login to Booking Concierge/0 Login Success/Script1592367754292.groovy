@@ -22,5 +22,7 @@ WebUI.setText(findTestObject('Page_Booking Concierge/input_Password_password'), 
 
 WebUI.click(findTestObject('Page_Booking Concierge/button_Sign in'))
 
+WebUI.takeScreenshot()
+
 WebUI.delay(10)
 

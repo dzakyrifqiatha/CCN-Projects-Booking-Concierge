@@ -20,5 +20,9 @@ WebUI.click(findTestObject('Page_Booking Concierge Homepage/span_My Airlines'))
 
 WebUI.click(findTestObject('Page_BC My Airlines/button_Delete Airline'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Page_BC My Airlines/Delete Pop-Up/button_Yes'))
+
+WebUI.takeScreenshot()
 

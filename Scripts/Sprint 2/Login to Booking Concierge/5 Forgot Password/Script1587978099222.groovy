@@ -17,7 +17,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Page_Booking Concierge/a_Forgot your password'))
 
-WebUI.setText(findTestObject('Page_Forgot Password/input_Email Address_mat-input-10'), var_email)
+WebUI.setText(findTestObject('Page_Forgot Password/input_Email Address_mat-input-10'), vEmail)
 
 WebUI.click(findTestObject('Page_Forgot Password/span_Send'))
+
+WebUI.takeScreenshot()
 

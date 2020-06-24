@@ -17,9 +17,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.setText(findTestObject('Page_Booking Concierge/input_Email Address_email'), var_username)
 
-WebUI.setText(findTestObject('Page_Booking Concierge/input_Password_password'), '')
+WebUI.setText(findTestObject('Page_Booking Concierge/input_Password_password'), var_password)
 
 WebUI.click(findTestObject('Page_Booking Concierge/button_Sign in'))
+
+WebUI.takeScreenshot()
 
 WebUI.delay(10)
 

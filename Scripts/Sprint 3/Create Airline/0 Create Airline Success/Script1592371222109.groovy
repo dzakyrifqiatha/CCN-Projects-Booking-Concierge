@@ -20,26 +20,23 @@ WebUI.click(findTestObject('Page_Booking Concierge Homepage/span_My Airlines'))
 
 WebUI.click(findTestObject('Page_BC My Airlines/span_Create Airline'))
 
-WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Carrier Code'), findTestData('Create Airline/TestData_CreateAirline').getValue(
-        1, 1))
+WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Carrier Code'), var_carriercode)
 
-WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Carrier Prefix'), findTestData('Create Airline/TestData_CreateAirline').getValue(
-        2, 1))
+WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Carrier Prefix'), var_carrierprefix)
 
-WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Station'), findTestData('Create Airline/TestData_CreateAirline').getValue(
-        3, 1))
+WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Station'), var_station)
 
-WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Airline Email'), findTestData('Create Airline/TestData_CreateAirline').getValue(
-        4, 1))
+WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Airline Email'), var_airlineemail)
 
 WebUI.focus(findTestObject('Page_BC Create Airline/textarea__mat-input-Remarks'))
 
-WebUI.setText(findTestObject('Page_BC Create Airline/textarea__mat-input-Remarks'), findTestData('Create Airline/TestData_CreateAirline').getValue(
-        5, 1))
+WebUI.setText(findTestObject('Page_BC Create Airline/textarea__mat-input-Remarks'), var_remarks)
 
 WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_BC Create Airline/button_Save'))
+
+WebUI.takeScreenshot()
 
 WebUI.delay(5)
 

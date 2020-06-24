@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>b226a7af-08a9-464a-ad7e-dca1f2760075</testCaseGuid>
    <variable>
-      <defaultValue>findTestData('Login/TestData_Login').getValue(1, 5)</defaultValue>
+      <defaultValue>findTestData('Login/TestData_Login').getValue('vEmail', 5)</defaultValue>
       <description></description>
       <id>9384907b-1c25-42a9-8cb2-9554b280289f</id>
       <masked>false</masked>
       <name>var_username</name>
    </variable>
    <variable>
-      <defaultValue>findTestData('Login/TestData_Login').getValue(2, 5)</defaultValue>
+      <defaultValue>findTestData('Login/TestData_Login').getValue('vPassword', 5)</defaultValue>
       <description></description>
       <id>0d734bdc-529d-45f3-8c19-3671b47eeb4c</id>
       <masked>false</masked>

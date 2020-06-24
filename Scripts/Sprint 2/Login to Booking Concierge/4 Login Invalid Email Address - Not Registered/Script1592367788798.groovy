@@ -21,6 +21,10 @@ WebUI.setText(findTestObject('Page_Booking Concierge/input_Password_password'), 
 
 WebUI.click(findTestObject('Page_Booking Concierge/button_Sign in'))
 
+WebUI.verifyTextPresent('A user with such email does not exist. Enter the correct email or sign up.', false)
+
+WebUI.takeScreenshot()
+
 WebUI.delay(10)
 
 WebUI.refresh()

@@ -33,5 +33,15 @@ WebUI.click(findTestObject('Page_Register Booking Concierge/span_Save'))
 
 WebUI.delay(5)
 
+WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/verify_email format'), ' Invalid email format. Use test@test.com. ')
+
+WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/verify_name'), ' Name allowed only alphabets, numbers and space. ')
+
+WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/verify_password'), 'This field is required. ')
+
+WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/verify_contact'), ' Phone number allowed only 25 numeric characters and \'+\' for first character only. ')
+
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Page_Register Booking Concierge/span_Cancel'))
 

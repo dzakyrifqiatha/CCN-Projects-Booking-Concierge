@@ -31,6 +31,10 @@ WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-7
 
 WebUI.click(findTestObject('Page_Register Booking Concierge/span_Save'))
 
+WebUI.delay(1)
+
+WebUI.takeScreenshot()
+
 WebUI.verifyTextPresent('User with this email address exists', false)
 
 WebUI.delay(5)

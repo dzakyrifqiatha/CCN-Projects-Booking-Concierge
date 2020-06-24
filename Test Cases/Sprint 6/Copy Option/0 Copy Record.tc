@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>7a21ebc2-632b-4f1b-89b0-cd37dc3304a8</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>e1f47b30-bc59-448d-a29e-a3edc8897bf2</id>
+      <masked>false</masked>
+      <name>var_searchAwbNum</name>
+   </variable>
 </TestCaseEntity>

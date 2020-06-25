@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_NewBooking</name>
+   <name>TS_CreateNewBooking</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,54 +9,21 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>231068b7-7581-4908-8ad5-e7dd12288653</testSuiteGuid>
+   <testSuiteGuid>6603bc78-9102-4da1-8eca-d4dcb92c924d</testSuiteGuid>
    <testCaseLink>
-      <guid>922b7269-12e4-46b9-86f8-f4c77e9e2766</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 4/Create New Booking/0 Save Template</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3d189cf1-d862-430e-a1fd-269af3165899</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3fee7ac9-8a2c-443b-a90e-213569ace4fb</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0917eb4e-13fb-4949-ad2e-8a93b9ca10fc</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>10529b1b-61c5-4aa2-96b4-6eebcd5d13d2</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>45eb60cf-1f6c-48bf-b681-46c8176fae81</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>bd2e85a9-0442-4a24-8e96-265abdb3ceed</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a5346e53-f5e1-4973-87f2-5c270efd0590</guid>
+      <guid>4fa78d54-fd3d-47d0-b85e-2efb44867143</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 4/Create New Booking/1 Save Template w Attachment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c4678bcb-b761-4306-90b8-c7c412530453</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Booking/TestData_Booking</testDataId>
+      </testDataLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -95,10 +62,19 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>894b6f3f-1b1d-416d-8e7b-f76a76f07f44</guid>
+      <guid>7ecc7607-3c51-4ad3-8882-a8b1def712ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 4/Create New Booking/2 Save Record n Template</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1a7a6370-7b27-47f6-9550-40492d00758f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Booking/TestData_Booking</testDataId>
+      </testDataLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -139,6 +115,24 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
+         <variableId>fe02f633-f307-4d96-a72e-8f01c8dd8094</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a2d14ad9-a1f7-4e15-b2e8-fe56dbb40e7d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>86d4047c-02eb-4d53-bb67-30bfbe9a5212</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>377d1cf2-6566-4fcc-8baa-f2702437044c</variableId>
       </variableLink>
       <variableLink>
@@ -164,24 +158,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>37d009ef-a41e-4150-a5f1-1b9a8825affd</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>fe02f633-f307-4d96-a72e-8f01c8dd8094</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a2d14ad9-a1f7-4e15-b2e8-fe56dbb40e7d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>86d4047c-02eb-4d53-bb67-30bfbe9a5212</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -215,10 +191,19 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>89e4f254-2508-43a2-b286-c779a50d471e</guid>
+      <guid>a2551ba2-3126-49c5-b6de-e3f4769520d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 4/Create New Booking/3 Save Record n Template w Attachment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8c3f9c1a-74a2-4d7e-9a1f-9ba9baffa8fd</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Booking/TestData_Booking</testDataId>
+      </testDataLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -335,10 +320,19 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>4d0314b7-5155-431f-ad66-9fac70a9ec67</guid>
+      <guid>63104bdf-5c8d-4ead-b5f7-068b67630a61</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 4/Create New Booking/4 Save Record</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ff612c47-707a-4bdb-8e20-4c964cd10c71</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Booking/TestData_Booking</testDataId>
+      </testDataLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -473,10 +467,19 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a0d921d5-7159-4493-8606-6eb30034f06c</guid>
+      <guid>e452deeb-dce1-4744-865a-d6072e320a32</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 4/Create New Booking/5 Save Record w Attachment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6a35526f-8f73-4ee1-81d1-104e0c841247</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Booking/TestData_Booking</testDataId>
+      </testDataLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -593,10 +596,19 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>727263fe-10d6-48a7-bc4a-4eba82ebef81</guid>
+      <guid>57de22fe-233d-4ba9-9bf6-09fd6da27b03</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 4/Create New Booking/6 Continue Create New Booking - Send (From Template)</testCaseId>
+      <testCaseId>Test Cases/Sprint 4/Create New Booking/6 Send (From Template)</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4df0b259-b02e-47ed-a987-9caaa8dd159b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Booking/TestData_Booking</testDataId>
+      </testDataLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -713,10 +725,19 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>10063022-7a94-45a5-a946-4fa7081653ba</guid>
+      <guid>5b5c697a-e59f-4b9c-ab1d-1f82d68e6826</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 4/Create New Booking/7 Send Record</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1be6ebbf-7765-489c-8ddc-8d978f8725b9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Booking/TestData_Booking</testDataId>
+      </testDataLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -833,10 +854,19 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>8fc0787b-d63a-4023-b8c1-880e565f7d48</guid>
+      <guid>aecb162a-8909-416c-8d03-a58fff83f7bc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 4/Create New Booking/8 Send Record w Attachment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>61465a99-94ca-487a-8b7a-12ab6d92c86d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Booking/TestData_Booking</testDataId>
+      </testDataLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

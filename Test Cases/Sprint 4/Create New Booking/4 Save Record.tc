@@ -38,7 +38,7 @@
       <description></description>
       <id>34ec1b37-7224-4762-ba5e-22b4a5c990e7</id>
       <masked>false</masked>
-      <name>var_goodDesc</name>
+      <name>var_goodsDesc</name>
    </variable>
    <variable>
       <defaultValue>findTestData('Booking/TestData_Booking').getValue(6, 1)</defaultValue>

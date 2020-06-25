@@ -15,14 +15,3 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-'input AWB No. for Confirmed Booking Requesst'
-WebUI.setText(findTestObject('Page_Booking Concierge Homepage/input_Search'), var_searchAwbNum)
-
-WebUI.delay(2)
-
-WebUI.verifyElementText(findTestObject('Page_Create New Booking/span_Allocation Code'), ' UU ', FailureHandling.STOP_ON_FAILURE)
-
-not_run: WebUI.click(findTestObject('Page_Create New Booking/button_Save'))
-
-not_run: WebUI.click(findTestObject('Page_Create New Booking/Page_Save Booking/button_Record Booking'))
-

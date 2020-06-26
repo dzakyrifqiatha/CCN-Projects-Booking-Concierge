@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_add Dimensions</name>
+   <name>mat-icon_star 5</name>
    <tag></tag>
-   <elementGuidId>46e163cb-d1cf-450d-a5f9-e14c82a5112d</elementGuidId>
+   <elementGuidId>96c7224a-a81b-41d2-bffa-ae7402e09281</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/app-root/app-home/main/app-create-booking/dimensions-list/div/button</value>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-overlay-0']/mat-bottom-sheet-container/app-feedback-box/div/div/button/span/mat-icon</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[7]</value>
+         <key>BASIC</key>
+         <value>/html/body/div[2]/div[2]/div/mat-bottom-sheet-container/app-feedback-box/div/div/button[5]/span/mat-icon</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,83 +21,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>mat-icon</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>dimensions-header-button mat-mini-fab mat-button-base mat-primary</value>
+      <value>mat-icon notranslate material-icons mat-icon-no-color</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>color</name>
+      <name>role</name>
       <type>Main</type>
-      <value>primary</value>
+      <value>img</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>aria-hidden</name>
       <type>Main</type>
-      <value>button</value>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>add</value>
+      <value> star_border </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/main/app-create-booking/dimensions-list/div/button</value>
+      <value>/html/body/div[2]/div[2]/div/mat-bottom-sheet-container/app-feedback-box/div/div/button[5]/span/mat-icon</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[7]</value>
+      <value>//div[@id='cdk-overlay-0']/mat-bottom-sheet-container/app-feedback-box/div/div/button/span/mat-icon</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dimensions'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rate us'])[1]/following::mat-icon[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='BBB'])[1]/following::button[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::mat-icon[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Length'])[1]/preceding::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Width'])[1]/preceding::button[1]</value>
+      <value>//*/text()[normalize-space(.)='star_border']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//dimensions-list/div/button</value>
+      <value>//div/div/button/span/mat-icon</value>
    </webElementXpaths>
 </WebElementEntity>

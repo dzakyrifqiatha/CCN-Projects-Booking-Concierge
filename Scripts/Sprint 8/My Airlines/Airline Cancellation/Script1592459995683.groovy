@@ -32,14 +32,11 @@ WebUI.click(findTestObject('Object Repository/Page_Booking Concierge/Page_Bookin
 
 WebUI.click(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/a_testconf'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input__mat-input-4'), findTestData(
-        'Booking/TestData_Booking').getValue(1, 1))
+WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input__mat-input-4'), var_awbPrefix)
 
-WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_-_mat-input-5'), findTestData(
-        'Booking/TestData_Booking').getValue(2, 1))
+WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_-_mat-input-5'), var_awbSuffix)
 
-WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input__mat-input-6'), findTestData(
-        'Booking/TestData_Booking').getValue(3, 1))
+WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input__mat-input-6'), var_origin)
 
 WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input__mat-input-8'), 'test cancel')
 
@@ -47,8 +44,7 @@ WebUI.click(findTestObject('Object Repository/Page_Booking Concierge/Page_Bookin
 
 WebUI.click(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_A1_mat-input-24'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_A1_mat-input-24'), findTestData(
-        'Booking/TestData_Flight').getValue(3, 1))
+WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_A1_mat-input-24'), var_fnDate)
 
 WebUI.click(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_AAA_mat-input-26'))
 
@@ -63,29 +59,24 @@ WebUI.click(findTestObject('Object Repository/Page_Booking Concierge/Page_Bookin
 
 WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_NN_mat-input-27'), '')
 
-WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_A1_mat-input-28'), findTestData(
-        'Booking/TestData_Flight').getValue(2, 2))
+WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_A1_mat-input-28'), var_fnSuffix2)
 
 WebUI.click(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/tr_A10001ADD-MMM-YYAAABBBNN done clear'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_A1_mat-input-29'), findTestData(
-        'Booking/TestData_Booking').getValue(3, 2))
+WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_A1_mat-input-29'), var_fDate2)
 
 WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_AAA_mat-input-31'), 
-    findTestData('Booking/TestData_Flight').getValue(5, 2))
+    var_fOffPoint2)
 
 WebUI.click(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/mat-icon_done'))
 
 WebUI.click(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/mat-icon_add'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_NN_mat-input-32'), findTestData(
-        'Booking/TestData_Flight').getValue(1, 3))
+WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_NN_mat-input-32'), var_fnPrefix3)
 
-WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_A1_mat-input-33'), findTestData(
-        'Booking/TestData_Flight').getValue(2, 3))
+WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_A1_mat-input-33'), var_fnSuffix3)
 
-WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_A1_mat-input-34'), findTestData(
-        'Booking/TestData_Flight').getValue(3, 3))
+WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_A1_mat-input-34'), var_fDate3)
 
 WebUI.click(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/div_NN_mat-select-arrow'))
 
@@ -127,20 +118,16 @@ WebUI.click(findTestObject('Object Repository/Page_Booking Concierge/Page_Bookin
 
 WebUI.click(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/mat-icon_add'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input__mat-input-1'), findTestData(
-        'Booking/TestData_Flight').getValue(1, 4))
+WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input__mat-input-1'), var_fnPrefix4)
 
-WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_A1_mat-input-2'), findTestData(
-        'Booking/TestData_Flight').getValue(2, 4))
+WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_A1_mat-input-2'), var_fnSuffix4)
 
-WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_A1_mat-input-3'), findTestData(
-        'Booking/TestData_Flight').getValue(3, 4))
+WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_A1_mat-input-3'), var_fDate4)
 
 WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_DD-MMM-YY_mat-input-4'), 
-    findTestData('Booking/TestData_Flight').getValue(4, 4))
+    var_fBoardPoint4)
 
-WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_AAA_mat-input-5'), findTestData(
-        'Booking/TestData_Flight').getValue(5, 4))
+WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_AAA_mat-input-5'), var_fOffPoint4)
 
 WebUI.click(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/div_BBB_mat-select-arrow-wrapper'))
 
@@ -276,11 +263,9 @@ WebUI.click(findTestObject('Page_YOPmail - Inbox/a_Go to Booking_1_2'))
 
 WebUI.click(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/mat-icon_create'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input__mat-input-1'), findTestData(
-        'Booking/TestData_Flight').getValue(1, 5))
+WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input__mat-input-1'), var_fnPrefix5)
 
-WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_A1_mat-input-2'), findTestData(
-        'Booking/TestData_Flight').getValue(2, 5))
+WebUI.setText(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_A1_mat-input-2'), var_fnSuffix5)
 
 WebUI.click(findTestObject('Object Repository/Page_Booking Concierge/Page_Booking Concierge/input_A1_mat-input-3'))
 

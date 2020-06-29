@@ -29,5 +29,7 @@ WebUI.setText(findTestObject('Page_Booking Concierge Homepage/Page_Feedback 2/in
 
 WebUI.setText(findTestObject('Page_Booking Concierge Homepage/Page_Feedback 2/textarea_Message'), '')
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Page_Booking Concierge Homepage/Page_Feedback 2/button_Send Message'))
 

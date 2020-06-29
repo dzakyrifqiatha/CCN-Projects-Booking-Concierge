@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>1 Rating (After Login)</name>
+   <name>1 Feedback (Before Login)</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>da22e271-8a9d-4537-beb4-16e221fa588c</testCaseGuid>
+   <testCaseGuid>aee6359c-a8f3-450c-a437-c17e543e49e8</testCaseGuid>
    <variable>
       <defaultValue>findTestData('Login/TestData_Login').getValue('vEmail', 1)</defaultValue>
       <description></description>
-      <id>d9498020-192d-48ce-946f-517a33e7e9d3</id>
+      <id>81807f06-4b61-4e6b-8e2d-b2bf027acc0c</id>
       <masked>false</masked>
       <name>vEmail</name>
    </variable>

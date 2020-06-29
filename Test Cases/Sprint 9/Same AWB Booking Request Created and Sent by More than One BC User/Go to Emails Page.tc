@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Go to Emails Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1131af0-1148-4393-8d7f-9cb84350c650</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Login/TestData_Login').getValue('vEmail', 7)</defaultValue>
+      <description></description>
+      <id>ad95689b-cee0-4379-ba2c-2354220cd5e4</id>
+      <masked>false</masked>
+      <name>vEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue('var_AwbSuffix', 2)</defaultValue>
+      <description></description>
+      <id>eec3ee9d-2102-4946-b2a6-2444c8319112</id>
+      <masked>false</masked>
+      <name>vAWB</name>
+   </variable>
+</TestCaseEntity>

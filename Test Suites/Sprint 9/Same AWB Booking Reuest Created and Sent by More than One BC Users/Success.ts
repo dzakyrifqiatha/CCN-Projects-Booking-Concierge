@@ -38,7 +38,7 @@
       <guid>d2f81cf4-86e9-45b9-9b5e-81b20e6793e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 9/Same AWB Booking Request Created and Sent by More than One BC User/Sent Booking Request</testCaseId>
+      <testCaseId>Test Cases/Sprint 9/Same AWB Booking Request Created and Sent by More than One BC User/0 Sent Booking Request</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -188,7 +188,7 @@
       <guid>e3f9158c-fea7-4df9-8eb5-15d1c29061ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 9/Same AWB Booking Request Created and Sent by More than One BC User/0 Login 2nd User</testCaseId>
+      <testCaseId>Test Cases/Sprint 9/Same AWB Booking Request Created and Sent by More than One BC User/1 Login 2nd User</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -206,7 +206,7 @@
       <guid>ccccb007-171b-4d24-a374-61d048867a12</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 9/Same AWB Booking Request Created and Sent by More than One BC User/Sent 2nd Booking Request</testCaseId>
+      <testCaseId>Test Cases/Sprint 9/Same AWB Booking Request Created and Sent by More than One BC User/2 Sent 2nd Booking Request</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -368,7 +368,7 @@
       <guid>50ce7941-e06e-4752-bf74-d1696c3a299d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 9/Same AWB Booking Request Created and Sent by More than One BC User/Go to Emails Page</testCaseId>
+      <testCaseId>Test Cases/Sprint 9/Same AWB Booking Request Created and Sent by More than One BC User/3 Go to Emails Page</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

@@ -25,9 +25,9 @@ WebUI.check(findTestObject('Page_Booking Concierge Homepage/Page_Feedback 2/div_
 
 WebUI.setText(findTestObject('Page_Booking Concierge Homepage/Page_Feedback 2/input_Email'), vEmail)
 
-WebUI.setText(findTestObject('Page_Booking Concierge Homepage/Page_Feedback 2/input_Contract Number'), '')
+WebUI.setText(findTestObject('Page_Booking Concierge Homepage/Page_Feedback 2/input_Contract Number'), '1123')
 
-WebUI.setText(findTestObject('Page_Booking Concierge Homepage/Page_Feedback 2/textarea_Message'), '')
+WebUI.setText(findTestObject('Page_Booking Concierge Homepage/Page_Feedback 2/textarea_Message'), 'Test Feedback')
 
 WebUI.takeScreenshot()
 

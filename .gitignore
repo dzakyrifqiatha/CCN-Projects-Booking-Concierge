@@ -15,3 +15,4 @@ build
 
 .project
 *.xlsx
+settings/internal/com.kms.katalon.composer.testcase.properties

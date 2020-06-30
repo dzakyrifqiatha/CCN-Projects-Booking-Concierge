@@ -22,7 +22,7 @@
             <iterationType>RANGE</iterationType>
             <value>1-1</value>
          </iterationEntity>
-         <testDataId>Data Files/Sprint_1/TD_Registration</testDataId>
+         <testDataId>Data Files/Registration/TestData_Registration</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>

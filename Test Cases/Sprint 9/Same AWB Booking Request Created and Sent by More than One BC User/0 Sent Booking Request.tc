@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Sent Booking Request</name>
+   <name>0 Sent Booking Request</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2f6706a7-6701-4d65-8c7d-8553f12b8eb3</testCaseGuid>

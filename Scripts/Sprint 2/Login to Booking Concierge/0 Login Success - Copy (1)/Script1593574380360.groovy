@@ -21,31 +21,31 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.setText(findTestObject('Page_Booking Concierge/input_Email Address_email'), var_username)
 
 if (WebUI.verifyElementNotClickable(findTestObject('Page_Booking Concierge/button_Sign in'), FailureHandling.CONTINUE_ON_FAILURE)) {
-    CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Failed - Sign in button unclickable', 'No')
+    CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Failed - Sign in button unclickable', 'Yes')
 }
 
 WebUI.refresh()
 
 'Login with Invalid Email Address (Email not Registered)'
-WebUI.setText(findTestObject('Page_Booking Concierge/input_Email Address_email'), var_username)
+WebUI.setText(findTestObject('Page_Booking Concierge/input_Email Address_email'), 'tdasdjajd@yahoo.com')
 
-WebUI.setText(findTestObject('Page_Booking Concierge/input_Password_password'), var_password)
+WebUI.setText(findTestObject('Page_Booking Concierge/input_Password_password'), 'password')
 
 WebUI.click(findTestObject('Page_Booking Concierge/button_Sign in'))
 
 if (WebUI.verifyTextPresent('A user with such email does not exist. Enter the correct email or sign up.', false)) {
-    CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Failed - Email Not Registered', 'No')
+    CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Failed - Email Not Registered', 'Yes')
 }
 
 WebUI.refresh()
 
 'Login with Invalid Email Format'
-WebUI.setText(findTestObject('Page_Booking Concierge/input_Email Address_email'), var_username)
+WebUI.setText(findTestObject('Page_Booking Concierge/input_Email Address_email'), 'testest')
 
-WebUI.setText(findTestObject('Page_Booking Concierge/input_Password_password'), var_password)
+WebUI.setText(findTestObject('Page_Booking Concierge/input_Password_password'), 'password')
 
 if (WebUI.verifyElementNotClickable(findTestObject('Page_Booking Concierge/button_Sign in'), FailureHandling.CONTINUE_ON_FAILURE)) {
-	CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Failed - Sign in button unclickable', 'No')
+	CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Failed - Sign in button unclickable', 'Yes')
 }
 
 'Login Success Scenario'
@@ -66,6 +66,4 @@ if (WebUI.verifyElementVisible(findTestObject('Page_Booking Concierge/hq_My Book
 WebUI.takeScreenshot()
 
 WebUI.delay(10)
-
-WebUI.verifyTextPresent('TEST', false)
 

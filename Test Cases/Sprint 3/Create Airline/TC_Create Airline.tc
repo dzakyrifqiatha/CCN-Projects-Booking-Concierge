@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TS_Create Airline</name>
+   <name>TC_Create Airline</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Run 0 Login Success Test Case under the Sprint 2/Login to Booking Concierge folder first</comment>
    <testCaseGuid>42b06391-b104-4fe3-b09a-eab354b2aa2f</testCaseGuid>
    <variable>
       <defaultValue>findTestData('Create Airline/TestData_CreateAirline').getValue(1, 1)</defaultValue>

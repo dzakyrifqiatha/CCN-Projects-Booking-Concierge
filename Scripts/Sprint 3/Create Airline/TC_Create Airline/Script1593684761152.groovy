@@ -22,13 +22,43 @@ WebUI.click(findTestObject('Page_Booking Concierge Homepage/span_My Airlines'))
 
 WebUI.click(findTestObject('Page_BC My Airlines/span_Create Airline'))
 
-string carrierCode = "SQ"
+string(carrierCode = 'SQ')
 
-string carrierPrefix = 610
+string(carrierPrefix = 610)
 
-string station = SIN
+string(station = 'SIN')
 
-string airlineEmail = testemail
+string(airlineEmail = 'testemail')
+
+WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Carrier Code'), carrierCode)
+
+WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Carrier Prefix'), carrierPrefix)
+
+WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Station'), station)
+
+WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Airline Email'), airlineEmail)
+
+WebUI.focus(findTestObject('Page_BC Create Airline/textarea__mat-input-Remarks'))
+
+WebUI.setText(findTestObject('Page_BC Create Airline/textarea__mat-input-Remarks'), var_remarks)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Page_BC Create Airline/button_Save'))
+
+if (WebUI.verifyTextPresent('Invalid email format. Use test@test.com. ', false)) {
+    CustomKeywords.'ccnpackage.LogResults.searchresult'('Create Airline Failed - Invalid Email', 'Yes')
+}
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Page_BC Create Airline/button_Cancel'))
+
+////////////////////////////////////////////////////////////
+
+'Create Airline Success'
+//WebUI.click(findTestObject('Page_Booking Concierge Homepage/span_My Airlines'))
+WebUI.click(findTestObject('Page_BC My Airlines/span_Create Airline'))
 
 WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Carrier Code'), var_carriercode)
 
@@ -46,11 +76,18 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_BC Create Airline/button_Save'))
 
+if (WebUI.verifyTextPresent('Airline has been created successfully. ', false)) {
+	CustomKeywords.'ccnpackage.LogResults.searchresult'('Create Airline Success', 'Yes')
+}
+
 WebUI.takeScreenshot()
+
+WebUI.delay(5)
 
 ////////////////////////////////////////////////////////////
 
-WebUI.click(findTestObject('Page_Booking Concierge Homepage/span_My Airlines'))
+'Create Airline Failed - Prefix and Station Combination is existed'
+//WebUI.click(findTestObject('img_Booking Concierge'))
 
 WebUI.click(findTestObject('Page_BC My Airlines/span_Create Airline'))
 
@@ -70,9 +107,12 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_BC Create Airline/button_Save'))
 
+if (WebUI.verifyTextPresent('There is an existing airline record under this station. Please try again. ', false)) {
+	CustomKeywords.'ccnpackage.LogResults.searchresult'('Create Airline Failed - Carrier Prefix Existed', 'Yes')
+} else if (WebUI.verifyTextPresent('There is an existing airline record under this station. Please try again. ', false)) {
+	CustomKeywords.'ccnpackage.LogResults.searchresult'('Create Airline Failed - Station Existed', 'Yes')
+}
+
 WebUI.takeScreenshot()
 
 WebUI.delay(5)
-
-WebUI.click(findTestObject('img_Booking Concierge'))
-

@@ -64,7 +64,7 @@ WebUI.click(findTestObject('Page_Booking Concierge/button_Sign in'))
 WebUI.delay(3)
 
 if (WebUI.verifyElementVisible(findTestObject('Page_Booking Concierge/hq_My Bookings'), FailureHandling.CONTINUE_ON_FAILURE)) {
-    CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Success', 'No')
+    CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Success', 'Yes')
 } else {
     if (WebUI.verifyTextPresent('User with this email address exists', false)) {
         CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Failed - Email Existed', 'No')

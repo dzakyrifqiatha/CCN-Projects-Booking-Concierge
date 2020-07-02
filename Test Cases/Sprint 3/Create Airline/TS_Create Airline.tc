@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS_Create Airline</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>42b06391-b104-4fe3-b09a-eab354b2aa2f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Create Airline/TestData_CreateAirline').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>5f7aa1bb-3777-49e4-b904-ed640ada4902</id>
+      <masked>false</masked>
+      <name>var_carriercode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Create Airline/TestData_CreateAirline').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>239ad911-c4fc-466f-9391-25395a5454c8</id>
+      <masked>false</masked>
+      <name>var_carrierprefix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Create Airline/TestData_CreateAirline').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>88d754c3-7716-446f-a680-10a424a5577c</id>
+      <masked>false</masked>
+      <name>var_station</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Create Airline/TestData_CreateAirline').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>21b66cef-793c-4f49-bad9-320b1cb9cf64</id>
+      <masked>false</masked>
+      <name>var_airlineemail</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Create Airline/TestData_CreateAirline').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>f1be5418-7afd-4da9-b11a-e1407a4bf1c4</id>
+      <masked>false</masked>
+      <name>var_remarks</name>
+   </variable>
+</TestCaseEntity>

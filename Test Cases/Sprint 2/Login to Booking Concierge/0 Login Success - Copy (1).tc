@@ -3,7 +3,7 @@
    <description></description>
    <name>0 Login Success - Copy (1)</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Run Login Test Case under the Authentication Login folder first</comment>
    <testCaseGuid>5435172f-6631-47cd-a4e6-892a34936e01</testCaseGuid>
    <variable>
       <defaultValue>findTestData('Login/TestData_Login').getValue('vEmail', 1)</defaultValue>

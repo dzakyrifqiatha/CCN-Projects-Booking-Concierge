@@ -36,7 +36,7 @@ import WebUiBuiltInKeywords as WebUI
 public class ccnkeywords {
 	@Keyword
 	def selectValueFromUnorderedList(TestObject unorderedList, String value) {
-<<<<<<< HEAD
+
 
 		boolean result = false
 
@@ -59,31 +59,6 @@ public class ccnkeywords {
 			KeywordUtil.markError(value + " Not found");
 
 		}
-=======
-	
-	boolean result = false
 
-	List<WebElement> options = WebUiCommonHelper.findWebElements(unorderedList, 30);
-	System.out.println(options.size());
-	for (WebElement option : options) {
-
-	if (value.equals(option.getText())) {
-//	option.click();
-	result = true;
-//	System.out.println(value + " Found" );
-	
-	KeywordUtil.markPassed(value + " Found" ) ;
-	break;
-	}
-	}
-
-	if (result.equals(false) ) {
-//		System.out.println(value + " Not found" );
-		KeywordUtil.markError(value + " Not found");
-		
-			}
-	
-	
->>>>>>> 444a133de117cd3e8266b0776648dc0b07f838e5
 	}
 }

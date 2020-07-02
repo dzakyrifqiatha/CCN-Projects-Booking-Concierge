@@ -20,6 +20,8 @@ import internal.GlobalVariable as GlobalVariable
 'Login Without Password Scenario'
 WebUI.setText(findTestObject('Page_Booking Concierge/input_Email Address_email'), var_username)
 
+WebUI.delay(3)
+
 if (WebUI.verifyElementNotClickable(findTestObject('Page_Booking Concierge/button_Sign in'), FailureHandling.CONTINUE_ON_FAILURE)) {
     CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Failed - Sign in button unclickable', 'Yes')
 }
@@ -33,6 +35,8 @@ WebUI.setText(findTestObject('Page_Booking Concierge/input_Password_password'), 
 
 WebUI.click(findTestObject('Page_Booking Concierge/button_Sign in'))
 
+WebUI.delay(3)
+
 if (WebUI.verifyTextPresent('A user with such email does not exist. Enter the correct email or sign up.', false)) {
     CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Failed - Email Not Registered', 'Yes')
 }
@@ -44,8 +48,10 @@ WebUI.setText(findTestObject('Page_Booking Concierge/input_Email Address_email')
 
 WebUI.setText(findTestObject('Page_Booking Concierge/input_Password_password'), 'password')
 
+WebUI.delay(3)
+
 if (WebUI.verifyElementNotClickable(findTestObject('Page_Booking Concierge/button_Sign in'), FailureHandling.CONTINUE_ON_FAILURE)) {
-	CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Failed - Sign in button unclickable', 'Yes')
+    CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Failed - Sign in button unclickable', 'Yes')
 }
 
 'Login Success Scenario'
@@ -55,10 +61,12 @@ WebUI.setText(findTestObject('Page_Booking Concierge/input_Password_password'), 
 
 WebUI.click(findTestObject('Page_Booking Concierge/button_Sign in'))
 
+WebUI.delay(3)
+
 if (WebUI.verifyElementVisible(findTestObject('Page_Booking Concierge/hq_My Bookings'), FailureHandling.CONTINUE_ON_FAILURE)) {
     CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Success', 'No')
 } else {
-    if (WebUI.verifyTextPresent('User with this email address exists', true)) {
+    if (WebUI.verifyTextPresent('User with this email address exists', false)) {
         CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Failed - Email Existed', 'No')
     }
 }

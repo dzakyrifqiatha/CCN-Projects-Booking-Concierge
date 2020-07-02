@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>0 Login Success - Copy (1)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5435172f-6631-47cd-a4e6-892a34936e01</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Login/TestData_Login').getValue('vEmail', 1)</defaultValue>
+      <description></description>
+      <id>c73035e9-fe3f-4849-838f-2b86c540bded</id>
+      <masked>false</masked>
+      <name>var_username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Login/TestData_Login').getValue('vPassword', 1)</defaultValue>
+      <description></description>
+      <id>a5bcf4df-330f-47c5-a90c-fd67c0a69eed</id>
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
+</TestCaseEntity>

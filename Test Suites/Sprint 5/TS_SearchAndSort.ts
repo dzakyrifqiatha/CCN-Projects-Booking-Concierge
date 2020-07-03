@@ -11,132 +11,45 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>9dd22e49-d13d-4982-ad68-e63ba36132fe</testSuiteGuid>
    <testCaseLink>
-      <guid>f1354293-c076-4b58-827b-58207fea4635</guid>
+      <guid>bf83b2fb-9dee-4791-aae0-3e3353fd9485</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 5/Search n Sort/0 Share via Email</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>5404f168-4f18-4de6-af2f-7639449fbe18</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Booking/TestData_Booking</testDataId>
-      </testDataLink>
+      <testCaseId>Test Cases/Authentication Login/Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7c805b05-2cca-456a-b089-8c726269da0e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 2/Login to Booking Concierge/0 Login Success</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>45f41336-e673-42b3-ab9b-20b1a8b758c8</variableId>
+         <variableId>2020a495-7060-4f34-b7e9-4f3017b45cf8</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>039e564a-8390-4231-8831-325c8cba6f47</variableId>
+         <variableId>5b99673a-7f6b-4e9b-ae57-42b8ef9938e6</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>45790f5c-8d3a-4bef-934f-eb850f95a40a</guid>
+      <guid>e09a4a8a-3ba7-4a14-b0de-341c80f496fe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 5/Search n Sort/1 Edit Booking</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>3d5e4378-d6da-45d1-9ba0-fa75f647389d</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Booking/TestData_Booking</testDataId>
-      </testDataLink>
+      <testCaseId>Test Cases/Sprint 5/Search n Sort/TC_Search and Sort</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b81b90ac-62a6-41d1-85f4-bc4be6ba385a</variableId>
+         <variableId>7034f8cd-3999-4ee5-bac8-7cf32faf9c55</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ba4834a1-ef36-4e95-97f7-8ca1018673ae</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>aea3322f-8fe9-499d-be9a-caa076d9d0d5</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>78f16f32-caf2-48ad-9f23-947106ba0a1a</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>88fba3a7-1610-4ec3-b122-2fb93a0010ac</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 5/Search n Sort/2 Audit Log</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>ce4bfd96-fb14-45d2-a63d-d030d99fcad7</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Booking/TestData_Booking</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6d60d970-4438-452a-bdd6-160229b2c42c</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0e41ba2b-f524-4bd0-ad02-2bd527755f36</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 5/Search n Sort/3 Copy Booking</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>5a2b474c-d21a-4e5c-8407-e48e11ae34e8</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Booking/TestData_Booking</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>39ca870a-c22a-41c8-a3ad-bff25b50a17f</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3e380e93-6dae-4d85-86db-2ee43a81950f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 5/Search n Sort/4 Delete Booking</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>7c482ee0-5abb-41b3-8323-7649f457904f</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Booking/TestData_Booking</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e8f06c25-f376-4b66-bcf5-ad79374cae2f</variableId>
+         <variableId>48156083-5b31-4191-8a87-13c5ba074718</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

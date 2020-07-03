@@ -30,3 +30,9 @@ WebUI.setText(findTestObject('Page_Edit Profile/input_Confirm New Password'), fi
 
 WebUI.click(findTestObject('Page_Edit Profile/button_Save Edit Profile'))
 
+WebUI.delay(5)
+
+if (WebUI.verifyTextPresent('User profile updated.', true)) {
+    CustomKeywords.'ccnpackage.LogResults.searchresult'('Update User Profile Success', 'Yes')
+}
+

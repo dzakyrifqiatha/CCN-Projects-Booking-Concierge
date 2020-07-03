@@ -20,7 +20,7 @@
       <guid>a6b565fc-d084-4d75-a76b-ff8960de73ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/Login to Booking Concierge/0 Login Success</testCaseId>
+      <testCaseId>Test Cases/Sprint 2/Login to Booking Concierge/TC_Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6a3c7c60-9f43-4ce0-8b56-cf14e38c5272</id>
@@ -31,16 +31,16 @@
          <testDataId>Data Files/Login/TestData_Login</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>6a3c7c60-9f43-4ce0-8b56-cf14e38c5272</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>vEmail</value>
-         <variableId>2020a495-7060-4f34-b7e9-4f3017b45cf8</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b15175ae-b9c0-437e-b97d-cc4a29cb0cb1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>6a3c7c60-9f43-4ce0-8b56-cf14e38c5272</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>vPassword</value>
-         <variableId>5b99673a-7f6b-4e9b-ae57-42b8ef9938e6</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>17104099-064c-4cfd-8f10-e1cfab63ae68</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

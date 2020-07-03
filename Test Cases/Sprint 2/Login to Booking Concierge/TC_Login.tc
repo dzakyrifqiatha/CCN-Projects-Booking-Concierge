@@ -3,6 +3,20 @@
    <description></description>
    <name>TC_Login</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Run Login Test Case under the Authentication Login folder first</comment>
    <testCaseGuid>4c0e4ecf-02ae-429d-a32e-5adcdb6e80a3</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Login/TestData_Login').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b15175ae-b9c0-437e-b97d-cc4a29cb0cb1</id>
+      <masked>false</masked>
+      <name>var_username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Login/TestData_Login').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>17104099-064c-4cfd-8f10-e1cfab63ae68</id>
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
 </TestCaseEntity>

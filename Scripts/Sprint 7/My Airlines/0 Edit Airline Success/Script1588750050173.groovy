@@ -33,3 +33,9 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('img_Booking Concierge'))
 
+WebUI.delay(5)
+
+if (WebUI.verifyTextPresent('Airline has been updated successfully.', true)) {
+    CustomKeywords.'ccnpackage.LogResults.searchresult'('Edit Airline Success', 'Yes')
+}
+

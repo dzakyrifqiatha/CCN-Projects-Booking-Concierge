@@ -40,9 +40,11 @@ WebUI.click(findTestObject('Page_Booking Concierge Homepage/BC Table/button_Send
 
 WebUI.delay(5)
 
-if (WebUI.verifyTextPresent(('Booking record is shared with ' + var_email) + '.', true)) {
+if (WebUI.verifyElementText(findTestObject('Page_Booking Concierge Homepage/verification/popup_success'), 'Booking record is shared with ' + var_email) + '.') {
     CustomKeywords.'ccnpackage.LogResults.searchresult'('Share via Email Success', 'Yes')
 }
+
+WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking Concierge\\Result Regression Testing\\v1\\Sprint 5\\Share via Email - Success.png')
 
 WebUI.refresh()
 
@@ -87,9 +89,11 @@ WebUI.click(findTestObject('Page_Create New Booking/Page_Save Booking/button_Rec
 
 WebUI.delay(10)
 
-if (WebUI.verifyTextPresent('Booking is saved successfully', true)) {
+if (WebUI.verifyElementText(findTestObject('Page_Booking Concierge Homepage/verification/popup_success'), 'Booking is saved successfully', true)) {
     CustomKeywords.'ccnpackage.LogResults.searchresult'('Edit Booking Success', 'Yes')
 }
+
+WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking Concierge\\Result Regression Testing\\v1\\Sprint 5\\Edit Booking - Success.png')
 
 WebUI.refresh()
 
@@ -111,6 +115,8 @@ if (WebUI.verifyTextPresent('Audit Logs', true)) {
     CustomKeywords.'ccnpackage.LogResults.searchresult'('Audit Booking Success', 'Yes')
 }
 
+WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking Concierge\\Result Regression Testing\\v1\\Sprint 5\\Audit Log.png')
+
 WebUI.refresh()
 
 'Copy Booking'
@@ -127,9 +133,11 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_Booking Concierge Homepage/BC Table/button_Yes Copy Record'), FailureHandling.STOP_ON_FAILURE)
 
-if (WebUI.verifyTextPresent('Booking is copied successfully.', true)) {
+if (WebUI.verifyElementText(findTestObject('Page_Booking Concierge Homepage/verification/popup_success'), 'Booking is copied successfully.', true)) {
     CustomKeywords.'ccnpackage.LogResults.searchresult'('Copy Booking Success', 'Yes')
 }
+
+WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking Concierge\\Result Regression Testing\\v1\\Sprint 5\\Copy Booking - Success.png')
 
 WebUI.refresh()
 
@@ -149,9 +157,11 @@ WebUI.click(findTestObject('Page_Booking Concierge Homepage/BC Table/button_Yes 
 
 WebUI.delay(5)
 
-if (WebUI.verifyTextPresent('Booking is copied successfully.', true)) {
-    CustomKeywords.'ccnpackage.LogResults.searchresult'('Copy Booking Success', 'Yes')
+if (WebUI.verifyElementText(findTestObject('Page_Booking Concierge Homepage/verification/popup_success'), 'Booking is deleted successfully.', true)) {
+    CustomKeywords.'ccnpackage.LogResults.searchresult'('Delete Booking Success', 'Yes')
 }
+
+WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking Concierge\\Result Regression Testing\\v1\\Sprint 5\\Delete Booking - Success.png')
 
 WebUI.delay(5)
 

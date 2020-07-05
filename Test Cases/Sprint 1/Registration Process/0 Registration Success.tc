@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>97760b06-bb4f-421f-b101-485fedbdd6bd</testCaseGuid>
    <variable>
-      <defaultValue>findTestData('Registration/TestData_Registration').getValue(1, 1)</defaultValue>
+      <defaultValue>findTestData('Registration/TestData_Registration').getValue(1, 4)</defaultValue>
       <description></description>
       <id>234d982d-a407-4fac-9709-bbc6a278bd55</id>
       <masked>false</masked>

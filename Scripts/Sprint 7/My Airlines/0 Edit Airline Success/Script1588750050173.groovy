@@ -35,7 +35,9 @@ WebUI.click(findTestObject('img_Booking Concierge'))
 
 WebUI.delay(5)
 
-if (WebUI.verifyTextPresent('Airline has been updated successfully.', true)) {
+if (WebUI.verifyElementText(findTestObject('Page_BC Create Aieline/verification/popup_success'), 'Airline has been updated successfully.')) {
     CustomKeywords.'ccnpackage.LogResults.searchresult'('Edit Airline Success', 'Yes')
 }
+
+WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking Concierge\\Result Regression Testing\\v1\\Sprint 7\\Edit Airline - Success.png')
 

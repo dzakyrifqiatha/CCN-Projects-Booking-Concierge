@@ -26,6 +26,10 @@ if (WebUI.verifyElementNotClickable(findTestObject('Page_Booking Concierge/butto
     CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Failed - Sign in button unclickable', 'Yes')
 }
 
+WebUI.delay(3)
+
+WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking Concierge\\Result Regression Testing\\v1\\Sprint 2\\Login Failed - Without Password.png')
+
 WebUI.refresh()
 
 'Login with Invalid Email Address (Email not Registered)'
@@ -41,6 +45,10 @@ if (WebUI.verifyTextPresent('A user with such email does not exist. Enter the co
     CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Failed - Email Not Registered', 'Yes')
 }
 
+WebUI.delay(3)
+
+WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking Concierge\\Result Regression Testing\\v1\\Sprint 2\\Login Failed - Email Not Registered.png')
+
 WebUI.refresh()
 
 'Login with Invalid Email Format'
@@ -54,6 +62,12 @@ if (WebUI.verifyElementNotClickable(findTestObject('Page_Booking Concierge/butto
     CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Failed - Sign in button unclickable', 'Yes')
 }
 
+WebUI.delay(3)
+
+WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking Concierge\\Result Regression Testing\\v1\\Sprint 2\\Login Failed - Invalid Email Format.png')
+
+WebUI.refresh()
+
 'Login Success Scenario'
 WebUI.setText(findTestObject('Page_Booking Concierge/input_Email Address_email'), var_username)
 
@@ -63,15 +77,16 @@ WebUI.click(findTestObject('Page_Booking Concierge/button_Sign in'))
 
 WebUI.delay(10)
 
-if (WebUI.verifyElementVisible(findTestObject('Page_Booking Concierge/hq_My Bookings'), FailureHandling.CONTINUE_ON_FAILURE)) {
+if (WebUI.verifyElementText(findTestObject('Page_Booking Concierge/h1_My Bookings'), 'My Bookings')) {
     CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Success', 'Yes')
-} else {
-    if (WebUI.verifyTextPresent('User with this email address exists', false)) {
-        CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Failed - Email Existed', 'No')
-    }
-}
+} 
+//else {
+//    if (WebUI.verifyTextPresent('User with this email address exists', false)) {
+//        CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Failed - Email Existed', 'No')
+//    }
+//}
 
-WebUI.takeScreenshot()
+WebUI.delay(3)
 
-WebUI.delay(10)
+WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking Concierge\\Result Regression Testing\\v1\\Sprint 2\\Login Success.png')
 

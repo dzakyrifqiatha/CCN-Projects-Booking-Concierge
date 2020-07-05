@@ -22,13 +22,13 @@ WebUI.click(findTestObject('Page_Booking Concierge Homepage/span_My Airlines'))
 
 WebUI.click(findTestObject('Page_BC My Airlines/span_Create Airline'))
 
-string(carrierCode = 'SQ')
+ carrierCode = 'SQ'
 
-string(carrierPrefix = 610)
+ carrierPrefix = '610'
 
-string(station = 'SIN')
+ station = 'SIN'
 
-string(airlineEmail = 'testemail')
+ airlineEmail = 'testemail'
 
 WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Carrier Code'), carrierCode)
 
@@ -46,11 +46,13 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_BC Create Airline/button_Save'))
 
-if (WebUI.verifyTextPresent('Invalid email format. Use test@test.com. ', false)) {
+if (WebUI.verifyElementText(findTestObject('Page_BC Create Airline/verification/verify_email format'), 'Invalid email format. Use test@test.com.')) {
     CustomKeywords.'ccnpackage.LogResults.searchresult'('Create Airline Failed - Invalid Email', 'Yes')
 }
 
-WebUI.takeScreenshot()
+WebUI.delay(3)
+
+WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking Concierge\\Result Regression Testing\\v1\\Sprint 3\\Create Airline Failed - Invalid Email Format.png')
 
 WebUI.click(findTestObject('Page_BC Create Airline/button_Cancel'))
 
@@ -72,15 +74,17 @@ WebUI.focus(findTestObject('Page_BC Create Airline/textarea__mat-input-Remarks')
 
 WebUI.setText(findTestObject('Page_BC Create Airline/textarea__mat-input-Remarks'), var_remarks)
 
-WebUI.delay(5)
+//WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_BC Create Airline/button_Save'))
 
-if (WebUI.verifyTextPresent('Airline has been created successfully. ', false)) {
+if (WebUI.verifyElementText(findTestObject('Page_BC Create Airline/verification/popup_success'), 'Airline has been created successfully.')) {
 	CustomKeywords.'ccnpackage.LogResults.searchresult'('Create Airline Success', 'Yes')
 }
 
-WebUI.takeScreenshot()
+WebUI.delay(3)
+
+WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking Concierge\\Result Regression Testing\\v1\\Sprint 3\\Create Airline Success.png')
 
 WebUI.delay(5)
 
@@ -107,12 +111,14 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_BC Create Airline/button_Save'))
 
-if (WebUI.verifyTextPresent('There is an existing airline record under this station. Please try again. ', false)) {
+if (WebUI.verifyElementText(findTestObject('Page_BC Create Airline/verification/verify_carrier prefix'), 'There is an existing airline record under this station. Please try again.')) {
 	CustomKeywords.'ccnpackage.LogResults.searchresult'('Create Airline Failed - Carrier Prefix Existed', 'Yes')
-} else if (WebUI.verifyTextPresent('There is an existing airline record under this station. Please try again. ', false)) {
+} else if (WebUI.verifyElementText(findTestObject('Page_BC Create Airline/verification/verify_station'), 'There is an existing airline record under this station. Please try again.')) {
 	CustomKeywords.'ccnpackage.LogResults.searchresult'('Create Airline Failed - Station Existed', 'Yes')
 }
 
-WebUI.takeScreenshot()
+WebUI.delay(3)
+
+WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking Concierge\\Result Regression Testing\\v1\\Sprint 3\\Create Airline Failed - Prefix and Station Combination Existed.png')
 
 WebUI.delay(5)

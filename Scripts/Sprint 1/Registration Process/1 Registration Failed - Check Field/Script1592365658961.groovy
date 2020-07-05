@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Page_Register Booking Concierge/span_Save'))
 
 WebUI.delay(5)
 
-WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/verify_email format'), ' Invalid email format. Use test@test.com. ')
+WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/verify_email'), ' Invalid email format. Use test@test.com. ')
 
 WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/verify_name'), ' Name allowed only alphabets, numbers and space. ')
 

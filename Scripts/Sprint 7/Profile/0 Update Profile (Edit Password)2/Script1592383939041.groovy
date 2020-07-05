@@ -32,7 +32,8 @@ WebUI.click(findTestObject('Page_Edit Profile/button_Save Edit Profile'))
 
 WebUI.delay(5)
 
-if (WebUI.verifyTextPresent('User profile updated.', true)) {
+if (WebUI.verifyElementText(findTestObject('Page_Edit Profile/verification/popup_success'), 'User profile updated.')) {
     CustomKeywords.'ccnpackage.LogResults.searchresult'('Update User Profile Success', 'Yes')
 }
 
+WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking Concierge\\Result Regression Testing\\v1\\Sprint 7\\Edit Profile - Success.png')

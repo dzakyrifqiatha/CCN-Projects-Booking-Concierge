@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 'input AWB No. for Confirmed Booking Requesst'
-WebUI.setText(findTestObject('Page_Booking Concierge Homepage/input_Search'), '123-11111111')
+WebUI.setText(findTestObject('Page_Booking Concierge Homepage/input_Search'), var_searchAwbNum)
 
 WebUI.delay(2)
 

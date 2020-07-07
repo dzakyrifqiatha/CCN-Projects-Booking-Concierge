@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Registration</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>e799087b-9631-42d2-876c-4eb8b2fd7180</testSuiteGuid>
+   <testCaseLink>
+      <guid>70642d82-a968-4f1a-a6eb-d51c1c4cde38</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Authentication Login/Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f9df7a61-ba56-4820-9eaf-dc5aea5d3e1e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 1/Registration Process/0 Registration Success</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>519fa998-e042-43a1-873a-151a8e48b49f</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Registration/TestData_Registration</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>234d982d-a407-4fac-9709-bbc6a278bd55</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>621f85aa-de18-4937-befd-a3d760a89d41</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4b67657f-d0a3-4f15-8d77-8dcf7e5c116e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bce914a4-c8ae-44be-b103-5bea871f57a3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>243a38e5-86f5-4201-a51c-5130da47b856</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2ba8d98d-c20e-44a0-a320-5bffcc2f35d1</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

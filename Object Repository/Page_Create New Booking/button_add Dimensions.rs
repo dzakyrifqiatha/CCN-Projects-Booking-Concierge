@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/main/app-create-booking/dimensions-list/div/button/span[count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]</value>
+         <value>/html/body/app-root/app-home/main/app-create-booking/dimensions-list/div/button</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -38,7 +38,7 @@
       <value>primary</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/main/app-create-booking/dimensions-list/div/button/span</value>
+      <value>/html/body/app-root/app-home/main/app-create-booking/dimensions-list/div/button</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

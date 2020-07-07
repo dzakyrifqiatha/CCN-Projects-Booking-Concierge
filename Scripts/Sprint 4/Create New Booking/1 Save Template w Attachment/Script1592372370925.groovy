@@ -21,20 +21,15 @@ WebUI.click(findTestObject('Page_Booking Concierge Homepage/mat-option_New Booki
 
 WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-AWB Prefix'), '')
 
-WebUI.setText(findTestObject('Page_Create New Booking/input_-_mat-input-AWB Suffix'), findTestData('Booking/TestData_Booking').getValue(
-        2, 1))
+WebUI.setText(findTestObject('Page_Create New Booking/input_-_mat-input-AWB Suffix'), var_awbPrefix)
 
-WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Origin'), findTestData('Booking/TestData_Booking').getValue(
-        3, 1))
+WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Origin'), var_awbSuffix)
 
-WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Destination'), findTestData('Booking/TestData_Booking').getValue(
-        4, 1))
+WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Destination'), var_origin)
 
-WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Good Description'), findTestData('Booking/TestData_Booking').getValue(
-        5, 1))
+WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Good Description'), var_destination)
 
-WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Pieces'), findTestData('Booking/TestData_Booking').getValue(
-        6, 1))
+WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Pieces'), var_goodsDesc)
 
 not_run: WebUI.setText(findTestObject('Page_Create New Booking/input__mat-input-Weight'), '')
 

@@ -17,27 +17,31 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Page_Booking Concierge/a_here'))
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-2-email-address'), findTestData('Registration/TestData_Registration').getValue(
-        1, 2))
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-2-email-address'), var_email)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-3-name'), findTestData('Registration/TestData_Registration').getValue(
-        2, 2))
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-3-name'), var_name)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-4-password'), findTestData('Registration/TestData_Registration').getValue(
-        3, 2))
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-4-password'), var_pass)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-5-confirm-password'), findTestData('Registration/TestData_Registration').getValue(
-        4, 2))
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-5-confirm-password'), var_confpass)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-6-company'), findTestData('Registration/TestData_Registration').getValue(
-        5, 2))
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-6-company'), var_company)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-7-contact-no'), findTestData('Registration/TestData_Registration').getValue(
-        6, 2))
+WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-7-contact-no'), var_contactno)
 
 WebUI.click(findTestObject('Page_Register Booking Concierge/span_Save'))
 
 WebUI.delay(5)
+
+WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/verify_email'), ' Invalid email format. Use test@test.com. ')
+
+WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/verify_name'), ' Name allowed only alphabets, numbers and space. ')
+
+WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/verify_password'), 'This field is required. ')
+
+WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/verify_contact'), ' Phone number allowed only 25 numeric characters and \'+\' for first character only. ')
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Page_Register Booking Concierge/span_Cancel'))
 

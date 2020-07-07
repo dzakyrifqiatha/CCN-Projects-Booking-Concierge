@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Invalid Email error</name>
+   <tag></tag>
+   <elementGuidId>0f26e64c-9992-4e64-a1a3-706c1e542992</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/main/app-create-airline/form/div[2]/mat-form-field[2]/div/div[2]/div/mat-error/app-error/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/main/app-create-airline/form/div[2]/mat-form-field[2]/div/div[2]/div/mat-error/app-error/span</value>
+   </webElementProperties>
+</WebElementEntity>

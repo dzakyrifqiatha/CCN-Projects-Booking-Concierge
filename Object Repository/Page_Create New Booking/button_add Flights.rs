@@ -6,12 +6,12 @@
    <elementGuidId>6c58f584-18b2-4e89-8fb7-cc9342e2575c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[3]</value>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/main/app-create-booking/flights-list/div/button</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/app-root/app-home/main/app-create-booking/flights-list/div/button/div[1]</value>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/main/app-create-booking/flights-list/div/button/div[1]</value>
+      <value>/html/body/app-root/app-home/main/app-create-booking/flights-list/div/button</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -15,7 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('Page_Booking Concierge Homepage/input_Search'), '312-12345675')
+WebUI.setText(findTestObject('Page_Booking Concierge Homepage/input_Search'), findTestData('Booking/TestData_Booking').getValue(
+        2, 1))
 
 WebUI.focus(findTestObject('Page_Booking Concierge Homepage/BC Table/div_AWB No'))
 
@@ -71,15 +72,18 @@ WebUI.click(findTestObject('Page_Create New Booking/button_Dimensions-Edit'))
 
 WebUI.clearText(findTestObject('Page_Create New Booking/input_Volume_mat-input-Length'))
 
-WebUI.setText(findTestObject('Page_Create New Booking/input_Volume_mat-input-Length'), '100')
+WebUI.setText(findTestObject('Page_Create New Booking/input_Volume_mat-input-Length'), findTestData('Booking/TestData_Booking').getValue(
+        13, 1))
 
 WebUI.clearText(findTestObject('Page_Create New Booking/input_Volume_mat-input-Width'))
 
-WebUI.setText(findTestObject('Page_Create New Booking/input_Volume_mat-input-Width'), '200')
+WebUI.setText(findTestObject('Page_Create New Booking/input_Volume_mat-input-Width'), findTestData('Booking/TestData_Booking').getValue(
+        14, 1))
 
 WebUI.clearText(findTestObject('Page_Create New Booking/input_Volume_mat-input-Height'))
 
-WebUI.setText(findTestObject('Page_Create New Booking/input_Volume_mat-input-Height'), '150')
+WebUI.setText(findTestObject('Page_Create New Booking/input_Volume_mat-input-Height'), findTestData('Booking/TestData_Booking').getValue(
+        15, 1))
 
 not_run: WebUI.focus(findTestObject('Page_Create New Booking/input_Volume_mat-input-Unit'))
 

@@ -5,4 +5,137 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>9e721cbe-e418-4547-bd29-d1d969a59b50</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>4f245e5f-a756-4aa4-93e8-253c0b3c7563</id>
+      <masked>false</masked>
+      <name>var_awbPrefix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>46ae4b74-75ee-454b-8c99-bcce117fbeac</id>
+      <masked>false</masked>
+      <name>var_awbSuffix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>bd3c373a-18b0-41ef-8389-2f0ff0641881</id>
+      <masked>false</masked>
+      <name>var_origin</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>2775c344-e4ca-4fc7-99cb-90eabcb446d6</id>
+      <masked>false</masked>
+      <name>var_destination</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>5dd0deaf-7d99-44cf-af2f-7f93a49f25c6</id>
+      <masked>false</masked>
+      <name>var_goodsDesc</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(6, 1)</defaultValue>
+      <description></description>
+      <id>58245df8-f045-45e4-ac52-3171afb7fde9</id>
+      <masked>false</masked>
+      <name>var_pieces</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(7, 1)</defaultValue>
+      <description></description>
+      <id>b6d9c4d8-69a5-48e7-b4ff-85d26f2261b7</id>
+      <masked>false</masked>
+      <name>var_weight</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(8, 1)</defaultValue>
+      <description></description>
+      <id>dd1a88e1-f19e-4685-b570-b95fb80a73da</id>
+      <masked>false</masked>
+      <name>var_volume</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(9, 1)</defaultValue>
+      <description></description>
+      <id>b8ac9f6e-17e0-48b2-969a-42749f69997b</id>
+      <masked>false</masked>
+      <name>var_shc1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Flight').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>151b56ce-fb5f-473b-bd7a-c886741d9c2d</id>
+      <masked>false</masked>
+      <name>var_fnPrefix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Flight').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>090f3149-02ec-4e9b-b8bf-267ace903146</id>
+      <masked>false</masked>
+      <name>var_fnSuffix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Flight').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>9d9047d3-b029-4601-b7de-cd769de56e80</id>
+      <masked>false</masked>
+      <name>var_fDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Flight').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>9e2f17df-9442-4437-8cea-b7c418b588af</id>
+      <masked>false</masked>
+      <name>var_fBoardPoint</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Flight').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>25b9ea48-d081-426e-a42f-ec395209f022</id>
+      <masked>false</masked>
+      <name>var_fOffPoint</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue('var_Length', 1)</defaultValue>
+      <description></description>
+      <id>a8523c29-5e30-4498-b56c-65b028c42c87</id>
+      <masked>false</masked>
+      <name>var_dLength</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue('var_Width', 1)</defaultValue>
+      <description></description>
+      <id>d62d57cd-073f-4151-8829-6ddc04b398dd</id>
+      <masked>false</masked>
+      <name>var_dWidth</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue('var_Height', 1)</defaultValue>
+      <description></description>
+      <id>f3005f2a-0956-47d6-aed0-1b5067be4c4e</id>
+      <masked>false</masked>
+      <name>var_dHeight</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue('var_Pieces2', 1)</defaultValue>
+      <description></description>
+      <id>c6e089a3-1f1f-4bda-958e-d477719b339f</id>
+      <masked>false</masked>
+      <name>var_dPieces</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue('var_Weight2', 1)</defaultValue>
+      <description></description>
+      <id>8fe2b1a0-e2c5-45b2-bd64-bc70470ecd19</id>
+      <masked>false</masked>
+      <name>var_dWeight</name>
+   </variable>
 </TestCaseEntity>

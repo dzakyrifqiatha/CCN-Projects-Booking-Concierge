@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>0 Login Success - Copy</name>
+   <tag></tag>
+   <comment></comment>
+<<<<<<< HEAD
+   <testCaseGuid>84d84dd9-9188-4a82-9d9b-251ebf72d376</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Login/TestData_Login').getValue('vEmail', 1)</defaultValue>
+      <description></description>
+      <id>f6cba8a0-3261-483b-afee-75c21c3f6f31</id>
+=======
+   <testCaseGuid>438ef971-c4c2-49ae-9ef3-67828c49d336</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Login/TestData_Login').getValue('vEmail', 1)</defaultValue>
+      <description></description>
+      <id>d6c56686-6294-4bd8-86fd-1fe997d0956e</id>
+>>>>>>> 444a133de117cd3e8266b0776648dc0b07f838e5
+      <masked>false</masked>
+      <name>var_username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Login/TestData_Login').getValue('vPassword', 1)</defaultValue>
+      <description></description>
+<<<<<<< HEAD
+      <id>ac91ce39-691e-4e17-b792-55d5692cc210</id>
+=======
+      <id>670e44b9-e442-4230-8ff5-3f951457d735</id>
+>>>>>>> 444a133de117cd3e8266b0776648dc0b07f838e5
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
+</TestCaseEntity>

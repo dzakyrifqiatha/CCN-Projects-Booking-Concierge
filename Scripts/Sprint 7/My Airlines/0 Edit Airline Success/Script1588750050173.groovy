@@ -21,8 +21,7 @@ WebUI.click(findTestObject('Page_BC My Airlines/button_Edit Airline'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Airline Email'), findTestData('Create Airline/TestData_CreateAirline').getValue(
-        4, 1))
+WebUI.setText(findTestObject('Page_BC Create Airline/input__mat-input-Airline Email'), var_airlineEmail)
 
 WebUI.focus(findTestObject('Page_BC Create Airline/textarea__mat-input-Remarks'))
 
@@ -33,4 +32,12 @@ WebUI.click(findTestObject('Page_BC Create Airline/button_Save'))
 WebUI.delay(5)
 
 WebUI.click(findTestObject('img_Booking Concierge'))
+
+WebUI.delay(5)
+
+if (WebUI.verifyElementText(findTestObject('Page_BC Create Aieline/verification/popup_success'), 'Airline has been updated successfully.')) {
+    CustomKeywords.'ccnpackage.LogResults.searchresult'('Edit Airline Success', 'Yes')
+}
+
+WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking Concierge\\Result Regression Testing\\v1\\Sprint 7\\Edit Airline - Success.png')
 

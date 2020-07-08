@@ -18,18 +18,17 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.click(findTestObject('Page_Booking Concierge/a_here'))
 
 'Registration failed - check fields'
+emailFailed = 'testfailed'
 
- emailFailed = 'testfailed'
+nameFailed = '@#@#@'
 
- nameFailed = '@#@#@'
+passwordFailed = ''
 
- passwordFailed = ''
+confirmPasswordFailed = ''
 
- confirmPasswordFailed = ''
+companyFailed = ''
 
- companyFailed = ''
-
- contactNoFailed = 'sdkfns'
+contactNoFailed = 'sdkfns'
 
 WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-2-email-address'), emailFailed)
 
@@ -55,7 +54,7 @@ if (WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/veri
     CustomKeywords.'ccnpackage.LogResults.searchresult'('Registration Failed - Password Empty', 'Yes')
 } else if (WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/verify_email format'), 'Phone number allowed only 25 numeric character and "+" for first character only')) {
     CustomKeywords.'ccnpackage.LogResults.searchresult'('Registration Failed - Invalid Contact Number Format', 'Yes')
-} 
+}
 
 WebUI.delay(3)
 
@@ -90,17 +89,17 @@ WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking 
 
 WebUI.refresh()
 
- emailSuccess = 'testingdevbcregre7@yopmail.com'
+emailSuccess = 'testingdevbcregre8@yopmail.com'
 
- nameSuccess = 'Regression Testing 7'
+nameSuccess = 'Regression Testing 8'
 
- passwordSuccess = 'password'
+passwordSuccess = 'password'
 
- confirmPasswordSuccess = 'password'
+confirmPasswordSuccess = 'password'
 
- companySuccess = 'Company Regression 7'
+companySuccess = 'Company Regression 8'
 
- contactNoSuccess = '1231234558'
+contactNoSuccess = '1231234558'
 
 'Registration successful'
 WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-2-email-address'), emailSuccess)
@@ -124,11 +123,10 @@ WebUI.delay(5)
 //alertText = WebUI.getAlertText()
 //
 //WebUI.verifyMatch(alertText, 'Your Booking Concierge Account has been created. Please check your registered email account for the activation steps.  We recommend checking your spam or junk folder if you do not see the email, and mark Booking Concierge as a safe sender.', false)
-
-if (WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/popup_success'), 'Your Booking Concierge Account has been created. Please check your registered email account for the activation steps. We recommend checking your spam or junk folder if you do not see the email, and mark Booking Concierge as a safe sender.' 
-    )) {
+if (WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/popup_success'), 'Your Booking Concierge Account has been created. Please check your registered email account for the activation steps. We recommend checking your spam or junk folder if you do not see the email, and mark Booking Concierge as a safe sender.')) {
     CustomKeywords.'ccnpackage.LogResults.searchresult'('Registration Successful', 'Yes')
 }
+
 // else {
 //    if (WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/verify_email format'), 'User with this email address exists')) {
 //        CustomKeywords.'ccnpackage.LogResults.searchresult'('Registration Failed - Email in use', 'Yes')
@@ -143,7 +141,6 @@ if (WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/veri
 //        CustomKeywords.'ccnpackage.LogResults.searchresult'('Registration Failed - Phone Number Invalid', 'Yes')
 //    }
 //}
-
 WebUI.delay(3)
 
 WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking Concierge\\Result Regression Testing\\v1\\Sprint 1\\Registration Success.png')

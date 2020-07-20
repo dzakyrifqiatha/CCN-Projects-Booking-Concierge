@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Query BOX URL</name>
+   <name>Get Document</name>
    <tag></tag>
-   <elementGuidId>a3e951a5-cba8-42c2-9aea-59fd11a37494</elementGuidId>
+   <elementGuidId>402d2964-e9f2-4203-92aa-5b943d47c895</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;:\&quot;songmy@ccn.com.sg\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;documentIDs\&quot;: [\&quot;5f0d3d3ee4143a0010b25d35\&quot;],\n  \&quot;contentNames\&quot;: [\&quot;TEST_DEV_AF\&quot;],\n  \&quot;tags\&quot;: [],\n  \&quot;contentTypes\&quot;: [\&quot;TEST_ContentType\&quot;]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -23,7 +23,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/register</restUrl>
+   <restUrl>https://cubedev.ccnexchange.com/8c3e65b35f9e704896886e24bdaa4f92/document</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

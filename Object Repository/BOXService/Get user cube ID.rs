@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Query BOX URL</name>
+   <name>Get user cube ID</name>
    <tag></tag>
-   <elementGuidId>a3e951a5-cba8-42c2-9aea-59fd11a37494</elementGuidId>
+   <elementGuidId>8439cdba-4c14-476c-9316-467021567610</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;:\&quot;songmy@ccn.com.sg\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\&quot;email\&quot;:\&quot;abraham_farrendy@ccn.com.sg\&quot;}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

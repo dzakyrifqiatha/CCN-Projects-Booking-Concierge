@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Query BOX URL</name>
+   <name>Get Document Explicit Share Info</name>
    <tag></tag>
-   <elementGuidId>a3e951a5-cba8-42c2-9aea-59fd11a37494</elementGuidId>
+   <elementGuidId>845b3542-5279-4620-99c4-13d39088927b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;:\&quot;songmy@ccn.com.sg\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\&quot;documentID\&quot;:\&quot;5f117bc2c0e69a00104f989e\&quot;}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -23,7 +23,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/register</restUrl>
+   <restUrl>https://cubedev.ccnexchange.com/0cea91cf5ea45afcec640b1d359ded74/document/share</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

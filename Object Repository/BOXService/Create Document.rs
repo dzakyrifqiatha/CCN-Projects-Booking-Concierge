@@ -9,7 +9,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;encodedContent\&quot;:\&quot;A918,B566,C794,D128\&quot;,\n  \&quot;contentType\&quot;:\&quot;TEST_ContentType2\&quot;,\n  \&quot;contentName\&quot;:\&quot;TEST_DEL\&quot;,\n  \&quot;tags\&quot;:[]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;encodedContent\&quot;:\&quot;AA20,BB40,CC60,DD80\&quot;,\n  \&quot;contentType\&quot;:\&quot;TEST_ContentType2\&quot;,\n  \&quot;contentName\&quot;:\&quot;TEST_DEL\&quot;,\n  \&quot;tags\&quot;:[]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -23,7 +23,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/f0d4f36a8a63d0940c6f3abe90110ea8/document</restUrl>
+   <restUrl>https://cubedev.ccnexchange.com/12122eeea5470bc24f681637228302fd/document</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

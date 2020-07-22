@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Query Document Share State</name>
+   <name>Delete Document</name>
    <tag></tag>
-   <elementGuidId>845b3542-5279-4620-99c4-13d39088927b</elementGuidId>
+   <elementGuidId>b2132d62-e848-4198-b744-baf2a9222b41</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;documentID\&quot;:\&quot;5f03decdb2f65c0010988c66\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;documentID\&quot;:\&quot;5f17d251b3a15b00102c1fbc\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -22,8 +22,8 @@
       <value>application/json</value>
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/3796dfdbc20f99fca85769b4cdbf8461/document</restUrl>
+   <restRequestMethod>DELETE</restRequestMethod>
+   <restUrl>https://cubedev.ccnexchange.com/12122eeea5470bc24f681637228302fd/document</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

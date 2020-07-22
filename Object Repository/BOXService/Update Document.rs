@@ -9,14 +9,21 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;&quot;,
-  &quot;contentType&quot;: &quot;text/plain&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;documentID\&quot;: \&quot;5f167157ecaaacWRONGDOCID\&quot;,\n  \&quot;contentName\&quot;: \&quot;TEST_DEL\&quot;,\n  \&quot;tags\&quot;: [\&quot;key:TEST_DELETE\&quot;,\&quot;key:TEST_DEL\&quot;],\n  \&quot;contentTypes\&quot;: \&quot;TEST_ContentType\&quot;,\n  \&quot;encodedContent\&quot;: \&quot;AAA,123,ABC,456,CCC,789\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
    <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PATCH</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/</restUrl>
+   <restUrl>https://cubedev.ccnexchange.com/3fc8a0cdee1dfbb73e62b7671c8ae0bc/document</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

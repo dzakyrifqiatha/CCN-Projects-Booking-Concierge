@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Retrieve Group</name>
+   <name>Get Document Explicit Share Info</name>
    <tag></tag>
-   <elementGuidId>5fe21798-549f-4cbd-8fd8-adfba486465f</elementGuidId>
+   <elementGuidId>845b3542-5279-4620-99c4-13d39088927b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-<<<<<<< HEAD
-  &quot;text&quot;: &quot;{\n  \&quot;groupIDs\&quot;: [\n    \&quot;string\&quot;\n  ],\n  \&quot;groupNames\&quot;: [\n    \&quot;BC3\&quot;\n  ],\n  \&quot;contacts\&quot;: [\n    \&quot;testingdev3@yahoo.com\&quot;\n  ],\n  \&quot;rules\&quot;: [\n    {\n      \&quot;groupID\&quot;: \&quot;string\&quot;,\n      \&quot;contentType\&quot;: \&quot;string\&quot;,\n      \&quot;tags\&quot;: [\n        \&quot;string\&quot;\n      ]\n    }\n  ]\n}&quot;,
-=======
-  &quot;text&quot;: &quot;{\n  \&quot;groupIDs\&quot;: [\n    \&quot;5f117b97cd9705001085d3d2\&quot;\n  ],\n  \&quot;groupNames\&quot;: [\n    \&quot;group4\&quot;\n  ],\n  \&quot;contacts\&quot;: [\n    \&quot;abraham_farrendy@ccn.com.sg\&quot;,\&quot;songmy@ccn.com.sg\&quot;\n  ],\n  \&quot;rules\&quot;: [\n    {\n      \&quot;groupID\&quot;: \&quot;5f117b97cd9705001085d3d2\&quot;,\n      \&quot;contentType\&quot;: \&quot;TEST_ContentType\&quot;,\n      \&quot;tags\&quot;: []\n    }\n  ]\n}&quot;,
->>>>>>> 4af86bd1d63a17e88d790ab60a23145237a399b3
+  &quot;text&quot;: &quot;{\&quot;documentID\&quot;:\&quot;5f16bf0e0c595c00110a725c\&quot;}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -27,7 +23,11 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/3796dfdbc20f99fca85769b4cdbf8461/group</restUrl>
+<<<<<<< HEAD:Object Repository/BOXService/Query Document Share State.rs
+   <restUrl>https://cubedev.ccnexchange.com/3796dfdbc20f99fca85769b4cdbf8461/document</restUrl>
+=======
+   <restUrl>https://cubedev.ccnexchange.com/12122eeea5470bc24f681637228302fd/document/share</restUrl>
+>>>>>>> 4af86bd1d63a17e88d790ab60a23145237a399b3:Object Repository/BOXService/Get Document Explicit Share Info.rs
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

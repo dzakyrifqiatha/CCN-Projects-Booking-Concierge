@@ -23,7 +23,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/cb2ddca64603ec33afeb04a897d6bc08/document</restUrl>
+   <restUrl>https://cubedev.ccnexchange.com/3796dfdbc20f99fca85769b4cdbf8461/document</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

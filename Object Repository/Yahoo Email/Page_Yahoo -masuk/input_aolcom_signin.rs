@@ -6,12 +6,12 @@
    <elementGuidId>510c6ef6-1c4f-41be-ac88-27c7210996f2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='login-signin']</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'login-signin']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/div[2]/div[2]/div[1]/div[2]/div[2]/form/div[3]/button[count(. | //*[@type = 'submit']) = count(//*[@type = 'submit'])]</value>
+         <key>XPATH</key>
+         <value>//input[@id='login-signin']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,14 +24,14 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>login-signin</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -80,7 +80,7 @@
       <value>elm:btn;elmt:primary;slk:next;mKey:login-landing-next</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

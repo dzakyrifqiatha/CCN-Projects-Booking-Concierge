@@ -9,7 +9,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;documentIDs\&quot;: [\&quot;5f0d3d3ee4143a0010b25d35\&quot;],\n  \&quot;contentNames\&quot;: [\&quot;TEST_DEV_AF\&quot;],\n  \&quot;tags\&quot;: [],\n  \&quot;contentTypes\&quot;: [\&quot;TEST_ContentType\&quot;]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;documentIDs\&quot;: [\&quot;5f17d251b3a15b00102c1fbc\&quot;]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -23,7 +23,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/8c3e65b35f9e704896886e24bdaa4f92/document</restUrl>
+   <restUrl>https://cubedev.ccnexchange.com/12122eeea5470bc24f681637228302fd/document</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -9,7 +9,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;contacts\&quot;:\&quot;abraham_farrendy@ccn.com.sg\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;groupIDs\&quot;: [\n    \&quot;5f117b97cd9705001085d3d2\&quot;\n  ],\n  \&quot;groupNames\&quot;: [\n    \&quot;group4\&quot;\n  ],\n  \&quot;contacts\&quot;: [\n    \&quot;abraham_farrendy@ccn.com.sg\&quot;,\&quot;songmy@ccn.com.sg\&quot;\n  ],\n  \&quot;rules\&quot;: [\n    {\n      \&quot;groupID\&quot;: \&quot;5f117b97cd9705001085d3d2\&quot;,\n      \&quot;contentType\&quot;: \&quot;TEST_ContentType\&quot;,\n      \&quot;tags\&quot;: []\n    }\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

@@ -9,7 +9,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;groupID\&quot;:\&quot;5f0c1303436bc2001066bdd2\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;groupID\&quot;:\&quot;5f16ba144a24b30010eaa95d\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -23,7 +23,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/8c3e65b35f9e704896886e24bdaa4f92/group</restUrl>
+   <restUrl>https://cubedev.ccnexchange.com/83c3cef16d8048ddf826f41671d42414/group</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

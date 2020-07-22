@@ -40,15 +40,22 @@ import MobileBuiltInKeywords as Mobile
 import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
-public class UnorderedListNumber {
+public class UploadFile {
 	@Keyword
-	def selectValueFromUnorderedList(TestObject unorderedList, Number value) {
-
-		List<WebElement> options = WebUiCommonHelper.findWebElements(unorderedList, 30);
-		if (value.equals(options.size()) ) {
-			KeywordUtil.markPassed(value + "-- Number of items listed is equal");
-		} else {
-			KeywordUtil.markError(value + "- value - size - " + options.size() + "-- Number of items listed is NOT equal");
-		}
+	def uploadFile (TestObject to, String filePath) {
+		WebUI.click(to)
+		WebUI.delay(3) //Delay after click on Browser Button
+		StringSelection ss = new StringSelection(filePath);
+		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
+		WebUI.delay(1) //Delay after paste the text
+		Robot robot = new Robot();
+		robot.keyPress(KeyEvent.VK_ENTER);
+		robot.keyRelease(KeyEvent.VK_ENTER);
+		robot.keyPress(KeyEvent.VK_CONTROL);
+		robot.keyPress(KeyEvent.VK_V);
+		robot.keyRelease(KeyEvent.VK_V);
+		robot.keyRelease(KeyEvent.VK_CONTROL);
+		robot.keyPress(KeyEvent.VK_ENTER);
+		robot.keyRelease(KeyEvent.VK_ENTER);
 	}
 }

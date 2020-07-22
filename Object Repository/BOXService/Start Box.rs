@@ -9,7 +9,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;:\&quot;songmy@ccn.com.sg\&quot;,\n  \&quot;action\&quot;:\&quot;START\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;:\&quot;${email}\&quot;,\n  \&quot;action\&quot;:\&quot;START\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -30,11 +30,11 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
    <variables>
-      <defaultValue>'abraham_farrendy@ccn.com.sg'</defaultValue>
+      <defaultValue>'testingdev1@yahoo.com'</defaultValue>
       <description></description>
       <id>c93bb858-1b1f-4bf3-bec8-477cfb62809b</id>
       <masked>false</masked>
-      <name>var_email</name>
+      <name>email</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

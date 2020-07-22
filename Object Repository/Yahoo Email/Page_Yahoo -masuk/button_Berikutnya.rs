@@ -6,20 +6,12 @@
    <elementGuidId>d9db6614-a2f1-4200-a6ff-f4711b2b214d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='login-signin']</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'login-signin']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/div[2]/div[1]/div[1]/div[2]/form/div[2]/input[count(. | //*[@type = 'submit' and @id = 'login-signin' and @name = 'verifyPassword' and (text() = '
-                    Berikutnya
-            ' or . = '
-                    Berikutnya
-            ')]) = count(//*[@type = 'submit' and @id = 'login-signin' and @name = 'verifyPassword' and (text() = '
-                    Berikutnya
-            ' or . = '
-                    Berikutnya
-            ')])]</value>
+         <key>XPATH</key>
+         <value>//button[@id='login-signin']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -32,7 +24,7 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -53,7 +45,7 @@
       <value>pure-button puree-button-primary puree-spinner-button challenge-button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -81,7 +73,7 @@
       <value>elm:btn;elmt:primary;slk:next;mKey:password-challenge-next</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -90,7 +82,7 @@
             </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

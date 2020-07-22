@@ -23,7 +23,11 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
+<<<<<<< HEAD:Object Repository/BOXService/Query Document Share State.rs
+   <restUrl>https://cubedev.ccnexchange.com/3796dfdbc20f99fca85769b4cdbf8461/document</restUrl>
+=======
    <restUrl>https://cubedev.ccnexchange.com/12122eeea5470bc24f681637228302fd/document/share</restUrl>
+>>>>>>> 4af86bd1d63a17e88d790ab60a23145237a399b3:Object Repository/BOXService/Get Document Explicit Share Info.rs
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

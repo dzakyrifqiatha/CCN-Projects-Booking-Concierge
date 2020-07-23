@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Get Document</name>
+   <name>Update BOX - Copy</name>
    <tag></tag>
-   <elementGuidId>402d2964-e9f2-4203-92aa-5b943d47c895</elementGuidId>
+   <elementGuidId>3842c62c-86ae-4e04-8cfe-53f6af537229</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;documentIDs\&quot;: [\&quot;5f19023b6b00f20010f7343a\&quot;]\n}&quot;,
+  &quot;text&quot;: &quot;{\&quot;email\&quot;:\&quot;abraham_farrendy@ccn.com.sg\&quot;,\&quot;action\&quot;:\&quot;STOP\&quot;}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -22,20 +22,13 @@
       <value>application/json</value>
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/00d61ecde27c9c4aee788d1c57ff2948/document</restUrl>
+   <restRequestMethod>PATCH</restRequestMethod>
+   <restUrl>https://cubedev.ccnexchange.com/register</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
-   <variables>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>74fded5f-28e4-4630-aea7-41afacb86941</id>
-      <masked>false</masked>
-      <name>variable</name>
-   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

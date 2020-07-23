@@ -30,7 +30,7 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
    <variables>
-      <defaultValue>'testingdev1@yahoo.com'</defaultValue>
+      <defaultValue>'ray_yao@ccn.com.sg'</defaultValue>
       <description></description>
       <id>c93bb858-1b1f-4bf3-bec8-477cfb62809b</id>
       <masked>false</masked>

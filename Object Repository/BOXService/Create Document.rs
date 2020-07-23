@@ -9,7 +9,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;encodedContent\&quot;:\&quot;A918,B566,C794,D128\&quot;,\n  \&quot;contentType\&quot;:\&quot;TEST_ContentType2\&quot;,\n  \&quot;contentName\&quot;:\&quot;TEST_DEL\&quot;,\n  \&quot;tags\&quot;:[]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;encodedContent\&quot;:\&quot;${encodedContent}\&quot;,\n  \&quot;contentType\&quot;:\&quot;${contentType}\&quot;,\n  \&quot;contentName\&quot;:\&quot;${contentName}\&quot;,\n  \&quot;tags\&quot;:[]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -23,12 +23,40 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/f0d4f36a8a63d0940c6f3abe90110ea8/document</restUrl>
+   <restUrl>https://cubedev.ccnexchange.com/00d61ecde27c9c4aee788d1c57ff2948/document</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>'000011,0001234,0011345,0001143'</defaultValue>
+      <description></description>
+      <id>07e52f87-e581-4d9d-b57a-11d28330b3e9</id>
+      <masked>false</masked>
+      <name>encodedContent</name>
+   </variables>
+   <variables>
+      <defaultValue>'Test_ContentType3'</defaultValue>
+      <description></description>
+      <id>ea8d0d56-b7c6-4d27-a152-7d9f29710b63</id>
+      <masked>false</masked>
+      <name>contentType</name>
+   </variables>
+   <variables>
+      <defaultValue>'Test_UPD'</defaultValue>
+      <description></description>
+      <id>7b257484-c67c-44e5-89c9-8e0311eabf31</id>
+      <masked>false</masked>
+      <name>contentName</name>
+   </variables>
+   <variables>
+      <defaultValue>'[]'</defaultValue>
+      <description></description>
+      <id>333e8fec-620d-4e08-a0f2-3c55c566dd20</id>
+      <masked>false</masked>
+      <name>tags</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

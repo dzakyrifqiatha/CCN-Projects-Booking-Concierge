@@ -9,7 +9,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;groupName\&quot;:\&quot;group_testDel5\&quot;,\n  \&quot;contacts\&quot;:[\&quot;ray_yao@ccn.com.sg\&quot;,\&quot;songmy@ccn.com.sg\&quot;],\n  \&quot;rules\&quot;: [\n   \t{\n   \t\t\&quot;tags\&quot;: [],\n   \t\t\&quot;contentType\&quot;:\&quot;TEST_ContentType2\&quot;\n   \t}\n  ]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;groupName\&quot;:\&quot;group_test23\&quot;,\n  \&quot;contacts\&quot;:[\&quot;ray_yao@ccn.com.sg\&quot;,\&quot;songmy@ccn.com.sg\&quot;],\n  \&quot;rules\&quot;: [\n   \t{\n   \t\t\&quot;tags\&quot;: [],\n   \t\t\&quot;contentType\&quot;:\&quot;Test_RULES\&quot;\n   \t}\n  ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -23,7 +23,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/479b04d41e418dcd7b2cb08dcff6a8a6/group</restUrl>
+   <restUrl>https://cubedev.ccnexchange.com/3dd95a15f9b6ac6463558f5836c24afe/group</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

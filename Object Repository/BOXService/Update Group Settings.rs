@@ -9,7 +9,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;groupID\&quot;:\&quot;5f16bed10c595c00110a7258\&quot;,\n  \&quot;permissionSharing\&quot;:true\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;groupID\&quot;:\&quot;5f1949d995205b001043beb5\&quot;,\n  \&quot;permissionSharing\&quot;:true\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -23,7 +23,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PATCH</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/bd26745c192418a394f42a4c2004ce02/group/setting</restUrl>
+   <restUrl>https://cubedev.ccnexchange.com/e28b7e33704bed577f73601557fe64ae/group/setting</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

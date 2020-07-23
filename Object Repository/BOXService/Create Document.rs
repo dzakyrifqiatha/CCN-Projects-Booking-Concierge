@@ -23,28 +23,28 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/00d61ecde27c9c4aee788d1c57ff2948/document</restUrl>
+   <restUrl>https://cubedev.ccnexchange.com/e28b7e33704bed577f73601557fe64ae/document</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
    <variables>
-      <defaultValue>'000011,0001234,0011345,0001143'</defaultValue>
+      <defaultValue>'0001670,0002234,0071600,0301143'</defaultValue>
       <description></description>
       <id>07e52f87-e581-4d9d-b57a-11d28330b3e9</id>
       <masked>false</masked>
       <name>encodedContent</name>
    </variables>
    <variables>
-      <defaultValue>'Test_ContentType3'</defaultValue>
+      <defaultValue>'Test_RULES'</defaultValue>
       <description></description>
       <id>ea8d0d56-b7c6-4d27-a152-7d9f29710b63</id>
       <masked>false</masked>
       <name>contentType</name>
    </variables>
    <variables>
-      <defaultValue>'Test_UPD'</defaultValue>
+      <defaultValue>'Test_NAME'</defaultValue>
       <description></description>
       <id>7b257484-c67c-44e5-89c9-8e0311eabf31</id>
       <masked>false</masked>

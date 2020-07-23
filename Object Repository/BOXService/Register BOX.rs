@@ -30,7 +30,7 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
    <variables>
-      <defaultValue>'abraham_farrendy@ccn.com.sg'</defaultValue>
+      <defaultValue>'songmy@ccn.com.sg'</defaultValue>
       <description></description>
       <id>97929057-121b-42a3-96f7-e83f68bab746</id>
       <masked>false</masked>

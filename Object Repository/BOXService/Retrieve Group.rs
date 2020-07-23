@@ -3,17 +3,13 @@
    <description></description>
    <name>Retrieve Group</name>
    <tag></tag>
-   <elementGuidId>5fe21798-549f-4cbd-8fd8-adfba486465f</elementGuidId>
+   <elementGuidId>b95fb675-886b-4bb2-a7a9-701d78a0a803</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-<<<<<<< HEAD
-  &quot;text&quot;: &quot;{\n  \&quot;groupIDs\&quot;: [\n    \&quot;string\&quot;\n  ],\n  \&quot;groupNames\&quot;: [\n    \&quot;BC3\&quot;\n  ],\n  \&quot;contacts\&quot;: [\n    \&quot;testingdev3@yahoo.com\&quot;\n  ],\n  \&quot;rules\&quot;: [\n    {\n      \&quot;groupID\&quot;: \&quot;string\&quot;,\n      \&quot;contentType\&quot;: \&quot;string\&quot;,\n      \&quot;tags\&quot;: [\n        \&quot;string\&quot;\n      ]\n    }\n  ]\n}&quot;,
-=======
-  &quot;text&quot;: &quot;{\n  \&quot;groupIDs\&quot;: [\n    \&quot;5f117b97cd9705001085d3d2\&quot;\n  ],\n  \&quot;groupNames\&quot;: [\n    \&quot;group4\&quot;\n  ],\n  \&quot;contacts\&quot;: [\n    \&quot;abraham_farrendy@ccn.com.sg\&quot;,\&quot;songmy@ccn.com.sg\&quot;\n  ],\n  \&quot;rules\&quot;: [\n    {\n      \&quot;groupID\&quot;: \&quot;5f117b97cd9705001085d3d2\&quot;,\n      \&quot;contentType\&quot;: \&quot;TEST_ContentType\&quot;,\n      \&quot;tags\&quot;: []\n    }\n  ]\n}&quot;,
->>>>>>> 4af86bd1d63a17e88d790ab60a23145237a399b3
+  &quot;text&quot;: &quot;&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -27,7 +23,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/3796dfdbc20f99fca85769b4cdbf8461/group</restUrl>
+   <restUrl>https://cubedev.ccnexchange.com/e28b7e33704bed577f73601557fe64ae/group</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

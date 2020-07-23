@@ -9,7 +9,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\&quot;email\&quot;:\&quot;testingdev1@yahoo.com\&quot;,\&quot;action\&quot;:\&quot;STOP\&quot;}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;:\&quot;${email}\&quot;,\n  \&quot;action\&quot;:\&quot;STOP\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -29,6 +29,13 @@
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>'abraham_farrendy@ccn.com.sg'</defaultValue>
+      <description></description>
+      <id>f3177d67-f29d-4fe3-849c-714f7fb4858c</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

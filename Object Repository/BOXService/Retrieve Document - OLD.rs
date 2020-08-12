@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Retrieve Group</name>
+   <name>Retrieve Document</name>
    <tag></tag>
-   <elementGuidId>b95fb675-886b-4bb2-a7a9-701d78a0a803</elementGuidId>
+   <elementGuidId>cb8162e9-cd89-45e5-9447-037adcf17cc3</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
@@ -23,7 +23,11 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/0455c4ace8057de9776af2a26c30415c/group</restUrl>
+<<<<<<< HEAD
+   <restUrl>https://cubedev.ccnexchange.com/928c2907707b7878f6985641a243c86e/document</restUrl>
+=======
+   <restUrl>https://cubedev.ccnexchange.com/5d9843bd909e0e3e908c82bb243cbbbc/document</restUrl>
+>>>>>>> e9985220debf19f5bc8977baa32270621941483b
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://booking:e4g2qpTkeAQH8syehyPLBe5ab@89.108.108.225:4200/login')
+WebUI.navigateToUrl('http://booking:e4g2qpTkeAQH8syehyPLBe5ab@http://89.108.108.225:4200/login?serviceId=794db6fc-c287-4e81-aaed-f32a00e9cf3d')
 
 not_run: WebUI.acceptAlert(FailureHandling.STOP_ON_FAILURE)
 

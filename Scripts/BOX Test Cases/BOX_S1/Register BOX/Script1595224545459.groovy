@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('BOXService/Register BOX'))
+response = WS.sendRequest(findTestObject('BOXService/Get user cube ID - Copy'))
 
 WS.verifyElementPropertyValue(response, 'email', 'abraham_farrendy@ccn.com.sg')
 

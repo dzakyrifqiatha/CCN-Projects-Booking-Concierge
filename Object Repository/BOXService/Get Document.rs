@@ -9,7 +9,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;documentIDs\&quot;: [\&quot;5f1952bb95205b001043bec8\&quot;]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;contentTypes\&quot;: [\n    \&quot;Book\&quot;\n    ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -23,18 +23,18 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/e28b7e33704bed577f73601557fe64ae/document</restUrl>
+   <restUrl>http://cube.ppd.ccn/ad038c3fb8bda23f9fb11d1425b2ff10/document</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
    <variables>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('BOXService/TD_BoxDocument').getValue(9, 1)</defaultValue>
       <description></description>
       <id>74fded5f-28e4-4630-aea7-41afacb86941</id>
       <masked>false</masked>
-      <name>variable</name>
+      <name>documentID</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

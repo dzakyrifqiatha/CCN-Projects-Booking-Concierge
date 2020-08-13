@@ -9,7 +9,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\&quot;email\&quot;:\&quot;abraham_farrendy@ccn.com.sg\&quot;}&quot;,
+  &quot;text&quot;: &quot;{\&quot;email\&quot;:\&quot;${email}\&quot;}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -29,6 +29,13 @@
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>findTestData('BOXService/TD_BoxUser').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c031de01-ed95-4c19-9fff-8ab1a0108ab9</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

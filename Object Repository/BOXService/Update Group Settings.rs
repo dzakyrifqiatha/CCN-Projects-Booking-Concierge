@@ -9,7 +9,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;groupID\&quot;:\&quot;5f1949d995205b001043beb5\&quot;,\n  \&quot;permissionSharing\&quot;:true\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;groupID\&quot;:\&quot;5f2cf7287ceabc0010bd0ad8\&quot;,\n  \&quot;permissionSharing\&quot;:true\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -23,12 +23,26 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PATCH</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/e28b7e33704bed577f73601557fe64ae/group/setting</restUrl>
+   <restUrl>https://cubedev.ccnexchange.com/89b2fe677e2bf1eb8ab1689e8ce0914b/group/setting</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>'5f1fec647da3770010d721e1'</defaultValue>
+      <description></description>
+      <id>8583e283-5017-4160-8b1a-de6adc40ca6a</id>
+      <masked>false</masked>
+      <name>groupID</name>
+   </variables>
+   <variables>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>74a05231-e5e1-4d9a-8a9e-c5cf42557196</id>
+      <masked>false</masked>
+      <name>permissionSharing</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

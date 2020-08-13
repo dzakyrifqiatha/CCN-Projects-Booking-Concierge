@@ -9,7 +9,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\&quot;documentID\&quot;:\&quot;5f1903f4720d1a0010ccdb1e\&quot;,\&quot;contacts\&quot;:[\&quot;songmy@ccn.com.sg\&quot;,\&quot;kohcj@ccn.com.sg\&quot;]}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;documentID\&quot;:\&quot;5f33af6538c5b2001063bfd7\&quot;,\n  \&quot;contacts\&quot;:[\&quot;testingdev22@yahoo.com\&quot;]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -23,12 +23,33 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/b06b7e47b0e29d9863c9c4f7932a8f94/document/share</restUrl>
+   <restUrl>http://cube.ppd.ccn/ad038c3fb8bda23f9fb11d1425b2ff10/document/share</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>findTestData('BOXService/TD_BoxDocument').getValue(9, 1)</defaultValue>
+      <description></description>
+      <id>686062bb-9111-4c5e-ae0d-0529d43ccd5f</id>
+      <masked>false</masked>
+      <name>documentID</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('BOXService/TD_BoxUser').getValue(1, 2)</defaultValue>
+      <description></description>
+      <id>9b8384be-b4f9-4f06-8828-0810f1b3449e</id>
+      <masked>false</masked>
+      <name>contact1</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('BOXService/TD_BoxUser').getValue(1, 3)</defaultValue>
+      <description></description>
+      <id>258108e7-65a9-4738-913f-9e26c2e2ae1e</id>
+      <masked>false</masked>
+      <name>contact2</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

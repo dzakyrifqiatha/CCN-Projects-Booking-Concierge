@@ -23,7 +23,5 @@ WS.verifyElementPropertyValue(response, 'action', 'START')
 
 response = WS.sendRequest(findTestObject('BOXService/Share Document'))
 
-WS.verifyElementPropertyValue(response, 'documentID', '5f06e16e42087f001053cd82')
-
 WS.verifyElementPropertyValue(response, 'contacts', '["songmy@ccn.com.sg","kohcj@ccn.com.sg"]')
 

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Retrieve Document</name>
+   <name>Retrieve Document (3)</name>
    <tag></tag>
-   <elementGuidId>cb8162e9-cd89-45e5-9447-037adcf17cc3</elementGuidId>
+   <elementGuidId>ed2512b6-018b-438b-b948-7774fbe9f7c7</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;contentNames\&quot;: [\n    \&quot;content_1659\&quot;\n    ]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -23,11 +23,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-<<<<<<< HEAD
-   <restUrl>https://cubedev.ccnexchange.com/928c2907707b7878f6985641a243c86e/document</restUrl>
-=======
-   <restUrl>https://cubedev.ccnexchange.com/5d9843bd909e0e3e908c82bb243cbbbc/document</restUrl>
->>>>>>> e9985220debf19f5bc8977baa32270621941483b
+   <restUrl>http://cube.ppd.ccn/f66fed2071bce274b7445ba2ec96835f/document</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

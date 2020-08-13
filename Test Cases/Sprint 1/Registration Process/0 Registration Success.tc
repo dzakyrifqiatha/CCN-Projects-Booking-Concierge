@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>0 Registration Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>97760b06-bb4f-421f-b101-485fedbdd6bd</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Registration/TestData_Registration').getValue(1, 4)</defaultValue>
+      <description></description>
+      <id>234d982d-a407-4fac-9709-bbc6a278bd55</id>
+      <masked>false</masked>
+      <name>var_email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/TestData_Registration').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>621f85aa-de18-4937-befd-a3d760a89d41</id>
+      <masked>false</masked>
+      <name>var_name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/TestData_Registration').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>4b67657f-d0a3-4f15-8d77-8dcf7e5c116e</id>
+      <masked>false</masked>
+      <name>var_pass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/TestData_Registration').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>bce914a4-c8ae-44be-b103-5bea871f57a3</id>
+      <masked>false</masked>
+      <name>var_confpass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/TestData_Registration').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>243a38e5-86f5-4201-a51c-5130da47b856</id>
+      <masked>false</masked>
+      <name>var_company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/TestData_Registration').getValue(6, 1)</defaultValue>
+      <description></description>
+      <id>2ba8d98d-c20e-44a0-a320-5bffcc2f35d1</id>
+      <masked>false</masked>
+      <name>var_contactno</name>
+   </variable>
+</TestCaseEntity>

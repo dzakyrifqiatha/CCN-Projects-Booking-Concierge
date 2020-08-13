@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>4 Edit Airline Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7bff8a34-aaa6-4e5f-bea7-b49a29a66217</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Create Airline/TestData_CreateAirline').getValue('vAirlineEmail', 4)</defaultValue>
+      <description></description>
+      <id>832fc013-2b63-405f-8eb6-1ec2bcb8e9ce</id>
+      <masked>false</masked>
+      <name>vAirlineEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Create Airline/TestData_CreateAirline').getValue('vRemarks', 4)</defaultValue>
+      <description></description>
+      <id>e6768305-38ad-417d-87ba-68c72b41d850</id>
+      <masked>false</masked>
+      <name>vRemarks</name>
+   </variable>
+</TestCaseEntity>

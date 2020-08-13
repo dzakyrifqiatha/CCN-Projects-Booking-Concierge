@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1 Save Template w Attachment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fead0712-e32f-4374-9b37-feb491c3c804</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue('var_AwbPrefix', 1)</defaultValue>
+      <description></description>
+      <id>a8bc0a29-1971-4e4f-b943-ab271df50281</id>
+      <masked>false</masked>
+      <name>var_awbPrefix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue('var_AwbSuffix', 1)</defaultValue>
+      <description></description>
+      <id>286972c7-10f3-4e23-887a-935e887302c3</id>
+      <masked>false</masked>
+      <name>var_awbSuffix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue('var_Origin', 1)</defaultValue>
+      <description></description>
+      <id>d7876e0e-d719-4c8c-b643-078fdef08ee3</id>
+      <masked>false</masked>
+      <name>var_origin</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue('var_Destination', 1)</defaultValue>
+      <description></description>
+      <id>832a3667-60e4-4d2c-addf-a38d7b1a1649</id>
+      <masked>false</masked>
+      <name>var_destination</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue('var_GoodsDesc', 1)</defaultValue>
+      <description></description>
+      <id>63d4d99b-2d2c-4947-be1b-b1788f821271</id>
+      <masked>false</masked>
+      <name>var_goodsDesc</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue('var_Pieces', 1)</defaultValue>
+      <description></description>
+      <id>e1702046-e24b-4e31-8859-2a1fd2a8c778</id>
+      <masked>false</masked>
+      <name>var_pieces</name>
+   </variable>
+</TestCaseEntity>

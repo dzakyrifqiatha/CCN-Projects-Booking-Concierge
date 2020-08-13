@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>3 Login Invalid Email Format</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9e2e58d-b6e7-46c7-83de-3e8000d2fa68</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Login/TestData_Login').getValue('vEmail', 4)</defaultValue>
+      <description></description>
+      <id>544fd895-a4c7-4505-9a88-bb9e0da31d00</id>
+      <masked>false</masked>
+      <name>var_username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Login/TestData_Login').getValue('vPassword', 4)</defaultValue>
+      <description></description>
+      <id>9aef63b0-a89a-4ffb-bc8b-17d36cd5d808</id>
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
+</TestCaseEntity>

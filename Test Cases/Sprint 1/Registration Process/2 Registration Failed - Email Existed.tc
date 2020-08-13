@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2 Registration Failed - Email Existed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>74ad7532-ab3c-4ac2-b749-a578dcf0bcfa</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Registration/TestData_Registration').getValue(1, 3)</defaultValue>
+      <description></description>
+      <id>55728103-3779-4dca-9189-4fe48b3c9a04</id>
+      <masked>false</masked>
+      <name>var_email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/TestData_Registration').getValue(2, 3)</defaultValue>
+      <description></description>
+      <id>0c2fe59b-0d48-4cb3-b316-bd34235f8714</id>
+      <masked>false</masked>
+      <name>var_name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/TestData_Registration').getValue(3, 3)</defaultValue>
+      <description></description>
+      <id>4e57dad3-717b-47f5-af11-6ab16b871981</id>
+      <masked>false</masked>
+      <name>var_pass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/TestData_Registration').getValue(4, 3)</defaultValue>
+      <description></description>
+      <id>3aa5d7dd-f1d8-4bc4-8185-be11a115af86</id>
+      <masked>false</masked>
+      <name>var_passconf</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/TestData_Registration').getValue(5, 3)</defaultValue>
+      <description></description>
+      <id>ffc04242-70ee-4cb6-b005-dee6d9a7f08e</id>
+      <masked>false</masked>
+      <name>var_company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/TestData_Registration').getValue(6, 3)</defaultValue>
+      <description></description>
+      <id>ac7ed043-b017-4073-8108-88be747ae73c</id>
+      <masked>false</masked>
+      <name>var_contactno</name>
+   </variable>
+</TestCaseEntity>

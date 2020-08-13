@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1 New Booking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f44a2980-30f7-449f-8ef6-a068095bcb5e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c2fdc1fc-5f76-4e71-9a80-5535e94bb925</id>
+      <masked>false</masked>
+      <name>var_awbPrefix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>dcc31ec6-2e7d-4a65-a6d1-ac1e267b8f7e</id>
+      <masked>false</masked>
+      <name>var_awbSuffix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>b74f2a87-6344-4c49-9445-bbe8568e5f05</id>
+      <masked>false</masked>
+      <name>var_origin</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(4, 1)</defaultValue>
+      <description></description>
+      <id>9efbe8f9-a6fd-4d5b-b570-c578ebbf4c12</id>
+      <masked>false</masked>
+      <name>var_destination</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(5, 1)</defaultValue>
+      <description></description>
+      <id>f9b24625-3880-4d1d-8e43-daef894c749a</id>
+      <masked>false</masked>
+      <name>var_pieces</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(6, 1)</defaultValue>
+      <description></description>
+      <id>9c68a230-23fe-4b7d-a313-91a503be995a</id>
+      <masked>false</masked>
+      <name>var_weight</name>
+   </variable>
+</TestCaseEntity>

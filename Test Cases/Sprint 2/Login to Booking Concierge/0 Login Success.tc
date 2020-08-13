@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>0 Login Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e269060-3bb8-4a43-9cac-89ed78d3a9ed</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Login/TestData_Login').getValue('vEmail', 1)</defaultValue>
+      <description></description>
+      <id>2020a495-7060-4f34-b7e9-4f3017b45cf8</id>
+      <masked>false</masked>
+      <name>var_username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Login/TestData_Login').getValue('vPassword', 1)</defaultValue>
+      <description></description>
+      <id>5b99673a-7f6b-4e9b-ae57-42b8ef9938e6</id>
+      <masked>false</masked>
+      <name>var_password</name>
+   </variable>
+</TestCaseEntity>

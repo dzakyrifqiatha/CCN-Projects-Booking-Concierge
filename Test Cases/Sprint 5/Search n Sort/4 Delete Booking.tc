@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>4 Delete Booking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2e620fd4-fd06-4565-8f84-a4814c51da12</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Booking/TestData_Booking').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>e8f06c25-f376-4b66-bcf5-ad79374cae2f</id>
+      <masked>false</masked>
+      <name>var_searchAwbNum</name>
+   </variable>
+</TestCaseEntity>

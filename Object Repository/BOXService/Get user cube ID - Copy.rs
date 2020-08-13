@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Retrieve Group</name>
+   <name>Get user cube ID - Copy</name>
    <tag></tag>
-   <elementGuidId>b95fb675-886b-4bb2-a7a9-701d78a0a803</elementGuidId>
+   <elementGuidId>da4e647b-d254-4372-b035-86d98fc104d6</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;&quot;,
+  &quot;text&quot;: &quot;{\&quot;email\&quot;:\&quot;abraham_farrendy@ccn.com.sg\&quot;}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -22,8 +22,8 @@
       <value>application/json</value>
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/0455c4ace8057de9776af2a26c30415c/group</restUrl>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>https://cubedev.ccnexchange.com/register</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

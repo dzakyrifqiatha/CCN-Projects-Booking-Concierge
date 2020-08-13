@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Retrieve Document (3) - Copy</name>
+   <name>Retrieve Document</name>
    <tag></tag>
-   <elementGuidId>645195c1-7c20-4552-af02-6b49f0d373e7</elementGuidId>
+   <elementGuidId>384fbe16-a6ff-4acb-9c5e-587154762214</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;documentID\&quot;: \&quot;5f33af6538c5b2001063bfd7\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;documentID\&quot;:\&quot;5f1952bb95205b001043bec8\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -23,7 +23,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>http://cube.ppd.ccn/ad038c3fb8bda23f9fb11d1425b2ff10/document/share</restUrl>
+   <restUrl>https://cubedev.ccnexchange.com/a80d0f1dfe77379a4677099dda54b95a/document</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

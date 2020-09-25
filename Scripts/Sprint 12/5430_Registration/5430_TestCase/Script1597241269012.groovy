@@ -18,41 +18,40 @@ import internal.GlobalVariable as GlobalVariable
 'Scenario 2 - Existing User click on BC URL to register'
 WebUI.click(findTestObject('Page_BC Common Login Page/a_here (Common Login - Register)'))
 
-WebUI.setText(findTestObject('Page_BC Register Page/input_Email Address (Register)'), '')
+WebUI.setText(findTestObject('Page_BC Register Page/input_Email Address (Register)'), vEmail1)
 
-WebUI.setText(findTestObject('Page_BC Register Page/input_Name (Register)'), '')
+WebUI.setText(findTestObject('Page_BC Register Page/input_Name (Register)'), vName1)
 
-WebUI.setText(findTestObject('Page_BC Register Page/input_Password (Register)'), '')
+WebUI.setText(findTestObject('Page_BC Register Page/input_Password (Register)'), vPass1)
 
-WebUI.setText(findTestObject('Page_BC Register Page/input_Confirm Password (Register)'), '')
+WebUI.setText(findTestObject('Page_BC Register Page/input_Confirm Password (Register)'), vConfPass1)
 
-WebUI.setText(findTestObject('Page_BC Register Page/input_Company (Register)'), '')
+WebUI.setText(findTestObject('Page_BC Register Page/input_Company (Register)'), vCompany1)
 
-WebUI.setText(findTestObject('Page_BC Register Page/input_Contact no (Register)'), '')
+WebUI.setText(findTestObject('Page_BC Register Page/input_Contact no (Register)'), vContact1)
 
 WebUI.click(findTestObject('Page_BC Register Page/button_Save (Register)'))
 
 if (WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/popup_success'), 'User with this email address exists')) {
-	CustomKeywords.'ccnpackage.LogResults.searchresult'('Registered Success', 'Yes')
+    CustomKeywords.'ccnpackage.LogResults.searchresult'('Registered Failed', 'Yes')
 }
 
 WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking Concierge\\Result Regression Testing\\v1\\Sprint 12\\5430\\SN 2 - Existing User.png')
 
-
 'Scenario 1 - New User click on BC URL to register'
 WebUI.click(findTestObject('Page_BC Common Login Page/a_here (Common Login - Register)'))
 
-WebUI.setText(findTestObject('Page_BC Register Page/input_Email Address (Register)'), '')
+WebUI.setText(findTestObject('Page_BC Register Page/input_Email Address (Register)'), vEmail2)
 
-WebUI.setText(findTestObject('Page_BC Register Page/input_Name (Register)'), '')
+WebUI.setText(findTestObject('Page_BC Register Page/input_Name (Register)'), vName2)
 
-WebUI.setText(findTestObject('Page_BC Register Page/input_Password (Register)'), '')
+WebUI.setText(findTestObject('Page_BC Register Page/input_Password (Register)'), vPass2)
 
-WebUI.setText(findTestObject('Page_BC Register Page/input_Confirm Password (Register)'), '')
+WebUI.setText(findTestObject('Page_BC Register Page/input_Confirm Password (Register)'), vConfPass2)
 
-WebUI.setText(findTestObject('Page_BC Register Page/input_Company (Register)'), '')
+WebUI.setText(findTestObject('Page_BC Register Page/input_Company (Register)'), vCompany2)
 
-WebUI.setText(findTestObject('Page_BC Register Page/input_Contact no (Register)'), '')
+WebUI.setText(findTestObject('Page_BC Register Page/input_Contact no (Register)'), vContact2)
 
 WebUI.click(findTestObject('Page_BC Register Page/button_Save (Register)'))
 

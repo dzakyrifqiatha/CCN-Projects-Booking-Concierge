@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//input[@id='mat-input-3']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/main/app-login/mat-card/form/mat-form-field[2]/div/div[1]/div[3]/input[count(. | //*[@name = 'password' and @type = 'password']) = count(//*[@name = 'password' and @type = 'password'])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +52,7 @@
       <value>password</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -69,11 +73,11 @@
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-input-3&quot;)</value>
+      <value>/html/body/app-root/app-home/main/app-login/mat-card/form/mat-form-field[2]/div/div[1]/div[3]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

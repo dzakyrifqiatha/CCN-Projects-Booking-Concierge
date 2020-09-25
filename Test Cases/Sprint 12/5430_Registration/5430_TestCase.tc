@@ -5,4 +5,88 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>8120abdc-3d52-41e4-aeb5-b55fd555de09</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Registration/New_Registration').getValue('vEmail', 1)</defaultValue>
+      <description></description>
+      <id>813b32e5-9b55-41f8-b15f-0042a611a66d</id>
+      <masked>false</masked>
+      <name>vEmail1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/New_Registration').getValue('vName', 1)</defaultValue>
+      <description></description>
+      <id>bbee0199-278b-44ec-8858-1118b6311755</id>
+      <masked>false</masked>
+      <name>vName1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/New_Registration').getValue('vPass', 1)</defaultValue>
+      <description></description>
+      <id>145aaf5c-71f8-4b31-80ff-f43e2294d6d8</id>
+      <masked>false</masked>
+      <name>vPass1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/New_Registration').getValue('vConfPass', 1)</defaultValue>
+      <description></description>
+      <id>bb43fb5a-6ca5-4e8c-835f-81f8db5c243b</id>
+      <masked>false</masked>
+      <name>vConfPass1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/New_Registration').getValue('vCompany', 1)</defaultValue>
+      <description></description>
+      <id>9e26e60d-df32-491c-8d9a-f44a01d3ecbb</id>
+      <masked>false</masked>
+      <name>vCompany1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/New_Registration').getValue('vContact', 1)</defaultValue>
+      <description></description>
+      <id>d3965046-baae-461a-9415-c00db741d280</id>
+      <masked>false</masked>
+      <name>vContact1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/New_Registration').getValue('vEmail', 2)</defaultValue>
+      <description></description>
+      <id>2b85c86b-b563-4363-847b-9bb7098db3f4</id>
+      <masked>false</masked>
+      <name>vEmail2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/New_Registration').getValue('vName', 2)</defaultValue>
+      <description></description>
+      <id>19a66daa-2de5-4bec-8659-ea2acf6f3d86</id>
+      <masked>false</masked>
+      <name>vName2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/New_Registration').getValue('vPass', 2)</defaultValue>
+      <description></description>
+      <id>1a35e50d-5d65-414e-af4d-4aeb9f9f01fa</id>
+      <masked>false</masked>
+      <name>vPass2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/New_Registration').getValue('vConfPass', 2)</defaultValue>
+      <description></description>
+      <id>5c2b7957-15e1-4ce4-90e3-c0f982d7deda</id>
+      <masked>false</masked>
+      <name>vConfPass2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/New_Registration').getValue('vCompany', 2)</defaultValue>
+      <description></description>
+      <id>17852040-9109-470a-ab9d-d8a0f6680d4c</id>
+      <masked>false</masked>
+      <name>vCompany2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Registration/New_Registration').getValue('vContact', 2)</defaultValue>
+      <description></description>
+      <id>021babc0-9f31-49d7-bf22-a5a01b6cac31</id>
+      <masked>false</masked>
+      <name>vContact2</name>
+   </variable>
 </TestCaseEntity>

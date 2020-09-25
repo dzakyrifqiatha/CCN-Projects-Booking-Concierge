@@ -65,7 +65,7 @@
       <guid>ae246358-1c39-4945-859c-ebd9f5e1a39a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 1/Registration Process/1 Registration Failed - Check Field</testCaseId>
+      <testCaseId>Test Cases/Sprint 1/Registration Process/2 Registration Failed - Check Field</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>db62ab46-fa5d-41ab-88b7-6c703cf0953b</id>
@@ -75,48 +75,12 @@
          </iterationEntity>
          <testDataId>Data Files/Registration/TestData_Registration</testDataId>
       </testDataLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>886654c1-972f-415c-bfb5-c677030c90df</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>94ed3081-a56a-4449-86f1-5fdfa820fd7f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>cc114985-df77-4a22-b616-7b091c01ba98</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>cd2eba8b-4c15-4072-b633-0446f6a0bce4</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>069d6c15-71f7-4026-82b6-2111d8998cd2</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6e3eef9e-db7a-4004-9a12-68cd4ea7e579</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>7a771ade-7b4a-4091-88e6-d8736a9278bd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 1/Registration Process/2 Registration Failed - Email Existed</testCaseId>
+      <testCaseId>Test Cases/Sprint 1/Registration Process/1 Registration Failed - Email Existed</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>396b5119-5930-45c1-92eb-b80ecea6946b</id>

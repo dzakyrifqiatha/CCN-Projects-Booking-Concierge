@@ -30,19 +30,19 @@ companyFailed = ''
 
 contactNoFailed = 'sdkfns'
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-2-email-address'), emailFailed)
+WebUI.setText(findTestObject('Page_BC Register Page/input_Email Address (Register)'), emailFailed)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-3-name'), nameFailed)
+WebUI.setText(findTestObject('Page_BC Register Page/input_Name (Register)'), nameFailed)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-4-password'), passwordFailed)
+WebUI.setText(findTestObject('Page_BC Register Page/input_Password (Register)'), passwordFailed)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-5-confirm-password'), confirmPasswordFailed)
+WebUI.setText(findTestObject('Page_BC Register Page/input_Confirm Password (Register)'), confirmPasswordFailed)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-6-company'), companyFailed)
+WebUI.setText(findTestObject('Page_BC Register Page/input_Company (Register)'), companyFailed)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-7-contact-no'), contactNoFailed)
+WebUI.setText(findTestObject('Page_BC Register Page/input_Contact no (Register)'), contactNoFailed)
 
-WebUI.click(findTestObject('Page_Register Booking Concierge/span_Save'))
+WebUI.click(findTestObject('Page_BC Register Page/button_Save (Register)'))
 
 WebUI.delay(3)
 
@@ -63,19 +63,19 @@ WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking 
 WebUI.refresh()
 
 'Registration failed - email in use'
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-2-email-address'), var_email)
+WebUI.setText(findTestObject('Page_BC Register Page/input_Email Address (Register)'), var_email)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-3-name'), var_name)
+WebUI.setText(findTestObject('Page_BC Register Page/input_Name (Register)'), var_name)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-4-password'), var_pass)
+WebUI.setText(findTestObject('Page_BC Register Page/input_Password (Register)'), var_pass)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-5-confirm-password'), var_confpass)
+WebUI.setText(findTestObject('Page_BC Register Page/input_Confirm Password (Register)'), var_confpass)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-6-company'), var_company)
+WebUI.setText(findTestObject('Page_BC Register Page/input_Company (Register)'), var_company)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-7-contact-no'), var_contactno)
+WebUI.setText(findTestObject('Page_BC Register Page/input_Contact no (Register)'), var_contactno)
 
-WebUI.click(findTestObject('Page_Register Booking Concierge/span_Save'))
+WebUI.click(findTestObject('Page_BC Register Page/button_Save (Register)'))
 
 WebUI.delay(3)
 
@@ -89,7 +89,7 @@ WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking 
 
 WebUI.refresh()
 
-emailSuccess = 'testingdevbcregre8@yopmail.com'
+emailSuccess = 'testingdevbcregre9@yopmail.com'
 
 nameSuccess = 'Regression Testing 8'
 
@@ -102,19 +102,19 @@ companySuccess = 'Company Regression 8'
 contactNoSuccess = '1231234558'
 
 'Registration successful'
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-2-email-address'), emailSuccess)
+WebUI.setText(findTestObject('Page_BC Register Page/input_Email Address (Register)'), emailSuccess)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-3-name'), nameSuccess)
+WebUI.setText(findTestObject('Page_BC Register Page/input_Name (Register)'), nameSuccess)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-4-password'), passwordSuccess)
+WebUI.setText(findTestObject('Page_BC Register Page/input_Password (Register)'), passwordSuccess)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-5-confirm-password'), confirmPasswordSuccess)
+WebUI.setText(findTestObject('Page_BC Register Page/input_Confirm Password (Register)'), confirmPasswordSuccess)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-6-company'), companySuccess)
+WebUI.setText(findTestObject('Page_BC Register Page/input_Company (Register)'), companySuccess)
 
-WebUI.setText(findTestObject('Page_Register Booking Concierge/input__mat-input-7-contact-no'), contactNoSuccess)
+WebUI.setText(findTestObject('Page_BC Register Page/input_Contact no (Register)'), contactNoSuccess)
 
-WebUI.click(findTestObject('Page_Register Booking Concierge/span_Save'))
+WebUI.click(findTestObject('Page_BC Register Page/button_Save (Register)'))
 
 /*WebUI.verifyTextPresent('Your Booking Concierge Account has been created. Please check your registered email account for the activation steps.  We recommend checking your spam or junk folder if you do not see the email, and mark Booking Concierge as a safe sender.', 
     false)*/
@@ -123,7 +123,7 @@ WebUI.delay(5)
 //alertText = WebUI.getAlertText()
 //
 //WebUI.verifyMatch(alertText, 'Your Booking Concierge Account has been created. Please check your registered email account for the activation steps.  We recommend checking your spam or junk folder if you do not see the email, and mark Booking Concierge as a safe sender.', false)
-if (WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/popup_success'), 'Your Booking Concierge Account has been created. Please check your registered email account for the activation steps. We recommend checking your spam or junk folder if you do not see the email, and mark Booking Concierge as a safe sender.')) {
+if (WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/popup_success'), 'Your account has been created. Please check your registered email account for the activation steps. We recommend checking your spam or junk folder if you do not see the email, and mark us as a safe sender.')) {
     CustomKeywords.'ccnpackage.LogResults.searchresult'('Registration Successful', 'Yes')
 }
 

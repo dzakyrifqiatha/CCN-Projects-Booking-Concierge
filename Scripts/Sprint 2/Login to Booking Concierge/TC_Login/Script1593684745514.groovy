@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 'Run Login Test Case under the Authentication Login folder first'
 
 'Login Without Password Scenario'
-WebUI.setText(findTestObject('Page_Booking Concierge/input_Email Address_email'), var_username)
+WebUI.setText(findTestObject('Page_BC Common Login Page/input_Email Address_email (Common Login)'), var_username)
 
 WebUI.delay(5)
 
@@ -33,11 +33,11 @@ WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking 
 WebUI.refresh()
 
 'Login with Invalid Email Address (Email not Registered)'
-WebUI.setText(findTestObject('Page_Booking Concierge/input_Email Address_email'), 'tdasdjajd@yahoo.com')
+WebUI.setText(findTestObject('Page_BC Common Login Page/input_Email Address_email (Common Login)'), 'tdasdjajd@yahoo.com')
 
-WebUI.setText(findTestObject('Page_Booking Concierge/input_Password_password'), 'password')
+WebUI.setText(findTestObject('Page_BC Common Login Page/input_Password_password (Common Login)'), 'password')
 
-WebUI.click(findTestObject('Page_Booking Concierge/button_Sign in'))
+WebUI.click(findTestObject('Page_BC Common Login Page/button_Sign in (Common Login)'))
 
 WebUI.delay(5)
 
@@ -52,9 +52,9 @@ WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking 
 WebUI.refresh()
 
 'Login with Invalid Email Format'
-WebUI.setText(findTestObject('Page_Booking Concierge/input_Email Address_email'), 'testest')
+WebUI.setText(findTestObject('Page_BC Common Login Page/input_Email Address_email (Common Login)'), 'testest')
 
-WebUI.setText(findTestObject('Page_Booking Concierge/input_Password_password'), 'password')
+WebUI.setText(findTestObject('Page_BC Common Login Page/input_Password_password (Common Login)'), 'password')
 
 WebUI.delay(5)
 
@@ -69,23 +69,23 @@ WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking 
 WebUI.refresh()
 
 'Login Success Scenario'
-WebUI.setText(findTestObject('Page_Booking Concierge/input_Email Address_email'), var_username)
+WebUI.setText(findTestObject('Page_BC Common Login Page/input_Email Address_email (Common Login)'), var_username)
 
-WebUI.setText(findTestObject('Page_Booking Concierge/input_Password_password'), var_password)
+WebUI.setText(findTestObject('Page_BC Common Login Page/input_Password_password (Common Login)'), var_password)
 
-WebUI.click(findTestObject('Page_Booking Concierge/button_Sign in'))
+WebUI.click(findTestObject('Page_BC Common Login Page/button_Sign in (Common Login)'))
 
 WebUI.delay(10)
 
 if (WebUI.verifyElementText(findTestObject('Page_Booking Concierge/h1_My Bookings'), 'My Bookings')) {
     CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Success', 'Yes')
-} 
+}
+
 //else {
 //    if (WebUI.verifyTextPresent('User with this email address exists', false)) {
 //        CustomKeywords.'ccnpackage.LogResults.searchresult'('Login Failed - Email Existed', 'No')
 //    }
 //}
-
 WebUI.delay(3)
 
 WebUI.takeScreenshot('D:\\Works\\Cargo Community Network Pte Ltd\\Apps\\Booking Concierge\\Result Regression Testing\\v1\\Sprint 2\\Login Success.png')

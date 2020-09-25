@@ -4,4 +4,19 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://booking:e4g2qpTkeAQH8syehyPLBe5ab@128.199.173.57:4200/login?serviceId=794db6fc-c287-4e81-aaed-f32a00e9cf3d'</initValue>
+      <name>urlDev</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://bookingconciergeppd.ccnexchange.com/login?serviceId=b030b0a3-951a-441c-971e-120d22bcfc8b'</initValue>
+      <name>urlStaging</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>10</initValue>
+      <name>waitForPagLoad</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

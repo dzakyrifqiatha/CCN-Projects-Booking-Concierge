@@ -9,7 +9,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\&quot;email\&quot;:\&quot;abraham_farrendy@ccn.com.sg\&quot;}&quot;,
+  &quot;text&quot;: &quot;{\&quot;email\&quot;:\&quot;testingdev1@yahoo.com\&quot;}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

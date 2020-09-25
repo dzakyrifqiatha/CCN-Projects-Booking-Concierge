@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>5431_UserProfile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eef6b93a-b744-4d70-bcb3-8462531b883b</testCaseGuid>
+   <variable>
+      <defaultValue>'Testing 1'</defaultValue>
+      <description></description>
+      <id>9e7e3fa3-6dc4-416f-8b7c-20dab45c8ac8</id>
+      <masked>false</masked>
+      <name>vName</name>
+   </variable>
+</TestCaseEntity>

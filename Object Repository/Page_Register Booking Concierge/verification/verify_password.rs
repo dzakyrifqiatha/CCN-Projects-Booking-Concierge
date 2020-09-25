@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/main/app-registration/form/div[2]/div[1]/mat-form-field/div/div[2]/div/mat-error/app-error/span</value>
+         <value>/html/body/app-root/app-home/main/app-registration/mat-card/form/div[2]/div[1]/mat-form-field/div/div[2]/div/mat-error/app-error/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,6 +24,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/main/app-registration/form/div[2]/div[1]/mat-form-field/div/div[2]/div/mat-error/app-error/span</value>
+      <value>/html/body/app-root/app-home/main/app-registration/mat-card/form/div[2]/div[1]/mat-form-field/div/div[2]/div/mat-error/app-error/span</value>
    </webElementProperties>
 </WebElementEntity>

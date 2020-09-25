@@ -9,7 +9,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;groupID\&quot;:\&quot;5f03fe952ba76300113bebdd\&quot;,\&quot;groupName\&quot;:\&quot;group1\&quot;,\n  \&quot;contacts\&quot;:[\&quot;abraham_farrendy@ccn.com.sg\&quot;,\&quot;kohcj@ccn.com.sg\&quot;]\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;groupID\&quot;:\&quot;${groupID}\&quot;,\n  \&quot;groupName\&quot;:\&quot;${groupName}\&quot;,\n  \&quot;contacts\&quot;:[\&quot;abraham_farrendy@ccn.com.sg\&quot;,\&quot;kohcj@ccn.com.sg\&quot;]\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -29,6 +29,27 @@
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>'5f03fe952ba76300113bebdd'</defaultValue>
+      <description></description>
+      <id>b779bbc9-3520-4018-adab-a36f6fee849d</id>
+      <masked>false</masked>
+      <name>groupID</name>
+   </variables>
+   <variables>
+      <defaultValue>'group0001'</defaultValue>
+      <description></description>
+      <id>3a91a981-bd11-4449-9bf2-4a2316b7a459</id>
+      <masked>false</masked>
+      <name>groupName</name>
+   </variables>
+   <variables>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>362e51a3-1252-439b-af3a-02c832c5e49d</id>
+      <masked>false</masked>
+      <name>contacts</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

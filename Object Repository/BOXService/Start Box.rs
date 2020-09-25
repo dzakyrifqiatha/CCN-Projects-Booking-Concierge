@@ -23,14 +23,14 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PATCH</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/register</restUrl>
+   <restUrl>http://cube.ppd.ccn/register</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
    <variables>
-      <defaultValue>'abraham_farrendy@ccn.com.sg'</defaultValue>
+      <defaultValue>findTestData('BOXService/TD_BoxUser').getValue(1, 1)</defaultValue>
       <description></description>
       <id>c93bb858-1b1f-4bf3-bec8-477cfb62809b</id>
       <masked>false</masked>

@@ -9,7 +9,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;documentID\&quot;:\&quot;5f194f8a5536840010c3f8bb\&quot;,\n  \&quot;documentVersionID\&quot;:\&quot;5f194f8a5536840010c3f8bc\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;documentID\&quot;:\&quot;5f339ef3f94d250010e07116\&quot;,\n  \&quot;documentVersionID\&quot;:\&quot;5f339ef3f94d250010e07117\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -23,12 +23,26 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/3dd95a15f9b6ac6463558f5836c24afe/document</restUrl>
+   <restUrl>http://cube.ppd.ccn/f66fed2071bce274b7445ba2ec96835f/document</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>findTestData('BOXService/TD_BoxDocument').getValue(9, 1)</defaultValue>
+      <description></description>
+      <id>bc7ee1c4-ffb0-4495-a360-2fbd1dc661b6</id>
+      <masked>false</masked>
+      <name>documentID</name>
+   </variables>
+   <variables>
+      <defaultValue>findTestData('BOXService/TD_BoxDocument').getValue(10, 1)</defaultValue>
+      <description></description>
+      <id>74ff9072-18d8-4840-b3df-16448589c315</id>
+      <masked>false</masked>
+      <name>documentVersionID</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

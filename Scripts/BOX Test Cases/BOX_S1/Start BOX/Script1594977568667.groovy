@@ -19,5 +19,3 @@ response = WS.sendRequest(findTestObject('BOXService/Start Box', [('var_email') 
 
 WS.verifyElementPropertyValue(response, 'email', 'abraham_farrendy@ccn.com.sg')
 
-WS.verifyElementPropertyValue(response, 'action', 'START')
-

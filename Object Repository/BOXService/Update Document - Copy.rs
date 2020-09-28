@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Update Document</name>
+   <name>Update Document - Copy</name>
    <tag></tag>
-   <elementGuidId>6e78933f-ed36-4731-b8bb-d5259ee65751</elementGuidId>
+   <elementGuidId>9bb0b959-1c77-4ce3-9a2b-aff2471d95a4</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;documentID\&quot;:\&quot;${documentID}\&quot;,\n  \&quot;documentVersionID\&quot;:\&quot;${documentVersionID}\&quot;,\n  \&quot;contentName\&quot;:\&quot;${contentName}\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;documentID\&quot;: \&quot;5f33af66ee0cfe0012a31ddf\&quot;,\n  \&quot;isRead\&quot;: true\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -23,7 +23,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PATCH</restRequestMethod>
-   <restUrl>http://cube.ppd.ccn/ad038c3fb8bda23f9fb11d1425b2ff10/document</restUrl>
+   <restUrl>http://cube.ppd.ccn/f66fed2071bce274b7445ba2ec96835f/document/read</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -60,47 +60,40 @@
    <variables>
       <defaultValue>findTestData('BOXService/TD_BoxDocument').getValue(3, 1)</defaultValue>
       <description></description>
-      <id>5b26e1dd-2523-4b20-b077-d857c6787a21</id>
-      <masked>false</masked>
-      <name>contentMIME</name>
-   </variables>
-   <variables>
-      <defaultValue>findTestData('BOXService/TD_BoxDocument').getValue(4, 2)</defaultValue>
-      <description></description>
       <id>37ff76a9-7246-4bc8-b588-c2cfa151311d</id>
       <masked>false</masked>
       <name>contentName</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('BOXService/TD_BoxDocument').getValue(5, 1)</defaultValue>
+      <defaultValue>findTestData('BOXService/TD_BoxDocument').getValue(4, 1)</defaultValue>
       <description></description>
       <id>fff69979-ca4e-403c-bca7-70ff808b15fa</id>
       <masked>false</masked>
       <name>tag1</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('BOXService/TD_BoxDocument').getValue(6, 1)</defaultValue>
+      <defaultValue>findTestData('BOXService/TD_BoxDocument').getValue(5, 1)</defaultValue>
       <description></description>
       <id>80000270-7d51-4c63-9693-c2b18ff8229c</id>
       <masked>false</masked>
       <name>tag2</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('BOXService/TD_BoxDocument').getValue(7, 1)</defaultValue>
+      <defaultValue>findTestData('BOXService/TD_BoxDocument').getValue(6, 1)</defaultValue>
       <description></description>
       <id>2a16b233-b0cf-46b6-9ed2-2f0685a84449</id>
       <masked>false</masked>
       <name>tag3</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('BOXService/TD_BoxDocument').getValue(8, 1)</defaultValue>
+      <defaultValue>findTestData('BOXService/TD_BoxDocument').getValue(7, 1)</defaultValue>
       <description></description>
       <id>5bb80489-68ee-4889-8f2a-1d7386ed3125</id>
       <masked>false</masked>
       <name>tag4</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('BOXService/TD_BoxDocument').getValue(9, 1)</defaultValue>
+      <defaultValue>findTestData('BOXService/TD_BoxDocument').getValue(8, 1)</defaultValue>
       <description></description>
       <id>9aef12fa-1355-4729-8931-f6d588a57c0e</id>
       <masked>false</masked>

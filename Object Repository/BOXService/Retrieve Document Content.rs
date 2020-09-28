@@ -9,7 +9,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;documentID\&quot;:\&quot;5f1952bb95205b001043bec8\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;documentID\&quot;:\&quot;5f339ef3f94d250010e07116\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -23,12 +23,19 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/e28b7e33704bed577f73601557fe64ae/document/content</restUrl>
+   <restUrl>http://cube.ppd.ccn/f66fed2071bce274b7445ba2ec96835f/content</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>findTestData('BOXService/TD_BoxDocument').getValue(9, 1)</defaultValue>
+      <description></description>
+      <id>61e1c8be-1ef6-4fa9-8ead-649e340d383e</id>
+      <masked>false</masked>
+      <name>documentID</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

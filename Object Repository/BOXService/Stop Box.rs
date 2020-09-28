@@ -9,7 +9,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;:\&quot;${email}\&quot;,\n  \&quot;action\&quot;:\&quot;STOP\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;:\&quot;testingdev225@yopmail.com\&quot;,\n  \&quot;action\&quot;:\&quot;STOP\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -30,7 +30,7 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
    <variables>
-      <defaultValue>'ray_yao@ccn.com.sg'</defaultValue>
+      <defaultValue>findTestData('BOXService/TD_BoxUser').getValue(1, 1)</defaultValue>
       <description></description>
       <id>f3177d67-f29d-4fe3-849c-714f7fb4858c</id>
       <masked>false</masked>

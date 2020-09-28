@@ -3,17 +3,13 @@
    <description></description>
    <name>Register BOX</name>
    <tag></tag>
-   <elementGuidId>2966f129-0cdb-4897-b0f8-546813d25b37</elementGuidId>
+   <elementGuidId>8806d465-24e8-4a3e-8eb6-1decae86e3bc</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-<<<<<<< HEAD
-  &quot;text&quot;: &quot;{\&quot;email\&quot;:\&quot;testingdev5@yahoo.com\&quot;}&quot;,
-=======
-  &quot;text&quot;: &quot;{\&quot;email\&quot;:\&quot;${email}\&quot;}&quot;,
->>>>>>> e9985220debf19f5bc8977baa32270621941483b
+  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;: \&quot;testingbc3@hotmail.com\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -27,16 +23,16 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>https://cubedev.ccnexchange.com/register</restUrl>
+   <restUrl>http://cube.ppd.ccn/register</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
    <variables>
-      <defaultValue>'songmy@ccn.com.sg'</defaultValue>
+      <defaultValue>findTestData('BOXService/TD_BoxUser').getValue(1, 1)</defaultValue>
       <description></description>
-      <id>97929057-121b-42a3-96f7-e83f68bab746</id>
+      <id>ec6f2e90-8b66-4d23-bd80-e625bd9dbcb8</id>
       <masked>false</masked>
       <name>email</name>
    </variables>

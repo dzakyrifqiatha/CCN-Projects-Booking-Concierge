@@ -18,5 +18,22 @@
       <description></description>
       <initValue>10</initValue>
       <name>waitForPagLoad</name>
+      <initValue>''</initValue>
+      <name>var_DocumentID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>var_DocumentVersionID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>var_GroupID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>var_timestamp</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

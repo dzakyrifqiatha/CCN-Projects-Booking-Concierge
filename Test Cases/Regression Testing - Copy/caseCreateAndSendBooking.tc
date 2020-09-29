@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>caseCreateAirline</name>
+   <name>caseCreateAndSendBooking</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>88b03c89-ca8b-45e4-8bf2-a8fff4fcd768</testCaseGuid>
+   <testCaseGuid>dde9be21-644a-4adf-abcf-92e5d743c4ea</testCaseGuid>
 </TestCaseEntity>

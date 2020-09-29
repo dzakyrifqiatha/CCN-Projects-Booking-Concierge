@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>caseGroupManagement</name>
+   <name>caseCreateAirline</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>bd9bfee8-4dc8-4c67-bf45-881d9a8be051</testCaseGuid>
+   <testCaseGuid>23e04af0-a3c4-4e95-82da-f85dda1a723a</testCaseGuid>
 </TestCaseEntity>

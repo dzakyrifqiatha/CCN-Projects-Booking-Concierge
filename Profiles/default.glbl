@@ -16,8 +16,6 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>10</initValue>
-      <name>waitForPagLoad</name>
       <initValue>''</initValue>
       <name>var_DocumentID</name>
    </GlobalVariableEntity>
@@ -35,5 +33,10 @@
       <description></description>
       <initValue>''</initValue>
       <name>var_timestamp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>1</initValue>
+      <name>G_TestRowNo</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

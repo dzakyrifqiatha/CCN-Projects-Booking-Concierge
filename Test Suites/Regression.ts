@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>707755b5-abda-4789-83f5-1ac9240cfcfb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Authentication Login/Login - New DEV Server</testCaseId>
    </testCaseLink>
    <testCaseLink>

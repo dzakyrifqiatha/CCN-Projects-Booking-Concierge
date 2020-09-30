@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
-WebUI.maximizeWindow()
+//WebUI.maximizeWindow()
 WebUI.click(findTestObject('Page_Booking Concierge/a_here'), FailureHandling.OPTIONAL)
 WebUI.setText(findTestObject('Page_BC Register Page/input_Email Address (Register)'), Reg_Email)
 WebUI.setText(findTestObject('Page_BC Register Page/input_Name (Register)'), Reg_Name)
@@ -26,7 +26,6 @@ WebUI.setText(findTestObject('Page_BC Register Page/input_Company (Register)'), 
 WebUI.setText(findTestObject('Page_BC Register Page/input_Contact no (Register)'), Reg_Contact)
 WebUI.focus(findTestObject('Page_BC Register Page/button_Save (Register)'))
 WebUI.click(findTestObject('Page_BC Register Page/button_Save (Register)'), FailureHandling.OPTIONAL)
-//WebUI.delay(3)
 if (WebUI.verifyElementPresent(findTestObject('Page_Register Booking Concierge/verification/popup_success'), 3,
 	FailureHandling.OPTIONAL)) {
 WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/popup_success'), findTestData('Regression').getValue(
@@ -34,29 +33,28 @@ WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verifica
 } else
 {
 save_disabled = WebUI.getAttribute(findTestObject('Page_Register Booking Concierge/span_Save'), 'disabled', FailureHandling.OPTIONAL)
-
 if (save_disabled == 'true')  {
     if (WebUI.verifyElementPresent(findTestObject('Page_Register Booking Concierge/verification/verify_email format'), 1, 
         FailureHandling.OPTIONAL)) {
         WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/verify_email format'), findTestData(
                 'Regression').getValue('Reg_popup_invalid_email', GlobalVariable.G_TestRowNo), FailureHandling.CONTINUE_ON_FAILURE)
     }
-    
     if (WebUI.verifyElementPresent(findTestObject('Page_Register Booking Concierge/verification/verify_name'), 1, FailureHandling.OPTIONAL)) {
         WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/verify_name'), findTestData(
                 'Regression').getValue('Reg_popup_invalid_name', GlobalVariable.G_TestRowNo), FailureHandling.CONTINUE_ON_FAILURE)
-    }
-    
+    }   
     if (WebUI.verifyElementPresent(findTestObject('Page_Register Booking Concierge/verification/verify_password'), 1, FailureHandling.OPTIONAL)) {
         WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/verify_password'), findTestData(
                 'Regression').getValue('Reg_popup_invalid_password', GlobalVariable.G_TestRowNo), FailureHandling.CONTINUE_ON_FAILURE)
     }
-    
     if (WebUI.verifyElementPresent(findTestObject('Page_Register Booking Concierge/verification/verify_contact'), 1, FailureHandling.OPTIONAL)) {
         WebUI.verifyElementText(findTestObject('Page_Register Booking Concierge/verification/verify_contact'), findTestData(
                 'Regression').getValue('Reg_popup_invalid_contact', GlobalVariable.G_TestRowNo), FailureHandling.CONTINUE_ON_FAILURE)
     }
 	}
 }
-WebUI.click(findTestObject('Page_BC Register Page/button_Cancel (Register)'))
+if (WebUI.verifyElementPresent(findTestObject('Page_BC Register Page/button_Cancel (Register)'), 1, FailureHandling.OPTIONAL)) {
+	WebUI.click(findTestObject('Page_BC Register Page/button_Cancel (Register)'))
+}
+
 

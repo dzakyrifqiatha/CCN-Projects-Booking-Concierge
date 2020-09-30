@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Save</name>
+   <name>span_Save - Copy</name>
    <tag></tag>
-   <elementGuidId>996aef85-9ce9-4fbd-a871-29320d41359c</elementGuidId>
+   <elementGuidId>71ca8ebe-00f0-4253-b6bd-bb1779cbb85d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/main/app-registration/mat-card/form/div[4]/button</value>
+         <value>/html/body/app-root/app-home/main/app-registration/form/button[1][count(. | //*[(text() = ' Save ' or . = ' Save ')]) = count(//*[(text() = ' Save ' or . = ' Save ')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <value>mat-button-wrapper</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/main/app-registration/mat-card/form/div[4]/button</value>
+      <value>/html/body/app-root/app-home/main/app-registration/form/button[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//button[@type='submit']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/main/app-registration/mat-card/form/div[4]/button</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,25 +38,25 @@
       <value>primary</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> Save </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-home[@class=&quot;ng-star-inserted&quot;]/main[@class=&quot;m-3&quot;]/app-registration[@class=&quot;ng-star-inserted&quot;]/mat-card[@class=&quot;mat-elevation-z4 registration-form ml-auto mr-auto mat-card&quot;]/form[@class=&quot;d-flex flex-column p-4 mb-4 ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;d-flex justify-content-between&quot;]/button[@class=&quot;registration-button mat-raised-button mat-button-base mat-primary&quot;]</value>
+      <value>/html/body/app-root/app-home/main/app-registration/mat-card/form/div[4]/button</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

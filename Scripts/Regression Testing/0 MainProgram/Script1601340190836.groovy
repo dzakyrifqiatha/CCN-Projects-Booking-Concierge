@@ -21,14 +21,20 @@ GlobalVariable.G_TestRowNo = ((Test_No) as Integer)
 
 CustomKeywords.'ccnpackage.LogResults.searchresult'(Test_No, 'ok')
 
-WebUI.callTestCase(findTestCase('Regression Testing/1 Registration'), [('Test_No') : findTestData('Regression').getValue('Test_No', GlobalVariable.G_TestRowNo)
-        , ('Reg_Email') : findTestData('Regression').getValue('Reg_Email', GlobalVariable.G_TestRowNo), ('Reg_Name') : findTestData('Regression').getValue('Reg_Name', GlobalVariable.G_TestRowNo)
-        , ('Reg_Password') : findTestData('Regression').getValue('Reg_Password', GlobalVariable.G_TestRowNo), ('Reg_ConfPassword') : findTestData('Regression').getValue('Reg_ConfPassword', GlobalVariable.G_TestRowNo)
-        , ('Reg_Company') : findTestData('Regression').getValue('Reg_Company', GlobalVariable.G_TestRowNo), ('Reg_Contact') : findTestData('Regression').getValue('Reg_Contact', GlobalVariable.G_TestRowNo)
-        , ('Reg_popup') : findTestData('Regression').getValue('Reg_popup', GlobalVariable.G_TestRowNo), ('Reg_popup_invalid_email') : findTestData('Regression').getValue('Reg_popup_invalid_email', GlobalVariable.G_TestRowNo)
-        , ('Reg_popup_invalid_name') : findTestData('Regression').getValue('Reg_popup_invalid_name', GlobalVariable.G_TestRowNo)
-        , ('Reg_popup_invalid_password') : findTestData('Regression').getValue('Reg_popup_invalid_password', GlobalVariable.G_TestRowNo)
-        , ('Reg_popup_invalid_contact') : findTestData('Regression').getValue('Reg_popup_invalid_contact', GlobalVariable.G_TestRowNo)
-        , ('d_Reg_popup') : '', ('d_Reg_popup_invalid_email') : '', ('d_Reg_popup_invalid_name') : '', ('d_Reg_popup_invalid_password') : ''
-        , ('d_Reg_popup_invalid_contact') : ''], FailureHandling.STOP_ON_FAILURE)
+if (Test_Reg_Email == 'Yes') {
 
+
+WebUI.callTestCase(findTestCase('Regression Testing/1 Registration'), [('Test_No') : findTestData('Regression').getValue(
+            'Test_No', GlobalVariable.G_TestRowNo), ('Reg_Email') : findTestData('Regression').getValue('Reg_Email', GlobalVariable.G_TestRowNo)
+        , ('Reg_Name') : findTestData('Regression').getValue('Reg_Name', GlobalVariable.G_TestRowNo), ('Reg_Password') : findTestData(
+            'Regression').getValue('Reg_Password', GlobalVariable.G_TestRowNo), ('Reg_ConfPassword') : findTestData('Regression').getValue(
+            'Reg_ConfPassword', GlobalVariable.G_TestRowNo), ('Reg_Company') : findTestData('Regression').getValue('Reg_Company', 
+            GlobalVariable.G_TestRowNo), ('Reg_Contact') : findTestData('Regression').getValue('Reg_Contact', GlobalVariable.G_TestRowNo)
+        , ('Reg_popup') : findTestData('Regression').getValue('Reg_popup', GlobalVariable.G_TestRowNo), ('Reg_popup_invalid_email') : findTestData(
+            'Regression').getValue('Reg_popup_invalid_email', GlobalVariable.G_TestRowNo), ('Reg_popup_invalid_name') : findTestData(
+            'Regression').getValue('Reg_popup_invalid_name', GlobalVariable.G_TestRowNo), ('Reg_popup_invalid_password') : findTestData(
+            'Regression').getValue('Reg_popup_invalid_password', GlobalVariable.G_TestRowNo), ('Reg_popup_invalid_contact') : findTestData(
+            'Regression').getValue('Reg_popup_invalid_contact', GlobalVariable.G_TestRowNo), ('d_Reg_popup') : '', ('d_Reg_popup_invalid_email') : ''
+        , ('d_Reg_popup_invalid_name') : '', ('d_Reg_popup_invalid_password') : '', ('d_Reg_popup_invalid_contact') : ''], 
+    FailureHandling.STOP_ON_FAILURE)
+}

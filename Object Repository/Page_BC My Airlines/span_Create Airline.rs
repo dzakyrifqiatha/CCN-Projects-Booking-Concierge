@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/main/app-airlines-list/div/button[count(. | //*[(text() = ' Create Airline ' or . = ' Create Airline ')]) = count(//*[(text() = ' Create Airline ' or . = ' Create Airline ')])]</value>
+         <value>/html/body/app-root/app-home/main/app-airlines-list/div/a[count(. | //*[(text() = ' Create Airline ' or . = ' Create Airline ')]) = count(//*[(text() = ' Create Airline ' or . = ' Create Airline ')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/main/app-airlines-list/div/button</value>
+      <value>/html/body/app-root/app-home/main/app-airlines-list/div/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

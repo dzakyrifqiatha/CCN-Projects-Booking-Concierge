@@ -6,6 +6,7 @@
    <elementGuidId>8439cdba-4c14-476c-9316-467021567610</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
@@ -21,6 +22,7 @@
       <type>Main</type>
       <value>application/json</value>
    </httpHeaderProperties>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
    <restUrl>https://cubedev.ccnexchange.com/register</restUrl>
@@ -28,9 +30,12 @@
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>findTestData('BOXService/TD_BoxUser').getValue(1, 1)</defaultValue>
+      <defaultValue>'testbcbox443@yopmail.com'</defaultValue>
       <description></description>
       <id>c031de01-ed95-4c19-9fff-8ab1a0108ab9</id>
       <masked>false</masked>

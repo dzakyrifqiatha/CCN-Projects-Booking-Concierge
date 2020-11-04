@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Update Document x2 - wrong versionID</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>4ec5bee3-2fa1-40ea-b0d6-2000e9ab5ac1</testCaseGuid>
-</TestCaseEntity>

@@ -5,4 +5,32 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>0bd69021-1be5-45a6-b505-73009d87919e</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Test_No', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>8facd609-01a4-4b0e-b918-97819001e5e2</id>
+      <masked>false</masked>
+      <name>Test_No</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Log_Email', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>78d474f5-8d38-4ea6-a017-40d5c8b5a1c8</id>
+      <masked>false</masked>
+      <name>Log_Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Log_Password', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>939a2020-c546-4d83-8bb5-c31ec1de7ae6</id>
+      <masked>false</masked>
+      <name>Log_Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>df6b1c6a-1793-40a2-a09f-52e44df57dc7</id>
+      <masked>false</masked>
+      <name>d_Log_popup</name>
+   </variable>
 </TestCaseEntity>

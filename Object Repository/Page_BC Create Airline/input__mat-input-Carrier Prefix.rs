@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/main/app-create-airline/form/div[1]/mat-form-field[2]/div/div[1]/div[3]/input[count(. | //*[@placeholder = '123']) = count(//*[@placeholder = '123'])]</value>
+         <value>/html/body/app-root/app-home/main/app-create-airline/form/div[1]/div[1]/div[1]/div[2]/mat-form-field/div/div[1]/div[3]/input[count(. | //*[@placeholder = '123']) = count(//*[@placeholder = '123'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -77,7 +77,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/main/app-create-airline/form/div[1]/mat-form-field[2]/div/div[1]/div[3]/input</value>
+      <value>/html/body/app-root/app-home/main/app-create-airline/form/div[1]/div[1]/div[1]/div[2]/mat-form-field/div/div[1]/div[3]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -36,7 +36,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>4</initValue>
+      <initValue>5</initValue>
       <name>G_TestRowNo</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/main/app-create-airline/form/div[1]/div[2]/mat-form-field/div/div[1]/div[3]/textarea</value>
+         <value>/html/body/app-root/app-home/main/app-create-airline/mat-card/mat-card-content/form/div[1]/div[2]/mat-form-field/div/div[1]/div[3]/textarea</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/main/app-create-airline/form/div[1]/div[2]/mat-form-field/div/div[1]/div[3]/textarea</value>
+      <value>/html/body/app-root/app-home/main/app-create-airline/mat-card/mat-card-content/form/div[1]/div[2]/mat-form-field/div/div[1]/div[3]/textarea</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

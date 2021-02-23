@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/main/app-registration/mat-card/form/div[3]/div[2]/mat-form-field/div/div[1]/div[3]/input[count(. | //*[@placeholder = '+10000000000']) = count(//*[@placeholder = '+10000000000'])]</value>
+         <value>/html/body/app-root/app-home/main/app-registration/mat-card/form/div[3]/div[2]/div/ngx-intl-tel-input/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,7 +38,7 @@
       <value>contactNumber</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/main/app-registration/mat-card/form/div[3]/div[2]/mat-form-field/div/div[1]/div[3]/input</value>
+      <value>/html/body/app-root/app-home/main/app-registration/mat-card/form/div[3]/div[2]/div/ngx-intl-tel-input/div/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

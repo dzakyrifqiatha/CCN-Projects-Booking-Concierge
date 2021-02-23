@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>4.2 GroupManagement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd9bfee8-4dc8-4c67-bf45-881d9a8be051</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Test_No', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>758e7315-d66d-4856-b436-5f59f4e55853</id>
+      <masked>false</masked>
+      <name>Test_No</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Group_Name', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>7f6d1cec-f2fc-4be2-a79c-3cf0825d4162</id>
+      <masked>false</masked>
+      <name>Group_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Group_Member1', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>903a1b16-20ff-4d2c-a769-72de5778f036</id>
+      <masked>false</masked>
+      <name>Group_Member1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Group_Member2', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>155fa718-f62b-466e-8bc7-0ecfd85a889a</id>
+      <masked>false</masked>
+      <name>Group_Member2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Group_Agent_SystemBox', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>c7df58b5-3237-4845-aa40-213c03580d40</id>
+      <masked>false</masked>
+      <name>Group_Agent_SystemBox</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Group_Rules', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>921a6834-20a7-43b8-ae3b-81a457c8ac3b</id>
+      <masked>false</masked>
+      <name>Group_Rules</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Group_Rules_DType', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>40ecb3e1-7008-412b-88d9-5b3dcaf0b2f9</id>
+      <masked>false</masked>
+      <name>Group_Rules_DType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Group_Rules_Origin', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>4842fffb-fb29-4ef2-bc2e-6adb9a0786a5</id>
+      <masked>false</masked>
+      <name>Group_Rules_Origin</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Group_Rules_Destination', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>287f115c-fd5f-4f01-aa57-38a9ca2b195f</id>
+      <masked>false</masked>
+      <name>Group_Rules_Destination</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Group_Rules_Prefix', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>e1430653-cc51-493e-a40e-1904d9f4cea4</id>
+      <masked>false</masked>
+      <name>Group_Rules_Prefix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Group_Email', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>45399a3c-31a8-4dfc-b2b0-7795a05ede69</id>
+      <masked>false</masked>
+      <name>Group_Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Group_Upload', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>c9a2f9c0-9361-49ce-b09f-cb01046239f0</id>
+      <masked>false</masked>
+      <name>Group_Upload</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Group_TNPermit', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>93edea08-5968-42ea-96d2-28b1caee70e2</id>
+      <masked>false</masked>
+      <name>Group_TNPermit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Group_Caremap', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>7570e614-a95f-4f74-943e-030f6e66da97</id>
+      <masked>false</masked>
+      <name>Group_Caremap</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Group_Telegram', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>3f858394-c664-4bd5-9212-f6f0a15fc7f2</id>
+      <masked>false</masked>
+      <name>Group_Telegram</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Group_Share', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>a8730ab1-eab0-4397-afbe-1f57a2589da1</id>
+      <masked>false</masked>
+      <name>Group_Share</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Group_popup', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>b14a3280-92bb-4911-9d51-b21677d8b8d1</id>
+      <masked>false</masked>
+      <name>Group_popup</name>
+   </variable>
+</TestCaseEntity>

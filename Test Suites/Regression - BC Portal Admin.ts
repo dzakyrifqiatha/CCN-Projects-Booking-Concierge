@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Regression - BC Portal Admin</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>08f7e7f7-4e97-4329-b50b-3658c7269fc9</testSuiteGuid>
+   <testCaseLink>
+      <guid>b89dc3c0-cf02-4d37-b536-bef47219d264</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Authentication Login/Login BC Portal Admin</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4847bd9a-d284-4262-ad80-b6fb062c44d8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ff065646-05ad-4566-ad6b-b15680d1dcd4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c4f92eec-f47b-46f8-93f2-5ec283fdb59a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0451a5be-78e5-4fd3-9cd7-d37c8e7e5e18</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Regression Testing/1 BC Portal Admin/0 MainProgram - BC Portal Admin</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a95ea44c-5212-460c-a92a-a707671beb4c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Regression - BC Portal Admin</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8d175afc-965d-4eee-be96-6eb2c6ffb5c0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f493d289-9240-441e-89f6-33df933ac49d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2e6f21b1-161d-4926-a497-c6d63b9c1325</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -6,15 +6,19 @@
    <elementGuidId>172ab693-aa0f-4e7c-9382-c773ab87f2a9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.mat-checkbox-inner-container</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//mat-checkbox[@id='mat-checkbox-1']/label/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/main/app-create-airline/mat-card/mat-card-content/form/div[1]/div[1]/div[2]/div/mat-checkbox[1]/label/div/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-checkbox-inner-container</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-checkbox-1&quot;)/label[@class=&quot;mat-checkbox-layout&quot;]/div[@class=&quot;mat-checkbox-inner-container&quot;]</value>
+      <value>/html/body/app-root/app-home/main/app-create-airline/mat-card/mat-card-content/form/div[1]/div[1]/div[2]/div/mat-checkbox[1]/label/div/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

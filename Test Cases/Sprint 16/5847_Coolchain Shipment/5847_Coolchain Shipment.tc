@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>5847_Coolchain Shipment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>57c645db-4068-4101-aee0-1cedf5c65bd5</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_Prefix', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>0a0ed113-99bf-4f3a-a44d-a2be11e2570f</id>
+      <masked>false</masked>
+      <name>CB_Prefix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_Suffix', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>4c107fd5-f61b-4951-b8d3-0fb9047048fa</id>
+      <masked>false</masked>
+      <name>CB_Suffix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_Origin', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>8324bbc8-d8b3-4cc7-905f-3ba7ba3511dc</id>
+      <masked>false</masked>
+      <name>CB_Origin</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_Destination', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>246ee3b4-d134-44cb-828c-d714bb53f6b3</id>
+      <masked>false</masked>
+      <name>CB_Destination</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_GoodsDesc', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>d6b943dc-7538-4e9a-92de-341e9ba91e5e</id>
+      <masked>false</masked>
+      <name>CB_GoodsDesc</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_Pieces', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>ce8332f2-9878-4d35-8eb8-446da061fe5b</id>
+      <masked>false</masked>
+      <name>CB_Pieces</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_Weight', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>e046b309-3130-4f2c-8ce8-56d804c94132</id>
+      <masked>false</masked>
+      <name>CB_Weight</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_Volume', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>8b3d23e5-9a03-42b9-9702-bd19ba107924</id>
+      <masked>false</masked>
+      <name>CB_Volume</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_SHC1', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>7b629532-0e09-498a-97ba-1a9828d1d7a4</id>
+      <masked>false</masked>
+      <name>CB_SHC1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_SHC2', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>1be77e7a-6eca-438c-a506-de0d72eaf03a</id>
+      <masked>false</masked>
+      <name>CB_SHC2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_SHC3', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>8c98e4ed-5248-47f0-9161-4daf16323e8e</id>
+      <masked>false</masked>
+      <name>CB_SHC3</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_SHC4', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>b4d87f4e-c02f-4aef-a970-5760bb8f5aee</id>
+      <masked>false</masked>
+      <name>CB_SHC4</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_ValueAddedService', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>ad1d6147-bad7-454c-9eb1-9a90ba1bbd10</id>
+      <masked>false</masked>
+      <name>CB_ValueAddedService</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_TempFrom', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>cd5aa75b-b1e2-40f3-bb53-f9b6f457028b</id>
+      <masked>false</masked>
+      <name>CB_TempFrom</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_TempFrom', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>0879e188-c8cd-4d03-a23f-9c555b6e43a1</id>
+      <masked>false</masked>
+      <name>CB_TempTo</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_TempDryIce', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>0ac07410-0f09-4e08-b77b-05b1f276340c</id>
+      <masked>false</masked>
+      <name>CB_TempDryIce</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_ULD1', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>d4c755df-e9af-45e0-ba01-ce7717b7d276</id>
+      <masked>false</masked>
+      <name>CB_ULD1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_ULD2', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>82f175ee-6928-49de-8b78-d80cf628a7e6</id>
+      <masked>false</masked>
+      <name>CB_ULD2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_ULD3', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>51be8e6a-910b-4d87-9a7b-03ac6a42200e</id>
+      <masked>false</masked>
+      <name>CB_ULD3</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_ULD4', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>97b87d1e-fa1a-445e-8b6a-f882bbe53305</id>
+      <masked>false</masked>
+      <name>CB_ULD4</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_F_Carrier', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>2b939f10-bef2-4feb-b496-8a394435bbe4</id>
+      <masked>false</masked>
+      <name>CB_F_Carrier</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_F_Number', 'GlobalVariable.G_TestRowNo')</defaultValue>
+      <description></description>
+      <id>d461ff46-93d6-4b2c-8b8f-a8750b693193</id>
+      <masked>false</masked>
+      <name>CB_F_Number</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_F_Date', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>eb3fe7b9-e329-46d7-a27c-dc5a93b1018b</id>
+      <masked>false</masked>
+      <name>CB_F_Date</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_F_Dep', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>faa352c5-db40-4c08-8e00-f70e6dad87a9</id>
+      <masked>false</masked>
+      <name>CB_F_Dep</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_F_Arrival', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>866d2688-60be-450c-9d72-f3906173ac63</id>
+      <masked>false</masked>
+      <name>CB_F_Arrival</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_F_AllocationCode', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>1315feb4-ef04-484e-8325-699354d2e5d4</id>
+      <masked>false</masked>
+      <name>CB_F_AllocationCode</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_F_AllotmentID', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>ee7720c5-a7aa-4483-bb12-79741c9e9212</id>
+      <masked>false</masked>
+      <name>CB_F_AllotmentID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_D_Length', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>fc5ea05d-d4c1-4dfa-ae71-1f8d9f3e9ba4</id>
+      <masked>false</masked>
+      <name>CB_D_Length</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_D_Width', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>d7e74b87-0ec0-4a66-8aa1-0a5d761fcfe4</id>
+      <masked>false</masked>
+      <name>CB_D_Width</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_D_Height', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>c08322e0-45ef-4ab6-a056-565e318af1bd</id>
+      <masked>false</masked>
+      <name>CB_D_Height</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_D_Unit', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>219cb945-c38a-46e6-bcfd-ba788d32f0f2</id>
+      <masked>false</masked>
+      <name>CB_D_Unit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_D_Pieces', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>2036d73d-e3f3-4e92-b0e7-cf9d48fe1496</id>
+      <masked>false</masked>
+      <name>CB_D_Pieces</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_D_Weight', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>7f548363-a259-4f5d-81c2-1f668ac8cb2d</id>
+      <masked>false</masked>
+      <name>CB_D_Weight</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue(CB_SSR1, GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>00dfed2c-9c6c-4fdc-ac28-14fcb8606edb</id>
+      <masked>false</masked>
+      <name>CB_SSR1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_SSR2', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>ab168fc6-b7d7-48f1-aa4b-43a241d19149</id>
+      <masked>false</masked>
+      <name>CB_SSR2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_OSI1', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>ed1f9bba-da21-4b4e-8052-c8787eb8760b</id>
+      <masked>false</masked>
+      <name>CB_OSI1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_OSI2', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>29c2f883-f72c-4e03-927f-5e4ba44a4c89</id>
+      <masked>false</masked>
+      <name>CB_OSI2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_Remarks', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>05120a38-e127-42ed-9912-770cf1a76ade</id>
+      <masked>false</masked>
+      <name>CB_Remarks</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_Files', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>7eb7001f-aa07-471e-815a-a71a34b6f8ce</id>
+      <masked>false</masked>
+      <name>CB_Files</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_Template', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>af718c5b-6603-474e-9250-7a5ac312d4fd</id>
+      <masked>false</masked>
+      <name>CB_Template</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_TemplateCode', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>3307cdd3-6bf0-4540-a901-2fd2528f92ba</id>
+      <masked>false</masked>
+      <name>CB_TemplateCode</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login BC Portal Admin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6554d183-bdc1-44e5-a94d-415187eede88</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Regression - BC Portal Admin').getValue('Test_No', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>4847bd9a-d284-4262-ad80-b6fb062c44d8</id>
+      <masked>false</masked>
+      <name>Test_No</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression - BC Portal Admin').getValue('Log_Email', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>ff065646-05ad-4566-ad6b-b15680d1dcd4</id>
+      <masked>false</masked>
+      <name>Log_Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression - BC Portal Admin').getValue('Log_Password', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>c4f92eec-f47b-46f8-93f2-5ec283fdb59a</id>
+      <masked>false</masked>
+      <name>Log_Password</name>
+   </variable>
+</TestCaseEntity>

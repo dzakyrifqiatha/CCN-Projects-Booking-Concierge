@@ -11,6 +11,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'http://bookingconcierge2.dev.ccn/'</initValue>
+      <name>urlDev2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'https://bookingconciergeppd.ccnexchange.com/login?serviceId=b030b0a3-951a-441c-971e-120d22bcfc8b'</initValue>
       <name>urlStaging</name>
    </GlobalVariableEntity>
@@ -36,7 +41,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>5</initValue>
+      <initValue>1</initValue>
       <name>G_TestRowNo</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

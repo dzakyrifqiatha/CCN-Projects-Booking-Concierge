@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>5815_Airline or GSA Staff Registration</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4ed0efb-29cc-436e-9d45-5117fe56440f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Test_No', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>024a54f6-af68-4de3-970d-3fc340a66ecd</id>
+      <masked>false</masked>
+      <name>Test_No</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Reg_Email', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>a8d59622-78ff-4094-a013-e38d7d9adbc7</id>
+      <masked>false</masked>
+      <name>Reg_Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Reg_Name', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>0f9c8529-2f7e-4de5-96e5-31e3cb8757a5</id>
+      <masked>false</masked>
+      <name>Reg_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Reg_Password', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>b8513693-ed43-4bd6-bb37-9bf32043bd7e</id>
+      <masked>false</masked>
+      <name>Reg_Password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Reg_ConfPassword', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>3c915e01-5274-41de-a923-0136c60f35cf</id>
+      <masked>false</masked>
+      <name>Reg_ConfPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Reg_Company', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>4b67adc3-91d3-4b1f-afcb-7cc63cf669e0</id>
+      <masked>false</masked>
+      <name>Reg_Company</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Reg_Contact', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>08c954ac-2be8-4c76-8c57-d551b3061a96</id>
+      <masked>false</masked>
+      <name>Reg_Contact</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Reg_popup', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>ccf012d1-0df2-4d3d-bfa6-8520fe715f91</id>
+      <masked>false</masked>
+      <name>Reg_popup</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Reg_popup_invalid_email', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>a99bc17c-5b00-421e-b31c-49599329d7cb</id>
+      <masked>false</masked>
+      <name>Reg_popup_invalid_email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Reg_popup_invalid_name', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>3a2cfd64-0c15-40a8-bb63-781f0bb61dd8</id>
+      <masked>false</masked>
+      <name>Reg_popup_invalid_name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Reg_popup_invalid_password', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>248d54c5-0e63-4e16-8a5f-04af94a54706</id>
+      <masked>false</masked>
+      <name>Reg_popup_invalid_password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Reg_popup_invalid_contact', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>85eeaa7d-6299-42ed-895c-6cd5be36f90f</id>
+      <masked>false</masked>
+      <name>Reg_popup_invalid_contact</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8c642749-6e69-45ee-b71c-2112ade6e9b1</id>
+      <masked>false</masked>
+      <name>d_Reg_popup</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1d3a39ec-44e3-4388-8244-60828687eb76</id>
+      <masked>false</masked>
+      <name>d_Reg_popup_invalid_email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>91bb56a3-a5f4-447f-b5c5-ea0d094d1b96</id>
+      <masked>false</masked>
+      <name>d_Reg_popup_invalid_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f7e9be63-1e06-4d86-b600-00ac39d5a6a2</id>
+      <masked>false</masked>
+      <name>d_Reg_popup_invalid_password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b52ad9aa-9acc-45af-a22c-c5a1f4a0c7e8</id>
+      <masked>false</masked>
+      <name>d_Reg_popup_invalid_contact</name>
+   </variable>
+</TestCaseEntity>

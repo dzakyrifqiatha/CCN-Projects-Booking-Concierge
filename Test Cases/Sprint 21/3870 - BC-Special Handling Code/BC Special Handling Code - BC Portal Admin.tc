@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BC Special Handling Code - BC Portal Admin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6949c18-53db-4777-9aef-0b0b2716cc4a</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Regression - BC Portal Admin').getValue('Test_No', 'GlobalVariable.G_TestRowNo')</defaultValue>
+      <description></description>
+      <id>d9108b9c-cad2-4500-84ac-26200598b2a5</id>
+      <masked>false</masked>
+      <name>Test_No</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression - BC Portal Admin').getValue('VAS_Prefix', 'GlobalVariable.G_TestRowNo')</defaultValue>
+      <description></description>
+      <id>dd61e536-9bd0-419d-80e2-516068bb6f97</id>
+      <masked>false</masked>
+      <name>VAS_Prefix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression - BC Portal Admin').getValue('VAS_Services', GlobalVaraiable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>d6bbb500-ee9d-4f84-90bc-6da67faa9465</id>
+      <masked>false</masked>
+      <name>VAS_Services</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>415764d8-00cf-47b0-bb7c-e608162de30a</id>
+      <masked>false</masked>
+      <name>VAS_popup</name>
+   </variable>
+</TestCaseEntity>

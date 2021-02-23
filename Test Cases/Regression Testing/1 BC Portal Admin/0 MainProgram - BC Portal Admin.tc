@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>0 MainProgram - BC Portal Admin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>58b2da39-5a3a-4fd8-bbb6-3b43bd55d7b6</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Test_No', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>8d175afc-965d-4eee-be96-6eb2c6ffb5c0</id>
+      <masked>false</masked>
+      <name>Test_No</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Test_ACR', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>f493d289-9240-441e-89f6-33df933ac49d</id>
+      <masked>false</masked>
+      <name>Test_ACR</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression - BC Portal Admin').getValue('Test_DG', 'GlobalVariable.G_TestRowNo')</defaultValue>
+      <description></description>
+      <id>2e6f21b1-161d-4926-a497-c6d63b9c1325</id>
+      <masked>false</masked>
+      <name>Test_DG</name>
+   </variable>
+</TestCaseEntity>

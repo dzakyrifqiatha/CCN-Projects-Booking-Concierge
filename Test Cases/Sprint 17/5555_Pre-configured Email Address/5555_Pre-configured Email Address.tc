@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>5555_Pre-configured Email Address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a26ce337-01a0-4e68-89fb-2d00bcca7786</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Test_No', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>5f6c27d5-44e3-4183-b8d5-ea46983bdc6d</id>
+      <masked>false</masked>
+      <name>Test_No</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Airline_Code', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>e4df7799-a51e-4fa1-a588-88bd369e6d79</id>
+      <masked>false</masked>
+      <name>Airline_Code</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Airline_Prefix', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>cef9236e-860c-44c3-8a70-624816914b11</id>
+      <masked>false</masked>
+      <name>Airline_Prefix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Airline_Station', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>51476dc4-1006-4095-9a5f-4b550a30ac91</id>
+      <masked>false</masked>
+      <name>Airline_Station</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Airline_Email', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>c2dadb75-5e53-451b-aff7-840658bcf6cc</id>
+      <masked>false</masked>
+      <name>Airline_Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Airline_Remarks', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>9648dc01-1d24-4636-8cbf-db4ad823a15d</id>
+      <masked>false</masked>
+      <name>Airline_Remarks</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Airline_CEDI', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>246b1d3b-6498-44f5-9187-b5cfec94ac4a</id>
+      <masked>false</masked>
+      <name>Airline_CEDI</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Airline_CEmail', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>134bc75e-a607-40c8-9b56-2e8c247a1bb2</id>
+      <masked>false</masked>
+      <name>Airline_CEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('Airline_popup', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>d7b3aa98-4397-43c2-8db8-ce22d083bcb3</id>
+      <masked>false</masked>
+      <name>Airline_popup</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8eb6a308-d9a4-4f0a-a78c-dee0c51d8e87</id>
+      <masked>false</masked>
+      <name>d_Airline_popup</name>
+   </variable>
+</TestCaseEntity>

@@ -21,7 +21,7 @@
       <guid>87a3d9b6-8ebd-42d1-be13-772c3cd610c8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Regression Testing/1 Registration</testCaseId>
+      <testCaseId>Test Cases/Regression Testing/2 BC User Dashboard/1 Registration</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>085262d3-568a-4aac-a394-35f42cbc6795</id>
@@ -138,7 +138,7 @@
       <guid>85c67ede-6a50-4ef9-8dbb-06da8aa63de5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Regression Testing/2 Login</testCaseId>
+      <testCaseId>Test Cases/Regression Testing/2 BC User Dashboard/2 Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b4a9069b-d70d-4842-9112-b76bd85ab522</id>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Send Message - DEV</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>49888695-1934-4e97-a4f9-4438dbc9e1c8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a975de40-e87a-4576-9b59-e7c51ddd89a1</id>
+      <masked>false</masked>
+      <name>Message</name>
+   </variable>
+</TestCaseEntity>

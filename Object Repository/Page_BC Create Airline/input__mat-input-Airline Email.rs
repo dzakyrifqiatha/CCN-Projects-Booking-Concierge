@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/main/app-create-airline/form/div[1]/div[1]/div[2]/div[2]/mat-form-field/div/div[1]/div[3]/mat-chip-list/div/input[count(. | //input[@placeholder = 'test@test.com']) = count(//input[@placeholder = 'test@test.com'])]</value>
+         <value>/html/body/app-root/app-home/main/app-create-airline/mat-card/mat-card-content/form/div[1]/div[1]/div[2]/div[2]/mat-form-field/div/div[1]/div[3]/mat-chip-list/div/input[count(. | //input[@placeholder = 'test@test.com']) = count(//input[@placeholder = 'test@test.com'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/main/app-create-airline/form/div[1]/div[1]/div[2]/div[2]/mat-form-field/div/div[1]/div[3]/mat-chip-list/div/input</value>
+      <value>/html/body/app-root/app-home/main/app-create-airline/mat-card/mat-card-content/form/div[1]/div[1]/div[2]/div[2]/mat-form-field/div/div[1]/div[3]/mat-chip-list/div/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

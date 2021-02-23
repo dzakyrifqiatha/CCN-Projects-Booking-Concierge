@@ -27,7 +27,7 @@
       <guid>baf168ef-4c56-46a7-a893-9764daad00e8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Regression Testing/0 MainProgram</testCaseId>
+      <testCaseId>Test Cases/Regression Testing/2 BC User Dashboard/0 MainProgram - BC</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ac6ae450-bf7a-433e-bf90-07f4a604062f</id>
@@ -60,6 +60,12 @@
          <type>DATA_COLUMN</type>
          <value>Test_C_Airline</value>
          <variableId>85e0eb83-7549-4c7e-91c9-267579f89dcc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ac6ae450-bf7a-433e-bf90-07f4a604062f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Test_Group</value>
+         <variableId>765ca1ee-4aef-413f-a361-9696adc80436</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

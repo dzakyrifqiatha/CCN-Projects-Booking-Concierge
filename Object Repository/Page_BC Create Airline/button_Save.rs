@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/main/app-create-airline/form/div[4]/button[1][count(. | //*[@type = 'submit' and (text() = ' Save ' or . = ' Save ')]) = count(//*[@type = 'submit' and (text() = ' Save ' or . = ' Save ')])]</value>
+         <value>/html/body/app-root/app-home/main/app-create-airline/mat-card/mat-card-content/form/div[2]/button[count(. | //*[@type = 'submit' and (text() = ' Save ' or . = ' Save ')]) = count(//*[@type = 'submit' and (text() = ' Save ' or . = ' Save ')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/main/app-create-airline/form/div[4]/button[1]</value>
+      <value>/html/body/app-root/app-home/main/app-create-airline/mat-card/mat-card-content/form/div[2]/button</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

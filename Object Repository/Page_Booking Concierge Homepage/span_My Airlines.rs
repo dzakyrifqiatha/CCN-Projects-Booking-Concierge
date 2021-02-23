@@ -6,12 +6,12 @@
    <elementGuidId>38ab16ad-f5f6-4f36-ae16-58192d6c2626</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/app-root/app-home/main/app-dashboard/dashboard-navigation/div/button[1][count(. | //*[(text() = ' My Airlines ' or . = ' My Airlines ')]) = count(//*[(text() = ' My Airlines ' or . = ' My Airlines ')])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='My Bookings'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/main/app-dashboard/dashboard-navigation/div/a[count(. | //*[(text() = ' My Airlines ' or . = ' My Airlines ')]) = count(//*[(text() = ' My Airlines ' or . = ' My Airlines ')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/main/app-dashboard/dashboard-navigation/div/button[1]</value>
+      <value>/html/body/app-root/app-home/main/app-dashboard/dashboard-navigation/div/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

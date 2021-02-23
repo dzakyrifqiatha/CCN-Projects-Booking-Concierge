@@ -41,6 +41,9 @@ WebUI.setText(findTestObject('Page_Create Booking/input__mat-input-DG'), CB_DG)
 
 WebUI.setText(findTestObject('Page_Create Booking/input_Special Handling Codes_mat-input-1'), CB_SHC1)
 
+'New in Sprint 4 (Sprint 21)'
+WebUI.click(findTestObject('Sprint 21/PageCreateBooking_Special Handling Code/mat-option_AOG - First row SHC'))
+
 WebUI.setText(findTestObject('Page_Create Booking/input_Special Handling Codes_mat-input-2'), CB_SHC2)
 
 WebUI.setText(findTestObject('Page_Create Booking/input_Special Handling Codes_mat-input-3'), CB_SHC3)

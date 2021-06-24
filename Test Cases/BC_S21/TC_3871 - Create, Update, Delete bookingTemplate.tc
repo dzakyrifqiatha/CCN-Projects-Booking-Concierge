@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_3871 - Create, Update, Delete bookingTemplate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>acf46b51-0c54-4c18-aa5b-f44dd9590b86</testCaseGuid>
+</TestCaseEntity>

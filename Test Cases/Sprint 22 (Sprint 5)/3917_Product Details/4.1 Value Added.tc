@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>4.1 Value Added</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>60234ab5-f9d6-40e2-8076-74943570496a</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Regression - BC Portal Admin').getValue('Test_No', 'GlobalVariable.G_TestRowNo')</defaultValue>
+      <description></description>
+      <id>35d06f02-ea89-4132-a82c-0cd58b42f94b</id>
+      <masked>false</masked>
+      <name>Test_No</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression - BC Portal Admin').getValue('VAS_Prefix', 'GlobalVariable.G_TestRowNo')</defaultValue>
+      <description></description>
+      <id>ef112f27-794c-4027-ab0b-a60d17a30214</id>
+      <masked>false</masked>
+      <name>VAS_Prefix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression - BC Portal Admin').getValue('VAS_Services', GlobalVaraiable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>c2d09d43-a2e8-415a-b8a0-34b4beeef038</id>
+      <masked>false</masked>
+      <name>VAS_Services</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2bec3c7c-0014-4969-9ade-38d2c1680e25</id>
+      <masked>false</masked>
+      <name>VAS_popup</name>
+   </variable>
+</TestCaseEntity>

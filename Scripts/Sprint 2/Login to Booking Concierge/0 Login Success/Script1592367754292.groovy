@@ -14,13 +14,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+
+WebUI.openBrowser('http://bookingconcierge2.dev.ccn/')
 
 'Run Login Test Case under the Authentication Login folder first'
-WebUI.setText(findTestObject('Page_Booking Concierge/input_Email Address_email'), var_username)
+WebUI.setText(findTestObject('Page_BC Common Login Page/input_Email Address_email (Common Login)'), 'test')
 
-WebUI.setText(findTestObject('Page_Booking Concierge/input_Password_password'), var_password)
+WebUI.setText(findTestObject('Page_BC Common Login Page/input_Password_password (Common Login)'), 'test')
 
-WebUI.click(findTestObject('Page_Booking Concierge/button_Sign in'))
+WebUI.click(findTestObject('Page_BC Common Login Page/button_Sign in (Common Login)'))
 
 WebUI.takeScreenshot()
 

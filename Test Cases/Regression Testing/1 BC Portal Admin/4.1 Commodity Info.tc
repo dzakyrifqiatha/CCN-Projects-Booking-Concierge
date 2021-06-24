@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>4.1 Commodity Info</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4b6118e6-1070-473c-b12f-15104fbd346e</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Regression - BC Portal Admin').getValue('Test_No', 'GlobalVariable.G_TestRowNo')</defaultValue>
+      <description></description>
+      <id>4aa4781b-d301-4349-8a41-c8d37a20259f</id>
+      <masked>false</masked>
+      <name>Test_No</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression - BC Portal Admin').getValue('VAS_Prefix', 'GlobalVariable.G_TestRowNo')</defaultValue>
+      <description></description>
+      <id>98994026-c101-4758-b79a-5ac9ecfbac57</id>
+      <masked>false</masked>
+      <name>VAS_Prefix</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Regression - BC Portal Admin').getValue('VAS_Services', GlobalVaraiable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>1dd11e1f-4c7f-43e1-9747-55e5e7ccb426</id>
+      <masked>false</masked>
+      <name>VAS_Services</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fa4feb55-f337-4d18-8db5-948ebaac9cc2</id>
+      <masked>false</masked>
+      <name>VAS_popup</name>
+   </variable>
+</TestCaseEntity>

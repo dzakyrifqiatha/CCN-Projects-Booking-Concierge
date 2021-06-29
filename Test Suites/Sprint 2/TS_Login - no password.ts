@@ -20,7 +20,7 @@
       <guid>9acc5d5a-26bb-4cd4-b5c4-1a8a80a91547</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/Login to Booking Concierge/1 Login Without Password - Copy</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 2/Login to Booking Concierge/1 Login Without Password - Copy</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ec3a9202-abb7-4182-a38b-a9ac26ccdfee</id>

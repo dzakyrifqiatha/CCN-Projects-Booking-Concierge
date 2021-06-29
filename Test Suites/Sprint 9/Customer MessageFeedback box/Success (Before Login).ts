@@ -20,7 +20,7 @@
       <guid>8cd96b72-7ae7-48d4-841c-8c536f443313</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 9/Customer Message Feedback Box/1 Feedback (Before Login)</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 9/Customer Message Feedback Box/1 Feedback (Before Login)</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

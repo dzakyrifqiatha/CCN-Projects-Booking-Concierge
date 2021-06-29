@@ -23,7 +23,7 @@ WebUI.waitForPageLoad(GlobalVariable.waitForPagLoad)
  * Registration Failed - Checking fields error message
  */
 'Case 1 : Registration Failed - Checking all the fields error message'
-WebUI.callTestCase(findTestCase('Sprint 1/Registration Process/2 Registration Failed - Check Field'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('BC1/Sprint 1/Registration Process/2 Registration Failed - Check Field'), [:], FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'ccnpackage.LogResults.searchresult'('Checking all the fields error messages - Success', 'Yes')
 
@@ -35,7 +35,7 @@ WebUI.waitForPageLoad(GlobalVariable.waitForPagLoad)
  * Registration Success - Success create an account
  */
 'Case 2 : Registration Sucess - Success create an account'
-WebUI.callTestCase(findTestCase('Sprint 1/Registration Process/0 Registration Success'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('BC1/Sprint 1/Registration Process/0 Registration Success'), [:], FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'ccnpackage.LogResults.searchresult'('Create an account - Success', 'Yes')
 
@@ -43,7 +43,7 @@ WebUI.refresh()
 
 WebUI.waitForPageLoad(GlobalVariable.waitForPagLoad)
 
-WebUI.callTestCase(findTestCase('Sprint 1/Registration Process/1 Registration Failed - Email Existed'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('BC1/Sprint 1/Registration Process/1 Registration Failed - Email Existed'), [:], FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'ccnpackage.LogResults.searchresult'('Unable to create an account due to email already existed - Success', 
     'Yes')

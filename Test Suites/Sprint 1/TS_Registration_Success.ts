@@ -14,7 +14,7 @@
       <guid>f9df7a61-ba56-4820-9eaf-dc5aea5d3e1e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 1/Registration Process/0 Registration Success</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 1/Registration Process/0 Registration Success</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>519fa998-e042-43a1-873a-151a8e48b49f</id>
@@ -65,7 +65,7 @@
       <guid>ae246358-1c39-4945-859c-ebd9f5e1a39a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 1/Registration Process/2 Registration Failed - Check Field</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 1/Registration Process/2 Registration Failed - Check Field</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>db62ab46-fa5d-41ab-88b7-6c703cf0953b</id>
@@ -194,7 +194,7 @@
       <guid>7a771ade-7b4a-4091-88e6-d8736a9278bd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 1/Registration Process/1 Registration Failed - Email Existed</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 1/Registration Process/1 Registration Failed - Email Existed</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>396b5119-5930-45c1-92eb-b80ecea6946b</id>

@@ -9,7 +9,6 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>ae968495-26e6-4d94-80b8-69018057e8af</testSuiteGuid>
    <testCaseLink>
       <guid>e3a74242-871e-4661-b346-65ff4381099f</guid>
@@ -21,7 +20,7 @@
       <guid>94d03c77-097c-4553-abdd-0bdcfa314bd5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/Login to Booking Concierge/0 Login Success</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 2/Login to Booking Concierge/0 Login Success</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -39,6 +38,6 @@
       <guid>2f15dea7-5033-4dba-ac62-ddbfeccbc3a5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 9/Create Booking/Fine-tune Booking Details Page textboxes</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 9/Create Booking/Fine-tune Booking Details Page textboxes</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

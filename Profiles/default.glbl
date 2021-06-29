@@ -41,7 +41,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>1</initValue>
+      <initValue>22</initValue>
       <name>G_TestRowNo</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

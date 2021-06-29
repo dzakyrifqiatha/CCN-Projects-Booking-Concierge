@@ -14,7 +14,7 @@
       <guid>a2aa1893-fc9c-4294-9246-942c32ada74a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 3/Create Airline/5 Delete Airline Success</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 3/Create Airline/5 Delete Airline Success</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ce0a2964-6b37-4d2b-b891-39122dee1c43</id>

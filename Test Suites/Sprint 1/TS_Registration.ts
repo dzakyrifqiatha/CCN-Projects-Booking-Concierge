@@ -20,7 +20,7 @@
       <guid>f9df7a61-ba56-4820-9eaf-dc5aea5d3e1e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 1/Registration Process/0 Registration Success</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 1/Registration Process/0 Registration Success</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>519fa998-e042-43a1-873a-151a8e48b49f</id>

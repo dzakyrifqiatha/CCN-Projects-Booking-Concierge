@@ -9,7 +9,6 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>ac2cccc4-680e-4ce6-8f3b-5de02a0e40a3</testSuiteGuid>
    <testCaseLink>
       <guid>3b6a1c40-508b-4d93-8154-60adcf3a71cc</guid>
@@ -21,7 +20,7 @@
       <guid>d96d93b4-ad59-48e4-b937-afdf7baba0a2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/Login to Booking Concierge/0 Login Success</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 2/Login to Booking Concierge/0 Login Success</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -39,7 +38,7 @@
       <guid>64deb2f6-02ec-4e49-a12c-9eba36c1da92</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 7/Profile/0 Update Profile (Edit Password)2</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 7/Profile/0 Update Profile (Edit Password)2</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

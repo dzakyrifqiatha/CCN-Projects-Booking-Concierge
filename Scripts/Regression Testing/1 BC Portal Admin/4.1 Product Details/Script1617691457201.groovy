@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Page_BCPortalAdminApp/a_CONFIGURATIONS'))
 
-WebUI.click(findTestObject('Sprint 5 (BC Portal Admin)/Page_BcAdminApp/a_infoCommodity Info'))
+WebUI.click(findTestObject('Sprint 5 (BC Portal Admin)/Page_BcAdminApp/a_detailsProduct Detail'))
 
 WebUI.click(findTestObject('Sprint 5 (BC Portal Admin)/Page_BcAdminApp/button_refresh_ProductDetail'))
 
@@ -33,26 +33,29 @@ WebUI.setText(findTestObject('Sprint 5 (BC Portal Admin)/Page_BcAdminApp/input_A
 
 WebUI.setText(findTestObject('Sprint 5 (BC Portal Admin)/Page_BcAdminApp/input_AddProductDetail_Description'), VAS_Services)
 
-if (ProductDetail_SHC == 'Yes'){
-	WebUI.check(findTestObject('Sprint 5 (BC Portal Admin)/Page_BcAdminApp/input_AddProductDetail_Description'), VAS_Services)
-} else if (ProductDetail_SSR == 'Yes'){
-	WebUI.check(findTestObject('Sprint 5 (BC Portal Admin)/Page_BcAdminApp/input_AddProductDetail_Description'), VAS_Services)
-} else if (ProductDetail_OSI == 'Yes'){
-	WebUI.check(findTestObject('Sprint 5 (BC Portal Admin)/Page_BcAdminApp/input_AddProductDetail_Description'), VAS_Services)
-	WebUI.delay(2)
-	WebUI.setText(findTestObject('Sprint 5 (BC Portal Admin)/Page_BcAdminApp/input_AddProductDetail_Description'), VAS_Services)
-} else if (ProductDetail_SRI == 'Yes'){
-	WebUI.check(findTestObject('Sprint 5 (BC Portal Admin)/Page_BcAdminApp/input_AddProductDetail_Description'), VAS_Services)
-	WebUI.delay(2)
-	WebUI.setText(findTestObject('Sprint 5 (BC Portal Admin)/Page_BcAdminApp/input_AddProductDetail_Description'), VAS_Services)
+if (ProductDetail_SHC == 'Yes') {
+    WebUI.check(findTestObject('Sprint 5 (BC Portal Admin)/Page_BcAdminApp/input_AddProductDetail_Description'), VAS_Services)
+} else if (ProductDetail_SSR == 'Yes') {
+    WebUI.check(findTestObject('Sprint 5 (BC Portal Admin)/Page_BcAdminApp/input_AddProductDetail_Description'), VAS_Services)
+} else if (ProductDetail_OSI == 'Yes') {
+    WebUI.check(findTestObject('Sprint 5 (BC Portal Admin)/Page_BcAdminApp/input_AddProductDetail_Description'), VAS_Services)
+
+    WebUI.delay(2)
+
+    WebUI.setText(findTestObject('Sprint 5 (BC Portal Admin)/Page_BcAdminApp/input_AddProductDetail_Description'), VAS_Services)
+} else if (ProductDetail_SRI == 'Yes') {
+    WebUI.check(findTestObject('Sprint 5 (BC Portal Admin)/Page_BcAdminApp/input_AddProductDetail_Description'), VAS_Services)
+
+    WebUI.delay(2)
+
+    WebUI.setText(findTestObject('Sprint 5 (BC Portal Admin)/Page_BcAdminApp/input_AddProductDetail_Description'), VAS_Services)
 }
 
-if (ProductDetail_EDI == 'Yes'){
-	WebUI.check(findTestObject('Sprint 5 (BC Portal Admin)/Page_BcAdminApp/input_AddProductDetail_Description'), VAS_Services)
-} else if (ProductDetail_Email == 'Yes'){
-	WebUI.check(findTestObject('Sprint 5 (BC Portal Admin)/Page_BcAdminApp/input_AddProductDetail_Description'), VAS_Services)
+if (ProductDetail_EDI == 'Yes') {
+    WebUI.check(findTestObject('Sprint 5 (BC Portal Admin)/Page_BcAdminApp/input_AddProductDetail_Description'), VAS_Services)
+} else if (ProductDetail_Email == 'Yes') {
+    WebUI.check(findTestObject('Sprint 5 (BC Portal Admin)/Page_BcAdminApp/input_AddProductDetail_Description'), VAS_Services)
 }
-
 
 if (WebUI.verifyElementPresent(findTestObject('Page_BCPortalAdminApp/span_popup'), 3, FailureHandling.OPTIONAL)) {
     WebUI.verifyElementText(findTestObject('Page_BCPortalAdminApp/span_popup'), findTestData('Regression - BC Portal Admin').getValue(

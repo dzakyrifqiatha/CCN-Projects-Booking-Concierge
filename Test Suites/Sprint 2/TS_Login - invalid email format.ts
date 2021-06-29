@@ -20,7 +20,7 @@
       <guid>77915e6f-02e9-4615-91a6-201bfca1b937</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/Login to Booking Concierge/3 Login Invalid Email Format</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 2/Login to Booking Concierge/3 Login Invalid Email Format</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e41eb450-b866-4d5b-827f-bdfe0debe40f</id>

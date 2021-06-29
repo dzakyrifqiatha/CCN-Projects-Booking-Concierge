@@ -20,7 +20,7 @@
       <guid>3d1f895e-e7f2-458e-b323-828ac935d8a9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/Login to Booking Concierge/2 Login Invalid Password</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 2/Login to Booking Concierge/2 Login Invalid Password</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a736840b-949f-4baa-96bd-d9db2d7559a3</id>

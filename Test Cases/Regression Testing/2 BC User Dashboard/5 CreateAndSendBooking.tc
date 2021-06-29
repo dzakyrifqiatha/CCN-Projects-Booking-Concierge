@@ -292,4 +292,11 @@
       <masked>false</masked>
       <name>CB_TemplateCode</name>
    </variable>
+   <variable>
+      <defaultValue>findTestData('Regression').getValue('CB_DG', GlobalVariable.G_TestRowNo)</defaultValue>
+      <description></description>
+      <id>19d5688c-072a-46cb-9d57-37e79606512d</id>
+      <masked>false</masked>
+      <name>CB_DG</name>
+   </variable>
 </TestCaseEntity>

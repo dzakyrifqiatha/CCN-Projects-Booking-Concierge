@@ -14,7 +14,7 @@
       <guid>0a605199-4e8f-4bc2-a068-2f1a268cace5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 8/My Airlines/Airline Cancellation</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 8/My Airlines/Airline Cancellation</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>995d283d-e5eb-4c2f-b878-c7b5b57bce83</id>
@@ -155,7 +155,7 @@
       <guid>2b189e5c-e3d0-476e-88dc-9013f7a50837</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 8/My Airlines/Airline Confirmation - KK and HN</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 8/My Airlines/Airline Confirmation - KK and HN</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>30d85d10-c845-4ba2-83f8-a08f97f2568d</id>
@@ -308,7 +308,7 @@
       <guid>67ba5259-a822-4410-b89a-7ffeb6338a32</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 8/My Airlines/Airline Confirmation - no flight</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 8/My Airlines/Airline Confirmation - no flight</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1b0fb916-ea98-4592-b2bd-bde4e0e90263</id>
@@ -491,7 +491,7 @@
       <guid>c223ad86-76fa-4c7d-9453-9f18fd3eee66</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 8/My Airlines/Airline Confirmation</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 8/My Airlines/Airline Confirmation</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>898c229c-ca14-44af-8edb-4d4790c78499</id>
@@ -662,7 +662,7 @@
       <guid>99bf6ff6-8450-46b6-9347-e2c5f6087bf7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 8/My Airlines/Airline Rejection</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 8/My Airlines/Airline Rejection</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>5cf1180c-4344-4ea7-a240-c3103add98de</id>

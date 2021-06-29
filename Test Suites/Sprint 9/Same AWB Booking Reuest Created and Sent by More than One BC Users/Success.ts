@@ -9,7 +9,6 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>c7d7acb3-1ab3-4d00-b9ba-1d35ca9bb87e</testSuiteGuid>
    <testCaseLink>
       <guid>8b33d4c0-32fd-4755-84ea-b89bd793778f</guid>
@@ -21,7 +20,7 @@
       <guid>bf7ae97e-b896-44ab-b4d5-761e2b00b3f4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/Login to Booking Concierge/0 Login Success</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 2/Login to Booking Concierge/0 Login Success</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -39,7 +38,7 @@
       <guid>d2f81cf4-86e9-45b9-9b5e-81b20e6793e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 9/Same AWB Booking Request Created and Sent by More than One BC User/0 Sent Booking Request</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 9/Same AWB Booking Request Created and Sent by More than One BC User/0 Sent Booking Request</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -189,7 +188,7 @@
       <guid>e3f9158c-fea7-4df9-8eb5-15d1c29061ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 9/Same AWB Booking Request Created and Sent by More than One BC User/1 Login 2nd User</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 9/Same AWB Booking Request Created and Sent by More than One BC User/1 Login 2nd User</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -207,7 +206,7 @@
       <guid>ccccb007-171b-4d24-a374-61d048867a12</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 9/Same AWB Booking Request Created and Sent by More than One BC User/2 Sent 2nd Booking Request</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 9/Same AWB Booking Request Created and Sent by More than One BC User/2 Sent 2nd Booking Request</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -357,7 +356,7 @@
       <guid>58802fe5-d815-4619-8937-bebe4d353c17</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 9/Open New Tab</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 9/Open New Tab</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -369,7 +368,7 @@
       <guid>50ce7941-e06e-4752-bf74-d1696c3a299d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 9/Same AWB Booking Request Created and Sent by More than One BC User/3 Go to Emails Page</testCaseId>
+      <testCaseId>Test Cases/BC1/Sprint 9/Same AWB Booking Request Created and Sent by More than One BC User/3 Go to Emails Page</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

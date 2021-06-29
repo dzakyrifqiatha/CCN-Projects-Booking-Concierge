@@ -1,20 +1,6 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 'Create Booking Record'
 WebUI.click(findTestObject('Page_Booking Concierge Homepage/span_New Booking'))
@@ -37,7 +23,7 @@ WebUI.setText(findTestObject('Page_Create Booking/input__mat-input-Weight'), CB_
 
 WebUI.setText(findTestObject('Page_Create Booking/input__mat-input-Volume'), CB_Volume)
 
-WebUI.setText(findTestObject('Page_Create Booking/input__mat-input-DG'), CB_DG)
+WebUI.setText(findTestObject('Page_Create Booking/input__mat-input-DG'), CB_DG, FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('Page_Create Booking/input_Special Handling Codes_mat-input-1'), CB_SHC1)
 
@@ -47,15 +33,15 @@ WebUI.setText(findTestObject('Page_Create Booking/input_Special Handling Codes_m
 
 WebUI.setText(findTestObject('Page_Create Booking/input_Special Handling Codes_mat-input-4'), CB_SHC4)
 
-WebUI.click(findTestObject('Page_Create Booking/div_Value Added Service'))
+WebUI.click(findTestObject('Page_Create Booking/div_Value Added Service'), FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Page_Create Booking/span_Cool Shipment'))
+WebUI.click(findTestObject('Page_Create Booking/span_Cool Shipment'), FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Page_Create Booking/input_from_mat-input-TempFrom'), CB_TempFrom)
+WebUI.setText(findTestObject('Page_Create Booking/input_from_mat-input-TempFrom'), CB_TempFrom, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Page_Create Booking/input_to_mat-input-TemptTo'), CB_TempTo)
+WebUI.setText(findTestObject('Page_Create Booking/input_to_mat-input-TemptTo'), CB_TempTo, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Page_Create Booking/input_Dry Ice_mat-input-Dry Ice'), CB_TempDryIce)
+WebUI.setText(findTestObject('Page_Create Booking/input_Dry Ice_mat-input-Dry Ice'), CB_TempDryIce, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Page_Create Booking/button_add Flight Section'), FailureHandling.STOP_ON_FAILURE)
 
@@ -73,37 +59,37 @@ WebUI.click(findTestObject('Page_Create Booking/span_AllocationCode'), FailureHa
 
 WebUI.click(findTestObject('Page_Create Booking/span_NN'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Create Booking/span_XX'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.click(findTestObject('Page_Create Booking/span_XX'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Create Booking/span_CA'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.click(findTestObject('Page_Create Booking/span_CA'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_Create Booking/button_doneFlight Row 1'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Create Booking/button_add Dimension Section'))
+WebUI.click(findTestObject('Page_Create Booking/button_add Dimension Section'), FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Page_Create Booking/input_mat-input-D Length'), CB_D_Length)
+WebUI.setText(findTestObject('Page_Create Booking/input_mat-input-D Length'), CB_D_Length, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Page_Create Booking/input_mat-input-D Width'), CB_D_Width)
+WebUI.setText(findTestObject('Page_Create Booking/input_mat-input-D Width'), CB_D_Width, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Page_Create Booking/input_mat-input-D Height'), CB_D_Height)
+WebUI.setText(findTestObject('Page_Create Booking/input_mat-input-D Height'), CB_D_Height, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Page_Create Booking/input_mat-input-D Unit'), CB_D_Unit)
+WebUI.setText(findTestObject('Page_Create Booking/input_mat-input-D Unit'), CB_D_Unit, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Page_Create Booking/input_mat-input-D Pieces'), CB_D_Pieces)
+WebUI.setText(findTestObject('Page_Create Booking/input_mat-input-D Pieces'), CB_D_Pieces, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Page_Create Booking/input_mat-input-D Weight'), CB_D_Weight)
+WebUI.setText(findTestObject('Page_Create Booking/input_mat-input-D Weight'), CB_D_Weight, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Page_Create Booking/button_doneDimension Row 1'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_Create Booking/button_doneDimension Row 1'), FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Page_Create Booking/input_Special Service Request_mat-input-Line 1'), CB_SSR1)
+WebUI.setText(findTestObject('Page_Create Booking/input_Special Service Request_mat-input-Line 1'), CB_SSR1, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Page_Create Booking/input_Service Request_mat-input-Line 2'), CB_SSR2)
+WebUI.setText(findTestObject('Page_Create Booking/input_Service Request_mat-input-Line 2'), CB_SSR2, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Page_Create Booking/input_Other Service Information_mat-input-Line 1'), CB_OSI1)
+WebUI.setText(findTestObject('Page_Create Booking/input_Other Service Information_mat-input-Line 1'), CB_OSI1, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Page_Create Booking/input_Service Information_mat-input-Line 2'), CB_OSI2)
+WebUI.setText(findTestObject('Page_Create Booking/input_Service Information_mat-input-Line 2'), CB_OSI2, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Page_Create Booking/textarea_Remarks_mat-input-Remarks'), CB_Remarks)
+WebUI.setText(findTestObject('Page_Create Booking/textarea_Remarks_mat-input-Remarks'), CB_Remarks, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Page_Create New Booking/button_Save'))
 

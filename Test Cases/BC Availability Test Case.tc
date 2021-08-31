@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Availability Test Case</name>
+   <name>BC Availability Test Case</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b72bda56-5dbf-43d4-ac8b-e354f77413ab</testCaseGuid>

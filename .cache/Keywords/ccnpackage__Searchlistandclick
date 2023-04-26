@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "65842A9ACD4C8B15F8FFF258FE51A88B",
+  "keywordClasses": [
+    {
+      "name": "ccnpackage.Searchlistandclick",
+      "keywordMethods": [
+        {
+          "name": "selectValueFromUnorderedList",
+          "parameters": [
+            {
+              "name": "unorderedList",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "value",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

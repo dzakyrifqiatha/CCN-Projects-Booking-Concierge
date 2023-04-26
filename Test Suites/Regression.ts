@@ -15,19 +15,19 @@
       <guid>707755b5-abda-4789-83f5-1ac9240cfcfb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Authentication Login/Login - New DEV Server</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/Authentication Login/Login - New DEV Server</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e6bdd123-3634-4931-9d98-7941cba39072</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Authentication Login/Open Browser PPD</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/Authentication Login/Open Browser PPD</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>baf168ef-4c56-46a7-a893-9764daad00e8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Regression Testing/2 BC User Dashboard/0 MainProgram - BC</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/Regression Testing/2 BC User Dashboard/0 MainProgram - BC</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ac6ae450-bf7a-433e-bf90-07f4a604062f</id>

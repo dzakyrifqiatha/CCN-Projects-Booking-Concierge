@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>5005 - BQ Column Updates</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c233ce88-050b-4061-95d0-c708ff28d8e9</testCaseGuid>
+   <variable>
+      <defaultValue>'Company 11'</defaultValue>
+      <description></description>
+      <id>825b4e5a-03e6-42c0-81e9-1be6ba7f5d9d</id>
+      <masked>false</masked>
+      <name>createdBy</name>
+   </variable>
+   <variable>
+      <defaultValue>'MK-ALO'</defaultValue>
+      <description></description>
+      <id>27b16ee5-dc30-40f0-9f10-3e92d2bc90dd</id>
+      <masked>false</masked>
+      <name>airlineRecipient</name>
+   </variable>
+   <variable>
+      <defaultValue>'SQ System'</defaultValue>
+      <description></description>
+      <id>2747da0f-794e-4249-84f1-f1e179b76454</id>
+      <masked>false</masked>
+      <name>ediReply</name>
+   </variable>
+   <variable>
+      <defaultValue>'Company 11'</defaultValue>
+      <description></description>
+      <id>71847d0e-bfad-44ab-810d-cd29dbf3fcbf</id>
+      <masked>false</masked>
+      <name>companyName</name>
+   </variable>
+</TestCaseEntity>

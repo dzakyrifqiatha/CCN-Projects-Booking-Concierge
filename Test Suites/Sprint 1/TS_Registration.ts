@@ -9,18 +9,19 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>e799087b-9631-42d2-876c-4eb8b2fd7180</testSuiteGuid>
    <testCaseLink>
       <guid>70642d82-a968-4f1a-a6eb-d51c1c4cde38</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Authentication Login/Login</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/Authentication Login/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f9df7a61-ba56-4820-9eaf-dc5aea5d3e1e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 1/Registration Process/0 Registration Success</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 1/Registration Process/0 Registration Success</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>519fa998-e042-43a1-873a-151a8e48b49f</id>

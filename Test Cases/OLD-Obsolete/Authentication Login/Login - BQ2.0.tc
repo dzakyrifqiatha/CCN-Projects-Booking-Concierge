@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login - BQ2.0</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fea1434b-f60d-4cdc-9b98-34f54cd0e604</testCaseGuid>
+   <variable>
+      <defaultValue>'testingdevbc2@gmail.com'</defaultValue>
+      <description></description>
+      <id>470a5752-5be2-4681-b41a-5d84bdf254d9</id>
+      <masked>false</masked>
+      <name>Log_Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'password'</defaultValue>
+      <description></description>
+      <id>c2d771ec-f2bc-4575-b7b3-dc956c192d4f</id>
+      <masked>false</masked>
+      <name>Log_Password</name>
+   </variable>
+</TestCaseEntity>

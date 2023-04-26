@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "23CF6A7C45C2BF8102D9ADF691C9233D",
+  "keywordClasses": [
+    {
+      "name": "ccnpackage.ccnkeywords",
+      "keywordMethods": [
+        {
+          "name": "selectValueFromUnorderedList",
+          "parameters": [
+            {
+              "name": "unorderedList",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "value",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -9,12 +9,13 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>cd39a75a-6e5b-4474-a538-70e8d4307c2f</testSuiteGuid>
    <testCaseLink>
       <guid>40cf5764-e8f5-41ec-a336-f0b1a3355314</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 3/Create Airline/1 Create Airline Failed</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 3/Create Airline/1 Create Airline Failed</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>99a0bf56-c12d-41d3-8725-b7c4be0b06b7</id>

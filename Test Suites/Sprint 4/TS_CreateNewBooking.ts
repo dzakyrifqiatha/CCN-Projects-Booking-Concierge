@@ -9,12 +9,13 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>6603bc78-9102-4da1-8eca-d4dcb92c924d</testSuiteGuid>
    <testCaseLink>
       <guid>4fa78d54-fd3d-47d0-b85e-2efb44867143</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 4/Create New Booking/1 Save Template w Attachment</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 4/Create New Booking/1 Save Template w Attachment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c4678bcb-b761-4306-90b8-c7c412530453</id>
@@ -65,7 +66,7 @@
       <guid>7ecc7607-3c51-4ad3-8882-a8b1def712ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 4/Create New Booking/2 Save Record n Template</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 4/Create New Booking/2 Save Record n Template</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1a7a6370-7b27-47f6-9550-40492d00758f</id>
@@ -194,7 +195,7 @@
       <guid>a2551ba2-3126-49c5-b6de-e3f4769520d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 4/Create New Booking/3 Save Record n Template w Attachment</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 4/Create New Booking/3 Save Record n Template w Attachment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>8c3f9c1a-74a2-4d7e-9a1f-9ba9baffa8fd</id>
@@ -323,7 +324,7 @@
       <guid>63104bdf-5c8d-4ead-b5f7-068b67630a61</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 4/Create New Booking/4 Save Record</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 4/Create New Booking/4 Save Record</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ff612c47-707a-4bdb-8e20-4c964cd10c71</id>
@@ -470,7 +471,7 @@
       <guid>e452deeb-dce1-4744-865a-d6072e320a32</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 4/Create New Booking/5 Save Record w Attachment</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 4/Create New Booking/5 Save Record w Attachment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6a35526f-8f73-4ee1-81d1-104e0c841247</id>
@@ -599,7 +600,7 @@
       <guid>57de22fe-233d-4ba9-9bf6-09fd6da27b03</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 4/Create New Booking/6 Send (From Template)</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 4/Create New Booking/6 Send (From Template)</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4df0b259-b02e-47ed-a987-9caaa8dd159b</id>
@@ -728,7 +729,7 @@
       <guid>5b5c697a-e59f-4b9c-ab1d-1f82d68e6826</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 4/Create New Booking/7 Send Record</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 4/Create New Booking/7 Send Record</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1be6ebbf-7765-489c-8ddc-8d978f8725b9</id>
@@ -857,7 +858,7 @@
       <guid>aecb162a-8909-416c-8d03-a58fff83f7bc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 4/Create New Booking/8 Send Record w Attachment</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 4/Create New Booking/8 Send Record w Attachment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>61465a99-94ca-487a-8b7a-12ab6d92c86d</id>

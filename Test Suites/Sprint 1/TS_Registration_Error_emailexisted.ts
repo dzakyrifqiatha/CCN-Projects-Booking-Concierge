@@ -9,12 +9,13 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>434a47b5-26f4-4b82-b72c-d92fd02c69ab</testSuiteGuid>
    <testCaseLink>
       <guid>e9592258-b367-4ea3-b4b3-188cf919d0d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 1/Registration Process/1 Registration Failed - Email Existed</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 1/Registration Process/1 Registration Failed - Email Existed</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>54e39ff0-16ad-4e10-8618-b9b1191c6f3c</id>

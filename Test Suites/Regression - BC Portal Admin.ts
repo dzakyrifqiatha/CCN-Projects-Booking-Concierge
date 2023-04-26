@@ -15,7 +15,7 @@
       <guid>b89dc3c0-cf02-4d37-b536-bef47219d264</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Authentication Login/Login BC Portal Admin</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/Authentication Login/Login BC Portal Admin</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -39,7 +39,7 @@
       <guid>0451a5be-78e5-4fd3-9cd7-d37c8e7e5e18</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Regression Testing/1 BC Portal Admin/0 MainProgram - BC Portal Admin</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/Regression Testing/1 BC Portal Admin/0 MainProgram - BC Portal Admin</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a95ea44c-5212-460c-a92a-a707671beb4c</id>

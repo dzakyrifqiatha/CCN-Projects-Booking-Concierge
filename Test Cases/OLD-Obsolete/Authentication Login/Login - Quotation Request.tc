@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login - Quotation Request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09b51490-01ba-43d2-bef5-37e3e4511659</testCaseGuid>
+   <variable>
+      <defaultValue>'testingbc1@hotmail.com'</defaultValue>
+      <description></description>
+      <id>bf231e44-157d-40d5-acea-a0b4bf2baa5e</id>
+      <masked>false</masked>
+      <name>Log_Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'password'</defaultValue>
+      <description></description>
+      <id>f8b46037-b690-43ff-98f9-11f8c1a57165</id>
+      <masked>false</masked>
+      <name>Log_Password</name>
+   </variable>
+</TestCaseEntity>

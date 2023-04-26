@@ -9,18 +9,19 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>1676f76f-9a19-4e81-9d6d-88071db021b2</testSuiteGuid>
    <testCaseLink>
       <guid>fc759a99-b9ca-447c-8e82-0474ff1c505b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Authentication Login/Login</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/Authentication Login/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a7c616f6-ac51-419e-a086-903abe43d936</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 2/Login to Booking Concierge/0 Login Success</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 2/Login to Booking Concierge/0 Login Success</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -38,7 +39,7 @@
       <guid>f06db7cb-d3d5-48be-ac3c-3379e0b732ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 7/My Airlines/0 Edit Airline Success</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 7/My Airlines/0 Edit Airline Success</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

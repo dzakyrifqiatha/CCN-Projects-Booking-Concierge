@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "CE2D1DB095AC039D6C75C59EF2635A10",
+  "keywordClasses": [
+    {
+      "name": "ccnpackage.LogResults",
+      "keywordMethods": [
+        {
+          "name": "searchresult",
+          "parameters": [
+            {
+              "name": "Msg",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "Mark",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

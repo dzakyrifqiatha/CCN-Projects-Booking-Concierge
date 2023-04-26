@@ -9,12 +9,13 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>ed19477e-63f0-46a7-a2ca-76b7bcd25260</testSuiteGuid>
    <testCaseLink>
       <guid>32686b1e-ca68-486f-a531-18adb66fbd40</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Authentication Login/Login</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/Authentication Login/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>172b97fd-9847-4da2-a5ee-30589b9d7c44</guid>
@@ -28,7 +29,7 @@
             <iterationType>RANGE</iterationType>
             <value>1-1</value>
          </iterationEntity>
-         <testDataId>Data Files/Login/TestData_Login</testDataId>
+         <testDataId>Data Files/Login/TestData_Login - BC</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>

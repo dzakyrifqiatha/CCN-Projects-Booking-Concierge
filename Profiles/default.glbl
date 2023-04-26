@@ -11,13 +11,43 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://bookingconcierge2.dev.ccn/'</initValue>
-      <name>urlDev2</name>
+      <initValue>'https://bookingconcierge2.dev.ccn/'</initValue>
+      <name>urlDevBC2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://bookingconciergeppd.ccnexchange.com/login?serviceId=b030b0a3-951a-441c-971e-120d22bcfc8b'</initValue>
-      <name>urlStaging</name>
+      <initValue>'https://bookingconcierge2ppd.ccnhub.com/'</initValue>
+      <name>urlBC2Staging</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://bookingqueue.dev.ccn/'</initValue>
+      <name>urlDevBQ2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://bookingqueue2ppd.ccnhub.com/'</initValue>
+      <name>urlBQ2Staging</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://quotationrequest.dev.ccn/'</initValue>
+      <name>urlDevQRQ</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://quotationrequestppd.ccnhub.com/'</initValue>
+      <name>urlQRQStaging</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://quotationproposal.dev.ccn/'</initValue>
+      <name>urlDevQRP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://quotationproposalppd.ccnhub.com/'</initValue>
+      <name>urlQRPStaging</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

@@ -9,12 +9,13 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>6515eee0-4ac4-4b54-8d68-619cf5b858f2</testSuiteGuid>
    <testCaseLink>
       <guid>4cf1acca-419d-44ba-b510-34294e8cdddc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 3/Create Airline/0 Create Airline Success</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 3/Create Airline/0 Create Airline Success</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>38db76fb-7456-4c76-bccf-c501cf41fa64</id>
@@ -59,7 +60,7 @@
       <guid>40cf5764-e8f5-41ec-a336-f0b1a3355314</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 3/Create Airline/1 Create Airline Failed</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 3/Create Airline/1 Create Airline Failed</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>99a0bf56-c12d-41d3-8725-b7c4be0b06b7</id>
@@ -104,7 +105,7 @@
       <guid>fc8cc5fd-454e-427f-a216-20644b0491c8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 3/Create Airline/2 Create Airline Failed</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 3/Create Airline/2 Create Airline Failed</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>26ecd0ec-f7ef-47fa-87bc-e1e3ab2c0881</id>
@@ -149,7 +150,7 @@
       <guid>befa1f32-d2cc-4a6e-a2eb-4b48042ff3be</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 3/Create Airline/4 Edit Airline Success</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 3/Create Airline/4 Edit Airline Success</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ab1b3da6-8b12-40a3-8cb8-fb3eb16a3f89</id>
@@ -176,7 +177,7 @@
       <guid>a2aa1893-fc9c-4294-9246-942c32ada74a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 3/Create Airline/5 Delete Airline Success</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 3/Create Airline/5 Delete Airline Success</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ce0a2964-6b37-4d2b-b891-39122dee1c43</id>

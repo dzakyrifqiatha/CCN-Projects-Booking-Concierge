@@ -9,18 +9,19 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>b909f419-ebc9-474a-a86c-be595432400b</testSuiteGuid>
    <testCaseLink>
       <guid>ccb1e290-00ef-40f4-8881-3d705390d37e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Authentication Login/Login</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/Authentication Login/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>feffa16e-c1aa-4254-967d-02764f3adcb2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 2/Login to Booking Concierge/0 Login Success</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 2/Login to Booking Concierge/0 Login Success</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -38,7 +39,7 @@
       <guid>01c1f5fc-86ef-42af-8b94-e4efe488f830</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 9/Customer Message Feedback Box/1 Feedback (After Login)</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 9/Customer Message Feedback Box/1 Feedback (After Login)</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

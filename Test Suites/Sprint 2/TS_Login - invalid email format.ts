@@ -9,18 +9,19 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>0733087d-550d-461f-87cb-18660754391c</testSuiteGuid>
    <testCaseLink>
       <guid>32686b1e-ca68-486f-a531-18adb66fbd40</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Authentication Login/Login</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/Authentication Login/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>77915e6f-02e9-4615-91a6-201bfca1b937</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 2/Login to Booking Concierge/3 Login Invalid Email Format</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 2/Login to Booking Concierge/3 Login Invalid Email Format</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e41eb450-b866-4d5b-827f-bdfe0debe40f</id>
@@ -28,7 +29,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Login/TestData_Login</testDataId>
+         <testDataId>Data Files/Login/TestData_Login - BC</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>e41eb450-b866-4d5b-827f-bdfe0debe40f</testDataLinkId>

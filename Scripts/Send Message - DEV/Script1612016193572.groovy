@@ -13,11 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Page_Configurator 2.0/Nav_Send Message Tab - Dev - Kelvin'))
+WebUI.click(findTestObject('OLD-Obsolete/Page_Configurator 2.0/Nav_Send Message Tab - Dev - Kelvin'))
 
-WebUI.sendKeys(findTestObject('Page_Configurator 2.0/MessageToSend'), Message)
+WebUI.sendKeys(findTestObject('OLD-Obsolete/Page_Configurator 2.0/MessageToSend'), Message)
 
-WebUI.click(findTestObject('Page_Configurator 2.0/MessageToSend - Submit'))
+WebUI.click(findTestObject('OLD-Obsolete/Page_Configurator 2.0/MessageToSend - Submit'))
 
-WebUI.click(findTestObject('Page_Configurator 2.0/Nav_Send Message Tab - Dev - Kelvin'))
+WebUI.click(findTestObject('OLD-Obsolete/Page_Configurator 2.0/Nav_Send Message Tab - Dev - Kelvin'))
 

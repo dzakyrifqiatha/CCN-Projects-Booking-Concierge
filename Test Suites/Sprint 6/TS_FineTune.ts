@@ -9,12 +9,13 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>20468642-3447-45c1-b68c-56d19b85a6ce</testSuiteGuid>
    <testCaseLink>
       <guid>a81e68bc-f74f-4e2d-a22e-1b8b7d2e377d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 6/Fine-Tune/0 Duplicate AWB Creation</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 6/Fine-Tune/0 Duplicate AWB Creation</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>0065e3df-8536-46af-aef1-e2b61c337456</id>
@@ -161,7 +162,7 @@
       <guid>c75717a7-7574-4765-a7d1-5f17a57c46d5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 6/Fine-Tune/1 New Booking</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 6/Fine-Tune/1 New Booking</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>0df9c9df-a96e-4662-a4a4-b53532e78e83</id>
@@ -212,7 +213,7 @@
       <guid>fea54d9d-96c4-461c-98d8-cf043879b64a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 6/Fine-Tune/2 Copy Option</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 6/Fine-Tune/2 Copy Option</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1ae06445-c1c2-4773-b047-389dc8e93407</id>
@@ -233,7 +234,7 @@
       <guid>9af6624c-5469-4d86-98f4-92faeb1873e8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 6/Fine-Tune/3 File ext is not Supported</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 6/Fine-Tune/3 File ext is not Supported</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c5fa763e-acb2-4310-abdd-1ca774ee36df</id>
@@ -362,7 +363,7 @@
       <guid>9a7b85fc-5128-4a91-8516-b302446f2cc2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 6/Fine-Tune/3 File Size Limit Exceeds 4MB</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 6/Fine-Tune/3 File Size Limit Exceeds 4MB</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>49d21fbc-759a-46e2-a848-294015a9764e</id>
@@ -491,7 +492,7 @@
       <guid>90c14b5d-1b0c-4382-bbe7-db8099325a7a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 6/Fine-Tune/4 Volume and Dimensions</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 6/Fine-Tune/4 Volume and Dimensions</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9c189b2e-0ca2-4d9f-9f59-0a5bca7f9726</id>

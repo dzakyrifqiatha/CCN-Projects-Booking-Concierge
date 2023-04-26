@@ -9,18 +9,19 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>cebd0b53-0315-4bb4-a6cf-279eddca9aa1</testSuiteGuid>
    <testCaseLink>
       <guid>32686b1e-ca68-486f-a531-18adb66fbd40</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Authentication Login/Login</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/Authentication Login/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a6b565fc-d084-4d75-a76b-ff8960de73ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BC1/Sprint 2/Login to Booking Concierge/TC_Login</testCaseId>
+      <testCaseId>Test Cases/OLD-Obsolete/BC1/Sprint 2/Login to Booking Concierge/TC_Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6a3c7c60-9f43-4ce0-8b56-cf14e38c5272</id>
@@ -28,7 +29,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Login/TestData_Login</testDataId>
+         <testDataId>Data Files/Login/TestData_Login - BC</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>

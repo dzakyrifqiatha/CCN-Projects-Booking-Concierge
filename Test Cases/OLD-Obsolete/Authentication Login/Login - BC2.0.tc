@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login - BC2.0</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8bfb9bff-0b8d-4cf9-8c02-5512807acc6a</testCaseGuid>
+   <variable>
+      <defaultValue>'testtestbc2@hotmail.com'</defaultValue>
+      <description></description>
+      <id>faf52b5a-41aa-4d59-a06e-5f8c5611ca85</id>
+      <masked>false</masked>
+      <name>Log_Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'password'</defaultValue>
+      <description></description>
+      <id>0d5d1470-8f8a-4ab9-820e-2d0083cdbc57</id>
+      <masked>false</masked>
+      <name>Log_Password</name>
+   </variable>
+</TestCaseEntity>

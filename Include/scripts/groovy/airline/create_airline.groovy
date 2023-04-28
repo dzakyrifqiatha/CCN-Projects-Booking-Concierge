@@ -1,4 +1,4 @@
-package def
+package airline
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -44,37 +44,33 @@ import cucumber.api.java.en.When
 
 
 
-class login {
+class airline_page {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Given("agent is on login page")
-	def Agent_on_login_page() {
-		WebUI.openBrowser('')
-		WebUI.navigateToUrl('http://bcportaladmin.ppd.ccn/main')
-		WebUI.maximizeWindow()
-		WebUI.click(findTestObject('Object Repository/NEW/Page_Sign up or sign in/Page_BcAdminApp/login_button'))
+	@Given("agent on BC Dashboard page")
+	def agent_on_BC() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/login/BC_logo'),0)
 	}
 
-	@And("agent input valid email(.*)")
-	def Input_valid_email(String email) {
-		WebUI.click(findTestObject('Object Repository/NEW/Page_Sign up or sign in/Page_BcAdminApp/input_email'))
-		WebUI.setText(findTestObject('Object Repository/NEW/Page_Sign up or sign in/Page_BcAdminApp/input_email'), email.trim())
-	}
-	
-	@And("agent input valid password(.*)")
-	def Input_valid_password(String password) {
-		WebUI.click(findTestObject('Object Repository/NEW/Page_Sign up or sign in/Page_BcAdminApp/input_password'))
-		WebUI.setText(findTestObject('Object Repository/NEW/Page_Sign up or sign in/Page_BcAdminApp/input_password'), password.trim())
+	@When("agent click My Airline button")
+	def agent_click_myairline() {
+		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/MyAirline/MyAirline_button'))
 	}
 
-	@When("agent click sign in button")
-	def click_sign_in() {
-		WebUI.click(findTestObject('Object Repository/NEW/Page_Sign up or sign in/Page_BcAdminApp/span_inputlogin'))
+	@Then("agent redirect to My Airline page")
+	def redirected_to_myairline() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/MyAirline_page'),0)
 	}
 
-	@Then("agent see booking concierge logo in the dashboard")
-	def bc_logo_visible() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/Page_Sign up or sign in/Page_BcAdminApp/BC_logo'),0)
+	@When("agent click Create Airline button")
+	def agent_click_create_airline() {
+		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/MyAirline/CreateAirline_button'))
+	}
+
+	@Then("agent redirect to Create New Airline page")
+	def redirected_to_create_myairline() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/NewAirline_page'),0)
 	}
 }
+

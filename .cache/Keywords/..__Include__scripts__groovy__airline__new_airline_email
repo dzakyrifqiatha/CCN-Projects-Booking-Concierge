@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "A3DA40AC4F420EC43F37AEA03F84DBE4",
+  "keywordClasses": [
+    {
+      "name": "airline.create_new_airline_email",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

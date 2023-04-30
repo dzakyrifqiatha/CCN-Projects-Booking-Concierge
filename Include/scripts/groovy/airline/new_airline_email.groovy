@@ -42,48 +42,51 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
+//import prerequisites.login
 
+class create_new_airline_email{
 
-class new_airline_email {
-	/**
-	 * The step definitions below match with Katalon sample Gherkin steps
-	 */
 	@Given("agent on Create New Airline page")
 	def agent_on_create_airline_page() {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/NewAirline_page'),0)
 	}
-	
+
 	@And("agent input (.*) on Carrier Code field")
 	def input_carrier_code(String carrier_code) {
 		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__carrierCode'))
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__carrierCode'), carrier_code)
 	}
-	
+
 	@And("agent input (.*) on Carrier Prefix field")
 	def input_carrier_prefix(String carrier_prefix) {
 		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__carrierPrefix'))
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__carrierPrefix'), carrier_prefix)
 	}
-	
+
 	@And("agent input (.*) on Station field")
 	def input_station_field(String station) {
 		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__station'))
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__station'), station)
 	}
-	
+
 	@And("agent input (.*) on Airline Email field")
 	def input_airline_email(String airline_email) {
 		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__email'))
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__email'), airline_email)
 	}
-	
+
 	@When("agent click Save button")
 	def agent_save_new_airline() {
 		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/save_airline'))
 	}
 
-	@Then("I verify the (.*) in step")
-	def I_verify_the_status_in_step(String status) {
-		println status
+	@Then("agent successfully create a new airline")
+	def agent_create_airline() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/create_airline_success_status'),0)
+	}
+
+	@Then("agent see successful message (.*) displaying")
+	def agent_see_successful_message(String message) {
+		WebUI.verifyElementText((findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/create_airline_success_status')), message)
 	}
 }

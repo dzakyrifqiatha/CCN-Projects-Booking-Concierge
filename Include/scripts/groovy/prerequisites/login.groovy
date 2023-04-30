@@ -63,9 +63,9 @@ class login {
 	}
 
 	@And("agent input valid password(.*)")
-	def Input_valid_password(String password) {
+	def Input_valid_password(String login_password) {
 		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/login/input_password'))
-		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/login/input_password'), password.trim())
+		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/login/input_password'), login_password.trim())
 	}
 
 	@When("agent click sign in button")

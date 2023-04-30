@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>MyAirline_page</name>
+   <tag></tag>
+   <elementGuidId>861de44e-bf12-4b94-97fa-0940b01b08cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1.fw-bold</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>e313affd-f75b-4984-b21f-baef48c7517e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fw-bold</value>
+      <webElementGuid>d79f0670-1567-49bb-b544-915fbea17c32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>My Airline</value>
+      <webElementGuid>69bd084d-bcf2-41d1-beb6-fe8174af55b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;page-content&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;theme-module_mx-3__aqwLY theme-module_mb-2__WNGJf row&quot;]/div[@class=&quot;col&quot;]/h1[@class=&quot;fw-bold&quot;]</value>
+      <webElementGuid>c53f6ca2-0db1-4a7f-8b8a-d391e0013458</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/h1</value>
+      <webElementGuid>d1ddda40-14a1-466a-ad15-a6e0c1703f73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Airline'])[1]/preceding::h1[1]</value>
+      <webElementGuid>0a1ef402-09ce-477e-96f4-7edf14940732</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Email Address'])[1]/preceding::h1[1]</value>
+      <webElementGuid>599e66a2-dbb2-408e-9197-a5c356be11f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='My Airline']/parent::*</value>
+      <webElementGuid>0a4abba1-3103-4e83-931b-cf544948c7fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>10a18972-033b-427b-ab76-dbbd9c06829d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'My Airline' or . = 'My Airline')]</value>
+      <webElementGuid>59da5714-5eff-45ca-862f-09049b1179f5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

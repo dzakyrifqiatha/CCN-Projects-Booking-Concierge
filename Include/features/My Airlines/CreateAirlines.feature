@@ -1,6 +1,6 @@
 @MyAirlines
 Feature: Create New Airlines
-  
+
   @Positive
   Scenario: Go to My Airline page
   	Given agent on BC Dashboard page
@@ -20,7 +20,7 @@ Feature: Create New Airlines
   	And agent input <email> on Airline Email field
   	When agent click Save button
   	Then agent successfully create a new airline
-  	And agent see <success alert> displaying
+  	And agent see successful message <success alert> displaying
   	
   	Examples:
   	| carrier code 	| carrier prefix	| station	| email					| message																	|

@@ -14,33 +14,33 @@ Feature: Create New Airlines
   @Positive @MyAirlines @CreateAirlines
   Scenario Outline: Create new airlines with email send mode successfully
   	Given agent on Create New Airline page
-  	And agent input <carrier code> on Carrier Code field
-  	And agent input <carrier prefix> on Carrier Prefix field
+  	And agent input <carrier_code> on Carrier Code field
+  	And agent input <carrier_prefix> on Carrier Prefix field
   	And agent input <station> on Station field
-  	And agent input <email> on Airline Email field
+  	And agent input <airline_email> on Airline Email field
   	When agent click Save button
   	Then agent successfully create a new airline
-  	And agent see successful message <success alert> displaying
+  	And agent see successful message <success_alert> displaying
   	
   	Examples:
-  	| carrier code 	| carrier prefix	| station	| email					| message																	|
-		| MM						| 123							| SIN			| test@test.com	| Airline has been created successfully.	| 
+  	| carrier_code 	| carrier_prefix	| station	| airline_email					| success_alert														|
+		| MM						| 123							| SIN			| test@test.com					| Airline has been created successfully.	| 
 
 ## create new airlines with EDI send mode
 ## the configuration and data input should be follow the configuration from Airline Common Reference in BC Portal Admin
 	@Positive @MyAirlines @CreateAirlines
 	Scenario Outline: Create new airlines with EDI send mode successfully
 		Given agent on Create New Airline page
-  	And agent input <carrier code> on Carrier Code field
-  	And agent input <carrier prefix> on Carrier Prefix field
-  	And agent input <station> on Station field
-  	When agent click Save button
-  	Then agent successfully create a new airline
-  	And agent see <success alert> displaying
+  	And agent input <carrier_code_edi> on Carrier Code field for EDI
+  	And agent input <carrier_prefix_edi> on Carrier Prefix field for EDI
+  	And agent input <station_edi> on Station field for EDI
+  	When agent click Save button for EDI Airline
+  	Then agent successfully create a new EDI airline 
+  	And agent see <message_edi> displaying for EDI airline creation
   	
   	Examples:
-  	| carrier code 	| carrier prefix	| station	| message																	|
-		| LX						| 724							| KUL			| Airline has been created successfully.	|
+  	| carrier_code_edi 	| carrier_prefix_edi	| station_edi	| message_edi															|
+		| QF								| 081									| SIN					| Airline has been created successfully.	|
 		
 ## create new airlines with both Email and EDI send mode
 ## emails are pre-configured on Airline Common Reference in BC Portal Admin
@@ -48,14 +48,14 @@ Feature: Create New Airlines
 	@Positive @MyAirlines @CreateAirlines
   Scenario Outline: Create new airlines with both send mode successfully
   	Given agent on Create New Airline page
-  	And agent input <carrier code> on Carrier Code field
-  	And agent input <carrier prefix> on Carrier Prefix field
-  	And agent input <station> on Station field
-  	When agent click Save button
-  	Then agent successfully create a new airline
-  	And agent see <success alert> displaying
+  	And agent input <carrier_code_both> on Carrier Code field for both
+  	And agent input <carrier_prefix_both> on Carrier Prefix field for both
+  	And agent input <station_both> on Station field for both
+  	When agent click Save button for both
+  	Then agent successfully create a new airline for both
+  	And agent see <success_alert_both> displaying for both airline creation
   	
   	Examples:
-  	| carrier code 	| carrier prefix	| station	| message																	|
-		| SQ						| 618							| SIN			| Airline has been created successfully.	|  
+  	| carrier_code_both 	| carrier_prefix_both	| station_both	| success_alert_both											|
+		| SQ									| 618									| SIN						| Airline has been created successfully.	|  
   

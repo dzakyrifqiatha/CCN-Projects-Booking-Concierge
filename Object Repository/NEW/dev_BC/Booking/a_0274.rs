@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_0274</name>
+   <tag></tag>
+   <elementGuidId>a41bc39a-2db1-49c3-b6f9-bdc3f5693dc8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'0274')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>17daf232-fc1d-409a-bf16-cbd95ad2c255</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>0274</value>
+      <webElementGuid>1e51b699-401b-4c80-b30d-043c719f8f70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog ccn-CCNWCBCFlightScheduleModal  modal-lg&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;theme-module_ElevatedPaper__-PaWa&quot;]/div[1]/div[2]/div[@class=&quot;table-responsive text-center&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[1]/td[@class=&quot;px-0 py-3&quot;]/table[@class=&quot;theme-module_ccn-CCNWCBCFlightScheduleResultTable-Row__ExzVc&quot;]/tbody[1]/tr[1]/td[1]/a[1]</value>
+      <webElementGuid>1573ad1b-f50f-40ff-9b1c-25dea3ab0dd5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'0274')]</value>
+      <webElementGuid>08e4ad3d-36c8-4c92-a275-5a2870f4cc44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Duration'])[1]/following::a[1]</value>
+      <webElementGuid>ae63ba66-161b-49ca-a161-2783f8627f78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stops'])[1]/following::a[1]</value>
+      <webElementGuid>7c69f853-7527-4473-90e1-1fda6843aa28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIN to CGK'])[1]/preceding::a[1]</value>
+      <webElementGuid>7793b920-29e4-49c9-afd3-a62de357aa1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIN to CGK'])[2]/preceding::a[2]</value>
+      <webElementGuid>f3d0d81e-6ace-484c-8f68-4ede6d089a1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='0274']/parent::*</value>
+      <webElementGuid>e9e03535-0f4b-4412-a578-fd57d12edaf5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/a</value>
+      <webElementGuid>8e3a03e6-420c-4191-a672-7b879079bc3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = '0274' or . = '0274')]</value>
+      <webElementGuid>a668768a-3ff2-43ce-aff1-899acf421a41</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

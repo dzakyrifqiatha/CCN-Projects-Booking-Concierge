@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Operational_bx bx-search</name>
+   <tag></tag>
+   <elementGuidId>7e159448-89c1-428b-a2f0-02273a8b867b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ccn-CCNWCBCFlightSection-search > i.bx.bx-search</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ccn-CCNWCBCFlightSection-search']/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>bd12a564-bcaa-4c7f-bc7c-35b326090d5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bx bx-search</value>
+      <webElementGuid>7fb3beca-1b18-4693-ba88-fbb46684796a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ccn-CCNWCBCFlightSection-search&quot;)/i[@class=&quot;bx bx-search&quot;]</value>
+      <webElementGuid>81b06a15-a081-417b-bdcf-cd7f53882bd4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ccn-CCNWCBCFlightSection-search']/i</value>
+      <webElementGuid>3b5fe084-e9d9-44c5-bf85-b1384c6c1200</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/i</value>
+      <webElementGuid>878fcc72-c360-4791-8258-228a62cca1ae</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

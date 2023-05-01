@@ -42,51 +42,44 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
-//import prerequisites.login
 
-class create_new_airline_email{
 
-	@Given("agent on Create New Airline page")
-	def agent_on_create_airline_page() {
+class new_airline_both {
+	@Given("agent on Create New Airline page for both")
+	def agent_on_create_airline_page_both() {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/NewAirline_page'),0)
 	}
 
-	@And("agent input (.*) on Carrier Code field")
-	def input_carrier_code(String carrier_code) {
+	@And("agent input (.*) on Carrier Code field for both")
+	def input_carrier_code_both(String carrier_code_both) {
 		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__carrierCode'))
-		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__carrierCode'), carrier_code)
+		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__carrierCode'), carrier_code_both)
 	}
 
-	@And("agent input (.*) on Carrier Prefix field")
-	def input_carrier_prefix(String carrier_prefix) {
+	@And("agent input (.*) on Carrier Prefix field for both")
+	def input_carrier_prefix_both(String carrier_prefix_both) {
 		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__carrierPrefix'))
-		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__carrierPrefix'), carrier_prefix)
+		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__carrierPrefix'), carrier_prefix_both)
 	}
 
-	@And("agent input (.*) on Station field")
-	def input_station_field(String station) {
+	@And("agent input (.*) on Station field for both")
+	def input_station_field_both(String station_both) {
 		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__station'))
-		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__station'), station)
+		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__station'), station_both)
 	}
 
-	@And("agent input (.*) on Airline Email field")
-	def input_airline_email(String airline_email) {
-		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__email'))
-		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__email'), airline_email)
-	}
-
-	@When("agent click Save button")
-	def agent_save_new_airline() {
+	@When("agent click Save button for both")
+	def agent_save_new_airline_both() {
 		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/save_airline'))
 	}
 
-	@Then("agent successfully create a new airline")
-	def agent_create_airline() {
+	@Then("agent successfully create a new airline for both")
+	def agent_create_airline_both() {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/create_airline_success_status'),0)
 	}
 
-	@Then("agent see successful message (.*) displaying")
-	def agent_see_successful_message(String success_alert) {
-		WebUI.verifyElementText((findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/create_airline_success_status')), success_alert)
+	@Then("agent see (.*) displaying for both airline creation")
+	def agent_see_successful_message_both(String message_both) {
+		WebUI.verifyElementText((findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/create_airline_success_status')), message_both)
 	}
 }

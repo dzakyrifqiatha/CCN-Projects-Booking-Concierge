@@ -11,7 +11,7 @@ Feature: Create New Booking
 	@Positive @EmailSendMode
 	Scenario Outline: Create new booking successful
 		Given agent go to Create New Booking page
-		When agent input <AWBPrefix>, <Origin>, <Destination>, <GoodsDesc>, <Pieces>, <Weight>, <Volume>, <CommodityInfo>
+		When agent input booking details <AWBPrefix>, <Origin>, <Destination>, <GoodsDesc>, <Pieces>, <Weight>, <Volume>, <CommodityInfo>
 		And agent select AWB Suffix from the AWB Stock list
 		Then agent see AWB SUffix populated on AWB Suffix textfield
 	
@@ -30,64 +30,64 @@ Feature: Create New Booking
 			
 	Scenario Outline: adding UNID to the booking
 		Given agent click add dangerous goods details
-		And agent input <UNID>, <ProperShippingName>, <PG>, <Class>, <PI>, <TI>, <NoOfPackages>, <QtyPerPackages>
+		And agent input UNID details <UNID>, <ProperShippingName>, <PG>, <PI>, <TI>, <NoOfPackages>, <QtyPerPackages>
 		When agent click Save Dangerous Goods button
 		Then agent see dangerous goods details populated on Dangerous Goods Section
 		
 		Examples:
 		| UNID	| ProperShippingName	| PG	| Class	| PI	| TI	| NoOfPackages	| QtyPerPackages	|
-		| 1723	| ALLYL IODIDE				| II	| 3			| 352	| 2		| 2							| 2								|
+		| 1723	| Allyl Iodide				| II	| 3			| 352	| 2		| 2							| 2								|
 		
 		
 	Scenario Outline: adding Shipper to the booking
 		Given agent click add shipper button
-		And agent input <Code>, <AccountNo>, <Name>, <Address>, <City>, <State>, <Country>, <PostalCode>, <ContactNo>, <FaxNo>
+		And agent input shipper info <ShipperCode>, <ShipperAccountNo>, <ShipperName>, <ShipperAddress>, <ShipperCity>, <ShipperState>, <ShipperCountry>, <ShipperPostalCode>, <ShipperContact>, <ShipperFax>
 		When agent click Save Shipper button
 		Then agent see shipper details populated on Shipper Section
 		
 		Examples:
-		| Code		| AccountNo		| Name					| Address					| City	| State	| Country	| PostalCode	| ContactNo	| FaxNo			|
-		|	SHP1		| 1234567890	| TEST SHIPPER	| TESTING ADDRESS	| SIN		| SIN		| SG			| 92455				| 655123455	| 655123445	|
+		| ShipperCode		| ShipperAccountNo		| ShipperName		| ShipperAddress	| ShipperCity	| ShipperState	| ShipperCountry	| ShipperPostalCode	| ShipperContact	| ShipperFax |
+		|	SHP1					| 1234567890					| TEST SHIPPER	| TESTING ADDRESS	| SIN					| SIN						| SG							| 92455							| 655123455				| 655123445	 |
 		
 		
 	Scenario Outline: adding Consignee to the booking
 		Given agent click add consignee button
-		And agent input <Code>, <AccountNo>, <Name>, <Address>, <City>, <State>, <Country>, <PostalCode>, <ContactNo>, <FaxNo>
+		And agent input consignee info <CosigneeCode>, <CosigneeAccountNo>, <CosigneeName>, <CosigneeAddress>, <CosigneeCity>, <CosigneeState>, <CosigneeCountry>, <CosigneePostalCode>, <CosigneeContact>, <CosigneeFax>
 		When agent click Save Consignee button
 		Then agent see consignee details populated on Consignee Section
 		
 		Examples:
-		| Code		| AccountNo		| Name						| Address					| City	| State	| Country	| PostalCode	| ContactNo	| FaxNo			|
-		|	CNE1		| 1234567891	| TEST CONSIGNEE	| TESTING ADDRESS	| SIN		| SIN		| SG			| 92455				| 655123459	| 655123489	|		
+		| CosigneeCode		| CosigneeAccountNo		| CosigneeName		| CosigneeAddress	| CosigneeCity	| CosigneeState	| CosigneeCountry	| CosigneePostalCode	| CosigneeContact	| CosigneeFax			|
+		|	CNE1						| 1234567891					| TEST CONSIGNEE	| TESTING ADDRESS	| SIN						| SIN						| SG							| 92455								| 655123459				| 655123489				|		
 		
 		
 	Scenario Outline: Adding Insurance to the booking
 		Given agent click add insurance button
-		And agent input <CommodityInfo>, <GoodsDescription>, <GoodsValue>, <Code>, <Name>, <Email>, <Address>, <City>, <State>, <Country>
+		And agent input insurance details <CommodityType>, <GoodsDescription>, <GoodsValue>, <InsuranceCode>, <InsuranceName>, <InsuranceEmail>, <InsuranceAddress>, <InsuranceCity>, <InsuranceState>, <InsuranceCountry>, <InsurancePostalCode>
 		When agent click Save insurance button
 		Then agent see insurance details populated on Insurance Section
 		
 		Examples:
-		| CommodityInfo	| GoodsDescription	| GoodsValue	| Code	| Name					| Email										| Address					| City	| State	| Country	|
-		|								| TEST INSURANCE		| 12					| SHP		| TEST SHIPPER	| testtestbc2@hotmail.com	| TESTING ADDRESS	| SIN		| SIN		| SG			|		
+		| CommodityType	| GoodsDescription	| GoodsValue	| InsuranceCode	| InsuranceName	| InsuranceEmail					| InsuranceAddress	| InsuranceCity	| InsuranceState	| InsuranceCountry	| InsurancePostalCode |
+		|	TEST					| TEST INSURANCE		| 12					| SHP						| TEST SHIPPER	| testtestbc2@hotmail.com	| TESTING ADDRESS		| SIN						| SIN							| SG								|	123123		 					|
 		
 	
 	Scenario Outline: Adding ULD to the booking
 		Given agent click add ULD button
-		And agent input <ULDType>, <ULDContour>, <NumOfULD>, <WeightPerULD>, <CommodityCode>
+		And agent input ULD details <ULDType>, <ULDContour>, <NumOfULD>, <WeightPerULD>, <CommodityCodeULD>
 		When agent click Save uld button
 		Then agent see ULD details populated in ULD section
 		
 		Examples:
-		| CommodityInfo	| ULDType	| ULDContour	| NumOfULD	| WeightPerULD	| CommodityCode	|
-		| ACP						| FLA			| L3					| 2					| 3							| ACP						|
+		| ULDType	| ULDContour	| NumOfULD	| WeightPerULD	| CommodityCodeULD	|
+		| FLA			| L3					| 2					| 3							| ACP								|
 		
 	
 	Scenario Outline: Sending the booking
 		When agent click Send Request button
-		Then agent see <message> displaying
+		Then agent see <SendBookingMessage> displaying
 		And agent redirected back to BC Dashboard page
 		
 		Examples:
-		| message										|
+		| SendBookingMessage				|
 		| Booking Request is sent. 	|

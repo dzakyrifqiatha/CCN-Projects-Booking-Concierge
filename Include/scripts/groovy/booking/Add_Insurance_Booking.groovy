@@ -50,30 +50,28 @@ class Add_Insurance_Booking {
 	 */
 	@Given("agent click add insurance button")
 	def agent_click_add_insurance() {
-		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/svg_1'))
+		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/i_Operational_bx bx-search'))
 	}
 	@And("agent input insurance details (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*)")
 	def agent_add_insurance_details(String CommodityType, String GoodsDescription, int GoodsValue, String InsuranceCode, String InsuranceName, String InsuranceEmail, String InsuranceAddress, String InsuranceCity, String InsuranceState, String InsuranceCountry, int InsurancePostalCode) {
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Commodity Type_commodityType'), CommodityType)
 
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_For insurance purpose_commodityDescription'), GoodsDescription)
-		
+
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Goods Value(SGD)_goodsValue'), GoodsValue)
-		
+
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Code_code_1'), InsuranceCode)
-		
+
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Name_name_1'), InsuranceName)
-		
-		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_My Airlines_theme-module_form-control_714185'), InsuranceEmail)
-		
+
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Address_address_1'), InsuranceAddress)
-		
+
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_City_city_1'), InsuranceCity)
-		
+
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_State_state_1'), InsuranceState)
-		
+
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Country_country_1'), InsuranceCountry)
-		
+
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Postal Code_postalCode_1'), InsurancePostalCode)
 	}
 
@@ -81,7 +79,7 @@ class Add_Insurance_Booking {
 	def agent_click_save_insurance() {
 		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/button_Get Quote'))
 	}
-	
+
 	// (!) there is an error message. Something went wrong, please contact admin
 	@Then("agent see insurance details populated on Insurance Section")
 	def agent_see_insurance_details() {

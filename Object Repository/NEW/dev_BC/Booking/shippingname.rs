@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>shippingname</name>
+   <tag></tag>
+   <elementGuidId>562a6b91-f91f-4a81-8e69-6a4efaba3b60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Dangerous Goods Details'])[1]/following::div[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.modal-body</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b6feefcd-1997-41ec-8a56-81873e3d600b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal-body</value>
+      <webElementGuid>d760f46a-14bf-4297-a39c-7780edc7a7af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>UNIDProper Shipping NamePGClassshipmentClass is a required fieldSubriskPIERGSCCCAOReportable QTYTINo of PackagesThis field is required.Qty Per PackageThis field is required.This field is required.</value>
+      <webElementGuid>837f04b4-fc03-4463-9ba9-06ae510648e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[2]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]</value>
+      <webElementGuid>7a1b7fe0-0246-4516-908f-b294c3edb13b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dangerous Goods Details'])[1]/following::div[1]</value>
+      <webElementGuid>0796c54f-948f-40f6-bee1-9cf0eedf8927</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/following::div[8]</value>
+      <webElementGuid>b538f59b-f902-4f52-baa0-52a355b1f1ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div[2]</value>
+      <webElementGuid>0eec0e26-ff64-48b5-ad6e-f2a04f87c7ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'UNIDProper Shipping NamePGClassshipmentClass is a required fieldSubriskPIERGSCCCAOReportable QTYTINo of PackagesThis field is required.Qty Per PackageThis field is required.This field is required.' or . = 'UNIDProper Shipping NamePGClassshipmentClass is a required fieldSubriskPIERGSCCCAOReportable QTYTINo of PackagesThis field is required.Qty Per PackageThis field is required.This field is required.')]</value>
+      <webElementGuid>8dc57d58-611e-428c-b413-cfe3fea10116</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

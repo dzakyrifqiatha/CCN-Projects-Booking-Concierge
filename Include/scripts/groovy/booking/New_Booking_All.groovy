@@ -45,32 +45,49 @@ import cucumber.api.java.en.When
 
 
 class New_Booking_All {
-	/**
-	 * The step definitions below match with Katalon sample Gherkin steps
-	 */
+
 	@Given("agent go to Create New Booking page")
 	def agent_go_to_create_booking() {
-		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/input_My Airlines_theme-module_form-control_714185'))
-		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/a_New Booking'))
+		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/Page_BC/create_booking'))
+		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/Page_BC/a_New Booking'))
 	}
 
-	@When("agent input booking details(.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*)")
-	def agent_input_awb_prefix(int AWBPrefix, String Origin, String Destination, String GoodsDesc, int Pieces, int Weight, int Volume, String CommodityInfo) {
-		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/input__awbPrefix'))
-		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input__awbPrefix'), AWBPrefix)
-
-		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input__origin'), Origin)
-		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input__destination'), Destination)
-		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input__goodsDescription'), GoodsDesc)
-		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input__pieces'), Pieces)
-		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input__weight'), Weight)
-		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input__volume'), Volume)
-		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input__commodityInfo'), CommodityInfo)
+	@When("agent input booking prefix (.*)")
+	def agent_input_booking_prefix(int BookingAWBPrefix){
+		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input__awbPrefix'), BookingAWBPrefix)
+	}
+	@And("agent input booking origin (.*)")
+	def agent_input_booking_origin(String BookingOrigin) {
+		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input__origin'), BookingOrigin)
+	}
+	@And("agent input booking destination (.*)")
+	def agent_input_booking_destination(String BookingDestination) {
+		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input__destination'), BookingDestination)
+	}
+	@And("agent input booking goods desc (.*)")
+	def agent_input_booking_goods(String BookingGoodsDesc) {
+		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input__goodsDescription'), BookingGoodsDesc)
+	}
+	@And("agent input booking pieces (.*)")
+	def agent_input_booking_pieces(int BookingPieces) {
+		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input__pieces'), BookingPieces)
+	}
+	@And("agent input booking weight (.*)")
+	def agent_input_booking_weight(int BookingWeight) {
+		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input__weight'), BookingWeight)
+	}
+	@And("agent input booking volume (.*)")
+	def agent_input_booking_volume(int BookingVolume) {
+		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input__volume'), BookingVolume)
+	}
+	@And("agent input booking commodity info (.*)")
+	def agent_input_booking_commodity(String BookingCommodityInfo) {
+		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input__commodityInfo'), BookingCommodityInfo)
 	}
 
 	@And("agent select AWB Suffix from the AWB Stock list")
 	def agent_select_AWB_suffix() {
-		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/i_Dangerous Goods Information_bx bx-plus'))
+		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/search_suffix'))
 		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/a_77777781'))
 	}
 

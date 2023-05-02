@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>af70a335-daf7-418a-ab7a-6366dc153e90</webElementGuid>
+      <webElementGuid>e4118bf2-717c-44f4-9aab-1689ddd754ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>a7ed7887-e794-4708-b7a5-1e0c58e3361a</webElementGuid>
+      <webElementGuid>9e2b7f9c-d5cb-44d6-b688-41f43d17a8e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>CCNCommonCountryField</value>
-      <webElementGuid>065f1925-8ff2-434b-bc4e-a192af9c4b72</webElementGuid>
+      <webElementGuid>8414c117-cd45-49d5-bc6b-009d5d4a0eeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>country</value>
-      <webElementGuid>8832b12d-2a0d-4c43-9c73-f226a19c7a7f</webElementGuid>
+      <webElementGuid>c85fb50e-d6f1-47fb-ace5-d650ce2257fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>250</value>
-      <webElementGuid>adc716af-e14b-4e2f-b4f9-fc87b7d4fdb5</webElementGuid>
+      <webElementGuid>628e1f1c-2067-416d-8bf1-ab5a67566cd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>1be0b0e2-fa2c-4a63-8053-cb272328afaf</webElementGuid>
+      <webElementGuid>e4ab15eb-b8e2-439d-adb1-b6150e2b1644</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>class</name>
       <type>Main</type>
       <value>theme-module_form-control__0sG2o theme-module_border-bottom__unqVG form-control</value>
-      <webElementGuid>62985992-b20e-412e-a89f-db1e04bf6cc9</webElementGuid>
+      <webElementGuid>8da52f69-b385-49fa-86a4-0e0a2854fe32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ee7448b4-6683-4883-bee1-a851bac5f3ca</webElementGuid>
+      <webElementGuid>eaf31c23-9ed3-40b1-9241-beb4e125f5cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;CCNCommonCountryField&quot;)</value>
-      <webElementGuid>36bb3d58-b5de-4966-8a41-261da6eb1da8</webElementGuid>
+      <webElementGuid>6895fd9c-366f-4043-9cde-54f153c1f8e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>S</value>
+      <webElementGuid>caca9ec0-5222-40cb-b00a-ffa542198540</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='CCNCommonCountryField']</value>
-      <webElementGuid>50224531-9e17-4ff1-9a8a-e21560b86177</webElementGuid>
+      <webElementGuid>8875890d-780c-46a1-ad5f-8b29486a8657</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/span[2]/input</value>
-      <webElementGuid>54431e1a-1dc2-4292-9b19-d36776240c07</webElementGuid>
+      <webElementGuid>98c50e78-ec66-472b-a672-326dfc81495a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'CCNCommonCountryField' and @name = 'country' and @type = 'text']</value>
-      <webElementGuid>5408cd81-84c2-425a-bbf4-84692d985d62</webElementGuid>
+      <webElementGuid>177353af-4c2e-4a7c-88f1-5e64343f17b5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

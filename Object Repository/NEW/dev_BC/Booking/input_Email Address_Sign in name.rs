@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b06bd035-b36c-4f79-804b-3fbffa37872a</webElementGuid>
+      <webElementGuid>524bb0bc-7247-4bf1-ad0e-656f55d1ee63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>139d8f8d-c904-4608-84e7-f7bd0aea20af</webElementGuid>
+      <webElementGuid>9c64611c-8237-41ff-ab4a-e6aa2acc3b9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>signInName</value>
-      <webElementGuid>e7fb17de-e53b-4d25-9cba-2a129ebc5bf7</webElementGuid>
+      <webElementGuid>685594a9-f18f-4e9e-b770-b7e0bd1a55ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Sign in name</value>
-      <webElementGuid>8c34be01-0b84-4b5e-809b-6a7690c1a8d0</webElementGuid>
+      <webElementGuid>f1e44b33-c956-4b8e-8c54-8ada13d08b70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>pattern</name>
       <type>Main</type>
       <value>^[a-zA-Z0-9.!#$%&amp;’'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$</value>
-      <webElementGuid>091df9ae-c8c8-439d-b9ce-4393a8d1a0b1</webElementGuid>
+      <webElementGuid>f682ec24-4805-4499-8563-caaaf617f814</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Email Address</value>
-      <webElementGuid>ffbdc943-1a3f-4517-8a7b-1c8448b6e96a</webElementGuid>
+      <webElementGuid>2069f601-bcb5-47b4-8e23-3c67bcd1981e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>fb1c4c9e-825b-4087-96ff-ce601d7962d8</webElementGuid>
+      <webElementGuid>1f9a8027-2aaa-4279-91b1-c514837bd1b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;signInName&quot;)</value>
-      <webElementGuid>b6b62091-988d-4a9d-ae27-26097b3c6753</webElementGuid>
+      <webElementGuid>143a8a73-2457-42ef-8cbe-775e024cef8b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='signInName']</value>
-      <webElementGuid>d6dfa874-787e-4abe-861e-8a0941371e85</webElementGuid>
+      <webElementGuid>bdc35bcb-fbc1-4260-abc8-373ce2557b69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='api']/div/div[3]/div/input</value>
-      <webElementGuid>45781a66-479e-45c5-a276-1e5e61752381</webElementGuid>
+      <webElementGuid>247f8968-0ca0-4fe5-bb6e-77bb7a05a8da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>50304504-c459-462e-8e3d-24f18ba5a4f7</webElementGuid>
+      <webElementGuid>dd27f738-2b6c-4f78-ad45-4830da2a1e25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'email' and @id = 'signInName' and @name = 'Sign in name' and @placeholder = 'Email Address']</value>
-      <webElementGuid>58c7b42b-4386-4c27-a444-9882abf3f67e</webElementGuid>
+      <webElementGuid>78c11fe3-a108-4784-8535-d28b530211c7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

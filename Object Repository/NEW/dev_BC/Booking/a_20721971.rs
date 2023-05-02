@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_20721971</name>
+   <tag></tag>
+   <elementGuidId>dd1583c0-c4ac-47af-a197-e46ee61534bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'20721971')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>af25dd2f-51f5-4e31-8bf6-d12d0b95cb4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ccn-BC__BookingDetails-AWB-Lookup-Item </value>
+      <webElementGuid>01dd0cc3-ee77-4882-b301-863f1785ca30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>20721971</value>
+      <webElementGuid>4e26d7c9-3cc3-4d04-b58e-f596f563ae3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog ccn-BC__BookingDetails_AWB_Lookup_Dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[1]/div[2]/div[@class=&quot;theme-module_table-responsive__mpPWz theme-module_text-center__eekOx&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[7]/td[@class=&quot;theme-module_px-0__Mkptd theme-module_py-3__0OpzX&quot;]/a[@class=&quot;ccn-BC__BookingDetails-AWB-Lookup-Item&quot;]</value>
+      <webElementGuid>1ec53dd9-ab30-4ad0-b8dc-c396028e6fba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'20721971')]</value>
+      <webElementGuid>11f4ae0a-a2ac-4b4d-9631-b3e05cebe125</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total New Stock'])[1]/following::a[7]</value>
+      <webElementGuid>dac5b773-cca0-4e99-a276-41bfa72d565f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AWB Suffix'])[1]/following::a[7]</value>
+      <webElementGuid>d2fc59ad-da30-491c-afc6-0b48ec9db96b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='&lt;'])[1]/preceding::a[4]</value>
+      <webElementGuid>e0ce1563-f28c-4c8d-bc06-fba0423a2ef1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='>'])[1]/preceding::a[4]</value>
+      <webElementGuid>d918a8b6-255c-4ed6-8075-18e8d6dfa4f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='20721971']/parent::*</value>
+      <webElementGuid>e3de7c2b-a5b8-4a9b-ac3e-2155ac055b80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[7]/td[2]/a</value>
+      <webElementGuid>ffaa8a11-4ae7-4c4e-a991-2cd869246221</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = '20721971' or . = '20721971')]</value>
+      <webElementGuid>40edcb6e-06e3-471f-8944-3e11c2b90627</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

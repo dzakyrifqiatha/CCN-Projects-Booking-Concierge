@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>84960f18-6455-4b2c-8c0b-ec7ea4fa6f0f</webElementGuid>
+      <webElementGuid>04109b41-aab6-4e83-8a4a-f90340d74613</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>uld_number</value>
-      <webElementGuid>189e3ded-46fb-4187-9187-79eccc4d69d9</webElementGuid>
+      <webElementGuid>c2b7028f-2d66-4978-b538-0a9c3a99bae2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>f6bee742-bdaa-4759-8e94-b60a97b4a505</webElementGuid>
+      <webElementGuid>406c7d16-93bd-48c8-90bc-4581b0a011d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>165a9c82-cde5-4982-bfd0-088758fd8641</webElementGuid>
+      <webElementGuid>e971631f-e28c-4211-892d-48c181ccfa56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>84cf3eed-e90e-4251-a440-5c46445e74b6</webElementGuid>
+      <webElementGuid>d46b696f-9caf-4d66-9694-f5271a621e49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,15 +62,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>2618507a-e76d-4663-8164-472e26788259</webElementGuid>
+      <webElementGuid>05b958a5-f284-4ef0-9446-5639dd1f3b56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>theme-module_BC__ULDDetails-input-number__SmHQM undefined form-control</value>
-      <webElementGuid>8bcf9815-ec6c-4ee6-8882-5cf5d231f857</webElementGuid>
+      <value>theme-module_BC__ULDDetails-input-number__SmHQM theme-module_is-invalid__v55iH form-control</value>
+      <webElementGuid>2eebddb5-2ff2-48e7-95a9-d9bf280031a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;uld_number&quot;)</value>
-      <webElementGuid>c33edba3-e058-4185-ab96-baa99b8c5194</webElementGuid>
+      <webElementGuid>3eedecc2-db5d-4405-acd3-facd161690bf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='uld_number']</value>
-      <webElementGuid>1dd075be-cc51-44dd-aba9-a848e57b55cc</webElementGuid>
+      <webElementGuid>97c31cd7-a00a-4f13-a3ad-10001ecd3f55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[3]/div[2]/input</value>
-      <webElementGuid>985ad707-80ca-4292-8831-2f2b7b44dc1b</webElementGuid>
+      <webElementGuid>c72392de-a7e2-45f3-bf43-e7e722cf10f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'uld_number' and @name = 'number' and @placeholder = '1' and @type = 'text']</value>
-      <webElementGuid>b1ce9fd3-fbae-4f81-b5a9-d7a4894c3913</webElementGuid>
+      <webElementGuid>d9b679af-9db5-4b10-bc0b-da507c0631fd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -47,7 +47,7 @@ import cucumber.api.java.en.When
 class Add_ULD_Booking {
 	@Given("agent click add ULD button")
 	def agent_click_ULD_button() {
-		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/div_Insurance DetailsCommodity TypeGoods De_89d0a1'))
+		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/i_Operational_bx bx-search'))
 	}
 
 	// can not input ULDContour manually, since the field does not accept comma

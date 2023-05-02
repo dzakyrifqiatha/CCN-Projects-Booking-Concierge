@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>26271c8a-2a37-49e4-a186-b01a0981ecac</webElementGuid>
+      <webElementGuid>5b86f4ed-0af2-4473-bac6-d08ad4c6e6ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>9bafc1f2-f584-4a15-9ed1-2dae81b1e713</webElementGuid>
+      <webElementGuid>4a6c8c72-7d7d-4c19-81d4-ce0fed81e39f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>CCNCommonFaxNumberField</value>
-      <webElementGuid>aeffd525-09cd-424a-ac06-8284df89e761</webElementGuid>
+      <webElementGuid>9e5f335f-c0e3-4b5f-8196-cfe4723e6594</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>faxNo</value>
-      <webElementGuid>5ad9a24c-f410-43ee-8861-aaa62a4f3cf5</webElementGuid>
+      <webElementGuid>47975365-c53b-4979-8625-ac66e1aef914</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>minlength</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>30b3baca-1770-464d-aa30-28f843ac4620</webElementGuid>
+      <webElementGuid>8017e1da-5db1-4c77-9beb-6b3e2e0c6ce6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>250</value>
-      <webElementGuid>a07e6c71-f3d4-4090-8e10-29becc2107b0</webElementGuid>
+      <webElementGuid>b5586efa-3850-42fc-9cc3-2e2762c49c7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>2c7b41b1-2945-43ad-af34-5332f25c5e26</webElementGuid>
+      <webElementGuid>0c9ea060-1346-4cdd-ad6f-3f58aa91a93b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>class</name>
       <type>Main</type>
       <value>theme-module_form-control__0sG2o theme-module_border-bottom__unqVG form-control</value>
-      <webElementGuid>10b72fd4-a570-4944-8e3a-362094e7a170</webElementGuid>
+      <webElementGuid>62a4216f-7eb2-4a34-896d-eb82d7dc63b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d399f186-55d0-433b-8865-5acea7ce9012</webElementGuid>
+      <webElementGuid>e5226500-c4ff-4f0b-a9ae-a1d8436f2c0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;CCNCommonFaxNumberField&quot;)</value>
-      <webElementGuid>8bf2eb3c-6b84-4284-8ab5-b885e2aaaedd</webElementGuid>
+      <webElementGuid>fcb47e8c-478a-4f62-b62c-deb52701ae91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>6</value>
+      <webElementGuid>24a4357b-080a-4bc9-8c60-c21fcdfc4c87</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +110,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='CCNCommonFaxNumberField']</value>
-      <webElementGuid>d0d7d775-5f65-47fa-a187-c46767770dea</webElementGuid>
+      <webElementGuid>90cd2491-f92d-4d2d-84a6-3497e189820e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[10]/span[2]/input</value>
-      <webElementGuid>6c6f0d68-c7b1-49ef-93ed-dc69aedebdcf</webElementGuid>
+      <webElementGuid>c8473ce8-180c-4658-a34a-50170c83807d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'CCNCommonFaxNumberField' and @name = 'faxNo' and @type = 'text']</value>
-      <webElementGuid>12bda6ac-4696-4b10-abbd-7e144fd41408</webElementGuid>
+      <webElementGuid>3fe65b6e-4e0e-4b22-a9c8-c44a5534e22b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

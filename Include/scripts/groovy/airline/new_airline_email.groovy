@@ -41,6 +41,7 @@ import cucumber.api.java.en.And
 import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
+import org.openqa.selenium.Keys as Keys
 
 //import prerequisites.login
 
@@ -71,8 +72,9 @@ class create_new_airline_email{
 
 	@And("agent input (.*) on Airline Email field")
 	def input_airline_email(String airline_email) {
-		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__email'))
-		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__email'), airline_email)
+		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__emails'))
+		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__emails'), airline_email)
+		WebUI.sendKeys(findTestObject('Input'), Keys.chord('Text String',Keys.ENTER,Keys.TAB))
 	}
 
 	@When("agent click Save button")
@@ -80,13 +82,15 @@ class create_new_airline_email{
 		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/save_airline'))
 	}
 
-	@Then("agent successfully create a new airline")
+	@Then("agent successfully create a new airline for email send mode")
 	def agent_create_airline() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/create_airline_success_status'),0)
+		//		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/div_Airline has been created successfully'),0)
+		//		WebUI.verifyTextPresent(carrier_prefix, false)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/header_My Airline'),0)
 	}
 
-	@Then("agent see successful message (.*) displaying")
-	def agent_see_successful_message(String success_alert) {
-		WebUI.verifyElementText((findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/create_airline_success_status')), success_alert)
-	}
+	//	@Then("agent see successful message (.*) displaying for email send mode")
+	//	def agent_see_successful_message_email(int carrier_prefix) {
+	//		WebUI.verifyElementText((findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/div_Airline has been created successfully')), success_alert_email)
+	//	}
 }

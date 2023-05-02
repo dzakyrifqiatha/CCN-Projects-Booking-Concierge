@@ -47,7 +47,7 @@ import cucumber.api.java.en.When
 class Add_Cosignee_Booking {
 	@Given("agent click add consignee button")
 	def click_add_Cosignee() {
-		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/i_Dangerous Goods Information_bx bx-plus'))
+		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/i_Operational_bx bx-search'))
 	}
 
 	@And("agent input consignee info (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*)")

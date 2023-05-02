@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Name</name>
+   <tag></tag>
+   <elementGuidId>84f16cdc-6268-4d54-88c7-8beda7fa49b9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Code:'])[1]/following::div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>23ece119-ac0e-4fd2-a993-4ddb56b815dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal-form-align theme-module_py-2__unBsQ theme-module_text-black__Gd6di row</value>
+      <webElementGuid>4671792d-dba9-4d69-8ed7-d4c79908e759</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Name:</value>
+      <webElementGuid>e72bf538-2908-4949-ab01-3ad0b143a4a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog exampleModal modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-content&quot;]/form[1]/div[@class=&quot;theme-module_px-3__nQw6W modal-body&quot;]/div[@class=&quot;custom-shadow&quot;]/div[@class=&quot;px-3&quot;]/div[@class=&quot;modal-form-align theme-module_py-2__unBsQ theme-module_text-black__Gd6di row&quot;]</value>
+      <webElementGuid>a1b63c19-c344-4008-93e0-336ad70a0502</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Code:'])[1]/following::div[3]</value>
+      <webElementGuid>47a4b741-cb2f-420a-925a-3a07f0c50dea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Insured Party'])[1]/following::div[6]</value>
+      <webElementGuid>c314406f-ee9a-4f2b-8dc5-880d6bb1678f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email:'])[1]/preceding::div[4]</value>
+      <webElementGuid>caa30f4a-cdf2-4c93-b11c-d1787290dc9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/form/div/div[2]/div[2]/div[2]</value>
+      <webElementGuid>2d715ce7-fe64-42f1-832c-5398f12a5350</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Name:' or . = 'Name:')]</value>
+      <webElementGuid>7eb23315-9576-4241-b62e-ddf96bd16e13</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

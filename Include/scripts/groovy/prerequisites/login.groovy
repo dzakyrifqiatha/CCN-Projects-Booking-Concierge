@@ -58,13 +58,11 @@ class login {
 
 	@And("agent input valid email(.*)")
 	def Input_valid_email(String login_email) {
-		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/login/input_email'))
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/login/input_email'), login_email.trim())
 	}
 
 	@And("agent input valid password(.*)")
 	def Input_valid_password(String login_password) {
-		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/login/input_password'))
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/login/input_password'), login_password.trim())
 	}
 

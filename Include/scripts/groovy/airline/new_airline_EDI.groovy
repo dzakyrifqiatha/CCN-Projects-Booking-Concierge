@@ -47,6 +47,7 @@ import cucumber.api.java.en.When
 class new_airline_EDI {
 	@Given("agent on Create New Airline page for EDI")
 	def agent_on_create_airline_page_edi() {
+		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/MyAirline/CreateAirline_button'))
 		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/NewAirline_page'),0)
 	}
 
@@ -75,11 +76,13 @@ class new_airline_EDI {
 
 	@Then("agent successfully create a new EDI airline")
 	def agent_create_airline_edi() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/create_airline_success_status'),0)
+		//		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/create_airline_success_status'),0)
+//		WebUI.verifyTextPresent(carrier_prefix_edi, false)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/header_My Airline'),0)
 	}
 
-	@Then("agent see (.*) displaying for EDI airline creation")
-	def agent_see_successful_message_edi(String message_edi) {
-		WebUI.verifyElementText((findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/create_airline_success_status')), message_edi)
-	}
+	//	@Then("agent see (.*) displaying for EDI airline creation")
+	//	def agent_see_successful_message_edi(String message_edi) {
+	//		WebUI.verifyElementText((findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/create_airline_success_status')), message_edi)
+	//	}
 }

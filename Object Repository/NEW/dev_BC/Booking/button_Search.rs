@@ -6,12 +6,12 @@
    <elementGuidId>9f52693b-45e7-41db-85eb-1782e3c628ac</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-primary</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[8]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f410fd81-fa20-47ec-8841-948457ec624c</webElementGuid>
+      <webElementGuid>56ab3683-f95b-4232-976b-c230d5a2eaf1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>7c51a4c7-59cf-40e4-9d7d-ae77012003cb</webElementGuid>
+      <webElementGuid>0c10ca88-22b9-488a-b4e9-6f96791e99d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3f418d46-87a7-460c-b92c-8d455f40f4b4</webElementGuid>
+      <webElementGuid>a8d716c3-5a98-4819-b59d-76aa7e0db605</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Search</value>
-      <webElementGuid>04a4118a-4c82-4d8f-b592-0ef9dbc7de9f</webElementGuid>
+      <webElementGuid>fc0a4c1b-3785-4e68-a599-365676cfb757</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog ccn-CCNWCBCFlightScheduleModal  modal-lg&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;theme-module_ElevatedPaper__-PaWa&quot;]/div[@class=&quot;ccn-CCNWCBCFlightScheduleModal-fields-container&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>ea731e9a-1ea5-4c8c-8bca-463c02ac5cf1</webElementGuid>
+      <webElementGuid>bb7f2577-5fb2-483e-a4a8-276a79c14378</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[8]</value>
-      <webElementGuid>a82d1a86-dfe6-4c75-b565-971fdb07c06b</webElementGuid>
+      <webElementGuid>e58f9402-689b-48bf-9f60-b878dd0f4784</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Flight Date'])[2]/following::button[1]</value>
-      <webElementGuid>61d2d2ee-432d-41fc-83fa-97956774daf0</webElementGuid>
+      <webElementGuid>e5fcbcab-3d45-4511-b8a7-cc01d51357d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,23 +78,23 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Max Number of Stops'])[1]/following::button[1]</value>
-      <webElementGuid>f1d18a9e-bd53-4f9f-8902-663904a72b75</webElementGuid>
+      <webElementGuid>abf4032a-4ebd-4e5d-86b7-50989f890cc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sun'])[1]/preceding::button[1]</value>
-      <webElementGuid>ca0d531f-9fbc-4088-8ac6-a993d727ae90</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Carrier'])[1]/preceding::button[1]</value>
+      <webElementGuid>a8afc643-3c68-413a-adc5-48b426ffbff3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mon'])[1]/preceding::button[1]</value>
-      <webElementGuid>53906540-bd34-4a0d-b17b-7ecc68f4626e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Flight No.'])[1]/preceding::button[1]</value>
+      <webElementGuid>ee4b6305-1ad9-4514-8a01-22ad7043ec86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Search']/parent::*</value>
-      <webElementGuid>da3c9e16-2680-49a7-9e29-0dd275f624b1</webElementGuid>
+      <webElementGuid>a0d2e774-2362-4cbf-b511-fa030519bbe7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
-      <webElementGuid>89009798-97f7-4d25-a5b1-3721fde1e93e</webElementGuid>
+      <webElementGuid>cbbcbbad-29ff-4491-9f6b-b12ce3fc124b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Search' or . = 'Search')]</value>
-      <webElementGuid>1145e0a5-de60-46d4-86d1-6e877826268e</webElementGuid>
+      <webElementGuid>839207e6-4f1a-4b33-8394-a272384b45de</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

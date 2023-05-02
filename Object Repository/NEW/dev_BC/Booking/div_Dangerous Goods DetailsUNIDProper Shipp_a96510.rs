@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Dangerous Goods DetailsUNIDProper Shipp_a96510</name>
+   <tag></tag>
+   <elementGuidId>c63f936a-8ac9-4c75-b5a4-20d1423dbc16</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.modal.fade.show</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/following::div[6]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>86972f54-dbd8-48af-91cd-f5b42c97d561</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal fade show</value>
+      <webElementGuid>605d51fe-0dc8-4303-bfcb-a4a86792faa8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>dialog</value>
+      <webElementGuid>6cc88165-649b-4c0e-805b-400d2c33b428</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>061aab4c-3848-4a05-ab51-62df9a934ac1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dangerous Goods DetailsUNIDProper Shipping NamePGClassshipmentClass is a required fieldSubriskPIERGSCCCAOReportable QTYTINo of PackagesThis field is required.Qty Per PackageThis field is required.This field is required.SAVE</value>
+      <webElementGuid>b3e425e6-4005-40b8-a00b-58779cd3443f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]</value>
+      <webElementGuid>1f93fe05-1926-4290-9351-e8dd696cb9be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/following::div[6]</value>
+      <webElementGuid>d3f93057-a79a-4ddc-86bf-f97582ff5884</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::div[6]</value>
+      <webElementGuid>4c7822f6-c38f-4488-94b9-7a297f4756e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div</value>
+      <webElementGuid>18cf8e68-ca5e-4801-9e20-f6e73de3703d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Dangerous Goods DetailsUNIDProper Shipping NamePGClassshipmentClass is a required fieldSubriskPIERGSCCCAOReportable QTYTINo of PackagesThis field is required.Qty Per PackageThis field is required.This field is required.SAVE' or . = 'Dangerous Goods DetailsUNIDProper Shipping NamePGClassshipmentClass is a required fieldSubriskPIERGSCCCAOReportable QTYTINo of PackagesThis field is required.Qty Per PackageThis field is required.This field is required.SAVE')]</value>
+      <webElementGuid>8dcd7495-121c-4568-87f8-e782c641daa4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

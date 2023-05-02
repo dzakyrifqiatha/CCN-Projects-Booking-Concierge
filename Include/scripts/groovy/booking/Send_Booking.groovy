@@ -43,7 +43,6 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 
-
 class Send_Booking {
 	@Given("agent click Send Request button")
 	def agent_click_send_request_button() {

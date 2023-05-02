@@ -27,7 +27,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/NEW/dev_BC/Booking/inpu
 
 WebUI.sendKeys(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Forgot your password_Password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/input_My Airlines_theme-module_form-control_714185'))
+WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/Qty_packages_UNID'))
 
 WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/a_New Booking'))
 
@@ -47,7 +47,7 @@ WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input__volume
 
 WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input__commodityInfo'), 'DGR')
 
-WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/i_Dangerous Goods Information_bx bx-plus'))
+WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/search_suffix'))
 
 WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/a_00927780'))
 
@@ -57,7 +57,7 @@ WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/button_Search')
 
 WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/a_0274'))
 
-WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/i_Dangerous Goods Information_bx bx-plus'))
+WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/search_suffix'))
 
 WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Code_code'), 'SHP01')
 
@@ -85,7 +85,7 @@ WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/button_SAVE'))
 
 WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/button_Yes'))
 
-WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/i_Dangerous Goods Information_bx bx-plus'))
+WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/search_suffix'))
 
 WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/a_77777781'))
 
@@ -127,17 +127,17 @@ WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/div_Consignee i
 
 WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/input__awbSuffix'))
 
-WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/i_Dangerous Goods Information_bx bx-plus'))
+WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/search_suffix'))
 
 WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/a_20722015'))
 
-WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/i_Dangerous Goods Information_bx bx-plus'))
+WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/search_suffix'))
 
 WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/button_SAVE'))
 
 WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/button_Dangerous Goods Details_btn-close'))
 
-WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/i_Dangerous Goods Information_bx bx-plus'))
+WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/search_suffix'))
 
 WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/svg_1'))
 
@@ -151,7 +151,7 @@ WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Code_co
 
 WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Name_name_1'), 'TEST SHIPPER')
 
-WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_My Airlines_theme-module_form-control_714185'), 
+WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/Qty_packages_UNID'), 
     'testtestbc2@hotmail.com')
 
 WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Address_address_1'), 'TESTING ADDRESS')
@@ -170,7 +170,7 @@ WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/div_Something w
 
 WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/div_Insurance DetailsCommodity TypeGoods De_89d0a1'))
 
-WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/i_Dangerous Goods Information_bx bx-plus'))
+WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/search_suffix'))
 
 WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_ULD Type_uld'), 'FLA')
 

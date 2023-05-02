@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>98c36b95-3b31-4750-b78d-b607ceee8d1e</webElementGuid>
+      <webElementGuid>dad2fefd-2f85-47b2-a23f-be40cc7e2634</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>597cd1f9-195d-47bf-8606-017489dcaf81</webElementGuid>
+      <webElementGuid>7204cec5-8669-4207-b629-4d222fb0384d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>properShippingName</value>
-      <webElementGuid>c337bc5d-c279-4ad6-beac-02ff1416ee6c</webElementGuid>
+      <webElementGuid>dfa32bce-4e31-40e6-b1af-07b71458bcd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>properShippingName</value>
-      <webElementGuid>6e490e7b-3fed-4c69-b82d-988b6e8d9e30</webElementGuid>
+      <webElementGuid>642029b9-0a64-425a-8c2f-1b354d8a6bfe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>minlength</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>0df5c62d-fde7-4935-a65d-13434d940b30</webElementGuid>
+      <webElementGuid>03cb79eb-7efc-426a-a63d-2dc24d44055a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>250</value>
-      <webElementGuid>c84fd0f2-ddb8-40c4-9b07-0c5035f79dea</webElementGuid>
+      <webElementGuid>629e405c-41d3-4b61-b8bc-0b53413a4eb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Proper Shipping Name</value>
-      <webElementGuid>a63791b5-518d-4c73-acd4-afacf3ac368b</webElementGuid>
+      <webElementGuid>bc442a6d-3da1-4180-8010-1c5a6ed31d77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>d361016d-1ae0-419a-a858-9f4380b7d551</webElementGuid>
+      <webElementGuid>4563891c-b194-4e26-8f46-6e5678c02ffa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>class</name>
       <type>Main</type>
       <value>theme-module_w-100__NIwLp theme-module_border-bottom__unqVG theme-module_form-control__0sG2o form-control</value>
-      <webElementGuid>b77caebe-cbbc-493a-aa9a-d444b5115ac9</webElementGuid>
+      <webElementGuid>f2bc8675-063e-4545-8a4f-3bfa13ae3587</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ade6d05b-8d63-4c30-b5cf-e79439ec9968</webElementGuid>
+      <webElementGuid>0a8795c4-394d-493b-8f05-e874c90a0bb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;properShippingName&quot;)</value>
-      <webElementGuid>978d5737-1adf-473f-b4f6-8beabfd8cb9d</webElementGuid>
+      <webElementGuid>e706f0ba-3c7a-46c9-a627-857d36de3c0f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='properShippingName']</value>
-      <webElementGuid>80961c50-16ca-49d8-9695-e8f204b067b2</webElementGuid>
+      <webElementGuid>b5ef6e93-3cf4-4b43-bd19-3875d9669a63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/input</value>
-      <webElementGuid>2262a64a-04f0-4a8e-9947-7a572dcd554b</webElementGuid>
+      <webElementGuid>99743f97-308d-4c9a-ba43-531a5c695eaa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'properShippingName' and @name = 'properShippingName' and @placeholder = 'Proper Shipping Name' and @type = 'text']</value>
-      <webElementGuid>330aa074-ccfd-43da-abc0-3035c0f067a4</webElementGuid>
+      <webElementGuid>40fa49ee-b694-4dea-8f8a-26b0a826472f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

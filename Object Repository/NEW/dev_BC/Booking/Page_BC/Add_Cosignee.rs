@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Add_Cosignee</name>
+   <tag></tag>
+   <elementGuidId>f88bfb7e-6299-44c3-bbca-fd044a44351e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/form/div[7]/div/div/div/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ccn-CCNWCBCConsignee-AddButton > i.bx.bx-plus</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>cd33f169-f092-4c6d-8387-026cc4ae67b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bx bx-plus</value>
+      <webElementGuid>a2b9e83b-e0b4-42db-86f4-85472a42985a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;page-content&quot;]/form[@class=&quot;booking-form&quot;]/div[@class=&quot;ccn-CCNWCBCConsignee&quot;]/div[@class=&quot;theme-module_ElevatedPaper__-PaWa&quot;]/div[@class=&quot;ccn-CCNWCBCConsignee-PaperHeader&quot;]/div[@class=&quot;ccn-CCNWCBCConsignee-AddButton&quot;]/i[@class=&quot;bx bx-plus&quot;]</value>
+      <webElementGuid>995d3476-e81a-41e7-a5ee-691dca9de7e9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/form/div[7]/div/div/div/i</value>
+      <webElementGuid>dd738c6f-65c2-44b0-82e8-b5c78574e0a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div/div/i</value>
+      <webElementGuid>7ab89e28-cb73-426f-a671-9415beb8b8a9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -41,7 +41,7 @@ import cucumber.api.java.en.And
 import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
-
+import org.openqa.selenium.Keys as Keys
 
 
 class Add_UNID_booking {
@@ -50,31 +50,37 @@ class Add_UNID_booking {
 	 */
 	@Given("agent click add dangerous goods details")
 	def agent_click_add_UNID() {
-		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/i_Dangerous Goods Information_bx bx-plus'))
+		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/i_Operational_bx bx-search'))
 	}
 
 	// why is proper shipping name field is set to receive CAPS, but it can not detect the name written in CAPS
 	@And("agent input UNID details (.*), (.*), (.*), (.*), (.*), (.*), (.*)")
 	def input_UNID_details(int UNID, String ProperShippingName, String PG, int PI, int TI, int NoOfPackages, int QtyPerPackages) {
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_UNID_unidSerNum'), UNID)
-		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Proper Shipping Name_properShippingName'), ProperShippingName)
-		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_PG_packingGroup'), PG)
+		WebUI.sendKeys(findTestObject('Input'), Keys.chord('Text String',Keys.ENTER,Keys.TAB))
+		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Proper Shipping Name_properShippingName'))
+		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/li_Benzaldehyde'))
+		//		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Proper Shipping Name_properShippingName'), ProperShippingName)
 
-		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_My Airlines_theme-module_form-control_714185'), PI)
-		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_My Airlines_theme-module_form-control_714185'), TI)
+		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/input_PG_packingGroup'))
+		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/PG_III'))
+		//		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_PG_packingGroup'), PG)
+
+		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/Qty_packages_UNID'), PI)
+		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_TI_transportIndex'), TI)
 
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_No of Packages_numberOfPackages'), NoOfPackages)
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Qty Per Package_netQuantityPerPackage'), QtyPerPackages)
 	}
-	// (!) unable to move forward regarding package unit error
+
 	@When("agent click Save Dangerous Goods button")
 	def agent_save_DGR() {
-		println status
+		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/button_SAVE'))
 	}
 
 	// (!) unable to move forward regarding package unit error
 	@Then("agent see dangerous goods details populated on Dangerous Goods Section")
-	def verify_DGR() {
-		println status
+	def verify_DGR(int UNID) {
+		WebUI.verifyTextPresent(UNID, false)
 	}
 }

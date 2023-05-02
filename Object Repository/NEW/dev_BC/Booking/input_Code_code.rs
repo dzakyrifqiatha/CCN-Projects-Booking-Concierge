@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>230d889d-3440-4a98-a4b6-99f4f5814725</webElementGuid>
+      <webElementGuid>5e90a215-f112-4b9d-839d-d57d02b043c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>9b3ea66c-174b-40a5-97f0-103b80717ded</webElementGuid>
+      <webElementGuid>459ba22e-851f-4b8f-ba95-cce1d3cf3c24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>CCNWCShipperCodeField</value>
-      <webElementGuid>d604c8d5-831c-432e-bfd5-2c9130056850</webElementGuid>
+      <webElementGuid>573f2869-56d0-4b12-bdec-73cff3c91cf3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>code</value>
-      <webElementGuid>aa3cc9be-20f1-4177-9b0e-6aa2cd5f11aa</webElementGuid>
+      <webElementGuid>637e1d78-2aa6-4a19-9e16-2db5a89f0a24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>minlength</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>f6e94911-4c56-413d-ad1e-2fd187427455</webElementGuid>
+      <webElementGuid>7155037e-368c-4a27-8855-cfbb48e40af0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>250</value>
-      <webElementGuid>5a1a8e0c-1232-4d11-bb8d-e152a0a5db18</webElementGuid>
+      <webElementGuid>ef558508-3595-4139-933b-501c399cfdc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>f17d225d-33f4-4f58-b85a-ca8c75bdc4bc</webElementGuid>
+      <webElementGuid>fd714ec5-3696-4921-86e1-7239628af357</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>class</name>
       <type>Main</type>
       <value>theme-module_form-control__0sG2o theme-module_border-bottom__unqVG theme-module_form-control__0sG2o form-control</value>
-      <webElementGuid>8b1ffa1a-af27-403d-82ac-409d7c0c0aa5</webElementGuid>
+      <webElementGuid>61db09e4-51bd-4351-92b2-e8b245864395</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ea295bc0-e72e-4e2b-8b0b-7f3b15479629</webElementGuid>
+      <webElementGuid>fea590d9-b258-4a44-85c3-14ee5f6abe82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;CCNWCShipperCodeField&quot;)</value>
-      <webElementGuid>59c667bd-c080-43d1-b8b5-16d35b476fac</webElementGuid>
+      <webElementGuid>52d9b9b1-56ce-4da5-aff1-8fd915e39ad7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='CCNWCShipperCodeField']</value>
-      <webElementGuid>3e2a80ea-4a0f-439f-8ed2-a055dcba0e24</webElementGuid>
+      <webElementGuid>08ba284e-3c1d-4e60-8604-40fd8056a332</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[2]/div/input</value>
-      <webElementGuid>af43546b-d7d1-4454-8551-29475505fffe</webElementGuid>
+      <webElementGuid>c019b746-be14-4371-a4a3-bdf3940e3ac6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'CCNWCShipperCodeField' and @name = 'code' and @type = 'text']</value>
-      <webElementGuid>cb557a23-0bf4-4643-b072-9b665a2194ed</webElementGuid>
+      <webElementGuid>127678e3-324d-4794-8938-a3848384cd24</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

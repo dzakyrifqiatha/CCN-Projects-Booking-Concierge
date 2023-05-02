@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>bcc28a49-6ef8-484b-b908-d9d700c51282</webElementGuid>
+      <webElementGuid>e9f8646f-ea37-4173-b00d-76cb6e8231c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>uld_weight</value>
-      <webElementGuid>faf280ec-4596-4025-889a-b3f0602e29b2</webElementGuid>
+      <webElementGuid>a4a51aa4-7555-44a0-8452-ca2b5202bed2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>weight</value>
-      <webElementGuid>00b5ffc5-c0b6-42fc-b7c1-ea56ae9af648</webElementGuid>
+      <webElementGuid>6e72d4a8-da58-43d2-b335-1d4e84575b6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>minlength</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>88c6fe1c-985d-488a-8e1d-d21ecb05d577</webElementGuid>
+      <webElementGuid>d89d7262-f8ab-4392-a525-d4c0d1aac8b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>9</value>
-      <webElementGuid>05edc6c0-5229-4807-ab4a-115e8b05cd79</webElementGuid>
+      <webElementGuid>f5d24799-2fc5-488e-b807-c22389d0871c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>11111.1</value>
-      <webElementGuid>f1593841-4656-4d98-96f5-d2d6853b9dfb</webElementGuid>
+      <webElementGuid>93462184-da6f-4b23-8303-45f0d1c76768</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>f3e7eebb-3704-4d04-a61e-1dca9d463f19</webElementGuid>
+      <webElementGuid>85b517fa-43d4-485f-ad6c-a098a9233aa0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>class</name>
       <type>Main</type>
       <value>theme-module_border-bottom__unqVG undefined form-control</value>
-      <webElementGuid>d652c1a1-23b8-483a-ae79-fe28ce744bab</webElementGuid>
+      <webElementGuid>dad23be0-e005-4543-a3b9-f94cb434874b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;uld_weight&quot;)</value>
-      <webElementGuid>80215a14-3f2a-407f-8e0c-ececafa08c57</webElementGuid>
+      <webElementGuid>6d4919a0-549e-440a-87e9-104428cc74f4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='uld_weight']</value>
-      <webElementGuid>99d1741e-5ef4-41a0-9ba3-abfd8971c645</webElementGuid>
+      <webElementGuid>35bbc133-efeb-4bb5-b7aa-f069a2fddc63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div[2]/input</value>
-      <webElementGuid>d165f8dd-c519-49a8-801d-cbecd0f12c77</webElementGuid>
+      <webElementGuid>9f6651de-e2c7-449a-9370-dc3bb393b40e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'uld_weight' and @name = 'weight' and @placeholder = '11111.1' and @type = 'text']</value>
-      <webElementGuid>044f2155-e731-435d-ba67-c002b8d9209f</webElementGuid>
+      <webElementGuid>f5ccca08-5bb4-4ac8-a72d-31afde7f3531</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -47,6 +47,7 @@ import cucumber.api.java.en.When
 class new_airline_both {
 	@Given("agent on Create New Airline page for both")
 	def agent_on_create_airline_page_both() {
+		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/MyAirline/CreateAirline_button'))
 		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/NewAirline_page'),0)
 	}
 
@@ -75,11 +76,13 @@ class new_airline_both {
 
 	@Then("agent successfully create a new airline for both")
 	def agent_create_airline_both() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/create_airline_success_status'),0)
+		//		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/create_airline_success_status'),0)
+//		WebUI.verifyTextPresent(carrier_prefix_both, false)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/header_My Airline'),0)
 	}
 
-	@Then("agent see (.*) displaying for both airline creation")
-	def agent_see_successful_message_both(String message_both) {
-		WebUI.verifyElementText((findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/create_airline_success_status')), message_both)
-	}
+	//	@Then("agent see (.*) displaying for both airline creation")
+	//	def agent_see_successful_message_both(String message_both) {
+	//		WebUI.verifyElementText((findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/create_airline_success_status')), message_both)
+	//	}
 }

@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>bd724e1a-9e28-47cf-9765-ee542add53ab</webElementGuid>
+      <webElementGuid>15d546a0-6565-4285-b87c-838969cdf88f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>d93327b8-711c-4319-8c77-70bc9607353c</webElementGuid>
+      <webElementGuid>c2296b77-9e8f-48c3-b8b1-fb800d7c0565</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>specialHandlingCode</value>
-      <webElementGuid>2a259677-1d49-4eac-8953-dfbe91fe93c6</webElementGuid>
+      <webElementGuid>52354119-e3cd-4298-9277-a3297d878e3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>specialHandlingCodes[0].code</value>
-      <webElementGuid>e729ca91-34f7-4f84-aa53-208e1ff5ad11</webElementGuid>
+      <webElementGuid>84c21532-d62e-4763-a903-3c3a090ceaae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>minlength</name>
       <type>Main</type>
       <value>3</value>
-      <webElementGuid>124cb200-15c8-4948-bf52-43fcfdd77129</webElementGuid>
+      <webElementGuid>42801c23-4cac-4e96-80c2-d3bed5e744eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>3</value>
-      <webElementGuid>4c8163f1-8bd1-486a-bb67-f786711e5879</webElementGuid>
+      <webElementGuid>5a4b165f-be6e-435d-8578-46d63bb76919</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>AAA</value>
-      <webElementGuid>82680b43-8879-4a05-8605-5edd3c89a0a4</webElementGuid>
+      <webElementGuid>45954a4e-77b4-41b4-beba-ed8aa8959883</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>36a6173b-8f11-47e4-94a2-4348676e900f</webElementGuid>
+      <webElementGuid>05e2dab0-6168-4725-9b12-57db824b2ddf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>class</name>
       <type>Main</type>
       <value>theme-module_form-control__0sG2o form-control</value>
-      <webElementGuid>8cbc9be9-290d-4fdc-a8db-eb6817926c8a</webElementGuid>
+      <webElementGuid>80eda71a-e879-4e1d-b536-a3d48aef7ca0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4a4ec0d8-3172-4422-9493-67e54167facc</webElementGuid>
+      <webElementGuid>c9e7ac74-076e-4be6-865e-e3e1c7ca971e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;page-content&quot;]/form[@class=&quot;booking-form&quot;]/div[@class=&quot;ccn-BC__BookingDetails&quot;]/div[@class=&quot;theme-module_ElevatedPaper__-PaWa theme-module_pb-0__v396a&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;theme-module_card__5p5Cl&quot;]/div[@class=&quot;theme-module_card-body__rJq5X&quot;]/div[@class=&quot;ml-2 theme-module_p-2__Y647L theme-module_pb-2__8fUif row&quot;]/div[@class=&quot;w-7 m-0 px-2.5 py-1 col-sm-1&quot;]/div[@class=&quot;ccn-CCNCommonCodeInputWithDropdown&quot;]/input[@id=&quot;specialHandlingCode&quot;]</value>
-      <webElementGuid>7d351e13-4956-48b7-914e-2a2ea2bc1755</webElementGuid>
+      <webElementGuid>4af22756-fba9-4f27-b85a-c285219573f6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='specialHandlingCode']</value>
-      <webElementGuid>b888ab0a-e635-4d8d-ab1d-832b5ffa911e</webElementGuid>
+      <webElementGuid>7f19a370-2874-4d56-933c-a44ce024b0ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/form/div/div/div[2]/div/div/div/div[5]/div[2]/div/input</value>
-      <webElementGuid>ea94de16-7c26-4a00-87d7-5602dc939c7a</webElementGuid>
+      <webElementGuid>d9b35ccb-4110-4dbe-9273-981f81920617</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div[2]/div/input</value>
-      <webElementGuid>421d5d2b-e098-4c07-9c1b-b15ea091dfe1</webElementGuid>
+      <webElementGuid>47708241-141e-4a0f-9898-7cccf8ca7f46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'specialHandlingCode' and @name = 'specialHandlingCodes[0].code' and @placeholder = 'AAA' and @type = 'text']</value>
-      <webElementGuid>8482bf91-ed5e-474e-a870-94464487f46f</webElementGuid>
+      <webElementGuid>881ad497-31c7-477c-8fb1-8264166dadda</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

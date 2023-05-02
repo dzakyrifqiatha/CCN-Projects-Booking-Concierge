@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "894F9C7EC1B1B94357738022C6505225",
+  "keywordFileContentHash": "5B97EDF51FF75BEA1BF7416E9B5177DC",
   "keywordClasses": [
     {
       "name": "booking.Send_Booking",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

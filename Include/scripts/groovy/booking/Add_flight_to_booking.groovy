@@ -50,7 +50,7 @@ class Add_flight_to_booking {
 	 */
 	@Given("agent click search flight button")
 	def agent_click_flight_button() {
-		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/i_Operational_bx bx-search'))
+		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/search_flights'))
 	}
 
 	@And("agent click Search button on Flight Schedule modals")
@@ -59,14 +59,9 @@ class Add_flight_to_booking {
 	}
 
 	//fix in the future
-	@And("agent select flight")
+	@When("agent select flight")
 	def agent_select_flight() {
 		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/a_0956'))
-	}
-
-	@When("agent click Save flight button")
-	def agent_click_save_flight() {
-		println status
 	}
 
 	//fix in the future

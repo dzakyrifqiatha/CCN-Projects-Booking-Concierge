@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>219e8bee-dfb5-4e9d-90d8-6b0e22f906d5</webElementGuid>
+      <webElementGuid>75e522a9-cf55-4497-9cff-601a591f0929</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>05b6c842-777a-4a55-92ac-d014d065a185</webElementGuid>
+      <webElementGuid>f8058a23-a127-4a32-8f62-3b8969b2012d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>CCNCommonCityField</value>
-      <webElementGuid>0cb78248-fa87-49b2-9fe1-edefdd7ecfcf</webElementGuid>
+      <webElementGuid>59edd8ed-1e2f-41e2-be7d-f1c7684bf30e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>city</value>
-      <webElementGuid>e6f2bd96-6492-400c-b63f-f69754ef1b68</webElementGuid>
+      <webElementGuid>593a42bd-e945-4a0d-bb68-a1097492ec58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>minlength</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>886b2dcd-9dea-44c7-9671-25e38b44cb4e</webElementGuid>
+      <webElementGuid>82269312-3dbe-4a86-a608-eea60880321b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>250</value>
-      <webElementGuid>f16bd110-c965-4eec-b195-cc8c965dce20</webElementGuid>
+      <webElementGuid>72bbc7ed-04bd-4172-918b-c6ad9390406d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>32d480b3-8a21-4508-ac9c-82d2920d1c00</webElementGuid>
+      <webElementGuid>3f80fa1f-d9e9-48ed-a34f-de983c11b14c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>class</name>
       <type>Main</type>
       <value>theme-module_form-control__0sG2o theme-module_border-bottom__unqVG form-control</value>
-      <webElementGuid>da83adf0-e5c1-4b71-8ce6-fd7da7b71087</webElementGuid>
+      <webElementGuid>de405c47-88fe-415b-b54d-24538ce9b331</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>50c56a65-d40a-44b9-bb46-545d4f997573</webElementGuid>
+      <webElementGuid>d72aecca-64d0-481e-b425-eb4b914a2b37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;CCNCommonCityField&quot;)</value>
-      <webElementGuid>a6700f90-ba2e-4579-a952-3ac4763bc5bb</webElementGuid>
+      <webElementGuid>6a61c866-bf66-49a9-b560-433e258aea7f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='CCNCommonCityField']</value>
-      <webElementGuid>1316a190-e43a-44d9-8bdc-384749a0b112</webElementGuid>
+      <webElementGuid>59f2302b-09c5-4391-a1cc-45bd222644da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/span[2]/input</value>
-      <webElementGuid>41a230bb-d6c8-4f65-90d9-d4841950ab9a</webElementGuid>
+      <webElementGuid>f3656030-0769-433c-ba20-c93ab5cf27eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'CCNCommonCityField' and @name = 'city' and @type = 'text']</value>
-      <webElementGuid>cd384126-5293-4c2b-a48d-aceeaec836d1</webElementGuid>
+      <webElementGuid>e0e6f1eb-1557-44cc-8d68-34d746890d1c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

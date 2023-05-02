@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>38e1cc52-43bf-425c-b797-e9c7f10a0179</webElementGuid>
+      <webElementGuid>41fbeba0-fdaf-49bf-8db2-03c16d1d31f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>73b50fcb-f7eb-444e-86a7-282656f87f81</webElementGuid>
+      <webElementGuid>010e390f-4b45-4d9f-9ec1-05df80e3a47f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>CCNCommonElementPostalCodeField</value>
-      <webElementGuid>5aca57b9-d5f7-4fee-aad9-8d8dd0ac9dc6</webElementGuid>
+      <webElementGuid>4b659614-c776-4665-9e76-e11dd252a0d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>postalCode</value>
-      <webElementGuid>1378884f-587b-453b-b911-e9e6f00b5541</webElementGuid>
+      <webElementGuid>c9ffff3e-1a30-49b2-9f41-a168c7664ad3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>minlength</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>63cbcb46-811b-4eb0-821b-2c29ff1e2cf3</webElementGuid>
+      <webElementGuid>f9321563-6cfb-4bc3-b10d-099534fbf3d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>250</value>
-      <webElementGuid>79143464-b4b3-4a9b-a5ae-1a4c3d27deac</webElementGuid>
+      <webElementGuid>1757f7df-5f4e-43d1-8bbd-ebcf26da50af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>1ebb4ac6-942d-4b91-b760-037fd641ee48</webElementGuid>
+      <webElementGuid>e482cbbd-8207-4fa5-a56f-161d1e956765</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>class</name>
       <type>Main</type>
       <value>theme-module_form-control__0sG2o theme-module_border-bottom__unqVG form-control</value>
-      <webElementGuid>a7fc1b56-4986-44a1-a287-30bd1cdeb778</webElementGuid>
+      <webElementGuid>ed6f64d3-d7a1-4490-80aa-8eb47076e48b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>71022dbe-cbf2-408f-98f5-34ec4e20ea97</webElementGuid>
+      <webElementGuid>63b02d69-ebd0-477e-9ee1-e9f83f7b1b30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;CCNCommonElementPostalCodeField&quot;)</value>
-      <webElementGuid>ba4c46a3-2520-4922-abfa-48d447ff303c</webElementGuid>
+      <webElementGuid>dd24e59c-8992-478d-8598-ee7c3d202d9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>746a6da4-0bfb-470b-bb5c-23c0a0e0d19d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +110,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='CCNCommonElementPostalCodeField']</value>
-      <webElementGuid>03edd6c0-e56b-4e3d-9a05-998d90adc93c</webElementGuid>
+      <webElementGuid>7044345b-0fc7-4e2f-b920-5e9916bf78be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/span[2]/input</value>
-      <webElementGuid>3d373f27-ba6a-497c-887d-cbd542725c53</webElementGuid>
+      <webElementGuid>c56fcbff-232c-476b-9126-f6311fc0a7f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'CCNCommonElementPostalCodeField' and @name = 'postalCode' and @type = 'text']</value>
-      <webElementGuid>79708955-a2c2-492c-b03c-0618b40f8005</webElementGuid>
+      <webElementGuid>14a5def3-8d54-4ad2-8f46-cae3dc05bcea</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

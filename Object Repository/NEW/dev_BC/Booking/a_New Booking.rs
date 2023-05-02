@@ -6,12 +6,12 @@
    <elementGuidId>6c0deabb-62d9-4b45-a87e-7039aa145278</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.Booking-counter-create-booking-dropdown-item.Create-booking-default-option > a</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div/div/div/div/span/div/div/li/div/div/ul/li/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.Booking-counter-create-booking-dropdown-item.Create-booking-default-option > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>adda92a1-7e4c-416c-bac8-b7a592d3b6a4</webElementGuid>
+      <webElementGuid>893f9d81-7fad-463f-8de5-76e8c8a0ec5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>New Booking</value>
-      <webElementGuid>64899808-55b2-4a2b-9ee1-8e7c441e11ce</webElementGuid>
+      <webElementGuid>3bb6d403-0a08-4990-9648-1ae600e21258</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;page-content&quot;]/div[@class=&quot;mb-3 px-1&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;theme-module_bg-transparent__1yrCw&quot;]/div[@class=&quot;theme-module_py-3__0OpzX theme-module_px-3__nQw6W navigation-buttons&quot;]/span[1]/div[@class=&quot;float-end d-flex&quot;]/div[@class=&quot;Booking-counter-create-booking&quot;]/li[1]/div[@class=&quot;display createBookingDropdown&quot;]/div[@class=&quot;Booking-counter-create-booking-dropdown&quot;]/ul[1]/li[@class=&quot;Booking-counter-create-booking-dropdown-item Create-booking-default-option&quot;]/a[1]</value>
-      <webElementGuid>92c9ce66-dc7d-4c86-9faf-4b32a131b439</webElementGuid>
+      <webElementGuid>e8a13d8d-91da-4ff8-a8ad-ed7ce2e3fa3b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/div/span/div/div/li/div/div/ul/li/a</value>
-      <webElementGuid>01cf31b6-e2b3-4a46-a89b-19599ccf55b1</webElementGuid>
+      <webElementGuid>a3de4cb4-0f52-495d-a5bb-3de14e6d9e02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'New Booking')]</value>
-      <webElementGuid>1f6933d1-41b9-44ee-9aef-7ba1271b30e4</webElementGuid>
+      <webElementGuid>86e85c1f-1bb9-468d-a7ca-18bb6b51bdf4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My Airlines'])[1]/following::a[1]</value>
-      <webElementGuid>8873fd3e-f414-4d60-94db-1cebee79ecff</webElementGuid>
+      <webElementGuid>2b03a996-2d03-4ba6-ba85-c4879df4af3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='JEAN'])[1]/preceding::a[1]</value>
-      <webElementGuid>34f10bfd-eb12-42fa-befb-1469b8745109</webElementGuid>
+      <webElementGuid>b2bc061e-7905-42f0-9309-1414c2294507</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='kul'])[1]/preceding::a[1]</value>
-      <webElementGuid>8a1a68da-90a2-468c-a122-2f8a8697e3d7</webElementGuid>
+      <webElementGuid>766aadb6-05d8-4467-9885-a4b2e526f4c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='New Booking']/parent::*</value>
-      <webElementGuid>98c9c645-38ee-49ae-98cf-b7ab5dd15057</webElementGuid>
+      <webElementGuid>b16e4690-a382-4f60-9224-0be35832feeb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/a</value>
-      <webElementGuid>ec629698-3569-4775-af94-91ee0fadc96b</webElementGuid>
+      <webElementGuid>8cfef3e6-5c45-46ad-9132-4a661f7c8884</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[(text() = 'New Booking' or . = 'New Booking')]</value>
-      <webElementGuid>46a0451c-589d-42f1-a67d-bdd9713c64d5</webElementGuid>
+      <webElementGuid>a37745e2-c84c-4619-a72f-570f400afc7c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

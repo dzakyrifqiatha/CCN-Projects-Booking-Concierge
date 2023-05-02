@@ -1,4 +1,4 @@
-@MyBookings @Shipper @Consignee @UNID	@Insurance @ULD @FlightSchedule
+@MyBookings @Positive
 Feature: Create New Booking
 
 ## create new booking with all details are filled
@@ -8,26 +8,33 @@ Feature: Create New Booking
 ## ULDType and ULDContour should be selected from dropdown instead of typing it manually
 ## AWBSuffix should be selected from the AWB Stock by clicking the search icon next to AWBSuffix textfield
 ## To determine which airlines have the Shipper and Consignee button, we have to configure it in Shipper Consignee page in BC Portal Admin
-	@Positive @EmailSendMode
+
+	@MyBookings @Positive @BookingDetails
 	Scenario Outline: Create new booking successful
 		Given agent go to Create New Booking page
-		When agent input booking details <AWBPrefix>, <Origin>, <Destination>, <GoodsDesc>, <Pieces>, <Weight>, <Volume>, <CommodityInfo>
+		When agent input booking prefix <BookingAWBPrefix>
+		And agent input booking origin <BookingOrigin> 
+		And agent input booking destination <BookingDestination> 
+		And agent input booking goods desc <BookingGoodsDesc> 
+		And agent input booking pieces <BookingPieces> 
+		And agent input booking weight <BookingWeight> 
+		And agent input booking volume <BookingVolume> 
+		And agent input booking commodity info <BookingCommodityInfo>
 		And agent select AWB Suffix from the AWB Stock list
 		Then agent see AWB SUffix populated on AWB Suffix textfield
 	
 		Examples:
-		| AWBPrefix	| Origin	| Destination	| GoodsDesc	| Pieces	| Weight	| Volume	| CommodityInfo	|
-		| 618				| SIN			| CGK					| TESTING		| 10			| 10			| 10			| ACP						| 
+		| BookingAWBPrefix	| BookingOrigin	| BookingDestination	| BookingGoodsDesc	| BookingPieces	| BookingWeight	| BookingVolume	| BookingCommodityInfo	|
+		| 618								| SIN						| CGK									| TESTING						| 10						| 10						| 10						| ACP										| 
 
-	
+	@Positive @AirlineDetails
 	Scenario: Adding flight to the booking
 		Given agent click search flight button
 		And agent click Search button on Flight Schedule modals
-		And agent select flight
-		When agent click Save flight button
+		When agent select flight
 		Then agent see flight details populated on Flight Section
 		
-			
+	@Positive @UNIDDetails		
 	Scenario Outline: adding UNID to the booking
 		Given agent click add dangerous goods details
 		And agent input UNID details <UNID>, <ProperShippingName>, <PG>, <PI>, <TI>, <NoOfPackages>, <QtyPerPackages>
@@ -35,10 +42,10 @@ Feature: Create New Booking
 		Then agent see dangerous goods details populated on Dangerous Goods Section
 		
 		Examples:
-		| UNID	| ProperShippingName	| PG	| Class	| PI	| TI	| NoOfPackages	| QtyPerPackages	|
-		| 1723	| Allyl Iodide				| II	| 3			| 352	| 2		| 2							| 2								|
+		| UNID	| ProperShippingName	| PG		| PI		| TI	| NoOfPackages	| QtyPerPackages	|
+		| 1990	| Allyl Iodide				| III		| Y964	| 2		| 2							| 2								|
 		
-		
+	@Positive @ShipperDetails	
 	Scenario Outline: adding Shipper to the booking
 		Given agent click add shipper button
 		And agent input shipper info <ShipperCode>, <ShipperAccountNo>, <ShipperName>, <ShipperAddress>, <ShipperCity>, <ShipperState>, <ShipperCountry>, <ShipperPostalCode>, <ShipperContact>, <ShipperFax>
@@ -49,7 +56,7 @@ Feature: Create New Booking
 		| ShipperCode		| ShipperAccountNo		| ShipperName		| ShipperAddress	| ShipperCity	| ShipperState	| ShipperCountry	| ShipperPostalCode	| ShipperContact	| ShipperFax |
 		|	SHP1					| 1234567890					| TEST SHIPPER	| TESTING ADDRESS	| SIN					| SIN						| SG							| 92455							| 655123455				| 655123445	 |
 		
-		
+	@Positive @CosigneeDetails		
 	Scenario Outline: adding Consignee to the booking
 		Given agent click add consignee button
 		And agent input consignee info <CosigneeCode>, <CosigneeAccountNo>, <CosigneeName>, <CosigneeAddress>, <CosigneeCity>, <CosigneeState>, <CosigneeCountry>, <CosigneePostalCode>, <CosigneeContact>, <CosigneeFax>
@@ -60,7 +67,7 @@ Feature: Create New Booking
 		| CosigneeCode		| CosigneeAccountNo		| CosigneeName		| CosigneeAddress	| CosigneeCity	| CosigneeState	| CosigneeCountry	| CosigneePostalCode	| CosigneeContact	| CosigneeFax			|
 		|	CNE1						| 1234567891					| TEST CONSIGNEE	| TESTING ADDRESS	| SIN						| SIN						| SG							| 92455								| 655123459				| 655123489				|		
 		
-		
+	@Positive @InsuranceDetails		
 	Scenario Outline: Adding Insurance to the booking
 		Given agent click add insurance button
 		And agent input insurance details <CommodityType>, <GoodsDescription>, <GoodsValue>, <InsuranceCode>, <InsuranceName>, <InsuranceEmail>, <InsuranceAddress>, <InsuranceCity>, <InsuranceState>, <InsuranceCountry>, <InsurancePostalCode>
@@ -68,10 +75,10 @@ Feature: Create New Booking
 		Then agent see insurance details populated on Insurance Section
 		
 		Examples:
-		| CommodityType	| GoodsDescription	| GoodsValue	| InsuranceCode	| InsuranceName	| InsuranceEmail					| InsuranceAddress	| InsuranceCity	| InsuranceState	| InsuranceCountry	| InsurancePostalCode |
-		|	TEST					| TEST INSURANCE		| 12					| SHP						| TEST SHIPPER	| testtestbc2@hotmail.com	| TESTING ADDRESS		| SIN						| SIN							| SG								|	123123		 					|
+		| CommodityType	| GoodsDescription	| GoodsValue	| InsuranceCode	| InsuranceName	| InsuranceAddress	| InsuranceCity	| InsuranceState	| InsuranceCountry	| InsurancePostalCode |
+		|	TEST					| TEST INSURANCE		| 12					| SHP						| TEST SHIPPER	| TESTING ADDRESS		| SIN						| SIN							| SG								|	123123		 					|
 		
-	
+	@Positive @ULDDetails
 	Scenario Outline: Adding ULD to the booking
 		Given agent click add ULD button
 		And agent input ULD details <ULDType>, <ULDContour>, <NumOfULD>, <WeightPerULD>, <CommodityCodeULD>
@@ -80,9 +87,9 @@ Feature: Create New Booking
 		
 		Examples:
 		| ULDType	| ULDContour	| NumOfULD	| WeightPerULD	| CommodityCodeULD	|
-		| FLA			| L3					| 2					| 3							| ACP								|
+		| AAF			| QL					| q					| 10						| RRY								|
 		
-	
+	@Positive @SendBooking
 	Scenario Outline: Sending the booking
 		When agent click Send Request button
 		Then agent see <SendBookingMessage> displaying

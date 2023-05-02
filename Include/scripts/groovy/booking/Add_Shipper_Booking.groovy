@@ -47,32 +47,32 @@ import cucumber.api.java.en.When
 class Add_Shipper_Booking {
 	@Given("agent click add shipper button")
 	def click_add_shipper() {
-		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/i_Dangerous Goods Information_bx bx-plus'))
+		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/i_Operational_bx bx-search'))
 	}
 
 	@And("agent input shipper info (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*), (.*)")
 	def agent_input_shipper_info(int ShipperCode, int ShipperAccountNo, String ShipperName, String ShipperAddress, String ShipperCity, String ShipperState, String ShipperCountry, int ShipperPostalCode, int ShipperContact, int ShipperFax) {
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Code_code'), ShipperCode)
-		
+
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Account no_accountNo'), ShipperAccountNo)
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Name_name'), ShipperName)
-		
+
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Address_address'), ShipperAddress)
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_City_city'), ShipperCity)
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_State_state'), ShipperState)
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Country_country'), ShipperCountry)
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Postal Code_postalCode'), ShipperPostalCode)
-		
+
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Contact No_contactNo'), ShipperContact)
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/Booking/input_Fax No_faxNo'), ShipperFax)
 	}
-	
+
 	@When("agent click Save Shipper button")
 	def agent_click_save_shipper() {
 		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/button_SAVE'))
 		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/button_Yes'))
 	}
-	
+
 	@Then("agent see shipper details populated on Shipper Section")
 	def agent_verify_shipper(int ShipperCode) {
 		WebUI.verifyTextPresent(ShipperCode, false)

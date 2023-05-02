@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>6c868b2c-c253-416b-851a-fd74e8f2c76f</webElementGuid>
+      <webElementGuid>9024085e-e245-4284-b8d0-0ae47f4455bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>808d47cb-531a-4e0e-b9f4-f6c871a34f99</webElementGuid>
+      <webElementGuid>2128bbde-c645-4679-9a4c-7a4bff791848</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>CCNCommonCommodityTypeField</value>
-      <webElementGuid>7daddfbf-3582-4e1f-a465-1341ff1e2980</webElementGuid>
+      <webElementGuid>52f27e0b-28dd-455c-8cd0-3f881e6f7d55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>commodityType</value>
-      <webElementGuid>17e41729-1989-45fe-b2e4-e028c41d2da5</webElementGuid>
+      <webElementGuid>69061943-3b22-4442-9a24-938462f80dce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>minlength</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>3e1f1db9-8e6f-4e74-91ce-1561bc26e1c8</webElementGuid>
+      <webElementGuid>0159ad5d-40c2-47fb-a39c-2448dd44dd52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>250</value>
-      <webElementGuid>56e366cc-2028-4a67-a149-3b776bc9bd32</webElementGuid>
+      <webElementGuid>aba25881-69b0-48b3-adea-06c97b3ae2b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Select Commodity Type</value>
-      <webElementGuid>d26c8973-9f1c-4666-ab04-2d2607c014e3</webElementGuid>
+      <webElementGuid>8d0d0dbf-217a-42d6-aa15-9943f3f64bfc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>bbdca882-12b5-41f2-9eb8-91558ba23acf</webElementGuid>
+      <webElementGuid>83ff5a72-557c-4520-96fb-d5fb4c0aae75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>class</name>
       <type>Main</type>
       <value>theme-module_form-control__0sG2o theme-module_border-bottom__unqVG theme-module_form-control__0sG2o form-control</value>
-      <webElementGuid>ac694aee-e132-43eb-83b0-035550d634ad</webElementGuid>
+      <webElementGuid>cd0bf8a5-871c-4faf-bca1-1799bcfce9eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;CCNCommonCommodityTypeField&quot;)</value>
-      <webElementGuid>40637c79-02ef-4bec-939d-d0de2255d1eb</webElementGuid>
+      <webElementGuid>b6d5dbcd-2a9c-401c-99b4-2f7e448248c6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='CCNCommonCommodityTypeField']</value>
-      <webElementGuid>dfd948b6-5462-4a36-9c8a-044046ef4c8d</webElementGuid>
+      <webElementGuid>bc249326-adf7-4b72-a8f1-6dbdc0e0c710</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/div/div/div[2]/div/input</value>
-      <webElementGuid>5b928177-3952-46ce-9f22-b40951403eff</webElementGuid>
+      <webElementGuid>59527b20-7045-42bb-90c4-878734d811b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'CCNCommonCommodityTypeField' and @name = 'commodityType' and @placeholder = 'Select Commodity Type' and @type = 'text']</value>
-      <webElementGuid>10862842-af44-426d-8696-2838523bd5c5</webElementGuid>
+      <webElementGuid>e555c176-b708-4353-8953-010bee77e9e4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

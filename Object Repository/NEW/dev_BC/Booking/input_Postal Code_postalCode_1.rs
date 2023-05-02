@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ae5d40a4-f055-4beb-8cd4-8f498bce6de2</webElementGuid>
+      <webElementGuid>7b861a5d-69d9-47dc-bee9-a4cba6126192</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>d5a4a676-8c56-4f2d-acea-807e2fbe572e</webElementGuid>
+      <webElementGuid>f2d7aa13-980e-4ea3-b687-25850b36d753</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>postalCode</value>
-      <webElementGuid>27925259-c8dd-46c8-9149-85ec2c8a7eac</webElementGuid>
+      <webElementGuid>716051a0-17f1-4436-b96f-0ee265fa9837</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>postalCode</value>
-      <webElementGuid>ce599317-8eaa-41cf-bd77-30155c5253f6</webElementGuid>
+      <webElementGuid>4114d6aa-c7fc-4d69-a1d7-e6d4ddcabf23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>minlength</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>7c4025f9-2db8-4dc7-9402-b4a1a5dad521</webElementGuid>
+      <webElementGuid>2caf9020-9fbb-43ff-ac7a-de092d817ebc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>9</value>
-      <webElementGuid>e0ea4104-7d54-41e6-ba9c-01b0d7d1b490</webElementGuid>
+      <webElementGuid>14e4932c-7099-4c85-9a95-2cfb902bf8e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Shipper Postal Code</value>
-      <webElementGuid>15ff6b39-0c65-43de-9e86-ae5a1a1bf291</webElementGuid>
+      <webElementGuid>b53185f1-75fa-48be-8d71-730cb67305dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>43cb0ae1-b3eb-458d-857b-0e09614ada4b</webElementGuid>
+      <webElementGuid>4984eba5-20a4-479a-a697-6fcf3c008a48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>class</name>
       <type>Main</type>
       <value>theme-module_form-control__0sG2o theme-module_border-bottom__unqVG form-control</value>
-      <webElementGuid>ea90dbf1-cc59-4751-9a0f-a0ae2eb997e8</webElementGuid>
+      <webElementGuid>be5f6ea0-4c42-449c-9e53-4ec0b1b7bb27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;postalCode&quot;)</value>
-      <webElementGuid>5895ec58-ae4e-4a3f-9570-95ebe417dd90</webElementGuid>
+      <webElementGuid>6950805e-1ab6-4c21-bfa0-e92af9d23f3a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='postalCode']</value>
-      <webElementGuid>4fd6b0b9-fb16-41d0-91c7-f2c467a463aa</webElementGuid>
+      <webElementGuid>926ab83c-b6df-4a11-9f5d-12716b81b2b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div[2]/div/input</value>
-      <webElementGuid>edc746bf-361e-427e-aa78-4540d9b35b03</webElementGuid>
+      <webElementGuid>dd068799-7e67-4e6b-8c14-c5bcd7877c19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'postalCode' and @id = 'postalCode' and @placeholder = 'Shipper Postal Code' and @type = 'text']</value>
-      <webElementGuid>2ae473fa-daa1-43ee-a0bc-ed18147161bb</webElementGuid>
+      <webElementGuid>ed3513a9-57f3-403b-b323-a69986b3b6ab</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

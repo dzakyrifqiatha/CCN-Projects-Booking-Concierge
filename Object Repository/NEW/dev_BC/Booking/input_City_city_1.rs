@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>18cd0e3a-93a1-4265-bed7-1e89741ef10e</webElementGuid>
+      <webElementGuid>2d3637e9-2253-47d7-9680-5de5c957e0b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>fb237596-fd5b-4f40-bbb9-8ba887d7aff1</webElementGuid>
+      <webElementGuid>a8f690c7-8c23-4d5b-a4d4-21e7ac6c1a1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>city</value>
-      <webElementGuid>2f88ad66-90ee-4976-b55d-b03cf24c3dbf</webElementGuid>
+      <webElementGuid>a81e7eed-5ad6-4c57-9471-7dce13e84eca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>city</value>
-      <webElementGuid>9c78d2fc-4b80-48e6-a2a3-72dd810f23ad</webElementGuid>
+      <webElementGuid>1e8b0ef0-585e-4381-a86d-1cf2dab4c4b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>minlength</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>f3a3bd22-36fa-40a2-a3a6-f5f18f0094f6</webElementGuid>
+      <webElementGuid>02139487-7045-431d-87ad-cc05927c511c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>17</value>
-      <webElementGuid>c2ac639c-2bf3-4187-bce8-5da8ac813acb</webElementGuid>
+      <webElementGuid>0579b5b0-23b0-4632-aeab-9fbfdd9b4a65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Shipper City</value>
-      <webElementGuid>9a1e603e-c9ab-4af2-9113-42acef365709</webElementGuid>
+      <webElementGuid>b25aa673-38f5-4d97-9d68-e9f04a83e77d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>8f67c6cb-9ebb-41e4-9582-538b849dc95e</webElementGuid>
+      <webElementGuid>ee423956-2f04-4965-b383-da76b66605d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>class</name>
       <type>Main</type>
       <value>theme-module_form-control__0sG2o theme-module_border-bottom__unqVG form-control</value>
-      <webElementGuid>12b0efcf-20ab-4eaf-bebb-d95c389615c2</webElementGuid>
+      <webElementGuid>eedf036d-e162-4705-aa18-811988b9650d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;city&quot;)</value>
-      <webElementGuid>a5188050-fe16-45cb-bdf7-a3879c9efa4f</webElementGuid>
+      <webElementGuid>7a9ccce2-e2f0-45e2-b486-9c8dbd24eee8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='city']</value>
-      <webElementGuid>c424820b-756c-4c7c-b04c-aba55881d3b4</webElementGuid>
+      <webElementGuid>a6819dd2-cb19-4f4a-9715-f5300e70cb1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[5]/div[2]/div/input</value>
-      <webElementGuid>9e6e97ac-a343-4b33-a656-51afda48a474</webElementGuid>
+      <webElementGuid>009bd769-c432-403f-8735-446853c2f58e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'city' and @id = 'city' and @placeholder = 'Shipper City' and @type = 'text']</value>
-      <webElementGuid>d7b5bbf6-d109-4737-9426-beca7a1b15ec</webElementGuid>
+      <webElementGuid>8a2e2c18-9f7a-4b1f-bc02-3847278e2365</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

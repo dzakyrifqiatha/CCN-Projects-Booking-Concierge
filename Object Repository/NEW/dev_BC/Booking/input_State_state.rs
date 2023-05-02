@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>97cf13b9-637f-452d-9ff3-e7c11f3380f8</webElementGuid>
+      <webElementGuid>a41314d0-f294-4fcb-8ede-6f84589b7c45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>d534548d-84c6-446c-b4f0-f5927f5ac0f5</webElementGuid>
+      <webElementGuid>66dc3487-af7f-4f31-992f-016bcbba761e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>CCNCommonStateField</value>
-      <webElementGuid>1febd34f-39f1-4548-a4ad-4a564a7aadb0</webElementGuid>
+      <webElementGuid>4811b0c4-9fae-4496-b826-4f12e0446946</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>state</value>
-      <webElementGuid>a698946f-1809-490d-903b-ce0ec470ec48</webElementGuid>
+      <webElementGuid>61558879-7d70-4864-9c7a-405536d10981</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>minlength</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>496e9181-b141-42e0-876c-dd613bd1918b</webElementGuid>
+      <webElementGuid>a3a272bd-8267-4a66-ba8c-9a64631df8a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>250</value>
-      <webElementGuid>08d3824e-3d56-415e-a2d4-45697cffc3ba</webElementGuid>
+      <webElementGuid>7065d2b5-4b3e-4159-b56c-b63338bd421e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>7f853768-7064-45fd-a3a7-5253191fb390</webElementGuid>
+      <webElementGuid>0d3b804b-cdbe-480f-9321-a4f6c76358bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>class</name>
       <type>Main</type>
       <value>theme-module_form-control__0sG2o theme-module_border-bottom__unqVG form-control</value>
-      <webElementGuid>afef9a46-8e40-4395-afcb-78510af66292</webElementGuid>
+      <webElementGuid>ba71ceb2-1859-4249-9c93-124accfdf33c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4225a9d5-d022-42f2-818d-c5f7591b2695</webElementGuid>
+      <webElementGuid>2269fa8c-feb3-432c-bbb6-8f5b740a9c19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;CCNCommonStateField&quot;)</value>
-      <webElementGuid>61965a22-8139-450f-94e5-7a384c7928f1</webElementGuid>
+      <webElementGuid>7d6b953a-6036-4765-9a23-a04142b7daed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>S</value>
+      <webElementGuid>5065e58f-d65a-404e-a7b2-a28891c08021</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +110,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='CCNCommonStateField']</value>
-      <webElementGuid>fa8c08d2-709e-4586-a895-77756f485d2c</webElementGuid>
+      <webElementGuid>a89089ec-4d26-4692-bf2f-c0aab16b0d82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/span[2]/input</value>
-      <webElementGuid>24a0e8be-d93b-4665-90f9-9fdba99483a4</webElementGuid>
+      <webElementGuid>216eb0d3-36ae-41d8-882a-acbf3b0e394a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'CCNCommonStateField' and @name = 'state' and @type = 'text']</value>
-      <webElementGuid>78ab0b54-7bc0-4c23-b069-94a754d8bb5d</webElementGuid>
+      <webElementGuid>5287cd6c-9a3e-45bb-a764-941e112a2efa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

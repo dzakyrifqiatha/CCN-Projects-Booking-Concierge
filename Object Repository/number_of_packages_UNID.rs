@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_No of Packages_numberOfPackages</name>
+   <name>number_of_packages_UNID</name>
    <tag></tag>
-   <elementGuidId>0fb62dcc-8371-44eb-b313-16dde1d921bb</elementGuidId>
+   <elementGuidId>33dda383-165d-42a0-b1fd-7ae1ff4bcf4c</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;numberOfPackages&quot;]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@name='numberOfPackages']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;numberOfPackages&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b7c8c162-4a2f-458b-bc4b-0400f8a6b114</webElementGuid>
+      <webElementGuid>c9230318-d23d-4ddf-9b81-79314fed8648</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>25b5a1e9-5951-4751-8e84-56a975c85a09</webElementGuid>
+      <webElementGuid>ab3e5689-43c6-417f-85f7-2aa91474d13d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>numberOfPackages</value>
-      <webElementGuid>ec250fed-9e6a-429f-bf3e-9d05346258be</webElementGuid>
+      <webElementGuid>7d485997-a5ab-48f3-8946-e8e484bc87e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>0d7d5204-bb21-4973-a68f-d8b2a2dd6b44</webElementGuid>
+      <webElementGuid>f89feb10-e11f-49eb-8c87-66c4a5de38a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>e6a2c0d8-86e7-4f0e-a5cd-df7d45c4f0c2</webElementGuid>
+      <webElementGuid>8bdbf39f-fc1b-4304-824f-1f4eb6162e60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>class</name>
       <type>Main</type>
       <value>theme-module_form-control__0sG2o theme-module_border-bottom__unqVG  form-control</value>
-      <webElementGuid>c5fabf48-e7ae-445b-8726-6c962cf1e258</webElementGuid>
+      <webElementGuid>4a6ceeca-adab-4229-b8ee-6ef797cc0ea4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,15 +70,15 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>dd18dfc0-4166-460c-a155-7a9c463c71e7</webElementGuid>
+      <webElementGuid>7feeb4db-b056-42e1-9c5c-6b569ab04e0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;ccn-CCNWCBCDangerousGoodsDetails-Input d-flex justify-content-between align-items-center&quot;]/div[@class=&quot;ccn-CCNWCBCDangerousGoodsDetails-InputField&quot;]/input[@class=&quot;theme-module_form-control__0sG2o theme-module_border-bottom__unqVG  form-control&quot;]</value>
-      <webElementGuid>7c9d1583-f523-4c44-a429-7d7ef1c65517</webElementGuid>
+      <value>/html[1]/body[@class=&quot;no_padding modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;ccn-CCNWCBCDangerousGoodsDetails-Input d-flex justify-content-between align-items-center&quot;]/div[@class=&quot;ccn-CCNWCBCDangerousGoodsDetails-InputField&quot;]/input[@class=&quot;theme-module_form-control__0sG2o theme-module_border-bottom__unqVG  form-control&quot;]</value>
+      <webElementGuid>585e9816-8c55-4a28-b5e2-00dd39fc4d0f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='numberOfPackages']</value>
-      <webElementGuid>84959e9c-0137-4610-904b-5ccffe4fb807</webElementGuid>
+      <webElementGuid>c4a45f7f-3b04-41d5-bac0-b2a73227976c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[11]/div/input</value>
-      <webElementGuid>e83db5a5-5b87-45c4-9234-236694bad88e</webElementGuid>
+      <webElementGuid>9ae9c6b7-0e2e-4670-b037-606072c3fe5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = '1' and @name = 'numberOfPackages' and @type = 'number']</value>
-      <webElementGuid>cbf7e339-17be-4d7a-9292-40bb68fbfc56</webElementGuid>
+      <webElementGuid>c38bf150-e46a-4266-9f0e-e3d381f6322d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "8A01BAF273E1D4A46DCE68836CE68992",
+  "keywordFileContentHash": "08EC1BA939D75C526A940362147E0C69",
   "keywordClasses": [
     {
       "name": "airline.new_airline_both",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

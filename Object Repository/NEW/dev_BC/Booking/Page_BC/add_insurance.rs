@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>add_insurance</name>
+   <tag></tag>
+   <elementGuidId>399129b1-6ed2-485f-a9ba-7a87fb4bbdd2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='insurance-add']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#insurance-add > i.bx.bx-plus</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>fe0034e7-fe93-423b-b4e9-7f54b929e5df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bx bx-plus</value>
+      <webElementGuid>c31dfb5e-bdfb-4b79-8d44-cafc2c7eeeaf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;insurance-add&quot;)/i[@class=&quot;bx bx-plus&quot;]</value>
+      <webElementGuid>da583a8d-0153-4e71-98b2-fb0cdf7260c6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='insurance-add']/i</value>
+      <webElementGuid>4f2aaa32-d5be-4c50-9771-031ea3609021</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/button/i</value>
+      <webElementGuid>78406dcb-9482-4859-8c1b-c8eea30e32b6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>98ec889d-290d-4465-b3ab-d08a3cf26a84</webElementGuid>
+      <webElementGuid>bf1da82e-c323-4291-9f2e-361060dcf394</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>CCNBC-DangerousGoods-Add</value>
-      <webElementGuid>2ea51fc3-5440-4772-898f-25fd08956b22</webElementGuid>
+      <webElementGuid>19999a71-9249-48a1-b2de-3bd7154c6160</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ccn-CCNCommonAddButton-circle-add-button</value>
-      <webElementGuid>1f82c373-3904-441a-b3e7-8a6bb11d45f6</webElementGuid>
+      <webElementGuid>c49bab19-b344-49d7-8375-ebab1c81cb5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;CCNBC-DangerousGoods-Add&quot;)</value>
-      <webElementGuid>69a2f972-6ffd-450b-974c-664568fa827e</webElementGuid>
+      <webElementGuid>d4d11194-7c90-4640-830e-c295fcc7ed17</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='CCNBC-DangerousGoods-Add']</value>
-      <webElementGuid>ee55f8fe-1d77-4482-a6a0-15cb41e4233f</webElementGuid>
+      <webElementGuid>9c8daaaf-f054-4dd8-bfe6-03e1c52cca92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/form/div[3]/div/div/div/div/div</value>
-      <webElementGuid>96c1e230-20c8-4c5a-9ca4-4d6fa3edd325</webElementGuid>
+      <webElementGuid>0586b647-ac30-4f35-9e5b-c58d38b5cf6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SIN'])[1]/following::div[6]</value>
-      <webElementGuid>c7e2c257-5f3c-4352-a176-a58621bf65f9</webElementGuid>
+      <webElementGuid>b55bc67f-0c4a-4e2b-85db-84cb705986d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='UNID'])[1]/preceding::div[1]</value>
-      <webElementGuid>3d50627d-db18-4e96-be14-aafb3b30290b</webElementGuid>
+      <webElementGuid>dad49349-4ac0-4243-9c39-c3ef0bd5db52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shipping Name'])[1]/preceding::div[1]</value>
-      <webElementGuid>0b9087c6-0c85-464f-b799-077272749544</webElementGuid>
+      <webElementGuid>4e431018-6aed-4904-a40a-e0ba0929729e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div/div</value>
-      <webElementGuid>cd811527-4c87-4178-bdfb-76c48b41fd9c</webElementGuid>
+      <webElementGuid>fa684975-908e-4510-b949-c015845249e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'CCNBC-DangerousGoods-Add']</value>
-      <webElementGuid>59800650-bdb3-4c35-a803-01bf01376ea4</webElementGuid>
+      <webElementGuid>563e3276-9f3d-402a-af50-6ec76b36f6a3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

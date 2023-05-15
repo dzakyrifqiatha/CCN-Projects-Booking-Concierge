@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>MyAirline_button</name>
+   <tag></tag>
+   <elementGuidId>2aa8636a-e2ef-40a2-adcd-69670a9034b4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/span/div/button[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a0bf1f11-f141-4319-bd52-4fad2bba905c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary mx-2 d-none d-md-block </value>
+      <webElementGuid>ee6e97d5-09a9-43b3-8ba3-a1176d30444b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>My Airlines </value>
+      <webElementGuid>e9224f02-fc9c-4acf-a058-7079e58587f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;page-content&quot;]/div[@class=&quot;mb-3 px-1&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;theme-module_bg-transparent__1yrCw&quot;]/div[@class=&quot;theme-module_py-3__0OpzX theme-module_px-3__nQw6W navigation-buttons&quot;]/span[1]/div[@class=&quot;float-end d-flex&quot;]/button[@class=&quot;btn btn-primary mx-2 d-none d-md-block&quot;]</value>
+      <webElementGuid>3c999cce-4901-46c9-a983-293e29cadcd0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/span/div/button[2]</value>
+      <webElementGuid>7b0444a4-8b82-4c96-949d-9fbf9179b178</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Booking'])[1]/preceding::button[1]</value>
+      <webElementGuid>1d84ce3e-de71-4867-8bfb-b20568f21408</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Bookings'])[1]/preceding::button[2]</value>
+      <webElementGuid>fa3435f2-16e0-4652-b200-0fecc8281437</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='My Airlines']/parent::*</value>
+      <webElementGuid>45f2db05-4cf4-4542-b459-c220622b389f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>e783fae0-14a0-476d-ab05-d1e2fcf6b6d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'My Airlines ' or . = 'My Airlines ')]</value>
+      <webElementGuid>c63faf80-b9cc-4790-afe3-50395bccd818</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

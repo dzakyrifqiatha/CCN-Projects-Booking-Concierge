@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_SQ0956</name>
+   <tag></tag>
+   <elementGuidId>fd9f9e73-cf5b-4af3-9c09-a112e4fb8f5f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/form/div[4]/div/div[2]/table/tbody/tr/td</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.table-responsive.text-center > table.theme-module_table__yCHJ4 > tbody > tr > td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>f607bcd0-fec7-45cf-842d-9acc16e5cc66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SQ0956</value>
+      <webElementGuid>8e548503-26e0-4688-b6ca-680d9b481840</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;page-content&quot;]/form[@class=&quot;booking-form&quot;]/div[@class=&quot;ccn-CCNWCBCFlightSection&quot;]/div[@class=&quot;theme-module_ElevatedPaper__-PaWa&quot;]/div[@class=&quot;table-responsive text-center&quot;]/table[@class=&quot;theme-module_table__yCHJ4&quot;]/tbody[1]/tr[1]/td[1]</value>
+      <webElementGuid>2bbb0a6b-f7c2-4d94-904b-64c50c8a4c42</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/form/div[4]/div/div[2]/table/tbody/tr/td</value>
+      <webElementGuid>72c6729a-810f-43e3-aaef-bdb3fdc83d2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Allotment ID'])[1]/following::td[1]</value>
+      <webElementGuid>6ead73a8-b56e-4b22-bb92-15e5362db2d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Allocation Code'])[1]/following::td[1]</value>
+      <webElementGuid>d8dfad3b-30c2-4850-86c9-a986414180b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIN'])[2]/preceding::td[2]</value>
+      <webElementGuid>026c789e-6988-426d-a7a8-2b65441dad36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CGK'])[1]/preceding::td[3]</value>
+      <webElementGuid>34d3a148-7454-4cf5-beca-dd05b047bc23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='SQ0956']/parent::*</value>
+      <webElementGuid>deae7951-80d0-4ad3-ad69-5da785050a4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/table/tbody/tr/td</value>
+      <webElementGuid>4e541af9-a91f-45e8-bdfa-f5c879e41a34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'SQ0956' or . = 'SQ0956')]</value>
+      <webElementGuid>abdd0d47-8ead-4a47-98c2-57f5353e6a2e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

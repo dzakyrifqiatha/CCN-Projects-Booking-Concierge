@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Operational_bx bx-search</name>
+   <tag></tag>
+   <elementGuidId>7e159448-89c1-428b-a2f0-02273a8b867b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='insurance-add']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#insurance-add > i.bx.bx-plus</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>2eb4ea09-9fb1-4bdd-b384-a8bfec900077</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bx bx-plus</value>
+      <webElementGuid>c9562cbf-03ae-49dc-a345-3a20f7a25a9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;insurance-add&quot;)/i[@class=&quot;bx bx-plus&quot;]</value>
+      <webElementGuid>05cf69ca-af34-44b6-92fc-bf5a17031f99</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='insurance-add']/i</value>
+      <webElementGuid>9d00e4bd-e050-401a-8db0-0148ba35a485</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/button/i</value>
+      <webElementGuid>44409436-435d-4f37-afcd-3963b841b03f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ccn-CCNWCBCFlightSection-search']/i</value>
+      <webElementGuid>2832520e-3701-460a-acf1-10f51983cf22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/i</value>
+      <webElementGuid>61f5a1f6-c367-4bdb-8722-79eedde3673e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

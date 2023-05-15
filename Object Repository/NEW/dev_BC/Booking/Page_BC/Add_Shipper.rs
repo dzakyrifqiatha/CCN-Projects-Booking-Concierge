@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Add_Shipper</name>
+   <tag></tag>
+   <elementGuidId>ce14513a-9b1e-4b30-b9fc-5909cea12f8d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/form/div[5]/div/div/div/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ccn-CCNWCBCShipper-AddButton > i.bx.bx-plus</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>748580fb-ee74-4643-9de8-9a6fb6a2391b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bx bx-plus</value>
+      <webElementGuid>a5152b42-30a1-4362-85b4-902fddf94762</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;page-content&quot;]/form[@class=&quot;booking-form&quot;]/div[@class=&quot;ccn-CCNWCBCShipper&quot;]/div[@class=&quot;theme-module_ElevatedPaper__-PaWa&quot;]/div[@class=&quot;ccn-CCNWCBCShipper-PaperHeader&quot;]/div[@class=&quot;ccn-CCNWCBCShipper-AddButton&quot;]/i[@class=&quot;bx bx-plus&quot;]</value>
+      <webElementGuid>127a9021-d676-4726-a8ef-6f1e24c1178a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/form/div[5]/div/div/div/i</value>
+      <webElementGuid>e8cfc975-80d4-43ab-9c04-6648da855db3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/i</value>
+      <webElementGuid>05508420-9256-495e-87f0-e3cc82d5bc63</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

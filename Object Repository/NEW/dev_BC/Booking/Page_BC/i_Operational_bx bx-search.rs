@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Operational_bx bx-search</name>
+   <tag></tag>
+   <elementGuidId>3b32840c-7ab1-49ff-b24f-ad7e023d7bf0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ccn-CCNWCBCFlightSection-search']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.bx.bx-search</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>7fb747ff-bbe6-45ec-986d-3e2e77892406</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bx bx-search</value>
+      <webElementGuid>195cbfe1-3383-4d84-89d5-892f1a2d78d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ccn-CCNWCBCFlightSection-search&quot;)/i[@class=&quot;bx bx-search&quot;]</value>
+      <webElementGuid>56a7e994-0f87-4d90-8eb8-5878e38ff7e1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ccn-CCNWCBCFlightSection-search']/i</value>
+      <webElementGuid>58907ec4-1199-4cb0-bea3-0436a5c545af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/i</value>
+      <webElementGuid>9d100228-9988-4700-a66e-b1fbab41a415</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Add_DGR</name>
+   <tag></tag>
+   <elementGuidId>cc66ccea-632f-4ab3-85b2-6f0aa5244aef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='CCNBC-DangerousGoods-Add']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.bx.bx-plus</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>7a36b3d1-b3af-4843-836e-ff7cb57abf2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bx bx-plus</value>
+      <webElementGuid>7ea17b70-d5f3-4e7d-8c54-344b66a84951</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CCNBC-DangerousGoods-Add&quot;)/i[@class=&quot;bx bx-plus&quot;]</value>
+      <webElementGuid>de3076a4-78ac-40b3-8fc7-0f52c2ade72f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='CCNBC-DangerousGoods-Add']/i</value>
+      <webElementGuid>16847b3c-5718-4a47-8784-d1fc9c0b0a75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div/i</value>
+      <webElementGuid>e1a0583b-fe66-4f38-8714-8ff3d16fc763</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

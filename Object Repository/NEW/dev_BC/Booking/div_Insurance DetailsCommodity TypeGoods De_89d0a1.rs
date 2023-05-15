@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Insurance DetailsCommodity TypeGoods De_89d0a1</name>
+   <tag></tag>
+   <elementGuidId>374976cf-a4c6-43ac-9c1b-90bc5244dde2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.modal.fade.show</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Something went wrong.Please contact system administrator: helpdesk@ccn.com.sg'])[1]/following::div[6]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9d017a65-163f-4782-9a3a-0e6ebf45adb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal fade show</value>
+      <webElementGuid>f0933dbb-45a3-4ef6-aaad-ee65dd73feb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>dialog</value>
+      <webElementGuid>da8f6cd6-5b09-4b4b-ae82-120f147b75c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>ae1d4207-ab11-4844-ad0c-15fc715e7220</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Insurance DetailsCommodity Type:Goods Description:For insurance purposeGoods Value(SGD):Insured Value (SGD):Goods Value + 10% UpliftInsured PartyCode:Name:Email:Address:City:State:Country:Postal Code:Get Quote</value>
+      <webElementGuid>9486ed39-4e18-4bf3-898d-7f82d624db04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]</value>
+      <webElementGuid>80672a8e-7431-46ed-b566-fdf0577f8d75</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Something went wrong.Please contact system administrator: helpdesk@ccn.com.sg'])[1]/following::div[6]</value>
+      <webElementGuid>676f6254-9ca3-4162-8bfe-c2d347063b2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/following::div[12]</value>
+      <webElementGuid>b82ddb94-519c-4da9-86c1-6efd3530ad2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div</value>
+      <webElementGuid>f340fd5a-6fd4-4533-af2b-7998ec74cb9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Insurance DetailsCommodity Type:Goods Description:For insurance purposeGoods Value(SGD):Insured Value (SGD):Goods Value + 10% UpliftInsured PartyCode:Name:Email:Address:City:State:Country:Postal Code:Get Quote' or . = 'Insurance DetailsCommodity Type:Goods Description:For insurance purposeGoods Value(SGD):Insured Value (SGD):Goods Value + 10% UpliftInsured PartyCode:Name:Email:Address:City:State:Country:Postal Code:Get Quote')]</value>
+      <webElementGuid>2e0d7039-5bbc-458d-9941-c94df8741bde</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

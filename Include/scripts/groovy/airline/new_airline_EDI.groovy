@@ -77,7 +77,7 @@ class new_airline_EDI {
 	@Then("agent successfully create a new EDI airline")
 	def agent_create_airline_edi() {
 		//		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/create_airline_success_status'),0)
-//		WebUI.verifyTextPresent(carrier_prefix_edi, false)
+		//		WebUI.verifyTextPresent(carrier_prefix_edi, false)
 		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/header_My Airline'),0)
 	}
 

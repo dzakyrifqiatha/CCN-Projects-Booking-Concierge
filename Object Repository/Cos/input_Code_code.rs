@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__awbSuffix</name>
+   <name>input_Code_code</name>
    <tag></tag>
-   <elementGuidId>919a3bd9-e9ac-486c-ae1e-2338309c3db7</elementGuidId>
+   <elementGuidId>21b34fd5-0f35-4dac-bbdb-69be3139fba1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#awbSuffix</value>
+         <key>XPATH</key>
+         <value>//input[@id='CCNWCShipperCode']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='awbSuffix']</value>
+         <key>CSS</key>
+         <value>#CCNWCShipperCode</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>fd82a02d-d74d-49ca-9e08-82783e4b6f5c</webElementGuid>
+      <webElementGuid>d4b549bd-7f6e-4146-ac3e-a507d3991b58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>250</value>
+      <webElementGuid>9da64383-a892-4a04-abec-c9451e1f2f48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,47 +38,31 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>067b6116-9fea-4b67-98c3-c138147193ba</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>minlength</name>
-      <type>Main</type>
-      <value>8</value>
-      <webElementGuid>b73559be-a16e-4a92-a771-4267eb840110</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>8</value>
-      <webElementGuid>e2014db5-751f-40ec-8ffb-84ab1c7607f7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>awbSuffix</value>
-      <webElementGuid>54e66eb8-7e12-421b-9bfe-a95d92fc3d60</webElementGuid>
+      <webElementGuid>a13da748-e872-4485-ab7d-faa5e803cd7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>awbSuffix</value>
-      <webElementGuid>32bb5222-8423-44e0-95ef-9c6705e8e01f</webElementGuid>
+      <value>CCNWCShipperCode</value>
+      <webElementGuid>46d987b4-3de4-4adf-925c-9c9ea126dc31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>name</name>
       <type>Main</type>
-      <value>11111111</value>
-      <webElementGuid>ec379488-9697-44de-b82d-4b3abf498258</webElementGuid>
+      <value>code</value>
+      <webElementGuid>c8903279-e857-4ca6-8f49-c0bf8ec9b8a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>minlength</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>9662e4ba-c1df-45e6-998d-bfeac31410a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,15 +70,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>ebb7c74a-290e-4276-bf22-74e4edc8ec5e</webElementGuid>
+      <webElementGuid>575e1456-7e33-45b2-a94b-264d92ab0dbc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>theme-module_form-control__0sG2o form-control</value>
-      <webElementGuid>f7faac94-9bc0-40dc-b333-a493a0bfb5a8</webElementGuid>
+      <value>ccn-common-input ccn-border-bottom-hover-secondary-primary  ccn-common-code form-control</value>
+      <webElementGuid>d5f8150c-34cb-45c3-b545-aede39f2f8c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,54 +86,46 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7e823828-2a60-4f76-90c9-2af15328be4b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;awbSuffix&quot;)</value>
-      <webElementGuid>abe02687-5918-49dc-a0d5-3bd9855cb08c</webElementGuid>
+      <webElementGuid>51b6d10a-f86c-4ed7-99c4-40aa00dfe559</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>77777781</value>
-      <webElementGuid>5e0f49ce-8c20-4378-957d-a557061a1516</webElementGuid>
+      <value>`</value>
+      <webElementGuid>67611389-41a0-49be-89d4-949c795109d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CCNWCShipperCode&quot;)</value>
+      <webElementGuid>219c7c92-5975-45c8-adb7-43563bb62474</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='awbSuffix']</value>
-      <webElementGuid>9101ec86-35c2-4f3c-b6f3-eda03b3cd34a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='root']/div/form/div/div/div[2]/div/div/div/div/div[3]/input</value>
-      <webElementGuid>45ea4d66-c92e-4652-9f10-315b36c64479</webElementGuid>
+      <value>//input[@id='CCNWCShipperCode']</value>
+      <webElementGuid>048ef429-3717-4be6-8f25-fe92cc795af6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/input</value>
-      <webElementGuid>592ae1e3-0eb2-4b37-81c3-31ffb030acb4</webElementGuid>
+      <value>//span[2]/div/div/span/input</value>
+      <webElementGuid>b736f356-653a-4ada-92c0-48299bedca55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'awbSuffix' and @id = 'awbSuffix' and @placeholder = '11111111' and @type = 'text']</value>
-      <webElementGuid>4dbcf5a9-aa88-4e0d-9d20-35e13132f691</webElementGuid>
+      <value>//input[@id = 'CCNWCShipperCode' and @name = 'code' and @type = 'text']</value>
+      <webElementGuid>fe2c53d8-d41c-4a86-b028-f42618a66694</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -77,7 +77,7 @@ class new_airline_both {
 	@Then("agent successfully create a new airline for both")
 	def agent_create_airline_both() {
 		//		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/create_airline_success_status'),0)
-//		WebUI.verifyTextPresent(carrier_prefix_both, false)
+		//		WebUI.verifyTextPresent(carrier_prefix_both, false)
 		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/header_My Airline'),0)
 	}
 

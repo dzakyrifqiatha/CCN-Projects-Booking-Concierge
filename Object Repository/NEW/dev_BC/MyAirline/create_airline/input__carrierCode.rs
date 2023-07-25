@@ -6,12 +6,12 @@
    <elementGuidId>4a08a522-6d03-4d87-b6f7-f5c8b04964b9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#airline-carrierCode</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='airline-carrierCode']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#airline-carrierCode</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>315f3078-d25b-437e-b26d-e947024e64ff</webElementGuid>
+      <webElementGuid>827cd21a-f8de-40c6-bcc1-9a675396cc4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>airline-carrierCode</value>
-      <webElementGuid>683958b1-14c8-42f3-a1b2-2111ba072889</webElementGuid>
+      <webElementGuid>249eec5f-e243-4cc1-b2cf-6dd9e984cc60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>carrierCode</value>
-      <webElementGuid>72c38207-67b3-4648-967a-f7a2ee4fc904</webElementGuid>
+      <webElementGuid>4071bc81-5ba3-46b4-b737-974d3ff1369b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>AA</value>
-      <webElementGuid>361497ac-8f71-4a2c-b96b-a76d34a74e36</webElementGuid>
+      <webElementGuid>1d6fad27-60bb-48ee-b93f-715682cd4345</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,15 +54,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>953ac554-ffd2-4d94-8d53-b0411570b2dc</webElementGuid>
+      <webElementGuid>ed3e36cb-9c82-40b1-b182-dcf081e54800</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>theme-module_form-control__0sG2o form-control</value>
-      <webElementGuid>aca351d5-d0b6-4e8f-aec2-b6e4dc5ade4f</webElementGuid>
+      <value>ccn-common-input form-control form-control</value>
+      <webElementGuid>c4015aa9-09e0-4c59-bbf0-4dcee261de39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>49a4b41c-5a41-4484-8964-ddebf7be2a05</webElementGuid>
+      <webElementGuid>a7a558a6-3a9c-41c5-8fce-1c1298c5c743</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;airline-carrierCode&quot;)</value>
-      <webElementGuid>15d977ad-5b5d-46e4-8131-6d0d1d282ba7</webElementGuid>
+      <webElementGuid>68f3a2a3-8fe8-4767-823c-15ad3b0b47a8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,31 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='airline-carrierCode']</value>
-      <webElementGuid>39e2bb78-bb6c-4d9e-bb52-3d9194293f6a</webElementGuid>
+      <webElementGuid>7d05b621-4514-4d63-bbd7-ad14704bf434</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='BC-create-airline']/div/form/div/div/div/div/div/span/input</value>
+      <webElementGuid>494d98f2-eb0d-4046-b82c-f8de940b33b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/input</value>
+      <webElementGuid>70965266-060f-448b-856c-71b8c2d29354</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'AA' and @id = 'airline-carrierCode' and @name = 'carrierCode' and @type = 'text']</value>
+      <webElementGuid>b2007b44-1763-4c5f-8e37-515c80ea848e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

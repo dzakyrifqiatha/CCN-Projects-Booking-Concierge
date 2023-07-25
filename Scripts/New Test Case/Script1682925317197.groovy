@@ -125,7 +125,7 @@ WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/div_Theres no a
 
 WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/div_Consignee is created successfully'))
 
-WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/input__awbSuffix'))
+WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/input_-_awbSuffix'))
 
 WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/search_suffix'))
 

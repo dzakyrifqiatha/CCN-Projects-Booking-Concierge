@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Unit Loading Device_unit-loading-device-section</name>
+   <tag></tag>
+   <elementGuidId>ae6a35d0-feff-4ab9-a061-0b7cd83a3df8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='unit-loading-device-section']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#unit-loading-device-section</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>00c94c63-8b95-457f-a8a3-a0994e36e47a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ccn-common-button-icon ccn-wc-bc-common-button-icon-add</value>
+      <webElementGuid>0f35589f-ab0b-4918-aa2d-45661c8e2535</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>unit-loading-device-section</value>
+      <webElementGuid>3252f6a4-a01c-4d6f-aa1b-8675dbd4baf0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;unit-loading-device-section&quot;)</value>
+      <webElementGuid>2f08a8b1-9209-47bc-b997-5cd49f957c84</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='unit-loading-device-section']</value>
+      <webElementGuid>57111169-f479-46bb-82a8-333fda37fdce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/form/div[9]/div/div/span/div/div/span</value>
+      <webElementGuid>75ba1dbf-2db2-49c3-9e48-04f951e07875</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unit Loading Device'])[1]//span[1]</value>
+      <webElementGuid>914914c9-f9ab-47ec-b3f6-4b2ad179f3d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/following::span[2]</value>
+      <webElementGuid>6809c362-ce6a-4afd-9cdd-a978b1d71fdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ULD Type'])[1]/preceding::span[1]</value>
+      <webElementGuid>cb76423b-858b-4b0c-b7af-69177c588a66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Countour'])[1]/preceding::span[1]</value>
+      <webElementGuid>3e078de1-9b05-4738-afc7-2fee999e6f11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/div/span/div/div/span</value>
+      <webElementGuid>0d7b4a8d-e7f6-4bb1-96e5-9b0a7445533f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'unit-loading-device-section']</value>
+      <webElementGuid>35998579-6128-4211-998a-a3fd47b0f69e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

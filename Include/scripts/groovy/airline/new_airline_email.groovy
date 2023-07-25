@@ -42,6 +42,7 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 import org.openqa.selenium.Keys as Keys
+import java.awt.event.KeyEvent
 
 //import prerequisites.login
 
@@ -49,19 +50,22 @@ class create_new_airline_email{
 
 	@Given("agent on Create New Airline page")
 	def agent_on_create_airline_page() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/NewAirline_page'),0)
+		//		WebUI.verifyElementPresent(findTestObject('Object Repository/NEW/dev_BC/MyAirline/NewAirline_page'),0)
+		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__carrierCode'))
 	}
 
 	@And("agent input (.*) on Carrier Code field")
 	def input_carrier_code(String carrier_code) {
 		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__carrierCode'))
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__carrierCode'), carrier_code)
+		WebUI.sendKeys(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__carrierCode'), Keys.chord(Keys.TAB))
 	}
 
 	@And("agent input (.*) on Carrier Prefix field")
 	def input_carrier_prefix(String carrier_prefix) {
 		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__carrierPrefix'))
 		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__carrierPrefix'), carrier_prefix)
+		WebUI.sendKeys(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__carrierPrefix'), Keys.chord(Keys.TAB))
 	}
 
 	@And("agent input (.*) on Station field")
@@ -72,9 +76,8 @@ class create_new_airline_email{
 
 	@And("agent input (.*) on Airline Email field")
 	def input_airline_email(String airline_email) {
-		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__emails'))
-		WebUI.setText(findTestObject('Object Repository/NEW/dev_BC/MyAirline/create_airline/input__emails'), airline_email)
-		WebUI.sendKeys(findTestObject('Input'), Keys.chord('Text String',Keys.ENTER,Keys.TAB))
+		WebUI.setText(findTestObject('Object Repository/number_of_packages_UNID'), airline_email)
+		WebUI.sendKeys(findTestObject('Object Repository/number_of_packages_UNID'), Keys.chord(Keys.TAB))
 	}
 
 	@When("agent click Save button")

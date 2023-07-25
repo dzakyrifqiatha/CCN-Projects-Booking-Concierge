@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='numberOfPackages']</value>
+         <value>//input[@value='']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;numberOfPackages&quot;]</value>
+         <value>input.ccn-common-input.ccn-email-chips.form-control</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c9230318-d23d-4ddf-9b81-79314fed8648</webElementGuid>
+      <webElementGuid>a697d2be-bf03-483c-8718-7a1450d595fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>ab3e5689-43c6-417f-85f7-2aa91474d13d</webElementGuid>
+      <value>Type or paste email addresses and press Enter</value>
+      <webElementGuid>87fd1cfb-5995-4616-8175-e3cb7b8e938d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,16 +53,16 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>number</value>
-      <webElementGuid>8bdbf39f-fc1b-4304-824f-1f4eb6162e60</webElementGuid>
+      <value>text</value>
+      <webElementGuid>2751c252-7f97-4268-9d89-ddac9b28e3fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>theme-module_form-control__0sG2o theme-module_border-bottom__unqVG  form-control</value>
-      <webElementGuid>4a6ceeca-adab-4229-b8ee-6ef797cc0ea4</webElementGuid>
+      <value>ccn-common-input ccn-email-chips form-control</value>
+      <webElementGuid>25de6af1-d613-45c3-92fb-0eb06be97882</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,18 +70,50 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7feeb4db-b056-42e1-9c5c-6b569ab04e0b</webElementGuid>
+      <webElementGuid>56a9d30e-f718-4621-8a41-93002da63f20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;no_padding modal-open&quot;]/div[3]/div[1]/div[@class=&quot;modal fade show&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;ccn-CCNWCBCDangerousGoodsDetails-Input d-flex justify-content-between align-items-center&quot;]/div[@class=&quot;ccn-CCNWCBCDangerousGoodsDetails-InputField&quot;]/input[@class=&quot;theme-module_form-control__0sG2o theme-module_border-bottom__unqVG  form-control&quot;]</value>
-      <webElementGuid>585e9816-8c55-4a28-b5e2-00dd39fc4d0f</webElementGuid>
+      <value>id(&quot;BC-create-airline&quot;)/div[@class=&quot;BC-create-airline-view-section&quot;]/form[1]/div[@class=&quot;ccn-common-row mb-4 row&quot;]/div[@class=&quot;ccn-common-col mb-4 col-md-8&quot;]/div[@class=&quot;ccn-common-row row&quot;]/div[@class=&quot;ccn-common-col col&quot;]/div[@class=&quot;ccn-common-col mb-4 col-md-12&quot;]/div[1]/div[@class=&quot;ccn-common-emailchips-container&quot;]/span[@class=&quot;ccn-common-input-container&quot;]/input[@class=&quot;ccn-common-input ccn-email-chips form-control&quot;]</value>
+      <webElementGuid>f453803e-6eb2-4201-80d3-5f13b3fc474b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='']</value>
+      <webElementGuid>aba910db-bb72-4cf0-8735-e1c7a4d9a7e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='BC-create-airline']/div/form/div/div/div[2]/div[2]/div/div/div/span/input</value>
+      <webElementGuid>5cbfd163-b651-4b2c-ae29-e8816943463c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/span/input</value>
+      <webElementGuid>a2753be9-b1fc-4eb7-873d-1058a25b9eb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Type or paste email addresses and press Enter' and @type = 'text']</value>
+      <webElementGuid>54762abe-93b4-4987-ac89-617d554ddbd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>

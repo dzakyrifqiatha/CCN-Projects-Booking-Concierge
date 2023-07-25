@@ -6,12 +6,12 @@
    <elementGuidId>7a0330ed-d11f-45ce-8154-46c2219cfb68</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#airline-carrierPrefix</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='airline-carrierPrefix']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#airline-carrierPrefix</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ee5c8c64-1545-4526-8de1-2d7e58e60f46</webElementGuid>
+      <webElementGuid>ab0f4bce-d4e6-4f9e-b1da-3c104b2446bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>airline-carrierPrefix</value>
-      <webElementGuid>cb771380-9b4a-48e4-9968-c114797a32d5</webElementGuid>
+      <webElementGuid>dae8d54a-e53c-4e4a-ae3a-d160181cba2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>carrierPrefix</value>
-      <webElementGuid>e7ed2a8f-f42a-4dc1-a442-4942d9f57cff</webElementGuid>
+      <webElementGuid>2f870cee-13d0-4dc4-ac99-ba17d78a4e27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>123</value>
-      <webElementGuid>1ebed4bf-5aef-4bfc-a16f-2d6c6d913a4c</webElementGuid>
+      <webElementGuid>8636fdde-c741-4345-9776-b41e4c3340a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,15 +54,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>82af869b-5eb6-4d4d-adbc-9d71adf0c23a</webElementGuid>
+      <webElementGuid>235c031b-31e9-4fec-95df-465b8a44711b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>theme-module_form-control__0sG2o form-control</value>
-      <webElementGuid>8ff08d30-7e03-4348-a2e4-64eee551a2bb</webElementGuid>
+      <value>ccn-common-input form-control form-control</value>
+      <webElementGuid>9cf5f83a-3ccc-4b5f-8d2c-9ce3f9f1a291</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>fa5df364-56a5-4cf4-8592-52388f7a14f4</webElementGuid>
+      <webElementGuid>31472930-4cfd-41ce-912b-5a040f897b18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;airline-carrierPrefix&quot;)</value>
-      <webElementGuid>e3e93dec-647a-456d-b127-c36c518b3b5a</webElementGuid>
+      <webElementGuid>e876861d-c10c-4b39-b15c-29569da82ebb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,31 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='airline-carrierPrefix']</value>
-      <webElementGuid>ee5bfca1-36a4-426e-9f33-1760dec55553</webElementGuid>
+      <webElementGuid>160c6607-3bc6-465c-9322-ca53ef2b90e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='BC-create-airline']/div/form/div/div/div/div[2]/div/span/input</value>
+      <webElementGuid>5636f48c-61f3-4683-b5c1-4601cbf4e68d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/span/input</value>
+      <webElementGuid>4cd93258-cf5f-43a4-8f11-0a17d93264e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = '123' and @id = 'airline-carrierPrefix' and @name = 'carrierPrefix' and @type = 'text']</value>
+      <webElementGuid>9947f3c4-a607-4be8-9cef-afbff1d956d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

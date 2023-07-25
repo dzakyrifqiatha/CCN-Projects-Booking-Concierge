@@ -17,6 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/Pre-requisites/Login.feature')
+//String detailsTag = "@BookingDetails"
 
-CucumberKW.runFeatureFileWithTags('Include/features/Booking Request/NewBookingAll.feature', "@MyBookings", "@Positive", "@BookingDetails")
+//CucumberKW.runFeatureFileWithTags('Include/features/Booking Request/NewBookingAll.feature', (detailsTag as String))
+CucumberKW.runFeatureFile('Include/features/Booking Request/NewBookingAll.feature')
+CucumberKW.runFeatureFile('Include/features/Booking Request/OnebyOne/airline.feature')
+CucumberKW.runFeatureFile('Include/features/Booking Request/OnebyOne/UNID.feature')
+CucumberKW.runFeatureFile('Include/features/Booking Request/OnebyOne/shipper.feature')
+

@@ -43,13 +43,12 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 
-
 class New_Booking_All {
 
 	@Given("agent go to Create New Booking page")
 	def agent_go_to_create_booking() {
 		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/Page_BC/create_booking'))
-		WebUI.click(findTestObject('Object Repository/NEW/dev_BC/Booking/Page_BC/a_New Booking'))
+		WebUI.click(findTestObject('Object Repository/li_New Booking'))
 	}
 
 	@When("agent input booking prefix (.*)")

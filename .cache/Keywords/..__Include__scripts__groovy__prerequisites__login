@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "AF1DDA642E6683BB53AA79202194E7B4",
+  "keywordFileContentHash": "28C3FD2563DC523C32E8513B3F4010CA",
   "keywordClasses": [
     {
       "name": "prerequisites.login",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

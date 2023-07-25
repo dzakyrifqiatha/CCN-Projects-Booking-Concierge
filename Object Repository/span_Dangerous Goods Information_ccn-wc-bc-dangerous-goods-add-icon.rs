@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Dangerous Goods Information_ccn-wc-bc-dangerous-goods-add-icon</name>
+   <tag></tag>
+   <elementGuidId>6de1d3e8-c9a3-46af-9515-c62330300ea1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='ccn-wc-bc-dangerous-goods-add-icon']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ccn-wc-bc-dangerous-goods-add-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>61ae3bb7-e820-4d6a-b4a2-32369c8941d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ccn-common-button-icon ccn-wc-bc-common-button-icon-add</value>
+      <webElementGuid>8148904f-971c-4ad0-8906-a3ab5f0269b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ccn-wc-bc-dangerous-goods-add-icon</value>
+      <webElementGuid>7e5a4a9a-2960-4d99-b645-6cd5ebb8a448</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ccn-wc-bc-dangerous-goods-add-icon&quot;)</value>
+      <webElementGuid>895752e0-ae65-401f-93c5-94c160eebaf6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='ccn-wc-bc-dangerous-goods-add-icon']</value>
+      <webElementGuid>3335e43f-9248-408f-b1c4-6ef9b6aa56d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/form/div[3]/div/span/div/span/div/div/span</value>
+      <webElementGuid>6d93ce61-40bd-44af-8bd6-836338686efa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dangerous Goods Information'])[1]//span[1]</value>
+      <webElementGuid>aaa51f58-20bb-4b54-b8f0-c0dd04fe83b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIN'])[1]/following::span[3]</value>
+      <webElementGuid>62da40fc-0411-4c6d-b576-1c2e73419d8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UNID'])[1]/preceding::span[1]</value>
+      <webElementGuid>719b5403-7fef-4ae8-8ae4-dc0e1c6c4e62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shipping Name'])[1]/preceding::span[1]</value>
+      <webElementGuid>0b952a5f-ddbc-4f49-a50b-3aa0f5b1ed2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div/div/span</value>
+      <webElementGuid>8313a3ac-aae3-4947-82e5-dbd0b6aaf0ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'ccn-wc-bc-dangerous-goods-add-icon']</value>
+      <webElementGuid>0a8cd5bd-b761-4ed2-b021-d1ac51a26a48</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

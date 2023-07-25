@@ -40,7 +40,7 @@ Feature: Create New Airlines
   	
   	Examples:
   	| carrier_code_edi 	| carrier_prefix_edi	| station_edi	| # message_edi															|
-		| EY								| 607									| SIN					| # Airline has been created successfully.	|
+		| TK								| 235									| SIN					| # Airline has been created successfully.	|
 		
 ## create new airlines with both Email and EDI send mode
 ## emails are pre-configured on Airline Common Reference in BC Portal Admin
@@ -57,5 +57,5 @@ Feature: Create New Airlines
   	
   	Examples:
   	| carrier_code_both 	| carrier_prefix_both	| station_both	| #success_alert_both											|
-		| SQ									| 618									| DPS						| #Airline has been created successfully.	|  
+		| MH									| 232									| MNL						| #Airline has been created successfully.	|  
   

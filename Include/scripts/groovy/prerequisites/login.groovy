@@ -51,7 +51,8 @@ class login {
 	@Given("agent is on login page")
 	def Agent_on_login_page() {
 		WebUI.openBrowser('')
-		WebUI.navigateToUrl('https://bookingconcierge2.dev.ccn/')
+		//		WebUI.navigateToUrl('https://bookingconcierge2.dev.ccn/')
+		WebUI.navigateToUrl('https://bookingconcierge2ppd.ccnhub.com/')
 		WebUI.maximizeWindow()
 		//		WebUI.click(findTestObject('Object Repository/NEW/Page_Sign up or sign in/Page_BcAdminApp/login_button'))
 	}

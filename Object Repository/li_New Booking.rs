@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_New Booking</name>
+   <tag></tag>
+   <elementGuidId>03e94f85-9ba2-4539-8e1c-f8923bfe0cae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/span/div/div/li/div/span/div/ul/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.Booking-counter-create-booking-dropdown-item.Create-booking-default-option</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>e0e3e9c7-df8e-4d36-875b-7098949438b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Booking-counter-create-booking-dropdown-item Create-booking-default-option</value>
+      <webElementGuid>2731f862-bf76-427e-b20a-984b4293ba4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New Booking</value>
+      <webElementGuid>03ebe753-4a93-4ace-a48f-ed0c35b9b3ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;page-content&quot;]/div[@class=&quot;bc-dashboard-container m-3&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;bg-transparent&quot;]/div[@class=&quot;py-3 navigation-buttons&quot;]/span[1]/div[@class=&quot;right-navigation-button&quot;]/div[@class=&quot;Booking-counter-create-booking&quot;]/li[1]/div[@class=&quot;display createBookingDropdown&quot;]/span[@class=&quot;ccn-common-elevated-paper-container&quot;]/div[@class=&quot;ccn-common-elevated-paper Booking-counter-create-booking-dropdown&quot;]/ul[1]/li[@class=&quot;Booking-counter-create-booking-dropdown-item Create-booking-default-option&quot;]</value>
+      <webElementGuid>54fe78a2-b1ff-4167-a1d7-708bd57aa572</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/span/div/div/li/div/span/div/ul/li</value>
+      <webElementGuid>bd3c3966-1c4a-4f22-933f-54ad8cde4e01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Airlines'])[1]/following::li[2]</value>
+      <webElementGuid>fa5fd286-7a64-4121-8f00-13b6cb39cf29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Bookings'])[1]/preceding::li[1]</value>
+      <webElementGuid>d8711f7f-e636-437d-b2f0-e58b3a97ed83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul/li</value>
+      <webElementGuid>e6933230-005e-4c96-9a5e-56ab2ebe695b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'New Booking' or . = 'New Booking')]</value>
+      <webElementGuid>030e1ed3-36b6-484a-8ac3-1a270fa66360</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

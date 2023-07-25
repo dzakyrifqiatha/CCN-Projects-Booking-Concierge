@@ -6,12 +6,12 @@
    <elementGuidId>d4faa80e-1889-4bfe-95db-19e2c0f41b0e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#airline-station</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='airline-station']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#airline-station</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ec838486-0a13-42c2-8719-2c9ff920d286</webElementGuid>
+      <webElementGuid>983f23fa-bdaf-4723-887c-a4aa6c1c1afe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>airline-station</value>
-      <webElementGuid>46ebccd1-bfac-4127-bda6-2540a9bdef56</webElementGuid>
+      <webElementGuid>1b2f2412-c81e-4a8f-8ec5-0b88cdaf9de7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>station</value>
-      <webElementGuid>f048ad54-d65f-40f6-9b65-5f0eae1607a9</webElementGuid>
+      <webElementGuid>18837df8-3ca7-448e-afba-2b3ad9407e5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>AAA</value>
-      <webElementGuid>10b7170c-5db9-472e-9424-8a03d7d14aa5</webElementGuid>
+      <webElementGuid>d032e3b9-e401-47e6-9c72-95b63ffe08d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,15 +54,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>0262e701-53c6-4f8b-a0e2-fdbc1dea3863</webElementGuid>
+      <webElementGuid>793f564c-1b54-4de4-934a-44f0c36c776a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>theme-module_form-control__0sG2o form-control</value>
-      <webElementGuid>fa1e4a3d-b7fe-47a0-bd21-0fe9930350c0</webElementGuid>
+      <value>ccn-common-input form-control form-control</value>
+      <webElementGuid>b4d9a4fb-318d-4b48-9e3e-a635d7eeb1b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>be0ca882-e1ad-425b-9435-aeea4e712618</webElementGuid>
+      <webElementGuid>ef3c1a37-335c-41f7-aef1-7dc96e8eba60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;airline-station&quot;)</value>
-      <webElementGuid>71bec489-33a3-4f86-a010-e4907fe213fe</webElementGuid>
+      <webElementGuid>82d83fe4-9af6-4243-8a77-bcbeb4b8ef4a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,31 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='airline-station']</value>
-      <webElementGuid>87c3bd72-7d3f-45f7-a16a-601aeadd03d0</webElementGuid>
+      <webElementGuid>35f75279-e9dd-46c1-864a-e439539a8c72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='BC-create-airline']/div/form/div/div/div/div[3]/div/span/input</value>
+      <webElementGuid>6d45c8ed-f712-4f73-a7a5-8b28e27275b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/span/input</value>
+      <webElementGuid>7e182def-ba11-4707-ba06-e86c700f3fa1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'AAA' and @id = 'airline-station' and @name = 'station' and @type = 'text']</value>
+      <webElementGuid>2a49280a-145d-4941-81b4-467e6dbbc859</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
